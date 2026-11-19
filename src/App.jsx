@@ -7,7 +7,7 @@ import { fraisDossier } from './lib/simulator.js';
 const TABS = [...data.categories, { id: 'simu', label: 'Simulateur' }];
 const DEFAULT_SORT = { immo: 'immo_frais_dossier', compte: 'cpt_tenue', epargne: 'ep_livret', conso: 'conso_frais_dossier' };
 const MARKET_BY_CAT = {
-  immo: ['ieom_habitat', 'usure_habitat', 'usure_relais', 'ptz_pays', 'ptz_plafonds', 'aim', 'lp2025_21_ira'],
+  immo: ['ieom_habitat', 'usure_habitat_moins_10', 'usure_habitat_10_20', 'usure_habitat', 'usure_relais', 'ptz_pays', 'ptz_plafonds', 'aim', 'lp2025_21_ira'],
   compte: ['ieom_decouvert'],
   epargne: [],
   conso: ['ieom_conso', 'usure_conso', 'lp2025_21_ira'],

@@ -37,6 +37,15 @@ L'instantané = texte brut extrait (pypdf pour les PDF, texte de la page pour le
 ```
 Un champ peut aussi avoir `"extra": [ {entrée}, ... ]` pour des sous-valeurs sourcées (ex. tarif agence vs en ligne).
 
+Attributs optionnels d'une entrée :
+- `stale: true` : exemple ancien (badge « Exemple ancien »).
+- `indicative: "Paramètres du simulateur BT, non contractuels"` : valeur indicative (badge affiché tel quel).
+- `fee: { "pct": 1, "min": 17878 }` : barème de frais de dossier (pourcentage suivi de « % » et minimum
+  après « minimum » dans la citation). Pour les champs qui ont `costFor` dans `fields`, le classement
+  se fait sur le coût réel `max(pct × montant, min)` pour le montant saisi par le visiteur.
+- `secondary: "…"` (entrées de `market` et paramètres du simulateur) : poste issu d'une source
+  secondaire, affiché « source secondaire, à confirmer par un notaire ».
+
 ## Champs par banque (ids fixes)
 Unités de `num` entre crochets.
 
