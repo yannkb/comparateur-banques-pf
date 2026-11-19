@@ -263,6 +263,16 @@ table.frais { width: 100%; border-collapse: collapse; margin-top: 14px; font-siz
 .frais tr.total th, .frais tr.total td { border-top: 2px solid var(--ink); font-weight: 700; }
 .simu-result > .hint { margin-top: 10px; }
 
+/* Validation, avertissements, sources secondaires, coût réel */
+.field.has-error .field-input { border-color: #a32a14; }
+.field-error { font-size: 12.5px; font-weight: 600; color: #8e2a17; line-height: 1.35; }
+.notice { margin: 0; padding: 8px 10px; border-radius: 8px; background: var(--lagoon-soft); color: #134a46; font-size: 12.5px; }
+.tag-secondary { background: #f3e6c4; color: #5c430f; margin: 2px 0 0 6px; vertical-align: middle; text-transform: none; letter-spacing: 0; font-weight: 500; }
+.market .tag-secondary { margin: 2px 0; justify-self: start; }
+.headline-sub { font: 400 11.5px var(--mono); color: var(--ink-2); }
+.sort.amount input { width: 9.5em; border: 1px solid var(--rule); border-radius: 10px; padding: 6px 8px; font: 500 13px var(--mono); background: var(--card); }
+.offers > .hint { margin-top: 10px; }
+
 /* Méthode & sources */
 .method, .sources { margin-top: 44px; }
 .method h2, .sources h2 { font: 400 clamp(28px, 5vw, 40px)/1.05 var(--display); margin: 0 0 12px; }

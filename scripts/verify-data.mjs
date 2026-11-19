@@ -95,6 +95,10 @@ function checkEntry(e, where) {
         }
       }
     }
+    if (e.fee !== undefined) { // barème de frais (pct, min) utilisé pour classer par coût réel
+      const ok = e.fee && Number.isFinite(e.fee.pct) && Number.isFinite(e.fee.min) && numIn(e.fee.pct, e.quote) && numIn(e.fee.min, e.quote);
+      if (!ok) errors.push(`${where}: fee ${JSON.stringify(e.fee)} absent de la citation`);
+    }
     (e.extra || []).forEach((x, i) => checkEntry(x, `${where}.extra[${i}]`));
   } else if (e.status === 'not_published') {
     if (!Array.isArray(e.checked) || !e.checked.length) return errors.push(`${where}: « non publié » sans source consultée`);

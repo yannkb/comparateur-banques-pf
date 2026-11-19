@@ -74,7 +74,12 @@
       "id": "immo_frais_dossier",
       "label": "Frais de dossier",
       "unit": "XPF",
-      "better": "lower"
+      "better": "lower",
+      "costFor": {
+        "label": "Montant emprunté",
+        "default": 20000000,
+        "step": 1000000
+      }
     },
     {
       "category": "immo",
@@ -270,7 +275,12 @@
       "id": "conso_frais_dossier",
       "label": "Frais de dossier",
       "unit": "XPF",
-      "better": "lower"
+      "better": "lower",
+      "costFor": {
+        "label": "Montant emprunté",
+        "default": 1000000,
+        "step": 100000
+      }
     },
     {
       "category": "conso",
@@ -710,6 +720,56 @@
       "accessed": "2026-11-18",
       "short": "Parité EUR/XPF",
       "snapshot": "data/sources/bdp_casden_pret_perso.txt"
+    },
+    "apf_lp_2025_29_ptz": {
+      "title": "Loi du pays n° 2025-29 du 13 octobre 2025 relative au « prêt à taux zéro »",
+      "publisher": "Assemblée de la Polynésie française",
+      "url": "https://www.assemblee.pf/travaux/downloadTexte/1748004",
+      "documentDate": "2025-10-13",
+      "dateLabel": "texte adopté (version transmise 14/10/2025)",
+      "accessed": "2026-11-18",
+      "short": "LP 2025-29",
+      "snapshot": "data/sources/apf_lp_2025_29_ptz.txt"
+    },
+    "lexpol_lp_2018_25_art_lp30": {
+      "title": "LP n° 2018-25 (droits d'enregistrement) – art. LP 30 rédaction LP 2024-34",
+      "publisher": "Lexpol / SGG Polynésie française",
+      "url": "https://lexpol.cloud.pf/LexpolAfficheContenuPdf.php?texte=2189&version=12135",
+      "documentDate": "2024-12-10",
+      "dateLabel": "version en vigueur au 10/12/2024",
+      "accessed": "2026-11-18",
+      "short": "Lexpol LP 2018-25",
+      "snapshot": "data/sources/lexpol_lp_2018_25_art_lp30.txt"
+    },
+    "apf_rapport_lp_2024_34": {
+      "title": "Rapport sur le projet de LP portant diverses mesures fiscales (devenu LP 2024-34)",
+      "publisher": "Assemblée de la Polynésie française",
+      "url": "https://www.assemblee.pf/travaux/downloadTexte/1676930",
+      "documentDate": "2024-11",
+      "dateLabel": "rapport de commission, nov. 2024",
+      "accessed": "2026-11-18",
+      "short": "Rapport APF LP 2024-34",
+      "snapshot": "data/sources/apf_rapport_lp_2024_34.txt"
+    },
+    "apf_rapport_lp_2025_38": {
+      "title": "Rapport sur le projet de LP diverses mesures fiscales (devenu LP 2025-38)",
+      "publisher": "Assemblée de la Polynésie française",
+      "url": "https://www.assemblee.pf/travaux/downloadTexte/1749488",
+      "documentDate": "2025-11",
+      "dateLabel": "rapport de commission, nov. 2025",
+      "accessed": "2026-11-18",
+      "short": "Rapport APF LP 2025-38",
+      "snapshot": "data/sources/apf_rapport_lp_2025_38.txt"
+    },
+    "fpaim_financement": {
+      "title": "Le Financement – guide immobilier",
+      "publisher": "FPAIM (professionnels de l'immobilier PF)",
+      "url": "https://fpaim.pf/guides-conseils-immobiliers/le-financement-immobilier/",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "FPAIM",
+      "snapshot": "data/sources/fpaim_financement.txt"
     }
   },
   "banks": [
@@ -766,7 +826,11 @@
               "source": "socredo_tarifs_2026",
               "quote": "Crédit logement (Frais de dossier) 21 120"
             }
-          ]
+          ],
+          "fee": {
+            "pct": 1,
+            "min": 10310
+          }
         },
         "immo_assurance": {
           "status": "found",
@@ -1000,7 +1064,11 @@
           "source": "socredo_tarifs_2026",
           "quote": "Crédit : mise en place (en pourcentage du montant) 1% • Minimum 10 310",
           "num": 10310,
-          "note": "La grille liste aussi des frais d’étude de 1 % (min. 20 500)."
+          "note": "La grille liste aussi des frais d’étude de 1 % (min. 20 500).",
+          "fee": {
+            "pct": 1,
+            "min": 10310
+          }
         },
         "conso_ira": {
           "status": "found",
@@ -1051,7 +1119,11 @@
           "value": "1 % du capital (min. 17 878 XPF)",
           "source": "bt_tarifs_2026_v06",
           "quote": "CRÉDITS IMMOBILIERS Frais de dossier 1% du capital emprunté Minimum de facturation 17 878",
-          "num": 17878
+          "num": 17878,
+          "fee": {
+            "pct": 1,
+            "min": 17878
+          }
         },
         "immo_assurance": {
           "status": "found",
@@ -1296,7 +1368,11 @@
           "value": "1 % du capital (min. 17 878 XPF)",
           "source": "bt_tarifs_2026_v06",
           "quote": "CRÉDITS A LA CONSOMMATION OU PRETS PERSONNELS Frais de dossier 1% du capital emprunté Minimum de facturation 17 878",
-          "num": 17878
+          "num": 17878,
+          "fee": {
+            "pct": 1,
+            "min": 17878
+          }
         },
         "conso_ira": {
           "status": "not_published",
@@ -1343,7 +1419,11 @@
           "value": "0,75 % du capital (min. 51 300 XPF)",
           "source": "bdp_tarifs_2026",
           "quote": "Frais de dossier 0.75% du capital emprunté Minimum 51 300",
-          "num": 51300
+          "num": 51300,
+          "fee": {
+            "pct": 0.75,
+            "min": 51300
+          }
         },
         "immo_assurance": {
           "status": "found",
@@ -1562,7 +1642,11 @@
           "value": "1 % du capital (min. 18 000 XPF)",
           "source": "bdp_tarifs_2026",
           "quote": "Frais de dossier 1% du capital emprunté Minimum 18 000",
-          "num": 18000
+          "num": 18000,
+          "fee": {
+            "pct": 1,
+            "min": 18000
+          }
         },
         "conso_ira": {
           "status": "not_published",
@@ -1852,7 +1936,7 @@
       "source": "bdf_usure_2026q4",
       "quote": "Prêts à taux fixe d'une durée de 20 ans et plus 4,05 5,40",
       "num": 5.4,
-      "note": "Le TAEG (assurance comprise) ne peut dépasser ce seuil. Règles de l’usure applicables en PF depuis juillet 2017.",
+      "note": "Le TAEG (frais de dossier et assurance compris) ne peut dépasser le seuil de sa catégorie de durée. Règles de l’usure applicables en PF depuis juillet 2017.",
       "extra": [
         {
           "status": "found",
@@ -1861,6 +1945,22 @@
           "quote": "Les articles précités sont applicables en Nouvelle-Calédonie, en Polynésie française et à Wallis et Futuna depuis juillet 2017."
         }
       ]
+    },
+    "usure_habitat_moins_10": {
+      "label": "Taux d’usure – prêt immobilier taux fixe < 10 ans (T4 2026)",
+      "status": "found",
+      "value": "4,09 %",
+      "source": "bdf_usure_2026q4",
+      "quote": "Prêts à taux fixe d'une durée inférieure à 10 ans 3,07 4,09",
+      "num": 4.09
+    },
+    "usure_habitat_10_20": {
+      "label": "Taux d’usure – prêt immobilier taux fixe 10 à < 20 ans (T4 2026)",
+      "status": "found",
+      "value": "4,68 %",
+      "source": "bdf_usure_2026q4",
+      "quote": "Prêts à taux fixe d'une durée comprise entre 10 ans et moins de 20 ans 3,51 4,68",
+      "num": 4.68
     },
     "usure_relais": {
       "label": "Taux d’usure – prêts relais (T4 2026)",
@@ -1884,7 +1984,27 @@
       "value": "Jusqu’à 12 MF à 0 %, ≤ 25 ans (27 en VEFA), différé 2 ans ; prêt classique au moins égal ; primo-accédant, 5 ans de résidence ; jusqu’au 31/12/2029",
       "source": "bt_ptz",
       "quote": "Jusqu’à 12 000 000 F CFP à taux zéro (si le financement est inférieur à 24 000 000 F CFP, le montant du PTZ est au moins égal au montant du prêt bancaire)",
-      "num": 12000000
+      "num": 12000000,
+      "extra": [
+        {
+          "status": "found",
+          "value": "Remboursement ≤ 25 ans (27 ans en VEFA dont 2 ans de différé)",
+          "source": "apf_lp_2025_29_ptz",
+          "quote": "La durée totale de remboursement du « prêt à taux zéro » ne peut être supérieure à 25 ans"
+        },
+        {
+          "status": "found",
+          "value": "PTZ ≤ 12 MF, prêt complémentaire au moins égal",
+          "source": "apf_lp_2025_29_ptz",
+          "quote": "dans la limite de douze (12) millions de F CFP. Un prêt complémentaire a minima du même montant que le « prêt à taux zéro » doit nécessairement compléter le financement de l’opération."
+        },
+        {
+          "status": "found",
+          "value": "Consenti jusqu’au 31/12/2029",
+          "source": "apf_lp_2025_29_ptz",
+          "quote": "consenti jusqu’au 31 décembre 2029"
+        }
+      ]
     },
     "ptz_plafonds": {
       "label": "PTZ – plafonds de revenus mensuels bruts (22/10/2025)",
@@ -1897,10 +2017,16 @@
     "aim": {
       "label": "AIM construction / acquisition",
       "status": "found",
-      "value": "20 000 à 40 000 XPF/m² selon revenus (2 à 4 SMIG) et foyer, limitée aux 100 premiers m² ; primo-accédant, prêt bancaire obligatoire",
+      "value": "20 000 à 40 000 XPF/m² selon revenus et foyer, limitée aux 100 premiers m² ; construction ou logement récent (certificat de conformité de moins de 5 ans) uniquement, pas l’ancien ; prêt bancaire obligatoire",
       "source": "dhv_aim",
       "quote": "L’AIM Construction-Acquisition est limitée aux cent premiers mètres carrés de la surface éligible",
       "extra": [
+        {
+          "status": "found",
+          "value": "Construction ou logement récent (< 5 ans) uniquement",
+          "source": "dhv_aim",
+          "quote": "acquérir un logement récent (certificat de conformité de moins de 5 ans) ou avoir obtenu un permis de construire"
+        },
         {
           "status": "found",
           "value": "Soit jusqu’à 4 MF",
@@ -1931,11 +2057,18 @@
         },
         {
           "status": "found",
+          "value": "Texte officiel (art. LP 30) : 25 MF par acquéreur pour un terrain à bâtir, 40 MF pour un bien bâti",
+          "source": "lexpol_lp_2018_25_art_lp30",
+          "quote": "La réduction des droits s’applique, pour chaque acquéreur, sur une assiette de 25 000 000 F CFP s’il s’agit d’un terrain à bâtir et de 40 000 000 F CFP s’il s’agit d’un terrain bâti"
+        },
+        {
+          "status": "found",
           "value": "Taux unique 7 % (LP 2024-34)",
           "source": "kp_frais_notaire",
           "quote": "La loi du pays n° 2024-34 du 10 décembre 2024 a instauré un taux unique de 7 % pour les mutations immobilières relevant du droit commun"
         }
-      ]
+      ],
+      "note": "Le simulateur ne traite que le bâti (plafond primo 40 MF par acquéreur) ; l’achat d’un terrain à bâtir (plafond 25 MF) n’est pas simulé. Neuf : l’exonération de droits doit être requise dans l’acte."
     },
     "notaire_publicite": {
       "label": "Taxe de publicité immobilière",
@@ -1943,7 +2076,16 @@
       "value": "0,10 % (min. 1 500 XPF)",
       "source": "kp_frais_notaire",
       "quote": "celle-ci est de 0,10 % , avec un minimum de 1 500 F CFP par acte",
-      "num": 0.1
+      "num": 0.1,
+      "extra": [
+        {
+          "status": "found",
+          "value": "Taux de 0,1 % confirmé par un rapport de l’Assemblée",
+          "source": "apf_rapport_lp_2024_34",
+          "quote": "Bien que la taxe de publicité immobilière soit de 0,1%"
+        }
+      ],
+      "secondary": "minimum de 1 500 XPF : source secondaire, à confirmer par un notaire"
     },
     "notaire_emoluments": {
       "label": "Émoluments de vente du notaire (barème S1)",
@@ -1972,7 +2114,9 @@
       "status": "found",
       "value": "2/3 du barème de vente, +25 % en cas d’hypothèque",
       "source": "sz_frais",
-      "quote": "Le barème du prêt vaut les deux tiers de celui de la vente. Si hypothèque : +25 % sur les émoluments de prêt."
+      "quote": "Le barème du prêt vaut les deux tiers de celui de la vente. Si hypothèque : +25 % sur les émoluments de prêt.",
+      "secondary": "majoration de 25 % en cas d’hypothèque : source secondaire, à confirmer par un notaire",
+      "note": "Le coefficient 2/3 figure au tableau I de l’arrêté 1376 CM (« II – Prêts et sûretés ») ; la majoration de 25 % ne vient que d’une page professionnelle (S. Zimbris)."
     },
     "notaire_tva": {
       "label": "TVA sur les émoluments",
@@ -1982,13 +2126,31 @@
       "quote": "TVA 13 % sur l'ensemble des émoluments.",
       "num": 13
     },
+    "notaire_tva_neuf": {
+      "label": "TVA immobilière dans le neuf (LP 2024-34, LP 2025-38)",
+      "status": "found",
+      "value": "TVA 9 % sur cessions d'immeubles neufs d'habitation (permis ≥ 01/01/2025), exonération de droits si requise dans l'acte ; délai d'achèvement porté à 48 mois (LP 2025-38)",
+      "num": 9,
+      "source": "apf_rapport_lp_2024_34",
+      "quote": "ne soient pas soumises au taux normal de la TVA de 16 % mais à un taux spécifique de 9 %",
+      "extra": [
+        {
+          "status": "found",
+          "value": "48 mois",
+          "source": "apf_rapport_lp_2025_38",
+          "quote": "il est proposé de modifier la durée d’achèvement en le portant à quarante-huit mois"
+        }
+      ]
+    },
     "notaire_formalites": {
       "label": "Émoluments de formalités",
       "status": "found",
       "value": "80 775 XPF avec prêt ; 70 125 XPF sans",
       "source": "sz_frais",
       "quote": "Formalités : 80 775 avec prêt, 70 125 sans.",
-      "num": 80775
+      "num": 80775,
+      "secondary": "source secondaire, à confirmer par un notaire",
+      "note": "Montants publiés par une professionnelle de l’immobilier, sans précision HT/TTC ; le simulateur les traite comme HT (TVA 13 % ajoutée)."
     },
     "notaire_debours": {
       "label": "Débours",
@@ -1997,7 +2159,8 @@
       "source": "sz_frais",
       "quote": "États hypothécaires (3 000), cadastre (750), annexes (50 000)",
       "num": 53750,
-      "derived": "3 000 + 750 + 50 000"
+      "derived": "3 000 + 750 + 50 000",
+      "secondary": "source secondaire, à confirmer par un notaire"
     },
     "notaire_neuf_total": {
       "label": "Frais d’acquisition dans le neuf (permis ≥ 2025)",
@@ -2005,7 +2168,9 @@
       "value": "≈ 3 % du prix (TVA 9 % déjà incluse dans le prix)",
       "source": "sz_frais",
       "quote": "soit autour de 3 % du prix",
-      "num": 3
+      "num": 3,
+      "note": "Ordre de grandeur hors frais liés au prêt. Calcul du simulateur : 2 à 3 % du prix sans prêt, 4 à 6 % avec un prêt finançant l’essentiel du prix.",
+      "secondary": "source secondaire, à confirmer par un notaire"
     },
     "lp2025_21_ira": {
       "label": "Remboursement anticipé (LP n° 2025-21, guide DGAE)",
@@ -2023,6 +2188,16 @@
         "dgae_guide_credits_2025-12"
       ],
       "note": "Aucune source publique polynésienne ne fixe ce plafond (norme HCSF hexagonale). Utilisé ici comme hypothèse modifiable."
+    },
+    "endettement_35_pratique": {
+      "label": "Taux d’endettement 35 % (pratique de place)",
+      "status": "found",
+      "value": "35 % des revenus, assurance comprise (pratique de place citée par les professionnels, pas un texte PF)",
+      "num": 35,
+      "source": "fpaim_financement",
+      "quote": "calculée à partir d’un taux d’endettement de 35 % de vos revenus, assurance comprise",
+      "note": "Source professionnelle (fédération des agents immobiliers), pas un texte réglementaire polynésien.",
+      "secondary": "source secondaire (pratique de place)"
     },
     "parite": {
       "label": "Parité fixe euro / franc pacifique",
@@ -2065,14 +2240,15 @@
       "plafondPrimoBati": {
         "value": 40000000,
         "ref": "notaire_droits",
-        "cite": "Terrain bâti / lot de copropriété / lot copro acquis en VEFA 40 MF CFP (vs 25 MF avant) 7 %"
+        "cite": "La réduction des droits s’applique, pour chaque acquéreur, sur une assiette de 25 000 000 F CFP s’il s’agit d’un terrain à bâtir et de 40 000 000 F CFP s’il s’agit d’un terrain bâti"
       },
       "publicite": {
         "value": 0.001,
         "min": 1500,
         "ref": "notaire_publicite",
         "unit": "%",
-        "cite": "celle-ci est de 0,10 % , avec un minimum de 1 500 F CFP par acte"
+        "cite": "celle-ci est de 0,10 % , avec un minimum de 1 500 F CFP par acte",
+        "secondary": "minimum 1 500 XPF : source secondaire, à confirmer par un notaire"
       },
       "baremeS1": {
         "tranches": [
@@ -2106,7 +2282,8 @@
       "pretRatio": {
         "value": 0.6666667,
         "hypothequeMajoration": 0.25,
-        "ref": "notaire_pret"
+        "ref": "notaire_pret",
+        "secondary": "majoration +25 % (hypothèque) : source secondaire, à confirmer par un notaire"
       },
       "tva": {
         "value": 0.13,
@@ -2118,16 +2295,23 @@
         "avecPret": 80775,
         "sansPret": 70125,
         "ref": "notaire_formalites",
-        "cite": "Formalités : 80 775 avec prêt, 70 125 sans."
+        "cite": "Formalités : 80 775 avec prêt, 70 125 sans.",
+        "secondary": "source secondaire, à confirmer par un notaire"
       },
       "debours": {
         "value": 53750,
-        "ref": "notaire_debours"
+        "ref": "notaire_debours",
+        "secondary": "source secondaire, à confirmer par un notaire"
       },
       "ptzMax": {
         "value": 12000000,
         "ref": "ptz_pays",
         "cite": "Jusqu’à 12 000 000 F CFP à taux zéro (si le financement est inférieur à 24 000 000 F CFP, le montant du PTZ est au moins égal au montant du prêt bancaire)"
+      },
+      "ptzDureeMaxAns": {
+        "value": 25,
+        "ref": "ptz_pays",
+        "cite": "La durée totale de remboursement du « prêt à taux zéro » ne peut être supérieure à 25 ans"
       },
       "xpfToEur": {
         "value": 0.00838,

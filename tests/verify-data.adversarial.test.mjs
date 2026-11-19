@@ -126,6 +126,12 @@ test('A17 paramètre simulateur : « cite » qui n’est pas une citation de la 
   mustReject(d);
 });
 
+test('A18 barème de frais de dossier (tri par coût) falsifié', () => {
+  const d = clone();
+  bank(d, 'bdp').fields.immo_frais_dossier.fee = { pct: 0.1, min: 51300 };
+  mustReject(d);
+});
+
 test('les données versionnées passent la vérification stricte', () => {
   const p = join(mkdtempSync(join(tmpdir(), 'cbpf-adv-')), 'banks.json');
   writeFileSync(p, JSON.stringify(data));
