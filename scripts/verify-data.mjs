@@ -16,7 +16,8 @@ const data = JSON.parse(readFileSync(dataPath, 'utf8'));
 const errors = [], warnings = [], infos = [], used = new Set(), cache = new Map();
 const today = new Date().toISOString().slice(0, 10);
 
-const norm = (s) => String(s).toLowerCase()
+// Ligatures typographiques des PDF (ﬁ, ﬀ…) ramenées à leurs lettres, comme les apostrophes et guillemets.
+const norm = (s) => String(s).replace(/[\ufb00-\ufb06]/g, (c) => c.normalize('NFKC')).toLowerCase()
   .replace(/[\u2018\u2019\u02bc\u00b4`]/g, "'").replace(/[\u201c\u201d\u00ab\u00bb]/g, '"')
   .replace(/[\u2013\u2014]/g, '-').replace(/\s+/g, ' ').trim();
 // Comparaison tolérante aux blancs (artefacts PDF « 7, 14 % ») MAIS avec frontières contrôlées
@@ -47,16 +48,19 @@ function forms(v) {
   else { add(v); for (const d of [2, 3, 4]) add(v.toFixed(d)); }
   return [...out];
 }
+// Découpage d'une citation en nombres, dans l'ordre (« 3 804 » = 3804 ; « 11,52 » = 11.52 ; un groupe de milliers au plus,
+// pour ne pas fusionner deux colonnes « 955 955 »). Sert au contrôle de position `pos` d'une valeur dans une ligne de tableau.
+const numbersOf = (text) => [...norm(text).matchAll(/\d{1,2} \d{3}(?!\d)|\d+(?:[.,]\d+)?/g)].map((m) => Number(m[0].replace(' ', '').replace(',', '.')));
 const numIn = (v, text) => (v >= 1e6 && Number.isInteger(v / 1e6) && new RegExp(`(^|[^0-9])${v / 1e6} ?(mf|millions)`).test(norm(text))) || forms(v).some((f) => new RegExp(`(^|[^0-9.,])${f.replace(/[.]/g, '\\.')}(?![0-9]|[.,][0-9])`).test(norm(text)));
 
 // Valeur calculée déclarée : « 3 000 + 750 + 50 000 », « 951 / 3 », « min. 1 942 + 3 679 », « 25 ans × 12 ».
-// Chaque opérande doit figurer dans les citations de l'entrée (sauf les diviseurs d'unité 3 et 12).
+// Chaque opérande doit figurer dans les citations de l'entrée (sauf les facteurs d'unité 3, 4 et 12 : mois, trimestres).
 function evalDerived(expr, quotes) {
   const ops = [...expr.matchAll(/[+×*/÷-]/g)].map((x) => x[0]);
   const operands = expr.split(/[+×*/÷-]/).map((t) => t.replace(/[^\d,]/g, '').replace(',', '.'));
   if (!operands.length || operands.some((t) => !t)) return { error: 'illisible' };
   const vals = operands.map(Number);
-  for (const v of vals) if (![3, 12].includes(v) && !numIn(v, quotes)) return { error: `: opérande ${v} absent de la citation` };
+  for (const v of vals) if (![3, 4, 12].includes(v) && !numIn(v, quotes)) return { error: `: opérande ${v} absent de la citation` };
   let acc = vals[0];
   ops.forEach((o, i) => { const v = vals[i + 1]; acc = o === '+' ? acc + v : o === '-' ? acc - v : o === '/' || o === '÷' ? acc / v : acc * v; });
   return { value: acc };
@@ -118,6 +122,11 @@ function checkEntry(e, where) {
           else infos.push(`${where}: num ${e.num} calculé (${e.derived})`);
         }
       }
+    }
+    if (e.pos !== undefined) { // ligne de tableau : `num` doit être le pos-ième nombre de la citation (pas un autre nombre de la ligne)
+      const n = numbersOf(e.quote ?? '');
+      if (!Number.isInteger(e.pos) || e.pos < 1 || typeof e.num !== 'number') errors.push(`${where}: pos invalide ou num absent`);
+      else if (n[e.pos - 1] === undefined || Math.abs(n[e.pos - 1] - e.num) > 1e-9) errors.push(`${where}: num ${e.num} n'est pas le nombre n° ${e.pos} de la citation (${n.join(' | ')})`);
     }
     if (e.fee !== undefined) { // barème de frais (pct, min) utilisé pour classer par coût réel
       const ok = e.fee && Number.isFinite(e.fee.pct) && Number.isFinite(e.fee.min) && feeIn(e.fee, e.quote);
@@ -269,7 +278,10 @@ for (const c of catalogs) {
           : f.type === 'max' ? Number.isFinite(v) && v > 0 : v === true;
       if (!valid) errors.push(`${pw}: valeur invalide pour ${k}`);
     }
+    for (const r of p.related || []) if (!(c.presets || []).some((x) => x.id === r.preset && x !== p)) errors.push(`${pw}: question liée inconnue ${r.preset}`);
   }
+  if (c.compare && !(c.compare.attrs?.length === 2 && c.compare.attrs.every((x) => isA(x, 'number')))) errors.push(`${w}: compare doit citer deux attributs numériques`);
+  for (const a of c.attributes || []) if (a.flagFalse !== undefined && (a.type !== 'bool' || !String(a.flagFalse).trim())) errors.push(`${w}.${a.id}: flagFalse réservé aux attributs booléens`);
 }
 const catalogOf = Object.fromEntries(catalogs.map((c) => [c.id, c]));
 function checkAttr(a, e, where) {
@@ -315,10 +327,75 @@ for (const p of products) {
   for (const v of p.variants?.length ? p.variants : [null]) {
     const attrs = { ...p.attrs, ...(v?.attrs || {}) }, vw = v ? `${w}/${v.id}` : w;
     for (const a of c.attributes) {
-      if (attrs[a.id] === undefined) { errors.push(`${vw}.${a.id}: attribut manquant (sourcé ou « non publié » obligatoire)`); continue; }
+      if (attrs[a.id] === undefined) { if (!a.optional) errors.push(`${vw}.${a.id}: attribut manquant (sourcé ou « non publié » obligatoire)`); continue; }
       checkAttr(a, attrs[a.id], `${vw}.${a.id}`);
       if (a.type !== 'list') st[attrs[a.id]?.status] = (st[attrs[a.id]?.status] || 0) + 1;
     }
+  }
+}
+
+// ---------- Repères officiels : tableaux (séries trimestrielles, seuils), règles, catalogues ----------
+// Tableau : chaque cellule est une entrée sourcée avec `pos` (rang du nombre dans la ligne citée). Chaque source d'un tableau
+// a un en-tête `headers[]` : citation présente dans l'instantané, libellés de colonnes dans l'ordre ; une cellule n'est
+// acceptée que dans une colonne annoncée par l'en-tête de SA source, et pour une série, au rang de cette colonne.
+const reperes = data.reperes;
+let reperesCells = 0;
+if (reperes !== undefined) {
+  const catIdsR = new Set(catalogs.map((c) => c.id)), secIds = new Set();
+  if (!Array.isArray(reperes.sections) || !reperes.sections.length) errors.push('reperes: sections manquantes');
+  for (const s of reperes.sections || []) {
+    const w = `reperes.${s.id}`;
+    if (!s.id || secIds.has(s.id)) errors.push(`${w}: id manquant ou en double`);
+    secIds.add(s.id);
+    if (s.kind === 'catalog') {
+      if (!catIdsR.has(s.catalog)) errors.push(`${w}: catalogue inconnu ${s.catalog}`);
+      else if (catalogOf[s.catalog].category !== 'reperes') errors.push(`${w}: le catalogue ${s.catalog} n'est pas rattaché à la rubrique reperes`);
+    } else if (s.kind === 'rules') {
+      if (!(s.items || []).length) errors.push(`${w}: règles manquantes`);
+      const ids = new Set();
+      for (const it of s.items || []) {
+        if (!it.id || ids.has(it.id) || !String(it.label ?? '').trim()) errors.push(`${w}.${it.id}: id ou libellé manquant`);
+        ids.add(it.id);
+        checkEntry(it, `${w}.${it.id}`);
+      }
+    } else if (s.kind === 'table') {
+      const t = s.table || {};
+      const cols = (t.columns || []).map((c) => c.id);
+      if (!cols.length || new Set(cols).size !== cols.length) errors.push(`${w}: colonnes manquantes ou en double`);
+      const heads = new Map();
+      for (const h of t.headers || []) {
+        const hw = `${w}.en-tête ${h.source}`;
+        if (heads.has(h.source)) errors.push(`${hw}: en double`);
+        heads.set(h.source, h);
+        checkEntry({ status: 'found', value: h.labels?.join(' '), source: h.source, quote: h.quote }, hw);
+        if (!Array.isArray(h.columns) || h.columns.length !== h.labels?.length || h.columns.some((c) => !cols.includes(c))) { errors.push(`${hw}: colonnes/libellés incohérents`); continue; }
+        let at = 0; const q = norm(h.quote);
+        for (const l of h.labels) { const i = q.indexOf(norm(l), at); if (i < 0) { errors.push(`${hw}: libellé « ${l} » absent (ou hors ordre) de la citation`); break; } at = i + norm(l).length; }
+      }
+      const rowIds = new Set();
+      for (const r of t.rows || []) {
+        const rw = `${w}.${r.id}`;
+        if (!r.id || rowIds.has(r.id) || !String(r.label ?? '').trim()) errors.push(`${rw}: id ou libellé manquant`);
+        rowIds.add(r.id);
+        for (const [col, e] of Object.entries(r.cells || {})) {
+          const cw = `${rw}[${col}]`;
+          if (!cols.includes(col)) { errors.push(`${cw}: colonne inconnue`); continue; }
+          checkEntry(e, cw);
+          reperesCells++;
+          if (e?.status !== 'found') continue;
+          if (e.pos === undefined || typeof e.num !== 'number') errors.push(`${cw}: cellule chiffrée sans num/pos`);
+          const h = heads.get(e.source);
+          if (!h) { errors.push(`${cw}: aucun en-tête pour la source ${e.source}`); continue; }
+          const k = h.columns.indexOf(col);
+          if (k < 0) errors.push(`${cw}: la source ${e.source} ne publie pas la colonne ${col}`);
+          else if (t.series) { // série : la ligne citée liste les valeurs dans l'ordre des colonnes de l'en-tête
+            const offset = numbersOf(e.quote).length - h.columns.length;
+            if (e.pos !== offset + k + 1) errors.push(`${cw}: rang ${e.pos} ≠ colonne ${col} (attendu ${offset + k + 1})`);
+          }
+        }
+      }
+      for (const e of t.apply || []) checkEntry(e, `${w}.apply`);
+    } else errors.push(`${w}: type de section inconnu ${s.kind}`);
   }
 }
 
@@ -337,4 +414,4 @@ infos.forEach((w) => console.log('ℹ ' + w));
 warnings.forEach((w) => console.log('⚠ ' + w));
 if (errors.length) { errors.forEach((e) => console.error('✗ ' + e)); console.error(`\n${errors.length} erreur(s).`); process.exit(1); }
 if (process.argv.includes('--strict') && warnings.length) process.exit(1);
-console.log(`✓ ${Object.keys(data.sources).length} sources, ${data.banks.length} établissements, ${products.length} produits catalogués, toutes les citations vérifiées.`);
+console.log(`✓ ${Object.keys(data.sources).length} sources, ${data.banks.length} établissements, ${products.length} produits catalogués, ${reperesCells} cellules de repères, toutes les citations vérifiées.`);
