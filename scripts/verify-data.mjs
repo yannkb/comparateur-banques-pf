@@ -111,7 +111,7 @@ function checkEntry(e, where) {
       if (typeof e.num !== 'number' || !Number.isFinite(e.num)) errors.push(`${where}: num non numérique`);
       else {
         const quotes = [e.quote, ...(e.extra || []).map((x) => x.quote)].join(' | ');
-        if (!numIn(e.num, quotes) && !(e.num === 0 && /gratuit/i.test(quotes))) {
+        if (!numIn(e.num, quotes) && !(e.num === 0 && /gratuit|sans frais/i.test(quotes))) {
           const r = typeof e.derived === 'string' ? evalDerived(e.derived, quotes) : { error: 'absent' };
           if (r.error) errors.push(`${where}: num ${e.num} absent de la citation (si c'est un calcul, ajouter "derived": "<calcul>") — derived ${r.error}`);
           else if (Math.abs(r.value - e.num) > 0.5) errors.push(`${where}: derived « ${e.derived} » = ${r.value}, pas ${e.num}`);
@@ -213,6 +213,115 @@ const D = data.simulator.defaults;
 const dp = data.simulator.bankDossierPresets.find((p) => p.bank === D.preset);
 if (!dp || D.fraisDossierPct !== dp.pct || D.fraisDossierMin !== dp.min) errors.push(`simulator.defaults: frais de dossier ≠ preset « ${D.preset} »`);
 
+// ---------- Catalogues de produits (cartes…) : facettes déclaratives, attributs sourcés ----------
+// Chaque attribut déclaré est présent sur chaque ligne (produit × variante) : soit sourcé + cité, soit « non publié »
+// avec les sources consultées. Les codes (enum/bool) doivent être cohérents avec la citation (motif `match`).
+const catalogs = data.catalogs || [], products = data.products || [];
+const ATYPES = ['enum', 'bool', 'number', 'text', 'list'], FTYPES = ['enum', 'bool', 'anyOf', 'listHas', 'max', 'flag'];
+const quotesText = (e) => norm([e.quote, ...(e.extra || []).map((x) => x.quote)].join(' | '));
+const reOf = (s, where) => { try { return new RegExp(s, 'u'); } catch { errors.push(`${where}: motif invalide « ${s} »`); return null; } };
+const catIds = new Set(), pstats = {};
+for (const c of catalogs) {
+  const w = `catalogue ${c.id}`;
+  if (!c.id || catIds.has(c.id)) { errors.push(`${w}: id manquant ou en double`); continue; }
+  catIds.add(c.id);
+  if (!data.categories.some((x) => x.id === c.category)) errors.push(`${w}: rubrique inconnue ${c.category}`);
+  const A = new Map();
+  for (const a of c.attributes || []) {
+    if (A.has(a.id)) errors.push(`${w}: attribut ${a.id} en double`);
+    A.set(a.id, a);
+    if (!ATYPES.includes(a.type)) errors.push(`${w}.${a.id}: type inconnu ${a.type}`);
+    if (a.type === 'enum') for (const o of a.options || []) if (!o.match || !reOf(o.match, `${w}.${a.id}.${o.value}`)) errors.push(`${w}.${a.id}.${o.value}: motif « match » manquant`);
+    if (a.type === 'bool' && (!a.match || !reOf(a.match, `${w}.${a.id}`))) errors.push(`${w}.${a.id}: motif « match » manquant`);
+    if (a.type === 'list' && !(a.audiences || []).length) errors.push(`${w}.${a.id}: publics (audiences) manquants`);
+  }
+  const isA = (id, ...types) => A.has(id) && types.includes(A.get(id).type);
+  if (c.cost && !isA(c.cost.attr, 'number')) errors.push(`${w}: cost.attr doit être un attribut numérique`);
+  if (c.cost?.alt && !isA(c.cost.alt.attr, 'list')) errors.push(`${w}: cost.alt.attr doit être un attribut liste`);
+  for (const s of c.summary || []) if (!A.has(s)) errors.push(`${w}: résumé : attribut inconnu ${s}`);
+  const F = new Map(), params = new Set();
+  for (const f of c.facets || []) {
+    const fw = `${w}.facette ${f.id}`;
+    F.set(f.id, f);
+    if (!FTYPES.includes(f.type)) errors.push(`${fw}: type inconnu ${f.type}`);
+    if (!f.param || params.has(f.param) || ['tri', 'np', 'vue'].includes(f.param)) errors.push(`${fw}: paramètre d'URL manquant, réservé ou en double`);
+    params.add(f.param);
+    const ok = f.type === 'enum' ? (f.field === 'bank' || isA(f.attr, 'enum'))
+      : f.type === 'bool' ? isA(f.attr, 'bool')
+        : f.type === 'anyOf' ? (f.choices || []).length > 0 && f.choices.every((ch) => ch.value && ch.attrs?.length && ch.attrs.every((x) => isA(x, 'bool')))
+          : f.type === 'listHas' ? isA(f.attr, 'list') && !!f.listField && (f.values || []).every((v) => A.get(f.attr).audiences.some((x) => x.value === v))
+            : f.type === 'max' ? f.cost === true && !!c.cost
+              : f.type === 'flag' ? f.role === 'includeAlt' && !!c.cost?.alt : false;
+    if (!ok) errors.push(`${fw}: incohérente avec les attributs déclarés`);
+  }
+  const S = new Set((c.sorts || []).map((s) => s.id));
+  for (const s of c.sorts || []) for (const k of s.by || []) if (!(k.cost ? !!c.cost : k.field === 'bank' || isA(k.attr, 'enum', 'number'))) errors.push(`${w}.tri ${s.id}: clé invalide`);
+  if (!S.has(c.defaultSort)) errors.push(`${w}: tri par défaut inconnu`);
+  for (const p of c.presets || []) {
+    const pw = `${w}.question ${p.id}`;
+    if (p.sort && !S.has(p.sort)) errors.push(`${pw}: tri inconnu ${p.sort}`);
+    for (const [k, v] of Object.entries(p.state || {})) {
+      const f = F.get(k);
+      if (!f) { errors.push(`${pw}: facette inconnue ${k}`); continue; }
+      const opts = f.field === 'bank' ? data.banks.map((b) => b.id) : f.type === 'enum' ? A.get(f.attr).options.map((o) => o.value) : null;
+      const valid = f.type === 'enum' ? Array.isArray(v) && v.length && v.every((x) => opts.includes(x))
+        : f.type === 'bool' ? typeof v === 'boolean' : f.type === 'anyOf' ? f.choices.some((ch) => ch.value === v)
+          : f.type === 'max' ? Number.isFinite(v) && v > 0 : v === true;
+      if (!valid) errors.push(`${pw}: valeur invalide pour ${k}`);
+    }
+  }
+}
+const catalogOf = Object.fromEntries(catalogs.map((c) => [c.id, c]));
+function checkAttr(a, e, where) {
+  if (a.type === 'list') {
+    if (!Array.isArray(e)) return errors.push(`${where}: liste attendue`);
+    return e.forEach((x, i) => {
+      const w = `${where}[${i}]`;
+      if (!String(x?.name ?? '').trim()) errors.push(`${w}: nom manquant`);
+      if (!a.audiences.some((o) => o.value === x?.audience)) errors.push(`${w}: public inconnu ${x?.audience}`);
+      if (x?.status !== 'found' || typeof x.num !== 'number') errors.push(`${w}: offre non sourcée ou sans prix (num)`);
+      checkAttr({ ...a, type: 'number' }, x, w);
+    });
+  }
+  checkEntry(e, where);
+  for (const [v, w] of [[e, where], ...(e?.changes || []).map((c, i) => [c, `${where}.changes[${i}]`])]) {
+    if (v?.status === 'not_published') { if (v.code !== undefined || v.num !== undefined || v.value !== undefined) errors.push(`${w}: « non publié » portant une valeur`); continue; }
+    if (v?.status !== 'found') continue;
+    if (a.type === 'number' && typeof v.num !== 'number') errors.push(`${w}: num manquant (attribut numérique)`);
+    if (a.type === 'enum') {
+      const o = a.options.find((x) => x.value === v.code);
+      if (!o) errors.push(`${w}: code « ${v.code} » hors des options`);
+      else if (!reOf(o.match, w)?.test(quotesText(v))) errors.push(`${w}: la citation ne justifie pas « ${o.label} » (motif ${o.match})`);
+    }
+    if (a.type === 'bool') {
+      if (typeof v.code !== 'boolean') errors.push(`${w}: code booléen manquant`);
+      else if (!reOf(a.match, w)?.test(quotesText(v))) errors.push(`${w}: la citation ne parle pas de « ${a.label} » (motif ${a.match})`);
+    }
+  }
+}
+const prodIds = new Set();
+for (const p of products) {
+  const w = `produit ${p.id}`, c = catalogOf[p.kind];
+  if (!p.id || prodIds.has(p.id)) { errors.push(`${w}: id manquant ou en double`); continue; }
+  prodIds.add(p.id);
+  if (!c) { errors.push(`${w}: catalogue inconnu ${p.kind}`); continue; }
+  if (!data.banks.some((b) => b.id === p.bank)) errors.push(`${w}: banque inconnue ${p.bank}`);
+  if (!String(p.name ?? '').trim()) errors.push(`${w}: nom manquant`);
+  const vids = (p.variants || []).map((v) => v.id);
+  if (p.variants && (!p.variants.length || new Set(vids).size !== vids.length || vids.some((x) => !x))) errors.push(`${w}: variantes invalides`);
+  const ids = new Set(c.attributes.map((a) => a.id));
+  for (const k of [...Object.keys(p.attrs || {}), ...(p.variants || []).flatMap((v) => Object.keys(v.attrs || {}))]) if (!ids.has(k)) errors.push(`${w}: attribut inconnu ${k}`);
+  const st = (pstats[`${p.kind}:${p.bank}`] ||= { found: 0, not_published: 0 });
+  for (const v of p.variants?.length ? p.variants : [null]) {
+    const attrs = { ...p.attrs, ...(v?.attrs || {}) }, vw = v ? `${w}/${v.id}` : w;
+    for (const a of c.attributes) {
+      if (attrs[a.id] === undefined) { errors.push(`${vw}.${a.id}: attribut manquant (sourcé ou « non publié » obligatoire)`); continue; }
+      checkAttr(a, attrs[a.id], `${vw}.${a.id}`);
+      if (a.type !== 'list') st[attrs[a.id]?.status] = (st[attrs[a.id]?.status] || 0) + 1;
+    }
+  }
+}
+
 for (const f of readdirSync(join(root, 'data/sources'))) {
   const id = f.replace(/\.txt$/, '');
   if (!data.sources[id]) warnings.push(`instantané non référencé : data/sources/${f}`);
@@ -220,8 +329,12 @@ for (const f of readdirSync(join(root, 'data/sources'))) {
 }
 console.log('Couverture (found / non publié) :');
 for (const [id, s] of Object.entries(stats)) console.log(`  ${id.padEnd(8)} ${String(s.found).padStart(2)} / ${s.not_published}`);
+if (products.length) {
+  console.log('Catalogues (attributs found / non publié) :');
+  for (const [id, s] of Object.entries(pstats)) console.log(`  ${id.padEnd(16)} ${String(s.found).padStart(3)} / ${s.not_published}`);
+}
 infos.forEach((w) => console.log('ℹ ' + w));
 warnings.forEach((w) => console.log('⚠ ' + w));
 if (errors.length) { errors.forEach((e) => console.error('✗ ' + e)); console.error(`\n${errors.length} erreur(s).`); process.exit(1); }
 if (process.argv.includes('--strict') && warnings.length) process.exit(1);
-console.log(`✓ ${Object.keys(data.sources).length} sources, ${data.banks.length} établissements, toutes les citations vérifiées.`);
+console.log(`✓ ${Object.keys(data.sources).length} sources, ${data.banks.length} établissements, ${products.length} produits catalogués, toutes les citations vérifiées.`);

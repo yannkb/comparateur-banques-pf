@@ -1,0 +1,759 @@
+Banque de Tahiti - S.A. au capital de 2 560 494 000 F CFP - RC Papeete N° 6833 B - N° Tahiti : 030130 001 - Siège social : 38 rue François Cardella - BP 1602 98713 Papeete - Tahiti - Polynésie Française 
+Intermédiaire en assurances conforme à l’article LP.512-1 du Code des assurances 
+Tél : (689) 40 41 70 00 - Fax : (689) 40 42 33 76 - Courriel : contact@bt.pf - Internet : www.banque-tahiti.pf - BIC : CEPAPFTP 
+ 
+ 
+ 
+CONDITONS GENERALES D’UTILISATION DE LA CARTE VISA BANQUE DE TAHITI 
+DANS LA SOLUTION DE PAIEMENT MOBILE APPLE PAY 
+ 
+Préambule 
+Les présentes conditions générales d’utilisation sont relatives à 
+l’utilisation de la Carte Visa Banque de Tahiti (ci-après la « Carte »), 
+dans la Solution de Paiement Mobile Apple Pay (ci -après le « 
+Service ») d’un appareil Apple donné (ci -après «  Appareil Apple 
+compatible »). Ce Service est souscrit par le Titulaire de la Carte (ci-
+après «  l’Utilisateur ») auprès d e la Banque de Tahiti (ci-après 
+« l’Emetteur »). 
+Elles complètent le contrat porteur Carte (ci -après «  Contrat 
+Carte ») conclu entre l’Emetteur et l’Utilisateur lors de la délivrance 
+de sa Carte, qui décrit le fonctionnement de la Carte et les règles 
+d’exécution des opérations de paiement par carte.   
+L’Utilisateur reconnaît que le Service ne peut être souscrit que s’il a 
+accepté préalablement d’être lié vis-à-vis d’Apple par les conditions 
+suivantes, disponibles en permanence sur l’Appareil Apple 
+compatible (dans Réglages > Informations > Mentions légales) : 
+A. Contrat de licence de logiciel de l’Apple iOS, watchOS ou macOS 
+selon l’Appareil Apple compatible utilisé, comprenant les 
+Conditions générales supplémentaires relatives à Apple Pay. 
+B. Notifications de la part d’Apple. 
+C. Engagement de confidentialité d’Apple. 
+ 
+Article 1 - Objet du service 
+Le Service proposé par l’Emetteur permet à l’Utilisateur 
+d’enregistrer et d’utiliser sa Carte éligible de façon dématérialisée, 
+dans la Solution de Paiement Mobile Apple Pay (également appelée 
+« Apple Pay  » dans le présent Contrat) d’un Appareil Apple 
+compatible donné.  
+L’Utilisateur peut ainsi effectuer des opérations de paiement par 
+carte, grâce à son Appareil Apple compatible, sans utilisation 
+physique de sa Carte et sans avoir à ressaisir les données de sa 
+Carte.  
+Apple Pay s’appuie sur le portefeuille électronique Apple appelé 
+Cartes (ci -après « Application Cartes ») présent sur son Appareil 
+Apple compatible (une Application Cartes par appareil). 
+L’Utilisateur enregistre sa Carte éligible dans l’Application Cartes,  
+puis effectue des paiements via son Appareil Apple compatible. 
+Apple Pay propose ainsi à l’Utilisateur un parcours de paiement 
+sécurisé, avec son Appareil Apple compatible, lui permettant de 
+régler, de façon rapide et sécurisée, des biens ou des prestations 
+de services chez des commerçants, prestataires de services et 
+autres professionnels (ci -après « Accepteurs »). Il lui permet aussi 
+de consulter les dernières opérations effectuées. 
+Les opérations de paiement réalisées par l’Utilisateur au moyen de 
+sa Carte enregistrée et utilisée de façon dématérialisée dans la 
+Solution de Paiement Mobile Apple Pay, demeurent des opérations 
+de paiement par carte réalisées sous la marque Visa et reste nt 
+régies par les dispositions contractuelles du Contrat Carte conclu 
+entre l’Emetteur de la Carte et l’Utilisateur, sauf spécificités 
+précisées par les présentes conditions générales d’utilisation. 
+Il est rappelé à l’Utilisateur que sa Carte est rigoureusement 
+personnelle et qu’il lui est strictement interdit de prêter sa Carte 
+ou de s'en déposséder. Il est donc interdit à l’Utilisateur 
+d’enregistrer sa Carte dans l’Application Cartes d’un Appareil 
+Apple compatible qui est utilisé par une autre personne. 
+Article 2 - Conditions d’éligibilité au service  
+2.1 – Utilisateurs 
+Le Service est ouvert à toute personne physique majeure capable, 
+ou majeure sous protection juridique ou mineure autorisée par son 
+représentant légal, Titulaire d’au moins une Carte éligible et d’un 
+Appareil Apple compatible, appelée Utilisateur.  
+2.2 – Cartes éligibles au Service 
+Les Cartes pouvant être enregistrées et utilisées dans la Solution de 
+paiement Mobile Apple Pay sont celles listées ci -après portant la 
+marque VISA, émises par l’Emetteur : 
+- cartes délivrées à des personnes physiques, à des fins non 
+professionnelles : Visa Classic, Classic à contrôle de solde 
+systématique, Premier ou Infinite ; 
+- cartes commerciales à usage professionnel  : Visa Business 
+Classic, Gold. 
+Ces Cartes doivent obligatoirement être au nom de l’Utilisateur et 
+être valides. 
+2.3 – Appareils Apple compatibles 
+L’Utilisateur doit disposer de l’un des Appareils Apple compatibles 
+Apple iOS, watchOS ou macOS suivants :  
+- Téléphones mobiles Apple de type iPhone (modèles avec Face 
+ID ou Touch ID, à l’exception de l’iPhone 5s),  
+- Apple Watch Series 1 et modèles ultérieurs, compatibles avec 
+la fonctionnalité Apple Pay     « de proximité » et « en ligne » ; 
+- Tablettes Apple, de type iPad, iPad Pro, iPad Air et iPad mini 
+avec Touch ID ou Face ID ;  
+- Ordinateur Mac avec Touch ID. 
+ 
+Cette liste pourra être complétée ultérieurement par d’autres 
+modèles d’Appareil Apple compatibles (selon l’évolution de l’offre 
+Apple). Il appartient à l’Utilisateur de s’informer des Appareils 
+Apple compatibles auprès d’Apple. 
+La version de l’OS doit être récente. Le code pays de l’iPhone, de 
+l’iPad ou du Mac utilisé doit correspondre à un pays où la 
+fonctionnalité Apple Pay a été officiellement lancée. Il appartient à 
+l’Utilisateur de s’en informer auprès d’Apple. 
+2.4 – Autres conditions 
+L’Utilisateur doit être équipé d’une connexion Internet. 
+Pour pouvoir disposer du Service, l’Emetteur demande à 
+l’Utilisateur de s’authentifier lors du processus d’activation du 
+Service pour sa Carte.  
+A cette fin, il doit être équipé du dispositif d’authentification forte 
+proposé par l’Emetteur, ce qui le conduira à s’authentifier par la 
+saisie de son code. L’Utilisateur peut également s’authentifier par 
+l’utilisation de la fonction biométrique de son smartphone à la 
+place de la saisie de son code, s’il a paramétré cette option.  
+Pour bénéficier d u dispositif d’authentification forte , l’Utilisateur 
+doit être abonné au service de banque à distance de l’Emetteur (ou, 
+dans le cas où c’est son entreprise/entité qui est abonnée, disposer 
+d’un accès à l’espace de banque à distance de celle-ci). Il doit avoir 
+téléchargé sur son smartphone la dernière version de l’application 
+mobile de l’Emetteur, pour accéder à son espace de banque à 
+distance ou à celui de son entreprise/entité et avoir déclaré à 
+
+ 
+Conditons Générales d’Utilisation de la Carte Visa Banque de Tahiti dans la solution de paiement mobile Apple Pay 
+Août 2025 
+                                                                                                                                                                                                                                
+2 
+l’Emetteur un numéro de téléphone mobile en tant que numéro de 
+téléphone sécurisé.  
+Pour pouvoir utiliser le Service avec une Apple Watch compatible, 
+l’Utilisateur doit aussi avoir un iPhone compatible. 
+Par exception aux principes exposés précédemment, pour pouvoir 
+utiliser le Service avec un ordinateur Macbook Pro compatible et 
+s’authentifier lors du processus d’activation du Service pour sa 
+Carte – que celle-ci soit délivrée à des fins non professionnelles ou 
+qu’elle soit à usage professionnel -, l’Utilisateur doit avoir 
+communiqué à l’Emetteur le numéro de la ligne attachée à son 
+téléphone mobile, ce qui lui permettra de recevoir par sms un code 
+à usage unique qu’il devra renseigner sur la page d’authentification. 
+Article 3 - Procédure de souscription  
+3.1 – Dispositions générales 
+Dans le cas d’un Utilisateur mineur, ou majeur sous régime de 
+protection juridique, souhaitant activer le Service pour sa Carte, 
+son représentant légal accepte les présentes conditions générales 
+d’utilisation et l’autorise à activer le Service, dans le Con trat Carte 
+correspondant. 
+Le présent contrat est conclu à distance et le Service est souscrit, 
+après acceptation par l’Utilisateur des présentes conditions 
+générales d’utilisation, dès l’activation du Service pour sa Carte 
+enregistrée dans l’Application Cartes de son Appareil Apple  
+compatible. 
+L’Utilisateur est invité à télécharger et/ou à imprimer les présentes 
+conditions générales. 
+Celles-ci sont accessibles en permanence sur le site internet de 
+l’Emetteur. 
+À tout moment, au cours de la relation contractuelle, l’Utilisateur 
+peut demander à l’Emetteur de recevoir les présentes conditions 
+générales d’utilisation sur un support papier ou sur un autre 
+support durable. 
+3.2 – Processus de souscription et d’activation  
+La création par l’Utilisateur d’un compte iCloud Apple et la 
+connexion de ce compte avec l’Appareil Apple compatible sont des 
+pré-requis.  
+Pour un iPhone ou un iPad compatible 
+A partir de l’Application Cartes : 
+L’Utilisateur ouvre l’Application Cartes sur son Appareil Apple 
+compatible. Il est invité à y enregistrer les données de sa Carte 
+éligible et à accepter les présentes conditions générales 
+d’utilisation du Service. 
+La dernière étape consiste à valider l’enregistrement proprement 
+dit de la Carte, afin que le Service soit activé pour cette Carte. Cette 
+procédure se fait par une authentification de l’Utilisateur par 
+l’Emetteur. Dans le cas d’une Carte sélectionnée sur i Cloud par 
+l’Utilisateur, l’authentification de l’Utilisateur ne sera pas 
+systématiquement requise. 
+L’Emetteur peut bloquer le processus d’authentification de 
+l’Utilisateur s’il détecte des logiciels malveillants sur le smartphone 
+de l’Utilisateur, y compris s’il détecte que ce smartphone a été 
+débridé (contournement des protections du système d’exploitation 
+du smartphone pour supprimer les restrictions d’utilisation mises 
+en place par le constructeur) ou que son système d’exploitation a 
+subi des modifications non autorisées à la racine du système. 
+Une fois l’authentification réalisée avec succès, dès que l’Utilisateur 
+constate que sa Carte est bien enregistrée dans l’Application 
+Cartes, alors le Service est activé et souscrit pour cette Carte et il 
+peut donc immédiatement l’utiliser avec son iPhone ou iPad. 
+L’Utilisateur reçoit ensuite, pour information, un mail de 
+confirmation de l’Emetteur et/ou une notification sur son 
+smartphone. 
+A partir de l’application mobile de l’Emetteur, téléchargée sur le 
+même iPhone ou iPad compatible : 
+L’Utilisateur ouvre l’application mobile de l’Emetteur sur son 
+Appareil Apple compatible et sélectionne le menu Cartes. Sous la 
+carte qu’il souhaite enrôler dans Apple Pay, l’Utilisateur sélectionne 
+« Ajouter à Apple Pay », puis s’authentifie. L’Utilisateur est ensuite 
+redirigé vers l’Application Cartes où les données de sa Carte sont 
+pré-renseignées et où il est invité à accepter les conditions 
+générales d’utilisation du Service. 
+Une fois cette dernière étape effectuée, dès que l’Utilisateur 
+constate dans son application mobile de l’Emetteur que sa Carte est 
+bien enregistrée dans Apple Pay, alors le Service est activé et 
+souscrit pour cette Carte et il peut donc immédiatement l’uti liser 
+avec son iPhone ou iPad. 
+L’Utilisateur reçoit ensuite, pour information, un mail de 
+confirmation de l’Emetteur et/ou une notification sur son 
+smartphone. 
+Pour une Apple Watch ou un ordinateur Mac avec Touch ID 
+compatible : 
+A partir de l’Application Cartes : 
+Une fois l’Apple Watch appairée avec son iPhone compatible via 
+Bluetooth®, l’Utilisateur ouvre l’application Apple Watch sur son 
+iPhone, puis accède à l’onglet Ma montre et sélectionne l’une de 
+ses montres s’il en possède plusieurs. Sur un Mac, l’Utilisate ur 
+ouvre la rubrique Préférences Système de son Mac. Dans ces deux 
+cas, l’Utilisateur sélectionne « Cartes et Apple Pay ». 
+L’Utilisateur peut aussi ouvrir directement l’Application Cartes sur 
+son Apple Watch selon le modèle concerné.  
+Il suit ensuite les étapes indiquées pour ajouter sa Carte éligible et 
+valider les présentes conditions générales d’utilisation du Service, 
+ainsi que l’enregistrement de sa Carte en s’authentifiant. Dès que 
+l’Utilisateur constate que sa Carte est bien enre gistrée dans 
+l’Application Cartes, alors le Service est activé et souscrit pour cette 
+Carte et il peut donc immédiatement l’utiliser avec son Apple 
+Watch ou son Mac avec Touch ID. 
+L’Utilisateur reçoit ensuite, pour information, un mail de 
+confirmation de l’Emetteur et/ou une notification sur son 
+smartphone. 
+A partir de l’application mobile de l’Emetteur téléchargée sur le 
+même iPhone compatible avec lequel l’Apple Watch compatible est 
+jumelée (uniquement pour Apple Watch) : 
+Une fois l’Apple Watch appairée avec son iPhone via Bluetooth®, 
+l’Utilisateur ouvre son application mobile de l’Emetteur 
+téléchargée sur ce même iPhone et sélectionne le menu Cartes. 
+Dans la rubrique « Apple Pay », il choisit d’activer le Service « Pour 
+la Watch ». L’Utilisateur s’authentifie et suit ensuite les étapes 
+indiquées pour valider l’enregistrement de sa Carte éligible ainsi 
+que les présentes conditions générales d’utilisation du Service. Dès 
+que l’Utilisateur constate dans son application mobile de 
+l’Emetteur, que sa Carte est bien enregistrée dans Apple Pay, alors 
+le Service est activé et souscrit pour cette Carte et il peut donc 
+immédiatement l’utiliser avec son Apple Watch. 
+ 
+Conditons Générales d’Utilisation de la Carte Visa Banque de Tahiti dans la solution de paiement mobile Apple Pay 
+Août 2025 
+                                                                                                                                                                                                                                
+3 
+L’Utilisateur reçoit ensuite, pour information, un mail de 
+confirmation de l’Emetteur et/ou une notification sur son 
+smartphone. 
+Article 4 - Modalités d’utilisation du service pour le 
+règlement d’achat de biens ou de prestations de 
+services chez des accepteurs  
+4.1 – Les paiements par carte via Apple Pay nécessitent la saisie du 
+code (ci -après «  Code secret  ») ou l’utilisation de la fonction 
+biométrique, permettant l’accès à l’Appareil Apple compatible. 
+L’Utilisateur a le choix d’utiliser soit ce Code secret, soit la 
+fonctionnalité biométrique de son Appareil Apple compatible, 
+lorsqu’elle est disponible. Cette dernière permet d’authentifier 
+l’Utilisateur à partir de ses données biométriques qu’il a 
+enregistrées sur son Appareil Apple compatible (empreinte digitale 
+correspondant à la fonction Touch ID ou reconnaissance faciale 
+correspondant à la fonction Face ID de l’Appareil Apple 
+compatible).  
+Ce Code secret et les données biométriques sont considérés 
+comme des données de sécurité personnalisées contribuant à 
+authentifier l’Utilisateur lors des paiements par carte via Apple Pay, 
+conformément au Contrat Carte.  
+Sur les montres Apple Watch, seul le Code secret est disponible. 
+Dans ce cas, l’Utilisateur doit renseigner ce Code secret sur sa 
+montre pour ouvrir Apple Pay, chaque fois qu’il est invité à le faire. 
+Paiement « de proximité » 
+4.2 – Pour les paiements de proximité, le Service est disponible 
+seulement sur les iPhone et Apple Watch listés à l’article 2.3. 
+Le Service permet à l’Utilisateur d’effectuer des paiements de 
+proximité chez un Accepteur équipé de terminaux de paiement 
+acceptant le paiement sans contact et les cartes portant la marque 
+Visa. Il permet aussi, lorsque ces fonctionnalités sont disponibles au 
+point d’acceptation, de payer en mode sans contact sur une borne 
+d’accès à un service de transport, conformément au Contrat Carte. 
+4.3 – Lorsque sa Carte est paramétrée par défaut dans l’Application 
+Cartes de l’iPhone ou de l’Apple Watch, l’Utilisateur est invité lors 
+du paiement : 
+- à s’authentifier soit via la fonctionnalité biométrique, soit par 
+la saisie du Code secret pour déverrouiller son iPhone ou son 
+Apple Watch, chaque fois qu’il est invité à le faire, 
+- et à approcher son iPhone ou Apple Watch du terminal de 
+paiement sans contact de l’Accepteur,  pour confirmer 
+l’opération de paiement via Apple Pay.  
+L’Utilisateur donne ainsi son consentement au paiement par Carte, 
+conformément au Contrat Carte. 
+Lorsque l’Utilisateur n’a pas paramétré sa Carte par défaut, il doit 
+préalablement ouvrir l’Application Cartes de son iPhone ou de son 
+Apple Watch, puis sélectionner sa Carte. 
+4.4 – Chez certains Accepteurs et selon les pays, un montant 
+maximum par opération peut être appliqué lors d’un paiement 
+mobile sans contact.  
+Paiement en ligne « in App » ou sur le site Internet de vente en 
+ligne d’un Accepteur 
+4.5 – Pour les paiements en ligne «  in App  », le Service est 
+disponible uniquement sur les iPhone, iPad, Mac avec Touch ID et 
+Apple Watch listés à l’article 2.3. 
+Pour les paiements en ligne sur le site Internet de vente en ligne 
+d’un Accepteur, le Service est disponible uniquement sur les iPhone 
+et iPad listés à l’article 2.3, ainsi que sur les ordinateurs Mac avec 
+Touch ID. 
+Le Service permet à l’Utilisateur d’effectuer des paiements en ligne 
+chez des Accepteurs ayant soit une application mobile de vente en 
+ligne (« in App ») téléchargée sur son Appareil Apple compatible, 
+soit un site Internet de vente en ligne dans Safari et qui proposent 
+la Solution de Paiement Mobile Apple Pay et acceptent les cartes 
+portant la marque Visa figurant sur la Carte de l’Utilisateur. 
+4.6 – Au moment du paiement, l’Utilisateur sélectionne la Solution 
+de Paiement Mobile Apple Pay sur la page de paiement de 
+l’Accepteur. Lorsque l’Utilisateur n’a pas paramétré sa Carte par 
+défaut, il doit la sélectionner. 
+L’Utilisateur est invité à appuyer deux fois sur le bouton latéral (à 
+l’exception des ordinateurs Mac avec Touch ID) de son Appareil 
+Apple compatible, puis à s’authentifier pour confirmer l’opération 
+de paiement par carte, soit via la fonctionnalité biométrique, soit le 
+cas échéant par la saisie du Code secret de son Appareil Apple 
+compatible.  
+L’Utilisateur donne ainsi son consentement à l’opération de 
+paiement par carte, conformément au Contrat Carte. 
+Pour des modèles d’ordinateur Mac sans Touch ID ou des modèles 
+d’ordinateurs autres que Mac, pour confirmer les paiements par 
+carte effectués via Apple Pay, l’Utilisateur doit aussi disposer d’un 
+iPhone ou d’une Apple Watch compatible dans l’Application Cartes 
+duquel il a enregistré sa Carte. L’Utilisateur doit être connecté avec 
+le même identifiant Apple sur tous ses appareils et avoir activé 
+Bluetooth® sur son Mac. L’Utilisateur sélectionne Apple Pay sur la 
+page de paiement de l’Accepteur pour l’activer, puis sa Carte. 
+L’Utilisateur est alors invité à confirmer l’opération de paiement 
+par carte, soit via la fonctionnalité biométrique ou la saisie du Code 
+secret de l’iPhone, soit en appuyant deux fois sur le bouton latéral 
+de l’Apple Watch, connectés en Bluetooth® avec le Mac. 
+Dispositions communes 
+4.7 – Pour chaque opération de paiement par Carte via le Service, 
+une autorisation est demandée à l’Emetteur. Celui -ci applique les 
+plafonds liés à l’utilisation de la Carte, définis dans le Contrat Carte 
+qu’il a conclu avec l’Utilisateur. 
+4.8 – Les règles relatives au fonctionnement de la Carte et à 
+l’exécution des opérations de paiement par carte (dont celles 
+relatives aux plafonds d’utilisation de la Carte, au consentement, à 
+l’irrévocabilité, aux délais d’exécution, aux contestations) sont 
+celles indiquées dans le Contrat Carte conclu entre l’Emetteur de la 
+Carte et l’Utilisateur, sauf spécificités précisées dans les présentes 
+conditions générales d’utilisation et en particulier aux articles 5.1 
+et 7.3. 
+4.9 – Le montant des paiements effectués avec la Carte par le biais 
+du Service est imputé sur le compte associé à ladite Carte selon les 
+dispositions du Contrat Carte conclu entre l’Emetteur de la Carte et 
+l’Utilisateur. 
+4.10 – Le montant détaillé, sauf exception, des paiements par carte 
+effectués par le biais du Service et passées au débit du compte, 
+figure sur le même relevé que les opérations de paiement par carte 
+réalisées par l’Utilisateur en dehors du Service. 
+Article 5 - Modalités de blocage du service  
+5.1 – Dans l’hypothèse où il perd ou se fait voler son Appareil Apple 
+compatible, ou encore dans l’hypothèse où il aurait subi une fraude 
+lors d’un paiement effectué via Apple Pay, à partir de la Carte 
+enregistrée dans l’Application Carte de son Appareil Appl e 
+compatible, l’Utilisateur s’engage à prendre l’une des deux mesures 
+ 
+Conditons Générales d’Utilisation de la Carte Visa Banque de Tahiti dans la solution de paiement mobile Apple Pay 
+Août 2025 
+                                                                                                                                                                                                                                
+4 
+suivantes pour bloquer l’utilisation de sa Carte dans l’Application 
+Cartes de cet Appareil : 
+- soit se connecter à son compte Apple sur le portail Internet 
+Find My iPhone d’Apple pour supprimer ses données 
+personnelles dont le contenu de l’Application Cartes liée à cet 
+Appareil. Les cartes qui y sont enregistrées ne peuvent plus 
+être utilisées avec cet Appareil ; 
+- soit demander à l’Emetteur, par téléphone au  +33-
+9.69.32.66.66 (Visa Classic), +33 -1.42.77.45.45 (Visa Premier) 
++33-1.83.77.06.00 (Visa Infinite), +33 -9.69.32.66.50 (Visa 
+Business) (prix d’un appel vers la France métropolitaine ), de 
+supprimer sa Carte de toutes les Applications Cartes, dans 
+lesquelles elle est enregistrée. Dès cette suppression, la Carte 
+ne peut plus être utilisée dans les Appareils Apple compatibles 
+correspondant à ces Applications Cartes.  
+Ces blocages n’entrainent pas une mise en opposition de la Carte 
+physique. 
+Ces blocages/ suppressions entrainent la résiliation du Service pour 
+sa Carte, conformément à l’article 9.  
+5.2 – Dans l’hypothèse où l’Emetteur procède, de sa propre 
+initiative, au blocage de la Carte conformément au Contrat Carte, 
+cette Carte ne peut plus être utilisée dans le cadre du Service. Elle 
+est automatiquement supprimée de toutes les Applications Cartes 
+dans lesquelles elle est enregistrée et ne peut donc plus être 
+utilisée dans les Appareils Apple compatibles correspondant à ces 
+Applications Cartes. Ceci entraine la résiliation du Service, 
+conformément à l’article 9. 
+5.3 – Lorsque l’Utilisateur fait une demande de 
+blocage/d’opposition de sa Carte auprès de l’Emetteur, 
+conformément aux conditions générales du Contrat Carte, la Carte 
+ne peut plus être utilisée dans le cadre du Service. Elle est 
+automatiquement supprimée de toutes les Applications Cartes 
+dans lesquelles elle est enregistrée et ne peut donc plus être 
+utilisée dans les Appareils Apple compatibles correspondant à ces 
+Applications Cartes. Ceci entraine la résiliation du Service, 
+conformément à l’article 9. 
+5.4 – Conformément au Contrat Carte, l’Emetteur met à la 
+disposition du Titulaire de la Carte, dans son espace de banque à 
+distance (ou, le cas échéant, dans celui de son entreprise/entité) 
+sur Internet et/ou sur l’application bancaire mobile, les 
+fonctionnalités suivantes de gestion de sa Carte  : «  Paiements à 
+distance », «  Paiements à l’étranger  », «  Verrouiller la Carte  ». 
+L’activation ou la désactivation de ces fonctionnalités a les mêmes 
+conséquences sur le blocage de la Carte ou de certaines opérations 
+de paiement par carte, lorsqu’elle est utilisée de façon 
+dématérialisée via la Solution de Paiement Mobile Apple Pay.  
+5.5 – L’Emetteur se réserve le droit de bloquer le Service en tout ou 
+en partie. 
+Il peut bloquer le Service pour la Carte dans toutes les Applications 
+Cartes où elle est enregistrée sans aucun préavis, s’il devait relever 
+des faits laissant présumer l’utilisation frauduleuse du Service.  
+Le blocage du Service peut aussi concerner toutes les Cartes émises 
+par l’Emetteur de tous les Utilisateurs, ou partiellement un mode 
+de paiement (« de proximité », « in App »), ou une région 
+géographique spécifique ou tout autre critère pertinent par rapport 
+à la situation. 
+5.6 – Lorsque l’Appareil Apple compatible a subi des modifications 
+non-autorisées sur son système d’exploitation, Apple peut bloquer 
+Apple Pay sur cet Appareil. 
+5.7 – Dans les articles 5.1, 5.5 et 5.6, les cas de suppression de la 
+Carte de l’Application Cartes ou de blocage du Service ou de 
+l’Application Cartes n’entraînent pas la mise en opposition de la 
+Carte. Dans les cas visés et tant qu’elle n’est pas mise en opposition 
+par l’Utilisateur ou bloquée par l’Emetteur, celle -ci reste utilisable 
+soit en tant que carte sur support physique, soi t de façon 
+dématérialisée auprès d’Accepteurs sur Internet ou dans d’autres 
+solutions de paiement mobile. 
+Article 6 - Responsabilité de l’Emetteur 
+6.1 – L’Emetteur donne la possibilité à l’Utilisateur d’enregistrer et 
+d’utiliser sa Carte dans la Solution de Paiement Mobile Apple Pay, 
+conformément aux présentes conditions générales d’utilisation. 
+6.2 – L’Emetteur n’est pas tenu pour responsable d’un mauvais 
+fonctionnement ou d’une panne technique de l’Application Cartes 
+et de la Solution de Paiement Mobile Apple Pay, ces derniers étant 
+sous la responsabilité d’Apple. 
+6.3 – L’Emetteur n’est pas tenu pour responsable des paramétrages 
+effectués par l’Utilisateur sur son Appareil iOS, watchOS ou macOS, 
+du Code secret ou de la fonctionnalité biométrique permettant de 
+déverrouiller son Appareil Apple compatible, ainsi que de 
+l’Application Cartes. 
+6.4 – L’Emetteur n’est pas tenu pour responsable : 
+- en cas de non -respect par l’Utilisateur des présentes 
+conditions générales d’utilisation et des procédures y étant 
+décrites, ni même en cas de non -respect par l’Utilisateur du 
+Contrat de Licence de Logiciel de l’Apple iOS, watchOS ou 
+macOS, dont les Condit ions générales supplémentaires pour 
+Apple Pay, et des notifications de la part d’Apple, 
+- lorsque les informations communiquées par l’Utilisateur lors 
+de la conclusion du Contrat Carte ou des présentes conditions 
+générales d’utilisation s’avèrent inexactes ou incomplètes, 
+- en cas d’interruption du Service pour des raisons résultant de 
+la force majeure, d’un cas fortuit ou du fait d’un tiers, 
+- des réclamations qui portent sur le prix des biens ou services 
+achetés auprès de l’Accepteur. 
+6.5 – L’Emetteur n’est pas responsable des litiges nés du contrat 
+passé entre l’Utilisateur et son opérateur de téléphonie mobile ou 
+entre l’Utilisateur et Apple pour l’utilisation de son Appareil Apple 
+compatible, lesquels pourraient avoir une conséquence su r le 
+fonctionnement de la Solution de Paiement Mobile Apple Pay. 
+6.6 – De manière générale, l’Emetteur ne peut être tenu 
+responsable que pour des dommages ayant pour cause unique son 
+propre fait et/ou conformément à la législation en vigueur.   
+Article 7 - Responsabilité de l’Utilisateur 
+7.1 – L’Utilisateur est responsable de l’utilisation strictement 
+personnelle et de la conservation dans des conditions de sécurité 
+et de confidentialité de ses Appareils Apple compatibles, du Code 
+secret ou de la fonction biométrique permettant de déverrouill er 
+son Appareil Apple compatible, ainsi que de leur paramétrage. 
+7.2 – En cas de cession de son Appareil Apple compatible, 
+l’Utilisateur doit préalablement supprimer sa Carte de l’Application 
+Cartes, ainsi que toutes les autres cartes qu’il y a enregistrées. 
+L’Utilisateur est pleinement responsable de toutes les 
+conséquences susceptibles de survenir, s’il ne le fait pas. 
+7.3 – Dans l’hypothèse où il perd ou se fait voler son Appareil Apple 
+compatible, ou encore dans l’hypothèse où il aurait subi une fraude 
+lors d’un paiement effectué avec Apple Pay, l’Utilisateur s’engage à 
+prendre l’une des deux mesures décrites à l’article 5.1 pour bloquer 
+l’utilisation de sa Carte dans l’Application Cartes de cet Appareil. 
+L’Utilisateur assume les conséquences de l’utilisation de sa Carte 
+enregistrée dans Apple Pay, tant qu’il n’a pas pris l’une de ces 
+ 
+Conditons Générales d’Utilisation de la Carte Visa Banque de Tahiti dans la solution de paiement mobile Apple Pay 
+Août 2025 
+                                                                                                                                                                                                                                
+5 
+mesures pour obtenir le blocage de sa Carte dans l’Application 
+Cartes de son Appareil Apple compatible concerné.  
+Toutes les opérations non autorisées sont à la charge de 
+l’Utilisateur sans limitation de montant en cas de manquement 
+intentionnel ou par négligence grave aux obligations visées dans les 
+présentes CGU et au Contrat Carte ou en cas de fraude de sa part. 
+7.4 – Les présentes conditions générales d’utilisation octroyant à 
+l’Utilisateur un droit d’utilisation non exclusif de la Solution de 
+Paiement Mobile Apple Pay, l’Utilisateur reconnaît que ce droit 
+d’utilisation lui est personnel et qu’il ne peut en aucune manière le 
+céder sous peine d’engager sa responsabilité ni revendiquer un 
+quelconque droit de propriété intellectuelle. 
+7.5 - L’Utilisateur doit maintenir son Appareil Apple compatible à 
+jour et conserver un fonctionnement sécurisé de son système 
+d’exploitation et de ses applications. 
+Article 8 - Conclusion du contrat - Durée - Entrée en 
+vigueur 
+Le présent contrat est conclu et le Service est souscrit pour une 
+durée indéterminée à partir de l’activation du Service, après 
+acceptation par l’Utilisateur des conditions générales d’utilisation 
+du Service, conformément aux conditions décrites à l’articl e 3 des 
+présentes. 
+Le contrat est conclu au lieu où l’Emetteur a élu domicile, à savoir 
+à l’adresse de son siège social.  
+L’Utilisateur est informé que, à l’échéance de sa Carte Physique ou 
+avant échéance en cas de remplacement de celle -ci (hors cas de 
+mise en opposition de la Carte), les données liées à sa nouvelle 
+Carte sont automatiquement mises à jour dans l’Application Cartes 
+de son Appareil compatible concerné. L’Utilisateur peut ainsi dans 
+ce cas continuer d’utiliser le Service via son Appareil compatible 
+concerné, sans impact sur la durée du présent contrat. 
+Article 9 - Résiliation 
+Sous réserve du dénouement des opérations en cours, l’Utilisateur 
+ou, le cas échéant, son représentant légal, dispose de la faculté de 
+résilier à tout moment le Service sans préavis quelle qu’en soit la 
+raison. 
+L’Utilisateur peut résilier le Service sur son Appareil Apple 
+compatible, en supprimant sa Carte de l’Application Cartes de cet 
+Appareil. Il peut aussi résilier, à partir de son compte Apple, le 
+Service pour sa Carte enregistrée dans son Appareil compatible, en 
+la supprimant. Elle sera alors supprimée de l’Application Cartes de 
+tous les Appareils compatibles où elle est enregistrée. 
+L’Utilisateur peut également résilier le Service en demandant à 
+l’Emetteur de supprimer sa Carte par téléphone au +33-
+9.69.32.66.66 (Visa Classic), +33 -1.42.77.45.45 (Visa Premier) +33 -
+1.83.77.06.00 (Visa Infinite), +33 -9.69.32.66.50 (Visa Business)  
+(appel non surtaxé ). La Carte est alors supprimée de toutes les 
+Applications Cartes des Appareils Apple compatibles, dans 
+lesquelles elle est enregistrée. Les autres cartes éventuellement 
+enregistrées dans les Applications Cartes ne sont pas impactées. 
+Le Service est résilié automatiquement pour tous les Appareils 
+concernés dans les cas décrits ci-avant aux articles 5.1, 5.2, et 5.3. 
+L’Emetteur ne saurait être tenu pour responsable des demandes de 
+résiliation ou suppression qui n’émaneraient pas de l’Utilisateur. 
+L’Emetteur dispose de la faculté de résilier par écrit le Service en 
+respectant un préavis de deux (2) mois à compter de la date d’envoi 
+de cette notification à l'Utilisateur. La résiliation du Service conduit 
+à la suppression de la Carte des Applications Cartes de tous les 
+Appareils Apple compatibles, dans lesquels elle est enregistrée. 
+L’Emetteur résilie aussi le Service sans préavis en cas de non -
+respect des présentes conditions générales d’utilisation, ce dont 
+l’Utilisateur en sera informé. 
+En cas de résiliation ou suppression de la Solution de Paiement 
+mobile Apple Pay ou de l’Application Cartes par Apple ou en cas de 
+résiliation du Contrat Carte conclu entre l’Emetteur et l’Utilisateur, 
+l’Utilisateur reconnaît que le Service sera résilié de plein droit pour 
+sa Carte. 
+Article 10 - Mode de communication et convention de 
+preuve 
+De convention expresse entre les parties, l’Utilisateur reconnait 
+que le fait d’accepter les présentes conditions générales 
+d’utilisation du Service et d’activer avec succès le Service, lors du 
+processus de souscription, manifeste son consentement à la 
+conclusion et au contenu du présent contrat et que toutes les 
+connexions sont réputées avoir été effectuées par lui, sauf preuve 
+contraire. 
+L’Utilisateur accepte l’enregistrement informatique des connexions 
+et opérations réalisées lors de la souscription, de l’activation et de 
+l’utilisation du Service. Les parties acceptent que le fichier des 
+connexions et opérations fasse preuve entre elles, chacune des 
+parties restant libre d’en rapporter la preuve contraire. 
+Les règles en matière de preuve des opérations de paiement par 
+carte effectuées via la Solution de Paiement Mobile Apple Pay sont 
+celles décrites dans le Contrat Carte. 
+Article 11 - Conditions tarifaires 
+Le Service est fourni gratuitement par l’Emetteur. 
+Toutefois, le Service est lié à la détention d’une Carte soumise à 
+cotisation, dans le cadre du Contrat Carte conclu entre l’Emetteur 
+et l’Utilisateur.  
+La tarification applicable à la Carte ainsi qu’aux opérations de 
+paiement par Carte demeure celle fixée et notifiée par l’Emetteur 
+de la Carte au Titulaire de la Carte et/ou du compte auquel la Carte 
+est rattachée dans le cadre du Contrat Carte. 
+L’Utilisateur reconnaît avoir été informé que les coûts de connexion 
+à un réseau Wifi, à un réseau de type 3G, 4G, 5G ou tout autre 
+réseau similaire demeurent à sa charge.  
+Article 12 - Réclamations - Médiation 
+En cas de difficultés concernant le Service, le le Titulaire de la Carte 
+et/ou du compte auquel la Carte est rattachée peut obtenir de son 
+agence toutes les informations souhaitées, formuler auprès d’elle 
+toute réclamation et/ou saisir par écrit  le «  Service Relations 
+Clientèle » de la Banque qui s'efforce de trouver avec lui une 
+solution, y compris si la réponse ou solution qui lui a été apportée 
+par son Agence ne lui convient pas. 
+Le Titulaire de la Carte et/ou du compte auquel la Carte est 
+rattachée trouvera les coordonnées d u « Service Relations 
+Clientèle » dans les brochures tarifaires de la Banque ainsi que sur 
+son site internet dans la rubrique « Contact » ou en saisissant « 
+Réclamation » dans le moteur de recherche. 
+La saisine du «  Service Relations Clientèle » de la Banque est 
+effectuée par courriel adressé par internet, à l’adresse suivante : 
+contact@bt.pf rubrique « contacts ». Tout renseignement relatif à 
+une contestation peut être obtenu en téléphonant au numéro 
+suivant : 689 40 41 70 00 (numéro non surtaxé). 
+ 
+Conditons Générales d’Utilisation de la Carte Visa Banque de Tahiti dans la solution de paiement mobile Apple Pay 
+Août 2025 
+                                                                                                                                                                                                                                
+6 
+Ou par lettre envoyée à l'adresse suivante :  
+BANQUE DE TAHITI,  
+Service Relations Clientèle,  
+38 rue François Cardella,  
+BP 1602 98713 Papeete, Tahiti, Polynésie française, 
+ 
+La Banque s’engage à accuser réception de la réclamation du 
+Titulaire de la Carte et/ou du compte auquel la Carte est rattachée 
+sous dix (10) Jours Ouvrables à compter de sa date d’envoi, sauf si 
+une réponse peut être apportée dans ce délai . Si une analyse plus 
+approfondie de son dossier est nécessaire, la Banque s’engage à lui 
+apporter une réponse dans un délai qui ne pourra excéder deux (2) 
+mois (à compter de la date de réception de sa réclamation). 
+Concernant les réclamations liées aux services de paiement, une 
+réponse sera apportée au Client dans les quinze (15) jours 
+ouvrables suivant la réception de sa réclamation. Cependant, si un 
+délai supplémentaire est nécessaire pour lui répondre, la Banque 
+lui adressera une réponse d’attente motivant ce délai et précisant 
+la date ultime de sa réponse. En tout état de cause, le Client recevra 
+une réponse définitive au plus tard trente-cinq (35) jours ouvrables 
+suivant la réception de sa réclamation.  
+A défaut de solution le satisfaisant ou en l'absence de réponse dans 
+ces délais, le du Titulaire de la Carte et/ou du compte auquel la 
+Carte est rattachée peut saisir gratuitement le médiateur de la 
+Banque sur son site internet ou par voie postale, dans le délai d’un 
+(1) an à compter de sa réclamation auprès de la Banque, sans 
+préjudice des autres voies d’actions légales dont il dispose.  
+Cette possibilité existe pour : 
+- les cartes délivrées à des personnes physiques à des fins non 
+professionnelles, 
+- les cartes à usage professionnel, dès lors que le client Titulaire 
+du compte auquel la Carte est rattachée est un entrepreneur 
+individuel au sens de l’article L526 -22 du Code de Commerce 
+et uniquement dans ce cas. 
+Le Titulaire de la Carte et/ou du compte auquel la Carte est 
+rattachée peut saisir le médiateur de la Banque sur son site 
+dédié : https://www.mediateur-ceidf.fr 
+ou en écrivant à :  
+Médiateur pour les litiges d’ordre bancaire 
+Médiateur auprès de la Banque de Tahiti 
+TSA 31359 
+75621 PARIS CEDEX 
+ 
+L’adresse postale du médiateur et les coordonnées du site internet 
+du médiateur figurent aussi sur les brochures tarifaires et le site 
+internet de la Banque.  
+Les informations nécessaires à la saisine du médiateur, son 
+périmètre et le déroulé de la procédure de médiation figurent sur 
+la charte de médiation disponible sur le site de la Banque et/ou sur 
+le site internet du médiateur. 
+En cas de souscription par internet, le Client peut également 
+déposer sa réclamation sur la plateforme européenne de 
+règlement par voie extrajudiciaire des litiges en ligne qui orientera 
+sa demande : https://ec.europa.eu/consumers/odr/. 
+Article 13 - Protection des données personnelles 
+Dans le cadre de la signature et de l’exécution du présent contrat, 
+l’Emetteur recueille et traite des données à caractère personnel 
+concernant l’Utilisateur. 
+Le réseau VISA et Apple ont communication de certaines de ces 
+données nécessaires pour la souscription et l’exécution du Service. 
+La mise à jour automatique des données liées à une Carte de 
+l’Utilisateur préalablement enregistrée dans l’Application Cartes 
+est effectuée sur la base juridique de l’exécution du présent 
+contrat. A défaut, celui-ci ne pourrait plus être exécuté.  
+Les informations expliquant pourquoi et comment ces données 
+sont utilisées, combien de temps elles seront conservées ainsi que 
+les droits dont l’Utilisateur dispose sur ses données figurent dans la 
+Notice d’information de l’Emetteur sur le traitement des d onnées 
+à caractère personnel. 
+Cette notice est portée à sa connaissance des personnes lors de la 
+première collecte de ses données. L’Utilisateur peut  y accéder à 
+tout moment, sur le site internet de l ’Emetteur, via l’adresse 
+suivante :  
+www.banque-tahiti.pf/fr/protection-de-vos-donnees-personnelles  
+ou en obtenir un exemplaire auprès de leur Agence. 
+L’Emetteur communiquera en temps utile les évolutions apportées 
+à ces informations. 
+Article 14 - Modification des conditions générales 
+d’utilisation du service 
+Les présentes conditions générales d’utilisation peuvent évoluer en 
+raison de mesures législatives ou réglementaires, d’évolutions 
+techniques du Service ou pour en renforcer la sécurité  ; en ce cas 
+les modifications prennent effet à la date d’entrée en vig ueur des 
+mesures concernées sans préavis ni information préalable. 
+Pour toute autre modification des présentes conditions générales 
+d’utilisation, l’Utilisateur sera informé par tout moyen du projet de 
+modification au plus tard deux mois (au plus tard un mois lorsque 
+l’Utilisateur est une personne physique agissant à des fins 
+professionnelles) avant la date d’application envisagée.  
+L’Utilisateur est réputé avoir accepté la modification s’il n’a pas 
+notifié à l’Emetteur, avant la date d’entrée en application, son 
+désaccord. Si l’Utilisateur refuse la modification proposée,  il peut 
+résilier avant cette date le Service. A défaut de résiliation dans ce 
+délai, les modifications seront opposables à l’Utilisateur. 
+Article 15 - Exercice du droit de rétractation 
+A compter du jour de la conclusion à distance du présent contrat, 
+l’Utilisateur dispose d’un délai de quatorze jours calendaires 
+révolus pour exercer son droit de rétractation sans avoir à justifier 
+sa décision. 
+Ce droit de rétractation peut s’effectuer même si l’exécution du 
+Service a commencé avant l’expiration du délai de rétractation. 
+Pour exercer ce droit de rétractation, l’Utilisateur doit supprimer sa 
+Carte de l’Application Cartes de son Appareil Apple compatible ou 
+adresser sa demande par courrier à l’Emetteur. Il peut utiliser le 
+modèle suivant : « Je soussigné(e) (nom prénom), demeurant à 
+……(adresse) déclare renoncer au Service auquel j’ai souscrit, 
+d’utilisation de ma Carte se terminant par XXXX (les 4 derniers 
+chiffres au recto de la Carte), dans la Solution de Paiement Mobile 
+Apple Pay. Fait à……le …..et signature ».       
+Si l’Utilisateur exerce son droit de rétractation, le Service sera 
+réputé n’avoir jamais été souscrit. Toutefois, il ne lui sera pas 
+possible de révoquer les ordres de paiement par Carte qui auront 
+déjà été donnés dans le cadre du Service.  
+Article 16 - Droit et langue applicables – Tribunaux 
+compétents  
+Les présentes conditions générales d’utilisation sont conclues en 
+langue française. L’Utilisateur accepte expressément l’usage de la 
+ 
+Conditons Générales d’Utilisation de la Carte Visa Banque de Tahiti dans la solution de paiement mobile Apple Pay 
+Août 2025 
+                                                                                                                                                                                                                                
+7 
+langue française durant les relations précontractuelles et 
+contractuelles.  
+Les présentes conditions générales d’utilisation sont soumises à la 
+loi française telle qu’ applicable en Polynésie française  et à la 
+compétence des juridictions de Polynésie française. 
+Article 17 - Agrément de la Banque et Autorités de 
+contrôle 
+L’Emetteur est un établissement de crédit agréé en France, 
+contrôlé et supervisé par la Banque Centrale Européenne - 
+Sonnemannstrasse 20, 60314 Frankfurt Am Main – Allemagne et 
+par l’Autorité de Contrôle Prudentiel et de Résolution (ACPR) 4, 
+place de Budapest CS92459 - 75436 Paris Cedex 09.  
+La liste des établissements de crédit et plus généralement celle des 
+prestataires de services de paiement habilités peut être consultée 
+sur le site de l’ACPR à l’adresse suivante :  
+https://acpr.banque-france.fr/proteger-la-clientele/vous-etes-un-
+particulier/verifier-si-un-professionnel-est-agree-immatricule 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
