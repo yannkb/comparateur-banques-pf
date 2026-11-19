@@ -153,6 +153,75 @@ test('A21 grille datée après la date d’effet annoncée', () => {
   mustReject(d);
 });
 
+// ---------- Catalogue de cartes ----------
+const prod = (d, id) => d.products.find((p) => p.id === id);
+
+test('A22 attribut de carte inventé : « sans contact : oui » sur la carte FENUA avec une citation fabriquée', () => {
+  const d = clone();
+  prod(d, 'marara-fenua').attrs.sans_contact = { status: 'found', value: 'Oui', code: true, source: 'marara_cartes_locales', quote: 'La carte Fenua est équipée du paiement sans contact.' };
+  mustReject(d);
+});
+
+test('A23 attribut de carte appuyé sur une citation réelle mais hors sujet (Apple Pay « justifié » par un prix)', () => {
+  const d = clone();
+  prod(d, 'marara-visa-classic').attrs.apple_pay = { status: 'found', value: 'Oui', code: true, source: 'marara_tarifs_2026', quote: 'Pack MARARA (par mois) 650' };
+  mustReject(d);
+});
+
+test('A24 code d’énumération contredit par la citation (Tiare « débit différé »)', () => {
+  const d = clone();
+  prod(d, 'bt-tiare').attrs.debit.code = 'differe';
+  mustReject(d);
+  const d2 = clone();
+  prod(d2, 'bt-tiare').attrs.reseau.code = 'amex';
+  mustReject(d2);
+});
+
+test('A25 cotisation mensuelle convertie en annuel sans « derived » (FENUA 220/mois → 2 640/an)', () => {
+  const d = clone();
+  delete prod(d, 'marara-fenua').attrs.cotisation.derived;
+  mustReject(d);
+  const d2 = clone();
+  Object.assign(prod(d2, 'marara-fenua').attrs.cotisation, { num: 2400, derived: '200 × 12' });
+  mustReject(d2);
+});
+
+test('A26 « non publié » qui cache une valeur, ou sans source consultée', () => {
+  const d = clone();
+  Object.assign(prod(d, 'bdp-hoa').attrs.sans_contact, { code: true });
+  mustReject(d);
+  const d2 = clone();
+  prod(d2, 'bdp-hoa').attrs.sans_contact.checked = [];
+  mustReject(d2);
+});
+
+test('A27 attribut manquant ou inconnu sur une carte', () => {
+  const d = clone();
+  delete prod(d, 'socredo-gold').attrs.google_pay;
+  mustReject(d);
+  const d2 = clone();
+  prod(d2, 'socredo-gold').attrs.cashback = { status: 'not_published', checked: ['socredo_cartes'] };
+  mustReject(d2);
+});
+
+test('A28 facette ou question rapide incohérente avec les attributs déclarés', () => {
+  const d = clone();
+  d.catalogs[0].presets[0].state = { reseau: ['amex'] };
+  mustReject(d);
+  const d2 = clone();
+  d2.catalogs[0].facets.find((f) => f.id === 'sans_contact').attr = 'cotisation';
+  mustReject(d2);
+});
+
+test('A29 cotisation BT 2027 falsifiée (citation 2027 intacte) et offre groupée sans prix', () => {
+  const d = clone();
+  prod(d, 'bt-visa-premier').variants.find((v) => v.id === 'immediat').attrs.cotisation.changes[0].num = 2300;
+  mustReject(d);
+  const d2 = clone();
+  delete prod(d2, 'socredo-classic').attrs.packages[0].num;
+  mustReject(d2);
+});
+
 test('les données versionnées passent la vérification stricte', () => {
   const p = join(mkdtempSync(join(tmpdir(), 'cbpf-adv-')), 'banks.json');
   writeFileSync(p, JSON.stringify(data));

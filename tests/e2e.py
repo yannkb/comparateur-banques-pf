@@ -4,6 +4,7 @@ Usage : npm run build && npx vite preview --port 4173 --strictPort  (autre termi
         python3 tests/e2e.py [URL]      (défaut : http://localhost:4173$BASE_PATH)
 """
 import datetime
+import json
 import os
 import re
 import sys
@@ -16,6 +17,31 @@ HOST = urlparse(URL).netloc
 OUT = Path(__file__).resolve().parent.parent / "screenshots"
 OUT.mkdir(exist_ok=True)
 failures, errors, external = [], [], []
+DATA = json.loads((Path(__file__).resolve().parent.parent / "data" / "banks.json").read_text())
+
+
+def expected_cheapest(attr, code, iso):
+    """Réimplémentation indépendante : carte(s) la/les moins chère(s) dont `attr` est publié et vaut `code` à la date `iso`."""
+    def at(e):
+        ch = sorted([c for c in (e or {}).get("changes", []) if c["effective_from"] <= iso], key=lambda c: c["effective_from"])
+        return ch[-1] if ch else e
+    best, ids = None, set()
+    for p in DATA["products"]:
+        for v in p.get("variants") or [None]:
+            attrs = {**p["attrs"], **((v or {}).get("attrs") or {})}
+            e, fee = at(attrs[attr]), at(attrs["cotisation"])
+            if e.get("status") != "found" or e.get("code") != code or fee.get("status") != "found":
+                continue
+            rid = p["id"] + ("/" + v["id"] if v else "")
+            if best is None or fee["num"] < best:
+                best, ids = fee["num"], {rid}
+            elif fee["num"] == best:
+                ids.add(rid)
+    return ids, best
+
+
+def first_card(page, sel="finder-results"):
+    return page.locator(f"[data-testid={sel}] .pcard").first.get_attribute("data-testid").removeprefix("pcard-")
 
 
 def check(cond, msg):
@@ -99,6 +125,55 @@ with sync_playwright() as p:
     check(first == "card-marara", f"tri par tenue de compte : la moins chère en premier ({first})")
     page.screenshot(path=str(OUT / "desktop-03-comptes-cartes.png"), full_page=True)
 
+    # ---------- Trouver ma carte (questions rapides, non publié, URL, devise) ----------
+    page.get_by_test_id("subview-carte").click()
+    page.wait_for_timeout(300)
+    check(page.get_by_test_id("finder-carte").is_visible(), "sous-vue « Trouver ma carte » affichée dans Comptes & cartes")
+    page.get_by_test_id("preset-visa-moins-chere").click()
+    page.wait_for_timeout(300)
+    exp, price = expected_cheapest("reseau", "visa", "2026-11-18")
+    got = first_card(page)
+    check(got in exp and page.locator(f"[data-testid='pcard-{got}'] [data-testid=tag-cheapest]").count() == 1,
+          f"« Visa la moins chère » : {got} en tête, étiquetée « La moins chère » (attendu d'après les données : {sorted(exp)}, {price} XPF/an)")
+    check(str(price)[:-3] + " " + str(price)[-3:] in text(page.locator(f"[data-testid='pcard-{got}'] [data-testid=pcost-value]")), "« Visa la moins chère » : cotisation affichée")
+    pre = text(page.locator("[data-testid=pcard-bt-visa-infinite] [data-testid=pcost]"))
+    check("55 843" in pre and "NOUVELLE GRILLE AU 01/01/2027" in pre.upper() and "56 960" in pre, "18/11/2026 : Visa Infinite BT 55 843, nouvelle grille 56 960 annoncée")
+    check("reseau=visa" in page.url and "vue=carte" in page.url, f"question rapide reflétée dans l'URL ({page.url.split('?')[-1]})")
+    check(page.get_by_test_id("preset-visa-moins-chere").get_attribute("aria-pressed") == "true", "question rapide active : aria-pressed")
+    page.get_by_test_id("preset-sans-contact-moins-chere").click()
+    page.wait_for_timeout(300)
+    exp, price = expected_cheapest("sans_contact", True, "2026-11-18")
+    got = first_card(page)
+    check(got in exp and page.locator(f"[data-testid='pcard-{got}'] [data-testid=tag-cheapest]").count() == 1,
+          f"« Sans contact la moins chère » : {got} en tête (attendu d'après les données : {sorted(exp)}, {price} XPF/an)")
+    unknown = [c.get_attribute("data-testid") for c in page.locator("[data-testid=finder-unknown] .pcard").all()]
+    check("pcard-marara-fenua" in unknown, f"carte au sans contact non publié listée « à vérifier », pas comptée comme « oui » ({len(unknown)} à vérifier)")
+    check(page.locator("[data-testid=finder-results] [data-testid=pcard-socredo-classic]").count() == 0, "carte « sans contact : Non » exclue")
+    page.locator("label:has([data-testid=include-unknown])").click()
+    page.wait_for_timeout(200)
+    check(page.locator("[data-testid=finder-unknown]").count() == 0 and "np=0" in page.url, "option « masquer les non publié » (et dans l'URL)")
+    page.locator("label:has([data-testid=include-unknown])").click()
+    page.get_by_test_id("cur-EUR").click()
+    page.wait_for_timeout(200)
+    check("€" in text(page.locator("[data-testid=pcost-value]").first), f"bascule € dans les résultats ({text(page.locator('[data-testid=pcost-value]').first)})")
+    page.get_by_test_id("cur-XPF").click()
+    page.screenshot(path=str(OUT / "desktop-08-trouver-ma-carte.png"), full_page=True)
+    page.get_by_test_id("preset-carte-jeune").click()
+    page.wait_for_timeout(300)
+    check(page.locator("[data-testid=pcard-socredo-uru-jeunes]").count() == 1 and "via offre groupée" in text(page.get_by_test_id("pcard-socredo-uru-jeunes")),
+          "« Carte jeune » : carte vendue en offre groupée affichée « via offre groupée »")
+    page.get_by_test_id("finder-reset").click()
+    page.get_by_test_id("subview-compare").click()
+    page.wait_for_timeout(200)
+    check("vue=" not in page.url and page.locator(".card").count() == 4, "retour à la comparaison : URL nettoyée, fiches établissements")
+
+    # Lien partagé : ouverture directe de la vue filtrée
+    page.goto(URL + "?vue=carte&reseau=visa&etranger=1&tri=frais_etranger")
+    page.wait_for_load_state("networkidle")
+    page.wait_for_timeout(500)
+    check(page.get_by_test_id("finder-carte").is_visible() and page.get_by_test_id("f-carte-reseau-visa").is_checked(), "lien partagé : vue et filtres restaurés")
+    check(page.get_by_test_id("finder-sort").input_value() == "frais_etranger", "lien partagé : tri restauré")
+
     page.get_by_test_id("tab-epargne").click()
     page.wait_for_timeout(400)
     check(page.locator(".card").first.get_attribute("data-testid") == "card-bt", "épargne : meilleur livret (BT 0,30 %) en premier")
@@ -163,6 +238,16 @@ with sync_playwright() as p:
     page.wait_for_timeout(300)
     bt = text(page.get_by_test_id("card-bt"))
     check("23 008" in bt and "5 012" in bt and "1 431" in bt, "02/01/2027 : Visa Premier 23 008, rejet chèque 5 012, rejet prélèvement 1 431")
+    page.get_by_test_id("subview-carte").click()
+    page.get_by_test_id("preset-haut-de-gamme").click()
+    page.wait_for_timeout(300)
+    inf = text(page.locator("[data-testid=pcard-bt-visa-infinite] [data-testid=pcost]"))
+    check("56 960" in inf and "55 843" not in inf and "NOUVELLE GRILLE" not in inf.upper(), f"02/01/2027 : Trouver ma carte, Visa Infinite BT à 56 960 (grille 2027) ({inf.splitlines()[0]})")
+    exp, price = expected_cheapest("sans_contact", True, "2027-01-02")
+    page.get_by_test_id("preset-sans-contact-moins-chere").click()
+    page.wait_for_timeout(300)
+    check(first_card(page) in exp, f"02/01/2027 : « Sans contact la moins chère » cohérente avec les données ({sorted(exp)})")
+    page.get_by_test_id("subview-compare").click()
     page.get_by_test_id("tab-simu").click()
     page.wait_for_timeout(300)
     opt = text(page.get_by_test_id("preset"))
@@ -186,6 +271,21 @@ with sync_playwright() as p:
     m.screenshot(path=str(OUT / "mobile-03-tableau.png"), full_page=False)
     overflow = m.evaluate("document.documentElement.scrollWidth - 390")
     check(overflow <= 0, f"mobile tableau : défilement contenu dans le tableau ({overflow}px)")
+    m.goto(URL + "?vue=carte&sans_contact=1")
+    m.wait_for_load_state("networkidle")
+    m.wait_for_timeout(700)
+    exp, _ = expected_cheapest("sans_contact", True, datetime.date.today().isoformat())
+    check(first_card(m) in exp, "mobile : « Sans contact la moins chère » via lien partagé")
+    m.get_by_test_id("facets-toggle").click()
+    m.wait_for_timeout(200)
+    overflow = m.evaluate("document.documentElement.scrollWidth - 390")
+    check(overflow <= 0, f"mobile Trouver ma carte (filtres ouverts) : pas de débordement horizontal ({overflow}px)")
+    m.locator("[data-testid=pmore] summary, .pmore summary").first.click()
+    overflow = m.evaluate("document.documentElement.scrollWidth - 390")
+    check(overflow <= 0, f"mobile Trouver ma carte (détails ouverts) : pas de débordement horizontal ({overflow}px)")
+    m.screenshot(path=str(OUT / "mobile-06-trouver-ma-carte.png"), full_page=True)
+    m.goto(URL)
+    m.wait_for_load_state("networkidle")
     run_simulator(m)
     check(abs(digits(m.get_by_test_id("res-pret").inner_text()) - 18285042) <= 1, "mobile : simulateur identique")
     overflow = m.evaluate("document.documentElement.scrollWidth - 390")

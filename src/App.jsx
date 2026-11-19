@@ -1,8 +1,10 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { data, fieldsOf, fmtDate, fmtNum, fmtMoney, sourceOf, bankById } from './lib/data.js';
 import Simulator from './Simulator.jsx';
 import { SourceChip, MarketPanel } from './common.jsx';
 import { fraisDossier } from './lib/simulator.js';
+import Finder from './Finder.jsx';
+import { defaultState, paramsToState, rowsOf, stateToParams } from './lib/catalog.js';
 
 const TABS = [...data.categories, { id: 'simu', label: 'Simulateur' }];
 const DEFAULT_SORT = { immo: 'immo_frais_dossier', compte: 'cpt_tenue', epargne: 'ep_livret', conso: 'conso_frais_dossier' };
@@ -13,6 +15,19 @@ const MARKET_BY_CAT = {
   conso: ['ieom_conso', 'usure_conso', 'lp2025_21_ira'],
 };
 const BEST_LABEL = { lower: 'Le plus bas', higher: 'Le plus élevé' };
+
+// Vues « trouver un produit » (catalogues déclarés dans les données), rattachées à une rubrique.
+const CATALOGS = data.catalogs || [];
+const ROWS = Object.fromEntries(CATALOGS.map((c) => [c.id, rowsOf(c, data.products || [])]));
+const FIELD_OPTIONS = { bank: data.banks.map((b) => ({ value: b.id, label: b.short })) };
+const VIEW_PARAM = 'vue';
+/** État initial lu dans l'URL (?vue=<catalogue>&filtres…), pour des liens partageables. */
+function initialView() {
+  const params = new URLSearchParams(typeof window !== 'undefined' ? window.location.search : '');
+  const c = CATALOGS.find((x) => x.id === params.get(VIEW_PARAM));
+  const states = Object.fromEntries(CATALOGS.map((x) => [x.id, x === c ? paramsToState(x, params, FIELD_OPTIONS) : defaultState(x)]));
+  return { tab: c?.category, sub: c ? { [c.category]: c.id } : {}, states };
+}
 
 /** Valeur de classement : coût réel pour le montant saisi (frais de dossier), sinon `num`. */
 function sortValue(e, field, amount) {
@@ -202,7 +217,10 @@ function Sources() {
 }
 
 export default function App() {
-  const [tab, setTab] = useState('immo');
+  const [init] = useState(initialView);
+  const [tab, setTab] = useState(init.tab || 'immo');
+  const [sub, setSub] = useState(init.sub);
+  const [finder, setFinder] = useState(init.states);
   const [cur, setCur] = useState('XPF');
   const [only, setOnly] = useState(null);
   const [view, setView] = useState('cards');
@@ -225,6 +243,18 @@ export default function App() {
     return acc;
   }, {});
   const m = data.market;
+  const catalogsHere = CATALOGS.filter((c) => c.category === tab);
+  const activeCatalog = catalogsHere.find((c) => c.id === sub[tab]);
+
+  // URL partageable : ?vue=<catalogue>&<filtres> tant que la vue « trouver » est affichée.
+  useEffect(() => {
+    if (init.tab) document.querySelector('.finder')?.scrollIntoView({ block: 'start' });
+  }, [init]);
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    const next = activeCatalog ? `?${new URLSearchParams([[VIEW_PARAM, activeCatalog.id], ...stateToParams(activeCatalog, finder[activeCatalog.id])])}` : '';
+    if (url.search !== next) window.history.replaceState(null, '', `${url.pathname}${next}${url.hash}`);
+  }, [activeCatalog, finder]);
 
   // Onglets au clavier (motif ARIA « tabs ») : flèches gauche/droite, Début/Fin ; activation automatique.
   const onTabKey = (e) => {
@@ -259,7 +289,7 @@ export default function App() {
             <span className="h1-main">Comparez</span>
             <span className="h1-sub">les banques du Fenua</span>
           </h1>
-          <p className="lede">Crédit immobilier, frais de compte, épargne et crédit à la consommation en Polynésie française : les grilles tarifaires en vigueur mises côte à côte, avec leur source. Ce qui n’est pas publié est marqué comme tel.</p>
+          <p className="lede">Crédit immobilier, frais de compte et cartes bancaires, épargne et crédit à la consommation en Polynésie française : les grilles tarifaires en vigueur mises côte à côte, avec leur source. Ce qui n’est pas publié est marqué comme tel.</p>
         </div>
         <div className="ledger" aria-label="Repères IEOM et Banque de France">
           {[['ieom_habitat', 'Crédit habitat'], ['ieom_conso', 'Prêt personnel'], ['usure_habitat', 'Usure immo ≥ 20 ans']].map(([id, lbl], i) => (
@@ -289,6 +319,18 @@ export default function App() {
         <div role="tabpanel" id={`panel-${tab}`} aria-labelledby={`tab-${tab}`} data-testid="tabpanel">
         {isData ? (
           <section className="offers" aria-label={TABS.find((t) => t.id === tab).label}>
+            {catalogsHere.length > 0 && (
+              <div className="subviews seg" role="group" aria-label="Affichage de la rubrique">
+                <button type="button" className={!activeCatalog ? 'on' : ''} aria-pressed={!activeCatalog} onClick={() => setSub({ ...sub, [tab]: null })} data-testid="subview-compare">Comparer les banques</button>
+                {catalogsHere.map((c) => (
+                  <button key={c.id} type="button" className={activeCatalog?.id === c.id ? 'on' : ''} aria-pressed={activeCatalog?.id === c.id} onClick={() => setSub({ ...sub, [tab]: c.id })} data-testid={`subview-${c.id}`}>{c.label}</button>
+                ))}
+              </div>
+            )}
+            {activeCatalog ? (
+              <Finder catalog={activeCatalog} rows={ROWS[activeCatalog.id]} banks={data.banks} cur={cur} state={finder[activeCatalog.id]}
+                onChange={(st) => setFinder({ ...finder, [activeCatalog.id]: st })} />
+            ) : (<>
             <div className="controls">
               <div className="chips" role="group" aria-label="Établissement">
                 <button className={!only ? 'chip active' : 'chip'} onClick={() => setOnly(null)}>Tous</button>
@@ -334,6 +376,7 @@ export default function App() {
               ? <Cards banks={banks} fields={fields} sortField={sortField} hideNP={hideNP} cur={cur} best={best} amounts={amounts} />
               : <Table banks={banks} fields={fields} hideNP={hideNP} cur={cur} amounts={amounts} />}
             {sortField?.costFor && <p className="hint" data-testid="cost-hint">Classement par frais de dossier : coût réel pour le montant saisi, soit max(% × montant, minimum) selon chaque grille ; une banque au minimum bas n’est pas forcément la moins chère pour un gros prêt.</p>}
+            </>)}
             <MarketPanel ids={MARKET_BY_CAT[tab]} />
           </section>
         ) : (

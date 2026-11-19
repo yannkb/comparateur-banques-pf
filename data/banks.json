@@ -884,6 +884,252 @@
       "accessed": "2026-11-18",
       "short": "Polynésie 1ère",
       "snapshot": "data/sources/la1ere_ptz_2026_11.txt"
+    },
+    "socredo_cartes": {
+      "title": "Découvrir nos cartes bancaires (comparateur de cartes)",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/cartes-bancaires",
+      "dateLabel": "page non datée (comparateur : colonnes Socredo Classic, Socredo Gold, Visa Classic, Visa Premier)",
+      "accessed": "2026-11-18",
+      "short": "Comparateur de cartes",
+      "snapshot": "data/sources/socredo_cartes.txt"
+    },
+    "socredo_carte_classic": {
+      "title": "Carte SOCREDO Classic",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/produit/socredo-classic",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "SOCREDO Classic",
+      "snapshot": "data/sources/socredo_carte_classic.txt"
+    },
+    "socredo_carte_gold": {
+      "title": "Carte SOCREDO Gold",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/produit/socredo-gold",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "SOCREDO Gold",
+      "snapshot": "data/sources/socredo_carte_gold.txt"
+    },
+    "socredo_visa_classic": {
+      "title": "Carte VISA Classic",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/produit/visa-classic",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "VISA Classic",
+      "snapshot": "data/sources/socredo_visa_classic.txt"
+    },
+    "socredo_visa_premier": {
+      "title": "Carte VISA Premier",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/produit/visa-premier",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "VISA Premier",
+      "snapshot": "data/sources/socredo_visa_premier.txt"
+    },
+    "socredo_socpay": {
+      "title": "SOCPAY – Paiement mobile",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/comptes-et-cartes/socpay-paiement-mobile",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "SOCPAY",
+      "snapshot": "data/sources/socredo_socpay.txt"
+    },
+    "bt_carte_tiare": {
+      "title": "La carte Visa Tiare",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/la-carte-visa-tiare",
+      "dateLabel": "page non datée (tarif affiché : en vigueur au 01/01/2025)",
+      "accessed": "2026-11-18",
+      "short": "Carte Tiare",
+      "snapshot": "data/sources/bt_carte_tiare.txt"
+    },
+    "bt_visa_classic": {
+      "title": "Les cartes Visa Classic",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/les-cartes-visa-classic",
+      "dateLabel": "page non datée (tarifs affichés : en vigueur au 01/01/2025)",
+      "accessed": "2026-11-18",
+      "short": "Visa Classic",
+      "snapshot": "data/sources/bt_visa_classic.txt"
+    },
+    "bt_visa_as": {
+      "title": "La carte Visa Classic à autorisation systématique",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/la-carte-visa-autorisation-systematique",
+      "dateLabel": "page non datée (tarif affiché : en vigueur au 01/01/2025)",
+      "accessed": "2026-11-18",
+      "short": "Visa à autorisation systématique",
+      "snapshot": "data/sources/bt_visa_as.txt"
+    },
+    "bt_visa_premier": {
+      "title": "La carte Visa Premier",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/la-carte-visa-premium",
+      "dateLabel": "page non datée (tarifs affichés : en vigueur au 01/01/2025)",
+      "accessed": "2026-11-18",
+      "short": "Visa Premier",
+      "snapshot": "data/sources/bt_visa_premier.txt"
+    },
+    "bt_visa_infinite": {
+      "title": "La carte Visa Infinite",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/la-carte-visa-infinite-0",
+      "dateLabel": "page non datée (tarif affiché : en vigueur au 01/01/2025)",
+      "accessed": "2026-11-18",
+      "short": "Visa Infinite",
+      "snapshot": "data/sources/bt_visa_infinite.txt"
+    },
+    "bt_contrat_porteur": {
+      "title": "Contrat porteur carte – Conditions générales (particuliers)",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/sites/default/files/2025-08/BT%20-%20CONTRAT%20PORTEUR%20CARTE%20-%20PART%20-%20Conditions%20G%C3%A9n%C3%A9rales.pdf",
+      "documentDate": "2025-10",
+      "dateLabel": "version d’octobre 2025",
+      "accessed": "2026-11-18",
+      "short": "Contrat porteur carte",
+      "snapshot": "data/sources/bt_contrat_porteur.txt"
+    },
+    "bt_cgu_apple_pay": {
+      "title": "Conditions générales d’utilisation de la carte Visa dans Apple Pay",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/sites/default/files/BT%20-%20CGU%20-%20Apple%20Pay.pdf",
+      "documentDate": "2025-08",
+      "dateLabel": "version d’août 2025",
+      "accessed": "2026-11-18",
+      "short": "CGU Apple Pay",
+      "snapshot": "data/sources/bt_cgu_apple_pay.txt"
+    },
+    "bt_cgu_google_pay": {
+      "title": "Conditions générales d’utilisation de la carte Visa dans Google Pay",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/sites/default/files/BT%20-%20CGU%20-%20Google%20Pay.pdf",
+      "dateLabel": "document non daté",
+      "accessed": "2026-11-18",
+      "short": "CGU Google Pay",
+      "snapshot": "data/sources/bt_cgu_google_pay.txt"
+    },
+    "bt_cgu_samsung_pay": {
+      "title": "Conditions générales d’utilisation de la carte Visa dans Samsung Pay",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/sites/default/files/BT%20-%20CGU%20-%20Samsung%20Pay.pdf",
+      "dateLabel": "document non daté",
+      "accessed": "2026-11-18",
+      "short": "CGU Samsung Pay",
+      "snapshot": "data/sources/bt_cgu_samsung_pay.txt"
+    },
+    "bt_paiement_mobile": {
+      "title": "Réglez vos achats avec votre smartphone et/ou votre montre",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/particuliers/reglez-vos-achats-avec-votre-smartphone-et-ou-votre-montre",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "Paiement mobile",
+      "snapshot": "data/sources/bt_paiement_mobile.txt"
+    },
+    "bdp_visa_classique": {
+      "title": "La carte Visa Classique",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/particuliers/gerez-votre-argent-a-quotidien/les-cartes/la-carte-bleue-visa-internationale/",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "Visa Classique",
+      "snapshot": "data/sources/bdp_visa_classique.txt"
+    },
+    "bdp_visa_premier": {
+      "title": "La carte Visa Premier",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/particuliers/gerez-votre-argent-a-quotidien/les-cartes/la-carte-visa-premier/",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "Visa Premier",
+      "snapshot": "data/sources/bdp_visa_premier.txt"
+    },
+    "bdp_visa_red": {
+      "title": "La carte Visa Red",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/particuliers/gerez-votre-argent-a-quotidien/les-cartes/la-carte-visa-red/",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "Visa Red",
+      "snapshot": "data/sources/bdp_visa_red.txt"
+    },
+    "bdp_carte_hoa": {
+      "title": "La carte HOA Privative",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/particuliers/gerez-votre-argent-a-quotidien/les-cartes/la-carte-hoa-privative/",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "Carte HOA",
+      "snapshot": "data/sources/bdp_carte_hoa.txt"
+    },
+    "bdp_fenuapay": {
+      "title": "FenuaPay",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/particuliers/fenuapay/",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "FenuaPay",
+      "snapshot": "data/sources/bdp_fenuapay.txt"
+    },
+    "marara_cartes_visa": {
+      "title": "Les cartes CB-VISA (particuliers)",
+      "publisher": "MARARA Paiement (groupe OPT)",
+      "url": "https://www.mararapaiement.pf/les-cartes-visa-particuliers/",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "Cartes CB-VISA",
+      "snapshot": "data/sources/marara_cartes_visa.txt"
+    },
+    "marara_cartes_locales": {
+      "title": "Les cartes FENUA (particuliers)",
+      "publisher": "MARARA Paiement (groupe OPT)",
+      "url": "https://www.mararapaiement.pf/les-cartes-locales-particuliers/",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "Cartes FENUA",
+      "snapshot": "data/sources/marara_cartes_locales.txt"
+    },
+    "marara_kaveka": {
+      "title": "La carte FENUA-KAVEKA",
+      "publisher": "MARARA Paiement (groupe OPT)",
+      "url": "https://www.mararapaiement.pf/la-carte-fenua-kaveka-2/",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "Carte FENUA-KAVEKA",
+      "snapshot": "data/sources/marara_kaveka.txt"
+    },
+    "marara_fenuapay": {
+      "title": "FenuaPay",
+      "publisher": "MARARA Paiement (groupe OPT)",
+      "url": "https://www.mararapaiement.pf/fenuapay/",
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-18",
+      "short": "FenuaPay",
+      "snapshot": "data/sources/marara_fenuapay.txt"
+    },
+    "marara_cgu_visa": {
+      "title": "Demande de carte CB-VISA et conditions générales d’utilisation",
+      "publisher": "MARARA Paiement (groupe OPT)",
+      "url": "https://www.mararapaiement.pf/wp-content/uploads/2026/07/DOC_MP_30072026_Formulaire_CGU.CB-VISA.pdf",
+      "documentDate": "2026-07-30",
+      "dateLabel": "formulaire du 30/07/2026",
+      "accessed": "2026-11-18",
+      "short": "CGU CB-VISA",
+      "snapshot": "data/sources/marara_cgu_visa.txt"
+    },
+    "apple_pay_banques": {
+      "title": "Banques partenaires d’Apple Pay en Afrique, en Europe, au Moyen-Orient et en Inde",
+      "publisher": "Apple",
+      "url": "https://support.apple.com/fr-fr/109516",
+      "dateLabel": "page mise à jour en continu (rubrique France)",
+      "accessed": "2026-11-18",
+      "short": "Banques Apple Pay",
+      "snapshot": "data/sources/apple_pay_banques.txt"
     }
   },
   "banks": [
@@ -2810,5 +3056,4306 @@
         ]
       }
     ]
-  }
+  },
+  "products": [
+    {
+      "id": "socredo-classic",
+      "kind": "carte",
+      "bank": "socredo",
+      "name": "Carte SOCREDO Classic",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Privative SOCREDO + UnionPay International",
+          "code": "upi",
+          "source": "socredo_carte_classic",
+          "quote": "Retrouvez la liste des commerçants et distributeurs internationaux acceptant nos cartes SOCREDO CLASSIC sur le site de notre partenaire UnionPay International"
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Carte locale",
+          "code": "locale",
+          "source": "socredo_cartes",
+          "quote": "SOCREDO Classic Une carte locale accessible à tous"
+        },
+        "debit": {
+          "status": "found",
+          "value": "Autorisation systématique (débit immédiat)",
+          "code": "autorisation",
+          "source": "socredo_tarifs_2026",
+          "quote": "Carte privative - à autorisation systématique Carte SOCREDO Classic 3 786"
+        },
+        "cotisation": {
+          "status": "found",
+          "value": "3 786 XPF/an",
+          "num": 3786,
+          "source": "socredo_tarifs_2026",
+          "quote": "Carte SOCREDO Classic 3 786"
+        },
+        "packages": [
+          {
+            "name": "HIVA PLUS Essentiel",
+            "audience": "tous",
+            "status": "found",
+            "value": "HIVA PLUS Essentiel : 900 XPF/mois",
+            "num": 900,
+            "source": "socredo_tarifs_2026",
+            "quote": "HIVA PLUS Essentiel (avec la carte SOCREDO Classic) 900",
+            "note": "Inclut compte, assurance MANINA Pocket, ALLOSOC, SOCMS, WEBSOC."
+          }
+        ],
+        "international": {
+          "status": "found",
+          "value": "Oui (réseau UnionPay)",
+          "code": true,
+          "source": "socredo_carte_classic",
+          "quote": "La carte SOCREDO classic est une carte locale valable en Polynésie et à l’étranger"
+        },
+        "sans_contact": {
+          "status": "found",
+          "value": "Non",
+          "code": false,
+          "source": "socredo_cartes",
+          "quote": "Sans contact Non Non Oui Oui",
+          "note": "Comparateur de la banque : colonnes Socredo Classic, Socredo Gold, Visa Classic, Visa Premier."
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "mobile_local": {
+          "status": "found",
+          "value": "Oui (SOCPAY : QR code)",
+          "code": true,
+          "source": "socredo_socpay",
+          "quote": "Le paiement mobile SOCPAY est destiné aux clients : équipés d'une carte bancaire privative SOCREDO (CLASSIC ou GOLD)"
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui (3-D Secure ; sites acceptant UnionPay, liste encore restreinte)",
+          "code": true,
+          "source": "socredo_carte_classic",
+          "quote": "Grâce au système 3D Secure, vous réglez vos achats sur Internet en toute sécurité",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Sites UnionPay restreints",
+              "source": "socredo_cartes",
+              "quote": "Le partenariat avec Union Pay International étant récent, la liste des sites web marchand acceptant notre carte privative est actuellement restreinte"
+            }
+          ]
+        },
+        "plafond_paiement": {
+          "status": "found",
+          "value": "À hauteur du disponible en PF ; 1 000 000 XPF / 30 j à l’étranger",
+          "num": 1000000,
+          "source": "socredo_carte_classic",
+          "quote": "International 200 000 F CFP sur 7 jours glissants à hauteur du disponible 1 000 000 F CFP sur 30 jours glissants"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "200 000 XPF/jour (DAB SOCREDO)",
+          "num": 200000,
+          "source": "socredo_carte_classic",
+          "quote": "200 000 F CFP par jour sur les distributeurs SOCREDO"
+        },
+        "frais_etranger": {
+          "status": "found",
+          "value": "2,50 % hors zone euro (gratuit en PF et zone euro)",
+          "num": 2.5,
+          "source": "socredo_tarifs_2026",
+          "quote": "Paiement par carte (par opération) En Polynésie francaise et zone euro Gratuit Hors zone euro 2,50%"
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit (XPF, automate SOCREDO)",
+          "num": 0,
+          "source": "socredo_tarifs_2026",
+          "quote": "en XPF sur automate SOCREDO Gratuit"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "120 XPF/retrait",
+          "num": 120,
+          "source": "socredo_tarifs_2026",
+          "quote": "en XPF sur automate autre banque locale (par opération) 120"
+        },
+        "retrait_etranger": {
+          "status": "found",
+          "value": "1,50 € en XPF/euro ; 1,50 € + 2,50 % en devise",
+          "source": "socredo_tarifs_2026",
+          "quote": "Hors de Polynésie française, avec carte SOCREDO en XPF ou EURO (commission par opération) 1,50 euro en devise (hors EURO) (commission par opération) 1,50 euro + 2,50%"
+        },
+        "assurance": {
+          "status": "found",
+          "value": "Assistance médicale, judiciaire ; accident voyage",
+          "code": "base",
+          "source": "socredo_carte_classic",
+          "quote": "Assistance médicale et rapatriement Assistance judiciaire Assurance Assurance individuelle accident voyage"
+        },
+        "conditions": {
+          "status": "found",
+          "value": "Accessible à tous",
+          "source": "socredo_cartes",
+          "quote": "Une carte locale accessible à tous"
+        }
+      }
+    },
+    {
+      "id": "socredo-gold",
+      "kind": "carte",
+      "bank": "socredo",
+      "name": "Carte SOCREDO Gold",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Privative SOCREDO + UnionPay International",
+          "code": "upi",
+          "source": "socredo_carte_gold",
+          "quote": "Accédez à de nombreux avantages et réductions sur les offres partenaires du réseau UnionPay international"
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Carte locale haut de gamme",
+          "code": "premium",
+          "source": "socredo_cartes",
+          "quote": "SOCREDO Gold Une carte locale haut de gamme"
+        },
+        "debit": {
+          "status": "found",
+          "value": "Autorisation systématique (débit immédiat)",
+          "code": "autorisation",
+          "source": "socredo_carte_gold",
+          "quote": "Grâce au débit immédiat et à la vérification de votre solde avant chaque opération",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Grille : carte privative à autorisation systématique",
+              "source": "socredo_tarifs_2026",
+              "quote": "Carte privative - à autorisation systématique Carte SOCREDO Classic 3 786 Carte SOCREDO Classic supplémentaire délivrée sur le même compte 2 400 Carte SOCREDO Gold 13 000"
+            }
+          ]
+        },
+        "cotisation": {
+          "status": "found",
+          "value": "13 000 XPF/an",
+          "num": 13000,
+          "source": "socredo_tarifs_2026",
+          "quote": "Carte SOCREDO Gold 13 000"
+        },
+        "packages": [
+          {
+            "name": "HIVA PLUS Privilège",
+            "audience": "tous",
+            "status": "found",
+            "value": "HIVA PLUS Privilège : 1 800 XPF/mois",
+            "num": 1800,
+            "source": "socredo_tarifs_2026",
+            "quote": "HIVA PLUS Privilège (avec la carte SOCREDO Gold) 1 800",
+            "note": "Inclut compte, assurance MANINA Pocket, ALLOSOC, SOCMS, WEBSOC."
+          }
+        ],
+        "international": {
+          "status": "found",
+          "value": "Oui (réseau UnionPay)",
+          "code": true,
+          "source": "socredo_carte_gold",
+          "quote": "La carte SOCREDO Gold est une carte locale haut de gamme valable en Polynésie et à l’étranger"
+        },
+        "sans_contact": {
+          "status": "found",
+          "value": "Non",
+          "code": false,
+          "source": "socredo_cartes",
+          "quote": "Sans contact Non Non Oui Oui",
+          "note": "Comparateur de la banque : colonnes Socredo Classic, Socredo Gold, Visa Classic, Visa Premier."
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "mobile_local": {
+          "status": "found",
+          "value": "Oui (SOCPAY : QR code)",
+          "code": true,
+          "source": "socredo_socpay",
+          "quote": "Le paiement mobile SOCPAY est destiné aux clients : équipés d'une carte bancaire privative SOCREDO (CLASSIC ou GOLD)"
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui (3-D Secure ; sites acceptant UnionPay)",
+          "code": true,
+          "source": "socredo_carte_gold",
+          "quote": "Grâce au système 3D Secure, vous réglez vos achats sur Internet en toute sécurité"
+        },
+        "plafond_paiement": {
+          "status": "found",
+          "value": "À hauteur du disponible en PF ; 3 000 000 XPF / 30 j à l’étranger",
+          "num": 3000000,
+          "source": "socredo_carte_gold",
+          "quote": "International 500 000 F CFP sur 7 jours glissants à hauteur du disponible 3 000 000 F CFP sur 30 jours glissants"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "500 000 XPF/jour (DAB SOCREDO)",
+          "num": 500000,
+          "source": "socredo_carte_gold",
+          "quote": "500 000 F CFP par jour* sur les distributeurs SOCREDO"
+        },
+        "frais_etranger": {
+          "status": "found",
+          "value": "2,50 % hors zone euro (gratuit en PF et zone euro)",
+          "num": 2.5,
+          "source": "socredo_tarifs_2026",
+          "quote": "Paiement par carte (par opération) En Polynésie francaise et zone euro Gratuit Hors zone euro 2,50%"
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit (XPF, automate SOCREDO)",
+          "num": 0,
+          "source": "socredo_tarifs_2026",
+          "quote": "en XPF sur automate SOCREDO Gratuit"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "120 XPF/retrait",
+          "num": 120,
+          "source": "socredo_tarifs_2026",
+          "quote": "en XPF sur automate autre banque locale (par opération) 120"
+        },
+        "retrait_etranger": {
+          "status": "found",
+          "value": "1,50 € en XPF/euro ; 1,50 € + 2,50 % en devise",
+          "source": "socredo_tarifs_2026",
+          "quote": "Hors de Polynésie française, avec carte SOCREDO en XPF ou EURO (commission par opération) 1,50 euro en devise (hors EURO) (commission par opération) 1,50 euro + 2,50%"
+        },
+        "assurance": {
+          "status": "found",
+          "value": "Garanties voyage étendues (annulation, bagages, location…)",
+          "code": "etendue",
+          "source": "socredo_carte_gold",
+          "quote": "Annulation / modification / interruption de voyage Perte / vol / détérioration de bagages"
+        },
+        "conditions": {
+          "status": "not_published",
+          "checked": [
+            "socredo_carte_gold",
+            "socredo_cartes"
+          ]
+        }
+      }
+    },
+    {
+      "id": "socredo-visa-classic",
+      "kind": "carte",
+      "bank": "socredo",
+      "name": "Visa Classic",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Visa",
+          "code": "visa",
+          "source": "socredo_visa_classic",
+          "quote": "Une carte de retrait et de paiement internationale du réseau VISA"
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Classic",
+          "code": "essentielle",
+          "source": "socredo_cartes",
+          "quote": "VISA Classic Une carte de retrait et de paiement internationale du réseau VISA"
+        },
+        "packages": [
+          {
+            "name": "HIVA PLUS Référence",
+            "audience": "tous",
+            "status": "found",
+            "value": "HIVA PLUS Référence : 1 100 XPF/mois",
+            "num": 1100,
+            "source": "socredo_tarifs_2026",
+            "quote": "HIVA PLUS Référence (avec la carte VISA Classic) 1 100",
+            "note": "Inclut compte, assurance MANINA Pocket, ALLOSOC, SOCMS, WEBSOC."
+          }
+        ],
+        "international": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "socredo_visa_classic",
+          "quote": "La carte Visa Classic est une carte de débit internationale"
+        },
+        "sans_contact": {
+          "status": "found",
+          "value": "Oui (moins de 3 680 XPF sans code)",
+          "code": true,
+          "source": "socredo_visa_classic",
+          "quote": "La fonctionnalité de paiement sans contact* vous permet de régler les montants inférieurs à 3 680 F CFP sans avoir à saisir votre code confidentiel",
+          "extra": [
+            {
+              "status": "found",
+              "value": "FAQ",
+              "source": "socredo_faq",
+              "quote": "Seules les cartes VISA Classique et VISA Premier sont équipées de la fonctionnalité de paiement sans contact."
+            }
+          ]
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "mobile_local": {
+          "status": "found",
+          "value": "Non (SOCPAY réservé aux cartes privatives)",
+          "code": false,
+          "source": "socredo_socpay",
+          "quote": "Le paiement mobile SOCPAY est destiné aux clients : équipés d'une carte bancaire privative SOCREDO (CLASSIC ou GOLD)"
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui (3-D Secure)",
+          "code": true,
+          "source": "socredo_visa_classic",
+          "quote": "Grâce au système 3D Secure, vous réglez vos achats sur Internet en toute sécurité"
+        },
+        "plafond_paiement": {
+          "status": "found",
+          "value": "300 000 XPF / 30 jours glissants",
+          "num": 300000,
+          "source": "socredo_visa_classic",
+          "quote": "Local 40 000 F CFP sur 7 jours 300 000 F CFP sur 30 jours glissants"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "40 000 XPF / 7 jours",
+          "num": 40000,
+          "source": "socredo_visa_classic",
+          "quote": "Local 40 000 F CFP sur 7 jours"
+        },
+        "frais_etranger": {
+          "status": "found",
+          "value": "2,50 % hors zone euro (gratuit en PF et zone euro)",
+          "num": 2.5,
+          "source": "socredo_tarifs_2026",
+          "quote": "Paiement par carte (par opération) En Polynésie francaise et zone euro Gratuit Hors zone euro 2,50%"
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit (XPF, automate SOCREDO)",
+          "num": 0,
+          "source": "socredo_tarifs_2026",
+          "quote": "en XPF sur automate SOCREDO Gratuit"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "120 XPF/retrait",
+          "num": 120,
+          "source": "socredo_tarifs_2026",
+          "quote": "en XPF sur automate autre banque locale (par opération) 120"
+        },
+        "retrait_etranger": {
+          "status": "found",
+          "value": "Gratuit en XPF/euro ; 1,50 € + 2,50 % en devise",
+          "source": "socredo_tarifs_2026",
+          "quote": "Hors de Polynésie française, avec CBI en XPF ou EURO Gratuit en devise (hors EURO), (commission par opération) 1,50 euro + 2,50%"
+        },
+        "assurance": {
+          "status": "found",
+          "value": "Assistance médicale, judiciaire ; accident voyage",
+          "code": "base",
+          "source": "socredo_visa_classic",
+          "quote": "Assistance médicale et rapatriement Assistance judiciaire Assurance Assurance individuelle accident voyage"
+        },
+        "conditions": {
+          "status": "found",
+          "value": "Sous réserve d’acceptation de la banque",
+          "source": "socredo_visa_classic",
+          "quote": "La carte Visa Classic est délivrée après étude préalable et sous réserve d’acceptation de la Banque SOCREDO"
+        }
+      },
+      "variants": [
+        {
+          "id": "differe",
+          "label": "débit différé",
+          "attrs": {
+            "debit": {
+              "status": "found",
+              "value": "Débit différé",
+              "code": "differe",
+              "source": "socredo_tarifs_2026",
+              "quote": "Carte internationale (CBI) - à débit différé Carte Visa Classic 5 373"
+            },
+            "cotisation": {
+              "status": "found",
+              "value": "5 373 XPF/an",
+              "num": 5373,
+              "source": "socredo_tarifs_2026",
+              "quote": "Carte internationale (CBI) - à débit différé Carte Visa Classic 5 373"
+            }
+          }
+        },
+        {
+          "id": "immediat",
+          "label": "débit immédiat",
+          "attrs": {
+            "debit": {
+              "status": "found",
+              "value": "Débit immédiat",
+              "code": "immediat",
+              "source": "socredo_tarifs_2026",
+              "quote": "Carte internationale (CBI) - à débit immédiat Carte Visa Classic (Immédiat) 5 666"
+            },
+            "cotisation": {
+              "status": "found",
+              "value": "5 666 XPF/an",
+              "num": 5666,
+              "source": "socredo_tarifs_2026",
+              "quote": "Carte Visa Classic (Immédiat) 5 666"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "socredo-visa-premier",
+      "kind": "carte",
+      "bank": "socredo",
+      "name": "Visa Premier",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Visa",
+          "code": "visa",
+          "source": "socredo_cartes",
+          "quote": "VISA Premier Une carte bancaire internationale haut de gamme du réseau VISA"
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Premier",
+          "code": "premium",
+          "source": "socredo_cartes",
+          "quote": "VISA Premier Une carte bancaire internationale haut de gamme du réseau VISA"
+        },
+        "packages": [
+          {
+            "name": "HIVA PLUS Premium",
+            "audience": "tous",
+            "status": "found",
+            "value": "HIVA PLUS Premium : 2 300 XPF/mois",
+            "num": 2300,
+            "source": "socredo_tarifs_2026",
+            "quote": "HIVA PLUS Premium (avec la carte VISA Premier) 2 300",
+            "note": "Inclut compte, assurance MANINA Pocket, ALLOSOC, SOCMS, WEBSOC."
+          }
+        ],
+        "international": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "socredo_visa_premier",
+          "quote": "Acceptée partout dans le monde, elle vous permet de régler simplement toutes vos dépenses"
+        },
+        "sans_contact": {
+          "status": "found",
+          "value": "Oui (moins de 3 680 XPF sans code)",
+          "code": true,
+          "source": "socredo_visa_premier",
+          "quote": "La fonctionnalité de paiement sans contact* vous permet de régler les montants inférieurs à 3 680 F CFP sans avoir à saisir votre code confidentiel"
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "mobile_local": {
+          "status": "found",
+          "value": "Non (SOCPAY réservé aux cartes privatives)",
+          "code": false,
+          "source": "socredo_socpay",
+          "quote": "Le paiement mobile SOCPAY est destiné aux clients : équipés d'une carte bancaire privative SOCREDO (CLASSIC ou GOLD)"
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui (3-D Secure)",
+          "code": true,
+          "source": "socredo_visa_premier",
+          "quote": "Grâce au système 3D Secure, vous réglez vos achats sur Internet en toute sécurité"
+        },
+        "plafond_paiement": {
+          "status": "found",
+          "value": "1 000 000 XPF / 30 jours glissants",
+          "num": 1000000,
+          "source": "socredo_visa_premier",
+          "quote": "Local 100 000 F CFP sur 7 jours 1 000 000 F CFP sur 30 jours glissants"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "100 000 XPF / 7 jours",
+          "num": 100000,
+          "source": "socredo_visa_premier",
+          "quote": "Local 100 000 F CFP sur 7 jours"
+        },
+        "frais_etranger": {
+          "status": "found",
+          "value": "2,50 % hors zone euro (gratuit en PF et zone euro)",
+          "num": 2.5,
+          "source": "socredo_tarifs_2026",
+          "quote": "Paiement par carte (par opération) En Polynésie francaise et zone euro Gratuit Hors zone euro 2,50%"
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit (XPF, automate SOCREDO)",
+          "num": 0,
+          "source": "socredo_tarifs_2026",
+          "quote": "en XPF sur automate SOCREDO Gratuit"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "120 XPF/retrait",
+          "num": 120,
+          "source": "socredo_tarifs_2026",
+          "quote": "en XPF sur automate autre banque locale (par opération) 120"
+        },
+        "retrait_etranger": {
+          "status": "found",
+          "value": "Gratuit en XPF/euro ; 1,50 € + 2,50 % en devise",
+          "source": "socredo_tarifs_2026",
+          "quote": "Hors de Polynésie française, avec CBI en XPF ou EURO Gratuit en devise (hors EURO), (commission par opération) 1,50 euro + 2,50%"
+        },
+        "assurance": {
+          "status": "found",
+          "value": "Garanties voyage étendues (annulation, bagages, location…)",
+          "code": "etendue",
+          "source": "socredo_visa_premier",
+          "quote": "Annulation / modification / interruption de voyage Perte / vol / détérioration de bagages"
+        },
+        "conditions": {
+          "status": "found",
+          "value": "Sous réserve d’acceptation de la banque",
+          "source": "socredo_visa_premier",
+          "quote": "La carte Visa Premier est délivrée après étude préalable et sous réserve d’acceptation de la Banque SOCREDO"
+        }
+      },
+      "variants": [
+        {
+          "id": "differe",
+          "label": "débit différé",
+          "attrs": {
+            "debit": {
+              "status": "found",
+              "value": "Débit différé",
+              "code": "differe",
+              "source": "socredo_tarifs_2026",
+              "quote": "Carte internationale (CBI) - à débit différé Carte Visa Classic 5 373 Carte Visa Premier 21 700"
+            },
+            "cotisation": {
+              "status": "found",
+              "value": "21 700 XPF/an",
+              "num": 21700,
+              "source": "socredo_tarifs_2026",
+              "quote": "Carte internationale (CBI) - à débit différé Carte Visa Classic 5 373 Carte Visa Premier 21 700"
+            }
+          }
+        },
+        {
+          "id": "immediat",
+          "label": "débit immédiat",
+          "attrs": {
+            "debit": {
+              "status": "found",
+              "value": "Débit immédiat",
+              "code": "immediat",
+              "source": "socredo_tarifs_2026",
+              "quote": "Carte Visa Premier (Immédiat) 21 700"
+            },
+            "cotisation": {
+              "status": "found",
+              "value": "21 700 XPF/an",
+              "num": 21700,
+              "source": "socredo_tarifs_2026",
+              "quote": "Carte Visa Premier (Immédiat) 21 700"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "socredo-socool",
+      "kind": "carte",
+      "bank": "socredo",
+      "name": "Visa SoCool",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Visa",
+          "code": "visa",
+          "source": "socredo_tarifs_2026",
+          "quote": "Carte internationale (CBI) - à autorisation systématique Carte Visa SoCool 5 400"
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Visa à autorisation systématique (entrée de gamme internationale)",
+          "code": "essentielle",
+          "source": "socredo_tarifs_2026",
+          "quote": "Carte internationale (CBI) - à autorisation systématique Carte Visa SoCool 5 400"
+        },
+        "debit": {
+          "status": "found",
+          "value": "Autorisation systématique",
+          "code": "autorisation",
+          "source": "socredo_tarifs_2026",
+          "quote": "Carte internationale (CBI) - à autorisation systématique Carte Visa SoCool 5 400"
+        },
+        "cotisation": {
+          "status": "found",
+          "value": "5 400 XPF/an",
+          "num": 5400,
+          "source": "socredo_tarifs_2026",
+          "quote": "Carte Visa SoCool 5 400"
+        },
+        "packages": [],
+        "international": {
+          "status": "found",
+          "value": "Oui (carte internationale)",
+          "code": true,
+          "source": "socredo_tarifs_2026",
+          "quote": "Carte internationale (CBI) - à autorisation systématique Carte Visa SoCool 5 400"
+        },
+        "sans_contact": {
+          "status": "found",
+          "value": "Non selon la FAQ",
+          "code": false,
+          "source": "socredo_faq",
+          "quote": "Seules les cartes VISA Classique et VISA Premier sont équipées de la fonctionnalité de paiement sans contact.",
+          "note": "La FAQ réserve le sans contact aux Visa Classic et Premier ; la SoCool n’a pas de page produit."
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_cartes",
+            "socredo_faq",
+            "socredo_socpay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; SOCREDO absente de la liste Apple (rubrique France)."
+        },
+        "mobile_local": {
+          "status": "found",
+          "value": "Non (SOCPAY réservé aux cartes privatives)",
+          "code": false,
+          "source": "socredo_socpay",
+          "quote": "Le paiement mobile SOCPAY est destiné aux clients : équipés d'une carte bancaire privative SOCREDO (CLASSIC ou GOLD)"
+        },
+        "ecommerce": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes",
+            "socredo_faq"
+          ]
+        },
+        "plafond_paiement": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes",
+            "socredo_faq"
+          ]
+        },
+        "plafond_retrait": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes",
+            "socredo_faq"
+          ]
+        },
+        "frais_etranger": {
+          "status": "found",
+          "value": "2,50 % hors zone euro (gratuit en PF et zone euro)",
+          "num": 2.5,
+          "source": "socredo_tarifs_2026",
+          "quote": "Paiement par carte (par opération) En Polynésie francaise et zone euro Gratuit Hors zone euro 2,50%"
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit (XPF, automate SOCREDO)",
+          "num": 0,
+          "source": "socredo_tarifs_2026",
+          "quote": "en XPF sur automate SOCREDO Gratuit"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "120 XPF/retrait",
+          "num": 120,
+          "source": "socredo_tarifs_2026",
+          "quote": "en XPF sur automate autre banque locale (par opération) 120"
+        },
+        "retrait_etranger": {
+          "status": "found",
+          "value": "Gratuit en XPF/euro ; 1,50 € + 2,50 % en devise",
+          "source": "socredo_tarifs_2026",
+          "quote": "Hors de Polynésie française, avec CBI en XPF ou EURO Gratuit en devise (hors EURO), (commission par opération) 1,50 euro + 2,50%"
+        },
+        "assurance": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes",
+            "socredo_faq"
+          ]
+        },
+        "conditions": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes",
+            "socredo_faq"
+          ],
+          "note": "Carte présente dans la grille, sans page produit ni conditions publiées."
+        }
+      }
+    },
+    {
+      "id": "socredo-uru-jeunes",
+      "kind": "carte",
+      "bank": "socredo",
+      "name": "Carte de l’offre URU JEUNES (modèle non précisé)",
+      "attrs": {
+        "reseau": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "gamme": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "debit": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "cotisation": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "Carte vendue uniquement dans l’offre groupée URU JEUNES."
+        },
+        "packages": [
+          {
+            "name": "URU JEUNES",
+            "audience": "jeunes",
+            "status": "found",
+            "value": "URU JEUNES (18-25 ans) : 389 XPF/mois",
+            "num": 389,
+            "source": "socredo_tarifs_2026",
+            "quote": "COMPTE URU JEUNES : le compte parfait pour les jeunes 389 de 18 à 25 ans (cotisation mensuelle)",
+            "extra": [
+              {
+                "status": "found",
+                "value": "Contenu",
+                "source": "socredo_tarifs_2026",
+                "quote": "L’offre URU JEUNES comprend : un compte à vue, une carte bancaire et un abonnement WEBSOC"
+              }
+            ]
+          }
+        ],
+        "international": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "sans_contact": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "mobile_local": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "ecommerce": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "plafond_paiement": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "plafond_retrait": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "frais_etranger": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "retrait_banque": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "retrait_pf": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "retrait_etranger": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "assurance": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+        },
+        "conditions": {
+          "status": "found",
+          "value": "18 à 25 ans",
+          "source": "socredo_tarifs_2026",
+          "quote": "COMPTE URU JEUNES : le compte parfait pour les jeunes 389 de 18 à 25 ans"
+        }
+      }
+    },
+    {
+      "id": "socredo-uru-maru",
+      "kind": "carte",
+      "bank": "socredo",
+      "name": "Carte du compte URU MARŪ (modèle non précisé)",
+      "attrs": {
+        "reseau": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "La grille indique seulement « une carte bancaire »."
+        },
+        "gamme": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "debit": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "cotisation": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ],
+          "note": "Carte vendue uniquement avec le compte URU MARŪ."
+        },
+        "packages": [
+          {
+            "name": "URU MARŪ",
+            "audience": "tous",
+            "status": "found",
+            "value": "Compte URU MARŪ : 5 400 XPF/an, soit 450 XPF/mois",
+            "num": 450,
+            "source": "socredo_tarifs_2026",
+            "quote": "COMPTE URU MARŪ : Un compte limité pour une meilleure 5 400 maîtrise de votre budget (cotisation annuelle)",
+            "derived": "5 400 / 12",
+            "note": "Compte limité (maîtrise du budget) : compte sans frais de tenue, carte, WEBSOC URU MARŪ, ALLOSOC."
+          }
+        ],
+        "international": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "sans_contact": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "mobile_local": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "ecommerce": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "plafond_paiement": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "plafond_retrait": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "frais_etranger": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "retrait_banque": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "retrait_pf": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "retrait_etranger": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "assurance": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        },
+        "conditions": {
+          "status": "not_published",
+          "checked": [
+            "socredo_tarifs_2026",
+            "socredo_cartes"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bt-tiare",
+      "kind": "carte",
+      "bank": "bt",
+      "name": "Carte Tiare (CB-Visa Tiare)",
+      "note": "Le site présente la carte comme « Visa Tiare », la grille comme « carte privative Tiare » ; le contrat porteur la range parmi les cartes CB-VISA.",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "CB-Visa (la grille la nomme « carte privative Tiare »)",
+          "code": "visa",
+          "source": "bt_contrat_porteur",
+          "quote": "les cartes de paiement à autorisation systématique : CB-VISA Tiare et la Visa Classic à contrôle de solde systématique ; Toutes ces Cartes fonctionnent sous les deux marques CB et VISA."
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Carte « privative » d’usage local et national",
+          "code": "locale",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Fourniture d'une carte de débit (carte de paiement à autorisation systématique) - CARTE PRIVATIVE TIARE"
+        },
+        "debit": {
+          "status": "found",
+          "value": "Autorisation systématique (débit immédiat)",
+          "code": "autorisation",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Fourniture d'une carte de débit (carte de paiement à autorisation systématique) - CARTE PRIVATIVE TIARE"
+        },
+        "cotisation": {
+          "status": "found",
+          "value": "3 604 XPF/an",
+          "num": 3604,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Cotisation carte Tiare Classique - Cotisation annuelle 3 604",
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "3 604 XPF/an",
+              "num": 3604,
+              "source": "bt_tarifs_2027",
+              "quote": "Cotisation carte Tiare Classique - Cotisation annuelle 3 604",
+              "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
+            }
+          ]
+        },
+        "packages": [],
+        "international": {
+          "status": "found",
+          "value": "Non : Polynésie, France métropolitaine et DOM-TOM",
+          "code": false,
+          "source": "bt_carte_tiare",
+          "quote": "Acceptée partout sur le territoire, en France métropolitaine et dans les DOM-TOM"
+        },
+        "sans_contact": {
+          "status": "found",
+          "value": "Oui (jusqu’à 5 950 XPF)",
+          "code": true,
+          "source": "bt_carte_tiare",
+          "quote": "Fonction sans contact à hauteur de 5 950 F CFP"
+        },
+        "apple_pay": {
+          "status": "found",
+          "value": "Non (carte absente de la liste des cartes éligibles)",
+          "code": false,
+          "source": "bt_cgu_apple_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Apple Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite",
+          "note": "Les CGU listent les cartes éligibles : Visa Classic, Classic à contrôle de solde systématique, Premier, Infinite."
+        },
+        "google_pay": {
+          "status": "found",
+          "value": "Non (carte absente de la liste des cartes éligibles)",
+          "code": false,
+          "source": "bt_cgu_google_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Google Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite",
+          "note": "Les CGU listent les cartes éligibles : Visa Classic, Classic à contrôle de solde systématique, Premier, Infinite."
+        },
+        "samsung_pay": {
+          "status": "found",
+          "value": "Non (carte absente de la liste des cartes éligibles)",
+          "code": false,
+          "source": "bt_cgu_samsung_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Samsung Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite",
+          "note": "Les CGU listent les cartes éligibles : Visa Classic, Classic à contrôle de solde systématique, Premier, Infinite."
+        },
+        "mobile_local": {
+          "status": "not_published",
+          "checked": [
+            "bt_carte_tiare",
+            "bt_paiement_mobile"
+          ]
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui (sites locaux et métropolitains)",
+          "code": true,
+          "source": "bt_carte_tiare",
+          "quote": "la carte Tiare peut aussi être utilisée pour vos achats en ligne sur les sites locaux et métropolitains"
+        },
+        "plafond_paiement": {
+          "status": "found",
+          "value": "À hauteur du solde disponible",
+          "source": "bt_carte_tiare",
+          "quote": "Plafond de paiement : à hauteur du solde disponible sur le compte"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "200 000 XPF/jour (DAB BT) ; 50 000 XPF/jour ailleurs",
+          "num": 200000,
+          "source": "bt_carte_tiare",
+          "quote": "Plafond de retrait sur les distributeurs de billets BT à 200 000 F CFP par jour"
+        },
+        "frais_etranger": {
+          "status": "not_published",
+          "checked": [
+            "bt_tarifs_2026_v06",
+            "bt_carte_tiare"
+          ],
+          "note": "Carte non utilisable hors de France ; les frais à l’étranger de la grille visent les cartes Visa."
+        },
+        "retrait_banque": {
+          "status": "not_published",
+          "checked": [
+            "bt_tarifs_2026_v06",
+            "bt_carte_tiare"
+          ],
+          "note": "La grille ne donne les frais de retrait que pour les cartes Visa."
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "121 XPF/retrait",
+          "num": 121,
+          "source": "bt_carte_tiare",
+          "quote": "121 FCFP TTC de frais par retrait sur DAB confrères"
+        },
+        "retrait_etranger": {
+          "status": "not_published",
+          "checked": [
+            "bt_tarifs_2026_v06",
+            "bt_carte_tiare"
+          ]
+        },
+        "assurance": {
+          "status": "found",
+          "value": "Assurance et assistance (non détaillées)",
+          "code": "incluse",
+          "source": "bt_carte_tiare",
+          "quote": "Des garanties d'assurance et d'assistance spécifiques."
+        },
+        "conditions": {
+          "status": "not_published",
+          "checked": [
+            "bt_carte_tiare",
+            "bt_tarifs_2026_v06"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bt-visa-as",
+      "kind": "carte",
+      "bank": "bt",
+      "name": "Visa Classic à autorisation systématique",
+      "note": "La page produit affiche encore 7 260 XPF (tarifs 2025) ; la grille fait foi.",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Visa",
+          "code": "visa",
+          "source": "bt_visa_as",
+          "quote": "La carte Visa Classic à autorisation systématique est une véritable carte bancaire, de retrait et de paiement dans le monde entier"
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Classic",
+          "code": "essentielle",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "systématique) - CARTE VISA CLASSIC A AUTORISATION SYSTEMATIQUE Cotisation carte - Cotisation annuelle 7 369"
+        },
+        "debit": {
+          "status": "found",
+          "value": "Autorisation systématique",
+          "code": "autorisation",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "systématique) - CARTE VISA CLASSIC A AUTORISATION SYSTEMATIQUE Cotisation carte - Cotisation annuelle 7 369"
+        },
+        "cotisation": {
+          "status": "found",
+          "value": "7 369 XPF/an",
+          "num": 7369,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "CARTE VISA CLASSIC A AUTORISATION SYSTEMATIQUE Cotisation carte - Cotisation annuelle 7 369",
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "7 516 XPF/an",
+              "num": 7516,
+              "source": "bt_tarifs_2027",
+              "quote": "CARTE VISA CLASSIC A AUTORISATION SYSTEMATIQUE Cotisation carte - Cotisation annuelle 7 516",
+              "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
+            }
+          ]
+        },
+        "packages": [
+          {
+            "name": "Offre Taure’a Nui",
+            "audience": "jeunes",
+            "status": "found",
+            "value": "Taure’a Nui (16-25 ans) : 650 XPF/mois",
+            "num": 650,
+            "source": "bt_tarifs_2026_v06",
+            "quote": "COTISATION À L ’OFFRE JEUNE TAURE’A NUI - DE 16 À 25 ANS, MENSUELLE 650",
+            "extra": [
+              {
+                "status": "found",
+                "value": "Carte incluse",
+                "source": "bt_pack_jeunes_taurea",
+                "quote": "Une carte VISA Classic à autorisation systématique, acceptée à l'international"
+              }
+            ]
+          },
+          {
+            "name": "Tiare Solidarité",
+            "audience": "fragile",
+            "status": "found",
+            "value": "Tiare Solidarité (clientèle fragile) : 120 XPF/mois",
+            "num": 120,
+            "source": "bt_tarifs_2026_v06",
+            "quote": "TIARE SOLIDARITÉ L ’ offre groupée comprend : La tenue, la fermeture et, le cas échéant, l’ouverture du compte de dépôt 120 Fourniture d’une carte de débit (carte de paiement VISA CLASSIC à autorisation systématique)",
+            "note": "Réservée à la clientèle en situation de fragilité financière."
+          }
+        ],
+        "international": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_visa_as",
+          "quote": "Facilité d'utilisation en Polynésie Française et à l'international"
+        },
+        "sans_contact": {
+          "status": "found",
+          "value": "Oui (jusqu’à 5 950 XPF)",
+          "code": true,
+          "source": "bt_visa_as",
+          "quote": "Fonction sans contact à hauteur de 5 950 F CFP"
+        },
+        "apple_pay": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_cgu_apple_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Apple Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Page Paiement mobile",
+              "source": "bt_paiement_mobile",
+              "quote": "Que vous utilisiez Apple Pay, Google Pay ou Garmin Pay, réglez vos achats en toute tranquillité, sans contact et sans sortir votre carte bancaire."
+            }
+          ]
+        },
+        "google_pay": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_cgu_google_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Google Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Page Paiement mobile",
+              "source": "bt_paiement_mobile",
+              "quote": "Que vous utilisiez Apple Pay, Google Pay ou Garmin Pay, réglez vos achats en toute tranquillité, sans contact et sans sortir votre carte bancaire."
+            }
+          ]
+        },
+        "samsung_pay": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_cgu_samsung_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Samsung Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite"
+        },
+        "mobile_local": {
+          "status": "not_published",
+          "checked": [
+            "bt_visa_as",
+            "bt_paiement_mobile"
+          ]
+        },
+        "frais_etranger": {
+          "status": "found",
+          "value": "2,80 % hors UE (max. 842 XPF par paiement) ; gratuit en PF et zone euro",
+          "num": 2.8,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Maximum 842 XPF par paiement",
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 842"
+            }
+          ],
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "2,80 % hors UE (max. 859 XPF par paiement) ; gratuit en PF et zone euro",
+              "num": 2.8,
+              "source": "bt_tarifs_2027",
+              "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
+              "extra": [
+                {
+                  "status": "found",
+                  "value": "Maximum 859 XPF par paiement",
+                  "source": "bt_tarifs_2027",
+                  "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 859"
+                }
+              ]
+            }
+          ]
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit",
+          "num": 0,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait d’espèces au distributeur automatique de billets (cas d’un retrait à un distributeur automatique de la banque) GRATUIT"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "121 XPF/retrait",
+          "num": 121,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait d'espèces au distributeur automatique de billets (cas d'un retrait à un distributeur d'une banque confrère en Polynésie Française) 121"
+        },
+        "retrait_etranger": {
+          "status": "found",
+          "value": "2,80 % + 842 XPF (DAB hors UE, en devises)",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait au distributeur automatique de billets en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) - Commission fixe en sus de la commission variable 842",
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "2,80 % + 859 XPF (DAB hors UE, en devises)",
+              "source": "bt_tarifs_2027",
+              "quote": "Retrait au distributeur automatique de billets en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) - Commission fixe en sus de la commission variable 859"
+            }
+          ]
+        },
+        "conditions": {
+          "status": "not_published",
+          "checked": [
+            "bt_visa_as",
+            "bt_tarifs_2026_v06"
+          ]
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_visa_as",
+          "quote": "fonctionne aussi pour vos achats sur Internet"
+        },
+        "plafond_paiement": {
+          "status": "found",
+          "value": "178 998 XPF / 30 jours glissants",
+          "num": 178998,
+          "source": "bt_visa_as",
+          "quote": "Plafond de Paiement 178 998 F CFP sur 30 jours glissants"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "35 800 XPF / 7 jours glissants",
+          "num": 35800,
+          "source": "bt_visa_as",
+          "quote": "35 800 F CFP sur 7 jours glissants"
+        },
+        "assurance": {
+          "status": "found",
+          "value": "Assurance et assistance (non détaillées)",
+          "code": "incluse",
+          "source": "bt_visa_as",
+          "quote": "Des garanties d'assurance et d'assistance spécifiques."
+        }
+      }
+    },
+    {
+      "id": "bt-visa-classic",
+      "kind": "carte",
+      "bank": "bt",
+      "name": "Visa Classic",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Visa",
+          "code": "visa",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Fourniture d’une carte de débit (carte de paiement international) - CARTE BLEUE VISA CLASSIC"
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Classic",
+          "code": "essentielle",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Fourniture d’une carte de débit (carte de paiement international) - CARTE BLEUE VISA CLASSIC"
+        },
+        "international": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_visa_classic",
+          "quote": "Facilité d'utilisation en Polynésie Française et à l'international."
+        },
+        "sans_contact": {
+          "status": "found",
+          "value": "Oui (jusqu’à 5 950 XPF)",
+          "code": true,
+          "source": "bt_visa_classic",
+          "quote": "Fonctionnalité sans contact à hauteur de 5 950 F CFP."
+        },
+        "apple_pay": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_cgu_apple_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Apple Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Page Paiement mobile",
+              "source": "bt_paiement_mobile",
+              "quote": "Que vous utilisiez Apple Pay, Google Pay ou Garmin Pay, réglez vos achats en toute tranquillité, sans contact et sans sortir votre carte bancaire."
+            }
+          ]
+        },
+        "google_pay": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_cgu_google_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Google Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Page Paiement mobile",
+              "source": "bt_paiement_mobile",
+              "quote": "Que vous utilisiez Apple Pay, Google Pay ou Garmin Pay, réglez vos achats en toute tranquillité, sans contact et sans sortir votre carte bancaire."
+            }
+          ]
+        },
+        "samsung_pay": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_cgu_samsung_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Samsung Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite"
+        },
+        "mobile_local": {
+          "status": "not_published",
+          "checked": [
+            "bt_visa_classic",
+            "bt_paiement_mobile"
+          ]
+        },
+        "frais_etranger": {
+          "status": "found",
+          "value": "2,80 % hors UE (max. 842 XPF par paiement) ; gratuit en PF et zone euro",
+          "num": 2.8,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Maximum 842 XPF par paiement",
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 842"
+            }
+          ],
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "2,80 % hors UE (max. 859 XPF par paiement) ; gratuit en PF et zone euro",
+              "num": 2.8,
+              "source": "bt_tarifs_2027",
+              "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
+              "extra": [
+                {
+                  "status": "found",
+                  "value": "Maximum 859 XPF par paiement",
+                  "source": "bt_tarifs_2027",
+                  "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 859"
+                }
+              ]
+            }
+          ]
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit",
+          "num": 0,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait d’espèces au distributeur automatique de billets (cas d’un retrait à un distributeur automatique de la banque) GRATUIT"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "121 XPF/retrait",
+          "num": 121,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait d'espèces au distributeur automatique de billets (cas d'un retrait à un distributeur d'une banque confrère en Polynésie Française) 121"
+        },
+        "retrait_etranger": {
+          "status": "found",
+          "value": "2,80 % + 842 XPF (DAB hors UE, en devises)",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait au distributeur automatique de billets en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) - Commission fixe en sus de la commission variable 842",
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "2,80 % + 859 XPF (DAB hors UE, en devises)",
+              "source": "bt_tarifs_2027",
+              "quote": "Retrait au distributeur automatique de billets en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) - Commission fixe en sus de la commission variable 859"
+            }
+          ]
+        },
+        "conditions": {
+          "status": "not_published",
+          "checked": [
+            "bt_visa_classic",
+            "bt_tarifs_2026_v06"
+          ]
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui (authentification par code SMS)",
+          "code": true,
+          "source": "bt_contrat_porteur",
+          "quote": "pour effectuer des opérations de paiement à distance avec sa Carte sur les sites internet affichant le logo \"CB\" ou \"Verified by Visa\""
+        },
+        "plafond_paiement": {
+          "status": "found",
+          "value": "178 998 XPF / 30 jours glissants",
+          "num": 178998,
+          "source": "bt_visa_classic",
+          "quote": "Plafond de Paiement 178 998 F CFP sur 30 jours glissants"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "35 800 XPF / 7 jours glissants",
+          "num": 35800,
+          "source": "bt_visa_classic",
+          "quote": "35 800 F CFP sur 7 jours glissants"
+        },
+        "assurance": {
+          "status": "found",
+          "value": "Assurance et assistance (non détaillées)",
+          "code": "incluse",
+          "source": "bt_visa_classic",
+          "quote": "bénéficiez, grâce à votre carte, de nombreux services, assurances et garanties"
+        }
+      },
+      "variants": [
+        {
+          "id": "differe",
+          "label": "débit différé",
+          "attrs": {
+            "debit": {
+              "status": "found",
+              "value": "Débit différé",
+              "code": "differe",
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Cotisation carte (à débit différé) - Cotisation annuelle 5 446"
+            },
+            "cotisation": {
+              "status": "found",
+              "value": "5 446 XPF/an",
+              "num": 5446,
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Cotisation carte (à débit différé) - Cotisation annuelle 5 446",
+              "changes": [
+                {
+                  "effective_from": "2027-01-01",
+                  "status": "found",
+                  "value": "5 446 XPF/an",
+                  "num": 5446,
+                  "source": "bt_tarifs_2027",
+                  "quote": "Cotisation carte (à débit différé) - Cotisation annuelle 5 446",
+                  "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
+                }
+              ]
+            },
+            "packages": []
+          }
+        },
+        {
+          "id": "immediat",
+          "label": "débit immédiat",
+          "attrs": {
+            "debit": {
+              "status": "found",
+              "value": "Débit immédiat",
+              "code": "immediat",
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Cotisation carte (à débit immédiat) - Cotisation annuelle 5 813"
+            },
+            "cotisation": {
+              "status": "found",
+              "value": "5 813 XPF/an",
+              "num": 5813,
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Cotisation carte (à débit immédiat) - Cotisation annuelle 5 813",
+              "changes": [
+                {
+                  "effective_from": "2027-01-01",
+                  "status": "found",
+                  "value": "5 813 XPF/an",
+                  "num": 5813,
+                  "source": "bt_tarifs_2027",
+                  "quote": "Cotisation carte (à débit immédiat) - Cotisation annuelle 5 813",
+                  "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
+                }
+              ]
+            },
+            "packages": [
+              {
+                "name": "Offre Taure’a Horizon",
+                "audience": "etudiants",
+                "status": "found",
+                "value": "Taure’a Horizon (étudiants 18-30 ans) : 650 XPF/mois",
+                "num": 650,
+                "source": "bt_tarifs_2026_v06",
+                "quote": "OFFRE TAURE’A HORIZON L ’ offre groupée comprend : Ouverture, frais de tenue et clôture du compte 650 / mois Fournitue d’une carte de débit (carte de paiement international) Carte bleue Visa Classic (à débit immédiat)",
+                "note": "Gratuite sous conditions (crédit étudiant ou études hors PF) ; paiements et retraits hors PF sans frais bancaires.",
+                "extra": [
+                  {
+                    "status": "found",
+                    "value": "Sans frais à l’étranger",
+                    "source": "bt_taurea_horizon",
+                    "quote": "Effectue tes paiements et tes retraits hors Polynésie française sans frais bancaires."
+                  },
+                  {
+                    "status": "found",
+                    "value": "18 à 30 ans",
+                    "source": "bt_taurea_horizon",
+                    "quote": "Tous les étudiants de 18 à 30 ans peuvent bénéficier de l'offre."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "bt-visa-premier",
+      "kind": "carte",
+      "bank": "bt",
+      "name": "Visa Premier",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Visa",
+          "code": "visa",
+          "source": "bt_visa_premier",
+          "quote": "La carte Visa Premier, c'est plus qu'un moyen de paiement"
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Premier",
+          "code": "premium",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Fourniture d’une carte de débit (carte de paiement international) - CARTE VISA PREMIER"
+        },
+        "packages": [],
+        "international": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_visa_premier",
+          "quote": "Facilité d'utilisation en Polynésie Française et à l'international"
+        },
+        "sans_contact": {
+          "status": "found",
+          "value": "Oui (jusqu’à 5 950 XPF)",
+          "code": true,
+          "source": "bt_visa_premier",
+          "quote": "Fonction sans contact à hauteur de 5 950 F CFP"
+        },
+        "apple_pay": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_cgu_apple_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Apple Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Page Paiement mobile",
+              "source": "bt_paiement_mobile",
+              "quote": "Que vous utilisiez Apple Pay, Google Pay ou Garmin Pay, réglez vos achats en toute tranquillité, sans contact et sans sortir votre carte bancaire."
+            }
+          ]
+        },
+        "google_pay": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_cgu_google_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Google Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Page Paiement mobile",
+              "source": "bt_paiement_mobile",
+              "quote": "Que vous utilisiez Apple Pay, Google Pay ou Garmin Pay, réglez vos achats en toute tranquillité, sans contact et sans sortir votre carte bancaire."
+            }
+          ]
+        },
+        "samsung_pay": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_cgu_samsung_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Samsung Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite"
+        },
+        "mobile_local": {
+          "status": "not_published",
+          "checked": [
+            "bt_visa_premier",
+            "bt_paiement_mobile"
+          ]
+        },
+        "frais_etranger": {
+          "status": "found",
+          "value": "2,80 % hors UE (max. 842 XPF par paiement) ; gratuit en PF et zone euro",
+          "num": 2.8,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Maximum 842 XPF par paiement",
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 842"
+            }
+          ],
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "2,80 % hors UE (max. 859 XPF par paiement) ; gratuit en PF et zone euro",
+              "num": 2.8,
+              "source": "bt_tarifs_2027",
+              "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
+              "extra": [
+                {
+                  "status": "found",
+                  "value": "Maximum 859 XPF par paiement",
+                  "source": "bt_tarifs_2027",
+                  "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 859"
+                }
+              ]
+            }
+          ]
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit",
+          "num": 0,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait d’espèces au distributeur automatique de billets (cas d’un retrait à un distributeur automatique de la banque) GRATUIT"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "121 XPF/retrait",
+          "num": 121,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait d'espèces au distributeur automatique de billets (cas d'un retrait à un distributeur d'une banque confrère en Polynésie Française) 121"
+        },
+        "retrait_etranger": {
+          "status": "found",
+          "value": "2,80 % + 842 XPF (DAB hors UE, en devises)",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait au distributeur automatique de billets en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) - Commission fixe en sus de la commission variable 842",
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "2,80 % + 859 XPF (DAB hors UE, en devises)",
+              "source": "bt_tarifs_2027",
+              "quote": "Retrait au distributeur automatique de billets en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) - Commission fixe en sus de la commission variable 859"
+            }
+          ]
+        },
+        "conditions": {
+          "status": "not_published",
+          "checked": [
+            "bt_visa_premier",
+            "bt_tarifs_2026_v06"
+          ]
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui (authentification par code SMS)",
+          "code": true,
+          "source": "bt_contrat_porteur",
+          "quote": "pour effectuer des opérations de paiement à distance avec sa Carte sur les sites internet affichant le logo \"CB\" ou \"Verified by Visa\""
+        },
+        "plafond_paiement": {
+          "status": "found",
+          "value": "954 654 XPF / 30 jours glissants",
+          "num": 954654,
+          "source": "bt_visa_premier",
+          "quote": "954 654 F CFP sur 30 jours glissants"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "178 998 XPF / 7 jours glissants",
+          "num": 178998,
+          "source": "bt_visa_premier",
+          "quote": "178 998 F CFP sur 7 jours glissants"
+        },
+        "assurance": {
+          "status": "found",
+          "value": "Offre d’assurance achats et déplacements (non détaillée)",
+          "code": "incluse",
+          "source": "bt_visa_premier",
+          "quote": "C'est ensuite une offre d'assurance pour plus de tranquillité, lors de vos achats, vos déplacements et en cas d'imprévus."
+        }
+      },
+      "variants": [
+        {
+          "id": "differe",
+          "label": "débit différé",
+          "attrs": {
+            "debit": {
+              "status": "found",
+              "value": "Débit différé",
+              "code": "differe",
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Cotisation carte (à débit différé) - Cotisation annuelle 22 328"
+            },
+            "cotisation": {
+              "status": "found",
+              "value": "22 328 XPF/an",
+              "num": 22328,
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Cotisation carte (à débit différé) - Cotisation annuelle 22 328",
+              "changes": [
+                {
+                  "effective_from": "2027-01-01",
+                  "status": "found",
+                  "value": "22 775 XPF/an",
+                  "num": 22775,
+                  "source": "bt_tarifs_2027",
+                  "quote": "Cotisation carte (à débit différé) - Cotisation annuelle 22 775",
+                  "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "immediat",
+          "label": "débit immédiat",
+          "attrs": {
+            "debit": {
+              "status": "found",
+              "value": "Débit immédiat",
+              "code": "immediat",
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Cotisation carte (à débit immédiat) - Cotisation annuelle 22 557"
+            },
+            "cotisation": {
+              "status": "found",
+              "value": "22 557 XPF/an",
+              "num": 22557,
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Cotisation carte (à débit immédiat) - Cotisation annuelle 22 557",
+              "changes": [
+                {
+                  "effective_from": "2027-01-01",
+                  "status": "found",
+                  "value": "23 008 XPF/an",
+                  "num": 23008,
+                  "source": "bt_tarifs_2027",
+                  "quote": "Cotisation carte (à débit immédiat) - Cotisation annuelle 23 008",
+                  "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "bt-visa-infinite",
+      "kind": "carte",
+      "bank": "bt",
+      "name": "Visa Infinite",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Visa",
+          "code": "visa",
+          "source": "bt_visa_infinite",
+          "quote": "Bien plus qu'une simple carte de retrait et de paiement, découvrez la carte Visa Infinite"
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Infinite",
+          "code": "infinite",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "CARTE VISA INFINITE Cotisation carte (à débit différé) - Cotisation annuelle 55 843"
+        },
+        "debit": {
+          "status": "found",
+          "value": "Débit différé",
+          "code": "differe",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "CARTE VISA INFINITE Cotisation carte (à débit différé) - Cotisation annuelle 55 843"
+        },
+        "cotisation": {
+          "status": "found",
+          "value": "55 843 XPF/an",
+          "num": 55843,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "CARTE VISA INFINITE Cotisation carte (à débit différé) - Cotisation annuelle 55 843",
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "56 960 XPF/an",
+              "num": 56960,
+              "source": "bt_tarifs_2027",
+              "quote": "CARTE VISA INFINITE Cotisation carte (à débit différé) - Cotisation annuelle 56 960",
+              "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
+            }
+          ]
+        },
+        "packages": [],
+        "international": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_visa_infinite",
+          "quote": "Votre carte est utilisable en Polynésie Française, en France et à l'international."
+        },
+        "sans_contact": {
+          "status": "found",
+          "value": "Oui (jusqu’à 5 950 XPF)",
+          "code": true,
+          "source": "bt_visa_infinite",
+          "quote": "Fonctionnalité sans contact à hauteur de 5 950 F CFP"
+        },
+        "apple_pay": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_cgu_apple_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Apple Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Page Paiement mobile",
+              "source": "bt_paiement_mobile",
+              "quote": "Que vous utilisiez Apple Pay, Google Pay ou Garmin Pay, réglez vos achats en toute tranquillité, sans contact et sans sortir votre carte bancaire."
+            }
+          ]
+        },
+        "google_pay": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_cgu_google_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Google Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Page Paiement mobile",
+              "source": "bt_paiement_mobile",
+              "quote": "Que vous utilisiez Apple Pay, Google Pay ou Garmin Pay, réglez vos achats en toute tranquillité, sans contact et sans sortir votre carte bancaire."
+            }
+          ]
+        },
+        "samsung_pay": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bt_cgu_samsung_pay",
+          "quote": "Les Cartes pouvant être enregistrées et utilisées dans la Solution de paiement Mobile Samsung Pay sont celles listées ci-après portant la marque VISA, émises par l’Emetteur : - cartes délivrées à des personnes physiques, à des fins non professionnelles : Visa Classic, Classic à contrôle de solde systématique, Premier ou Infinite"
+        },
+        "mobile_local": {
+          "status": "not_published",
+          "checked": [
+            "bt_visa_infinite",
+            "bt_paiement_mobile"
+          ]
+        },
+        "frais_etranger": {
+          "status": "found",
+          "value": "2,80 % hors UE (max. 842 XPF par paiement) ; gratuit en PF et zone euro",
+          "num": 2.8,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Maximum 842 XPF par paiement",
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 842"
+            }
+          ],
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "2,80 % hors UE (max. 859 XPF par paiement) ; gratuit en PF et zone euro",
+              "num": 2.8,
+              "source": "bt_tarifs_2027",
+              "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
+              "extra": [
+                {
+                  "status": "found",
+                  "value": "Maximum 859 XPF par paiement",
+                  "source": "bt_tarifs_2027",
+                  "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 859"
+                }
+              ]
+            }
+          ]
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit",
+          "num": 0,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait d’espèces au distributeur automatique de billets (cas d’un retrait à un distributeur automatique de la banque) GRATUIT"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "121 XPF/retrait",
+          "num": 121,
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait d'espèces au distributeur automatique de billets (cas d'un retrait à un distributeur d'une banque confrère en Polynésie Française) 121"
+        },
+        "retrait_etranger": {
+          "status": "found",
+          "value": "2,80 % + 842 XPF (DAB hors UE, en devises)",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Retrait au distributeur automatique de billets en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) - Commission fixe en sus de la commission variable 842",
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "2,80 % + 859 XPF (DAB hors UE, en devises)",
+              "source": "bt_tarifs_2027",
+              "quote": "Retrait au distributeur automatique de billets en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) - Commission fixe en sus de la commission variable 859"
+            }
+          ]
+        },
+        "conditions": {
+          "status": "not_published",
+          "checked": [
+            "bt_visa_infinite",
+            "bt_tarifs_2026_v06"
+          ]
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui (authentification par code SMS)",
+          "code": true,
+          "source": "bt_contrat_porteur",
+          "quote": "pour effectuer des opérations de paiement à distance avec sa Carte sur les sites internet affichant le logo \"CB\" ou \"Verified by Visa\""
+        },
+        "plafond_paiement": {
+          "status": "found",
+          "value": "2 400 000 XPF / 30 jours glissants",
+          "num": 2400000,
+          "source": "bt_visa_infinite",
+          "quote": "Plafond de paiement : 2 400 000 F CFP sur 30 jours glissants."
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "240 000 XPF / 7 jours glissants",
+          "num": 240000,
+          "source": "bt_visa_infinite",
+          "quote": "Plafond de retrait : 240 000 F CFP sur 7 jours glissants."
+        },
+        "assurance": {
+          "status": "found",
+          "value": "Assurances et assistance Visa Infinite, Priority Pass, conciergerie",
+          "code": "incluse",
+          "source": "bt_visa_infinite",
+          "quote": "Profitez des meilleurs services d'assurances et d'assistance du réseau Visa"
+        }
+      }
+    },
+    {
+      "id": "bdp-hoa",
+      "kind": "carte",
+      "bank": "bdp",
+      "name": "Carte HOA Privative (paiement et retrait)",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Locale privative",
+          "code": "local",
+          "source": "bdp_tarifs_2026",
+          "quote": "Carte de paiement locale à autorisation systématique (Carte HOA Privative) 4 862 par an"
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Carte locale",
+          "code": "locale",
+          "source": "bdp_tarifs_2026",
+          "quote": "Carte de paiement locale à autorisation systématique (Carte HOA Privative) 4 862 par an"
+        },
+        "debit": {
+          "status": "found",
+          "value": "Autorisation systématique",
+          "code": "autorisation",
+          "source": "bdp_tarifs_2026",
+          "quote": "Carte de paiement locale à autorisation systématique (Carte HOA Privative) 4 862 par an"
+        },
+        "cotisation": {
+          "status": "found",
+          "value": "4 862 XPF/an",
+          "num": 4862,
+          "source": "bdp_tarifs_2026",
+          "quote": "Carte de paiement locale à autorisation systématique (Carte HOA Privative) 4 862 par an"
+        },
+        "packages": [
+          {
+            "name": "Pack IA ORA",
+            "audience": "tous",
+            "status": "found",
+            "value": "Pack IA ORA avec carte HOA : 1 335 XPF/mois",
+            "num": 1335,
+            "source": "bdp_tarifs_2026",
+            "quote": "Carte HOA Privative 1 335 F TTC",
+            "note": "À partir de 18 ans ; inclut compte, assurance TEORA, banque en ligne."
+          },
+          {
+            "name": "Pack FETIA",
+            "audience": "jeunes",
+            "status": "found",
+            "value": "Pack FETIA (16-24 ans) : 505 XPF/mois",
+            "num": 505,
+            "source": "bdp_pack_fetia",
+            "quote": "Une carte HOA Privative ou une Visa Red Un accès à POLYWEB & POLYAPP classique Les virements en ligne gratuits vers la métropole Le tout pour 505 XPF TTC par mois",
+            "extra": [
+              {
+                "status": "found",
+                "value": "16 à 24 ans",
+                "source": "bdp_pack_fetia",
+                "quote": "Dédié aux jeunes âgés de 16 à 24 ans"
+              }
+            ]
+          }
+        ],
+        "international": {
+          "status": "found",
+          "value": "Non (Polynésie française uniquement)",
+          "code": false,
+          "source": "bdp_carte_hoa",
+          "quote": "La Carte HOA PRIVATIVE valable uniquement en Polynésie française"
+        },
+        "sans_contact": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_tarifs_2026"
+          ],
+          "note": "Le sans contact n’est mentionné ni sur les pages cartes ni dans la grille."
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_fenuapay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; Banque de Polynésie absente de la liste Apple (rubrique France)."
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_fenuapay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; Banque de Polynésie absente de la liste Apple (rubrique France)."
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_fenuapay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; Banque de Polynésie absente de la liste Apple (rubrique France)."
+        },
+        "mobile_local": {
+          "status": "found",
+          "value": "Oui (FenuaPay : QR code ou NFC Android)",
+          "code": true,
+          "source": "bdp_fenuapay",
+          "quote": "FenuaPay est une solution de paiement mobile gratuite et réservée aux cartes privatives locales.",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Porteurs de carte HOA",
+              "source": "bdp_fenuapay",
+              "quote": "L’application est gratuite et est désormais accessible aux clients Banque de Polynésie porteurs d’une carte HOA."
+            }
+          ]
+        },
+        "ecommerce": {
+          "status": "not_published",
+          "checked": [
+            "bdp_carte_hoa",
+            "bdp_tarifs_2026"
+          ]
+        },
+        "plafond_paiement": {
+          "status": "found",
+          "value": "À hauteur du solde disponible",
+          "source": "bdp_carte_hoa",
+          "quote": "Capacité de paiement jusqu'à hauteur du solde du compte disponible"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "200 000 XPF/jour (DAB BDP) ; 50 000 XPF/jour ailleurs",
+          "num": 200000,
+          "source": "bdp_carte_hoa",
+          "quote": "Distributeurs Banque de Polynésie Autres distributeurs 200.000 F CFP maximum 50.000 F CFP maximum"
+        },
+        "frais_etranger": {
+          "status": "not_published",
+          "checked": [
+            "bdp_tarifs_2026",
+            "bdp_carte_hoa"
+          ],
+          "note": "Carte valable uniquement en Polynésie française."
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit",
+          "num": 0,
+          "source": "bdp_tarifs_2026",
+          "quote": "Sur un distributeur automatique Banque de Polynésie GRATUIT"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "122 XPF/retrait",
+          "num": 122,
+          "source": "bdp_tarifs_2026",
+          "quote": "Sur un autre distributeur en Polynésie Française 122 par retrait"
+        },
+        "retrait_etranger": {
+          "status": "not_published",
+          "checked": [
+            "bdp_tarifs_2026",
+            "bdp_carte_hoa"
+          ],
+          "note": "Carte valable uniquement en Polynésie française."
+        },
+        "assurance": {
+          "status": "not_published",
+          "checked": [
+            "bdp_carte_hoa"
+          ]
+        },
+        "conditions": {
+          "status": "not_published",
+          "checked": [
+            "bdp_carte_hoa",
+            "bdp_tarifs_2026"
+          ]
+        }
+      }
+    },
+    {
+      "id": "bdp-visa-red",
+      "kind": "carte",
+      "bank": "bdp",
+      "name": "Visa Red",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Visa",
+          "code": "visa",
+          "source": "bdp_tarifs_2026",
+          "quote": "Carte de paiement internationale à autorisation systématique (Carte VISA Red) 6 293 par an"
+        },
+        "international": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bdp_visa_red",
+          "quote": "Une carte bancaire internationale accessible à tous"
+        },
+        "sans_contact": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_tarifs_2026"
+          ],
+          "note": "Le sans contact n’est mentionné ni sur les pages cartes ni dans la grille."
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_fenuapay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; Banque de Polynésie absente de la liste Apple (rubrique France)."
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_fenuapay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; Banque de Polynésie absente de la liste Apple (rubrique France)."
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_fenuapay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; Banque de Polynésie absente de la liste Apple (rubrique France)."
+        },
+        "mobile_local": {
+          "status": "found",
+          "value": "Non (FenuaPay réservé aux cartes privatives locales)",
+          "code": false,
+          "source": "bdp_fenuapay",
+          "quote": "FenuaPay est une solution de paiement mobile gratuite et réservée aux cartes privatives locales."
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui (3-D Secure)",
+          "code": true,
+          "source": "bdp_visa_red",
+          "quote": "Information sécurité (3-D Secure) : Pour assurer la sécurité sur Internet des porteurs de cartes, Visa a mis en place depuis 2009 le dispositif 3-D Secure."
+        },
+        "frais_etranger": {
+          "status": "found",
+          "value": "2,70 % hors zone euro (gratuit en PF et zone euro)",
+          "num": 2.7,
+          "source": "bdp_tarifs_2026",
+          "quote": "En zone euro GRATUIT ▫ Hors zone euro 2,70% par opération"
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit",
+          "num": 0,
+          "source": "bdp_tarifs_2026",
+          "quote": "Sur un distributeur automatique Banque de Polynésie GRATUIT"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "122 XPF/retrait",
+          "num": 122,
+          "source": "bdp_tarifs_2026",
+          "quote": "Sur un autre distributeur en Polynésie Française 122 par retrait"
+        },
+        "retrait_etranger": {
+          "status": "found",
+          "value": "120 XPF + 2,70 % hors zone euro ; 642 XPF en zone euro dès le 4e retrait du mois",
+          "source": "bdp_tarifs_2026",
+          "quote": "En zone euro (à partir du 4ème retrait dans le mois) 642 par retrait ▫ Hors zone euro 120 + 2,70% par retrait"
+        },
+        "conditions": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_red",
+            "bdp_tarifs_2026"
+          ]
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Visa Red (internationale accessible à tous)",
+          "code": "essentielle",
+          "source": "bdp_tarifs_2026",
+          "quote": "Carte de paiement internationale à autorisation systématique (Carte VISA Red) 6 293 par an"
+        },
+        "debit": {
+          "status": "found",
+          "value": "Autorisation systématique",
+          "code": "autorisation",
+          "source": "bdp_tarifs_2026",
+          "quote": "Carte de paiement internationale à autorisation systématique (Carte VISA Red) 6 293 par an"
+        },
+        "cotisation": {
+          "status": "found",
+          "value": "6 293 XPF/an",
+          "num": 6293,
+          "source": "bdp_tarifs_2026",
+          "quote": "Carte de paiement internationale à autorisation systématique (Carte VISA Red) 6 293 par an"
+        },
+        "packages": [
+          {
+            "name": "Pack IA ORA",
+            "audience": "tous",
+            "status": "found",
+            "value": "Pack IA ORA avec Visa Red : 1 640 XPF/mois",
+            "num": 1640,
+            "source": "bdp_tarifs_2026",
+            "quote": "Carte Visa Red 1 640 F TTC",
+            "note": "À partir de 18 ans ; inclut compte, assurance TEORA, banque en ligne."
+          },
+          {
+            "name": "Pack FETIA",
+            "audience": "jeunes",
+            "status": "found",
+            "value": "Pack FETIA (16-24 ans) : 505 XPF/mois",
+            "num": 505,
+            "source": "bdp_pack_fetia",
+            "quote": "Une carte HOA Privative ou une Visa Red Un accès à POLYWEB & POLYAPP classique Les virements en ligne gratuits vers la métropole Le tout pour 505 XPF TTC par mois",
+            "extra": [
+              {
+                "status": "found",
+                "value": "16 à 24 ans",
+                "source": "bdp_pack_fetia",
+                "quote": "Dédié aux jeunes âgés de 16 à 24 ans"
+              }
+            ]
+          }
+        ],
+        "plafond_paiement": {
+          "status": "found",
+          "value": "181 920 XPF / 30 jours (dans la limite du solde)",
+          "num": 181920,
+          "source": "bdp_visa_red",
+          "quote": "Capacité de paiement sur 30 jours consécutifs 181.920 F CFP"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "200 000 XPF / 7 j (DAB BDP) ; 50 000 XPF ailleurs",
+          "num": 200000,
+          "source": "bdp_visa_red",
+          "quote": "Distributeurs Banque de Polynésie Autres distributeurs 200.000 F CFP maximum sur 7 jours glissants"
+        },
+        "assurance": {
+          "status": "found",
+          "value": "Assistance médicale, rapatriement ; garantie décès invalidité",
+          "code": "base",
+          "source": "bdp_visa_red",
+          "quote": "Assurances : Garantie décès invalidité Assistance : avant d'engager des frais, demandez l'accord préalable d'EUROP ASSISTANCE Assistance médicale"
+        }
+      }
+    },
+    {
+      "id": "bdp-visa-classique",
+      "kind": "carte",
+      "bank": "bdp",
+      "name": "Visa Classique",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Visa",
+          "code": "visa",
+          "source": "bdp_visa_classique",
+          "quote": "Moyen de paiement universel, la Carte Visa Classique est la solution idéale pour être libre de vos mouvements."
+        },
+        "international": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bdp_visa_classique",
+          "quote": "Une carte bancaire à dimension internationale"
+        },
+        "sans_contact": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_tarifs_2026"
+          ],
+          "note": "Le sans contact n’est mentionné ni sur les pages cartes ni dans la grille."
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_fenuapay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; Banque de Polynésie absente de la liste Apple (rubrique France)."
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_fenuapay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; Banque de Polynésie absente de la liste Apple (rubrique France)."
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_fenuapay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; Banque de Polynésie absente de la liste Apple (rubrique France)."
+        },
+        "mobile_local": {
+          "status": "found",
+          "value": "Non (FenuaPay réservé aux cartes privatives locales)",
+          "code": false,
+          "source": "bdp_fenuapay",
+          "quote": "FenuaPay est une solution de paiement mobile gratuite et réservée aux cartes privatives locales."
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui (3-D Secure)",
+          "code": true,
+          "source": "bdp_visa_classique",
+          "quote": "Information sécurité (3-D Secure) : Pour assurer la sécurité sur Internet des porteurs de cartes, Visa a mis en place depuis 2009 le dispositif 3-D Secure."
+        },
+        "frais_etranger": {
+          "status": "found",
+          "value": "2,70 % hors zone euro (gratuit en PF et zone euro)",
+          "num": 2.7,
+          "source": "bdp_tarifs_2026",
+          "quote": "En zone euro GRATUIT ▫ Hors zone euro 2,70% par opération"
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit",
+          "num": 0,
+          "source": "bdp_tarifs_2026",
+          "quote": "Sur un distributeur automatique Banque de Polynésie GRATUIT"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "122 XPF/retrait",
+          "num": 122,
+          "source": "bdp_tarifs_2026",
+          "quote": "Sur un autre distributeur en Polynésie Française 122 par retrait"
+        },
+        "retrait_etranger": {
+          "status": "found",
+          "value": "120 XPF + 2,70 % hors zone euro ; 642 XPF en zone euro dès le 4e retrait du mois",
+          "source": "bdp_tarifs_2026",
+          "quote": "En zone euro (à partir du 4ème retrait dans le mois) 642 par retrait ▫ Hors zone euro 120 + 2,70% par retrait"
+        },
+        "conditions": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_tarifs_2026"
+          ]
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Classique",
+          "code": "essentielle",
+          "source": "bdp_tarifs_2026",
+          "quote": "Carte de paiement internationale à débit immédiat (Carte VISA Classique) 5 735 par an"
+        },
+        "packages": [
+          {
+            "name": "Pack IA ORA",
+            "audience": "tous",
+            "status": "found",
+            "value": "Pack IA ORA avec Visa Classique : 1 640 XPF/mois",
+            "num": 1640,
+            "source": "bdp_tarifs_2026",
+            "quote": "Carte Visa Classique à débit immédiat ou différé 1 640 F TTC",
+            "note": "À partir de 18 ans ; inclut compte, assurance TEORA, banque en ligne."
+          }
+        ],
+        "plafond_paiement": {
+          "status": "found",
+          "value": "181 920 XPF / 30 jours",
+          "num": 181920,
+          "source": "bdp_visa_classique",
+          "quote": "Capacité de paiement sur 30 jours consécutifs 181.920 F CFP"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "36 385 XPF / 7 jours (DAB)",
+          "num": 36385,
+          "source": "bdp_visa_classique",
+          "quote": "Capacité de retrait dans les DAB sur 7 jours consécutifs 36.385 F CFP"
+        },
+        "assurance": {
+          "status": "found",
+          "value": "Assistance médicale, rapatriement ; garantie décès invalidité",
+          "code": "base",
+          "source": "bdp_visa_classique",
+          "quote": "Assurances : Garantie décès invalidité Assistance : avant d'engager des frais, demandez l'accord préalable d'EUROP ASSISTANCE Assistance médicale"
+        }
+      },
+      "variants": [
+        {
+          "id": "differe",
+          "label": "débit différé",
+          "attrs": {
+            "debit": {
+              "status": "found",
+              "value": "Débit différé",
+              "code": "differe",
+              "source": "bdp_tarifs_2026",
+              "quote": "Carte de paiement internationale à débit différé (Carte VISA Classique) 5 735 par an"
+            },
+            "cotisation": {
+              "status": "found",
+              "value": "5 735 XPF/an",
+              "num": 5735,
+              "source": "bdp_tarifs_2026",
+              "quote": "Carte de paiement internationale à débit différé (Carte VISA Classique) 5 735 par an"
+            }
+          }
+        },
+        {
+          "id": "immediat",
+          "label": "débit immédiat",
+          "attrs": {
+            "debit": {
+              "status": "found",
+              "value": "Débit immédiat",
+              "code": "immediat",
+              "source": "bdp_tarifs_2026",
+              "quote": "Carte de paiement internationale à débit immédiat (Carte VISA Classique) 5 735 par an"
+            },
+            "cotisation": {
+              "status": "found",
+              "value": "5 735 XPF/an",
+              "num": 5735,
+              "source": "bdp_tarifs_2026",
+              "quote": "Carte de paiement internationale à débit immédiat (Carte VISA Classique) 5 735 par an"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "bdp-visa-premier",
+      "kind": "carte",
+      "bank": "bdp",
+      "name": "Visa Premier",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Visa",
+          "code": "visa",
+          "source": "bdp_visa_premier",
+          "quote": "Bien plus qu'une carte bancaire de retrait et de paiement, la Carte Visa Premier assure votre confort"
+        },
+        "international": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "bdp_visa_premier",
+          "quote": "Une Carte Internationale associée à des avantages exclusifs"
+        },
+        "sans_contact": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_tarifs_2026"
+          ],
+          "note": "Le sans contact n’est mentionné ni sur les pages cartes ni dans la grille."
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_fenuapay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; Banque de Polynésie absente de la liste Apple (rubrique France)."
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_fenuapay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; Banque de Polynésie absente de la liste Apple (rubrique France)."
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_classique",
+            "bdp_visa_premier",
+            "bdp_visa_red",
+            "bdp_carte_hoa",
+            "bdp_fenuapay",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay par la banque ; Banque de Polynésie absente de la liste Apple (rubrique France)."
+        },
+        "mobile_local": {
+          "status": "found",
+          "value": "Non (FenuaPay réservé aux cartes privatives locales)",
+          "code": false,
+          "source": "bdp_fenuapay",
+          "quote": "FenuaPay est une solution de paiement mobile gratuite et réservée aux cartes privatives locales."
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui (3-D Secure)",
+          "code": true,
+          "source": "bdp_visa_premier",
+          "quote": "Information sécurité (3-D Secure) : Pour assurer la sécurité sur Internet des porteurs de cartes, Visa a mis en place depuis 2009 le dispositif 3-D Secure."
+        },
+        "frais_etranger": {
+          "status": "found",
+          "value": "2,70 % hors zone euro (gratuit en PF et zone euro)",
+          "num": 2.7,
+          "source": "bdp_tarifs_2026",
+          "quote": "En zone euro GRATUIT ▫ Hors zone euro 2,70% par opération"
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit",
+          "num": 0,
+          "source": "bdp_tarifs_2026",
+          "quote": "Sur un distributeur automatique Banque de Polynésie GRATUIT"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "122 XPF/retrait",
+          "num": 122,
+          "source": "bdp_tarifs_2026",
+          "quote": "Sur un autre distributeur en Polynésie Française 122 par retrait"
+        },
+        "retrait_etranger": {
+          "status": "found",
+          "value": "120 XPF + 2,70 % hors zone euro ; 642 XPF en zone euro dès le 4e retrait du mois",
+          "source": "bdp_tarifs_2026",
+          "quote": "En zone euro (à partir du 4ème retrait dans le mois) 642 par retrait ▫ Hors zone euro 120 + 2,70% par retrait"
+        },
+        "conditions": {
+          "status": "not_published",
+          "checked": [
+            "bdp_visa_premier",
+            "bdp_tarifs_2026"
+          ]
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Premier",
+          "code": "premium",
+          "source": "bdp_tarifs_2026",
+          "quote": "Carte Visa Premier ▫ Carte de paiement internationale à débit différé 20 300 par an"
+        },
+        "packages": [
+          {
+            "name": "Pack IA ORA",
+            "audience": "tous",
+            "status": "found",
+            "value": "Pack IA ORA avec Visa Premier : 2 715 XPF/mois",
+            "num": 2715,
+            "source": "bdp_tarifs_2026",
+            "quote": "Carte Visa Premier à débit immédiat ou différé 2 715 F TTC",
+            "note": "À partir de 18 ans ; inclut compte, assurance TEORA, banque en ligne."
+          }
+        ],
+        "plafond_paiement": {
+          "status": "found",
+          "value": "909 600 XPF / 30 jours",
+          "num": 909600,
+          "source": "bdp_visa_premier",
+          "quote": "Capacité de paiement sur 30 jours consécutifs 909.600 F CFP"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "109 153 XPF / 7 jours (DAB)",
+          "num": 109153,
+          "source": "bdp_visa_premier",
+          "quote": "Capacité retrait dans les DAB sur 7 jours consécutifs 109.153 F CFP"
+        },
+        "assurance": {
+          "status": "found",
+          "value": "Garanties voyage étendues (bagages, retard, annulation, location…)",
+          "code": "etendue",
+          "source": "bdp_visa_premier",
+          "quote": "Garantie perte, vol ou détérioration de bagages Garantie retard d'avion, et retard de bagages Garantie annulation - interruption de voyage"
+        }
+      },
+      "variants": [
+        {
+          "id": "differe",
+          "label": "débit différé",
+          "attrs": {
+            "debit": {
+              "status": "found",
+              "value": "Débit différé",
+              "code": "differe",
+              "source": "bdp_tarifs_2026",
+              "quote": "Carte Visa Premier ▫ Carte de paiement internationale à débit différé 20 300 par an"
+            },
+            "cotisation": {
+              "status": "found",
+              "value": "20 300 XPF/an",
+              "num": 20300,
+              "source": "bdp_tarifs_2026",
+              "quote": "Carte Visa Premier ▫ Carte de paiement internationale à débit différé 20 300 par an"
+            }
+          }
+        },
+        {
+          "id": "immediat",
+          "label": "débit immédiat",
+          "attrs": {
+            "debit": {
+              "status": "found",
+              "value": "Débit immédiat",
+              "code": "immediat",
+              "source": "bdp_tarifs_2026",
+              "quote": "Carte de paiement internationale à débit immédiat 20 300 par an"
+            },
+            "cotisation": {
+              "status": "found",
+              "value": "20 300 XPF/an",
+              "num": 20300,
+              "source": "bdp_tarifs_2026",
+              "quote": "Carte de paiement internationale à débit immédiat 20 300 par an"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "marara-fenua",
+      "kind": "carte",
+      "bank": "marara",
+      "name": "Carte FENUA (privative)",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Locale privative",
+          "code": "local",
+          "source": "marara_cartes_locales",
+          "quote": "La carte Fenua est la carte privative de MARARA Paiement."
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Carte locale",
+          "code": "locale",
+          "source": "marara_cartes_locales",
+          "quote": "La carte Fenua est la carte privative de MARARA Paiement."
+        },
+        "debit": {
+          "status": "found",
+          "value": "Autorisation systématique (débit immédiat)",
+          "code": "autorisation",
+          "source": "marara_tarifs_2026",
+          "quote": "Carte Privative FENUA - Fourniture d’une carte de débit (carte de paiement à autorisaton systématique) 220"
+        },
+        "cotisation": {
+          "status": "found",
+          "value": "220 XPF/mois, soit 2 640 XPF/an",
+          "num": 2640,
+          "source": "marara_tarifs_2026",
+          "quote": "Carte Privative FENUA - Fourniture d’une carte de débit (carte de paiement à autorisaton 220 300 systématique) - Par mois",
+          "derived": "220 × 12"
+        },
+        "packages": [
+          {
+            "name": "Pack MARARA",
+            "audience": "tous",
+            "status": "found",
+            "value": "Pack MARARA : 650 XPF/mois",
+            "num": 650,
+            "source": "marara_tarifs_2026",
+            "quote": "Pack MARARA (par mois) 650",
+            "note": "À partir de 18 ans ; compte, carte Fenua, FenuaPay, assurance des moyens de paiement, services à distance.",
+            "extra": [
+              {
+                "status": "found",
+                "value": "Carte Fenua incluse",
+                "source": "marara_tarifs_2026",
+                "quote": "- d’une carte Fenua (design au choix)"
+              }
+            ]
+          }
+        ],
+        "international": {
+          "status": "found",
+          "value": "Non (Polynésie française uniquement)",
+          "code": false,
+          "source": "marara_cartes_locales",
+          "quote": "Elle permet d’effectuer des paiements et des retraits sur le territoire polynésien."
+        },
+        "sans_contact": {
+          "status": "not_published",
+          "checked": [
+            "marara_cartes_locales",
+            "marara_tarifs_2026",
+            "marara_fenuapay"
+          ],
+          "note": "Le sans contact de la carte n’est pas mentionné (FenuaPay permet de payer en sans contact avec le téléphone, pas avec la carte)."
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "marara_cartes_visa",
+            "marara_cgu_visa",
+            "marara_cartes_locales",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay ; MARARA Paiement absente de la liste Apple (rubrique France)."
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "marara_cartes_visa",
+            "marara_cgu_visa",
+            "marara_cartes_locales",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay ; MARARA Paiement absente de la liste Apple (rubrique France)."
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "marara_cartes_visa",
+            "marara_cgu_visa",
+            "marara_cartes_locales",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay ; MARARA Paiement absente de la liste Apple (rubrique France)."
+        },
+        "mobile_local": {
+          "status": "found",
+          "value": "Oui (FenuaPay : QR code ou NFC)",
+          "code": true,
+          "source": "marara_cartes_locales",
+          "quote": "Compatible avec FenuaPay."
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui, sites marchands locaux (PayZen)",
+          "code": true,
+          "source": "marara_cartes_locales",
+          "quote": "Paiement en ligne sur les sites marchands locaux"
+        },
+        "plafond_paiement": {
+          "status": "found",
+          "value": "Selon le solde disponible",
+          "source": "marara_cartes_locales",
+          "quote": "Plafond de paiement : en fonction du solde disponible sur le compte du client"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "100 000 XPF/jour",
+          "num": 100000,
+          "source": "marara_cartes_locales",
+          "quote": "Plafond de retrait GAB : 100 000 F CFP par jour"
+        },
+        "frais_etranger": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026",
+            "marara_cartes_locales"
+          ],
+          "note": "Carte utilisable en Polynésie uniquement."
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit",
+          "num": 0,
+          "source": "marara_tarifs_2026",
+          "quote": "Retrait d’espèces sur DAB MARARA Gratuit Gratuit"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "118 XPF/retrait",
+          "num": 118,
+          "source": "marara_tarifs_2026",
+          "quote": "Retrait d’espèces sur DAB d’une banque confrère en Polynésie française 118 118"
+        },
+        "retrait_etranger": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026",
+            "marara_cartes_locales"
+          ],
+          "note": "Carte utilisable en Polynésie uniquement."
+        },
+        "assurance": {
+          "status": "not_published",
+          "checked": [
+            "marara_cartes_locales"
+          ]
+        },
+        "conditions": {
+          "status": "found",
+          "value": "Dès 12 ans (autorisation parentale pour les mineurs)",
+          "source": "marara_cartes_locales",
+          "quote": "Condition d’éligibilité : Avoir 12 ans"
+        }
+      }
+    },
+    {
+      "id": "marara-kaveka",
+      "kind": "carte",
+      "bank": "marara",
+      "name": "Carte FENUA-KAVEKA (fidélité Air Tahiti)",
+      "note": "1 point-prime Kaveka par tranche de 5 000 XPF de paiements cumulés sur le mois.",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "Locale privative",
+          "code": "local",
+          "source": "marara_kaveka",
+          "quote": "la carte FENUA-KAVEKA est la première carte locale intégrant un programme de fidélité"
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Carte locale",
+          "code": "locale",
+          "source": "marara_kaveka",
+          "quote": "la carte FENUA-KAVEKA est la première carte locale intégrant un programme de fidélité"
+        },
+        "debit": {
+          "status": "found",
+          "value": "Autorisation systématique (débit immédiat)",
+          "code": "autorisation",
+          "source": "marara_kaveka",
+          "quote": "Carte de paiement à débit immédiat à autorisation systématique"
+        },
+        "cotisation": {
+          "status": "found",
+          "value": "4 800 XPF/an",
+          "num": 4800,
+          "source": "marara_kaveka",
+          "quote": "4 800 FCFP / an Carte FENUA - KAVEKA"
+        },
+        "packages": [],
+        "international": {
+          "status": "found",
+          "value": "Non (Polynésie française uniquement)",
+          "code": false,
+          "source": "marara_kaveka",
+          "quote": "elle permet de payer et de retirer de l’argent partout sur le territoire polynésien"
+        },
+        "sans_contact": {
+          "status": "not_published",
+          "checked": [
+            "marara_kaveka",
+            "marara_tarifs_2026",
+            "marara_fenuapay"
+          ],
+          "note": "Le sans contact de la carte n’est pas mentionné (FenuaPay permet de payer en sans contact avec le téléphone, pas avec la carte)."
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "marara_cartes_visa",
+            "marara_cgu_visa",
+            "marara_cartes_locales",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay ; MARARA Paiement absente de la liste Apple (rubrique France)."
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "marara_cartes_visa",
+            "marara_cgu_visa",
+            "marara_cartes_locales",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay ; MARARA Paiement absente de la liste Apple (rubrique France)."
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "marara_cartes_visa",
+            "marara_cgu_visa",
+            "marara_cartes_locales",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay ; MARARA Paiement absente de la liste Apple (rubrique France)."
+        },
+        "mobile_local": {
+          "status": "found",
+          "value": "Oui (FenuaPay)",
+          "code": true,
+          "source": "marara_kaveka",
+          "quote": "Compatible avec FenuaPay."
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui, sites marchands locaux (PayZen)",
+          "code": true,
+          "source": "marara_kaveka",
+          "quote": "Paiement en ligne sur les sites marchands locaux"
+        },
+        "plafond_paiement": {
+          "status": "found",
+          "value": "Selon le solde disponible",
+          "source": "marara_kaveka",
+          "quote": "Plafond de paiement : en fonction du solde disponible sur le compte du client"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "100 000 XPF/jour",
+          "num": 100000,
+          "source": "marara_kaveka",
+          "quote": "Plafond de retrait GAB : 100 000 F CFP par jour"
+        },
+        "frais_etranger": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026",
+            "marara_kaveka"
+          ],
+          "note": "Carte utilisable en Polynésie uniquement."
+        },
+        "retrait_banque": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026",
+            "marara_kaveka"
+          ],
+          "note": "Carte absente de la grille du 1er mars 2026."
+        },
+        "retrait_pf": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026",
+            "marara_kaveka"
+          ],
+          "note": "Carte absente de la grille du 1er mars 2026."
+        },
+        "retrait_etranger": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026",
+            "marara_kaveka"
+          ],
+          "note": "Carte utilisable en Polynésie uniquement."
+        },
+        "assurance": {
+          "status": "not_published",
+          "checked": [
+            "marara_kaveka"
+          ]
+        },
+        "conditions": {
+          "status": "found",
+          "value": "Dès 12 ans (autorisation parentale pour les mineurs)",
+          "source": "marara_kaveka",
+          "quote": "Condition d’éligibilité : Avoir 12 ans"
+        }
+      }
+    },
+    {
+      "id": "marara-visa-classic",
+      "kind": "carte",
+      "bank": "marara",
+      "name": "CB-Visa Classic",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "CB-Visa",
+          "code": "visa",
+          "source": "marara_cartes_visa",
+          "quote": "La carte CB-Visa Classic proposée par MARARA Paiement est une carte de paiement internationale acceptée dans le monde entier."
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Classic",
+          "code": "essentielle",
+          "source": "marara_tarifs_2026",
+          "quote": "Carte VISA Classic - Fourniture d’une carte de débit (carte de paiement à autorisation systématique) 5 000"
+        },
+        "debit": {
+          "status": "found",
+          "value": "Autorisation systématique (débit immédiat)",
+          "code": "autorisation",
+          "source": "marara_tarifs_2026",
+          "quote": "Carte VISA Classic - Fourniture d’une carte de débit (carte de paiement à autorisation systématique) 5 000"
+        },
+        "cotisation": {
+          "status": "found",
+          "value": "5 000 XPF/an",
+          "num": 5000,
+          "source": "marara_tarifs_2026",
+          "quote": "Carte VISA Classic - Fourniture d’une carte de débit (carte de paiement à autorisation systématique) 5 000"
+        },
+        "packages": [],
+        "international": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "marara_cartes_visa",
+          "quote": "La carte CB-Visa Classic proposée par MARARA Paiement est une carte de paiement internationale acceptée dans le monde entier."
+        },
+        "sans_contact": {
+          "status": "found",
+          "value": "Oui (activé par défaut ; moins de 5 960 XPF sans code)",
+          "code": true,
+          "source": "marara_cgu_visa",
+          "quote": "La fonctionnalité « sans contact » est activée par défaut.",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Plafond sans code",
+              "source": "marara_cgu_visa",
+              "quote": "Les cartes disposant de la fonctionnalité « sans contact » permettent de régler rapidement des achats de biens ou de prestations d’un montant inférieur à 50 euros (soit la contre-valeur de 5 960 F.CFP)"
+            }
+          ]
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "marara_cartes_visa",
+            "marara_cgu_visa",
+            "marara_cartes_locales",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay ; MARARA Paiement absente de la liste Apple (rubrique France)."
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "marara_cartes_visa",
+            "marara_cgu_visa",
+            "marara_cartes_locales",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay ; MARARA Paiement absente de la liste Apple (rubrique France)."
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "marara_cartes_visa",
+            "marara_cgu_visa",
+            "marara_cartes_locales",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay ; MARARA Paiement absente de la liste Apple (rubrique France)."
+        },
+        "mobile_local": {
+          "status": "found",
+          "value": "Non (FenuaPay réservé aux cartes Fenua)",
+          "code": false,
+          "source": "marara_fenuapay",
+          "quote": "L’application FenuaPay est destinée aux clients MARARA Paiement disposant d’une carte Fenua."
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui (authentification forte DSP2)",
+          "code": true,
+          "source": "marara_cartes_visa",
+          "quote": "Elle est à débit immédiat à autorisation systématique¹ et permet d’effectuer des retraits, des paiements en Polynésie Française et à l’international (sans frais)² ainsi que des achats en ligne"
+        },
+        "plafond_paiement": {
+          "status": "found",
+          "value": "200 000 XPF / 30 jours glissants",
+          "num": 200000,
+          "source": "marara_cartes_visa",
+          "quote": "Plafond de paiement : 200 000 FCFP sur 30j glissants"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "35 000 XPF / 7 jours glissants",
+          "num": 35000,
+          "source": "marara_cartes_visa",
+          "quote": "Plafond de retrait GAB : 35 000 FCFP sur 7j glissants"
+        },
+        "frais_etranger": {
+          "status": "found",
+          "value": "Sans frais (surcharge Visa possible chez certains commerçants)",
+          "num": 0,
+          "source": "marara_cartes_visa",
+          "quote": "Elle est à débit immédiat à autorisation systématique¹ et permet d’effectuer des retraits, des paiements en Polynésie Française et à l’international (sans frais)",
+          "note": "Chez certains commerçants internationaux, une surcharge liée aux frais Visa peut être appliquée et affichée sur le ticket."
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit",
+          "num": 0,
+          "source": "marara_tarifs_2026",
+          "quote": "Retrait d’espèces sur DAB MARARA Gratuit Gratuit"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "118 XPF/retrait",
+          "num": 118,
+          "source": "marara_tarifs_2026",
+          "quote": "Retrait d’espèces sur DAB d’une banque confrère en Polynésie française 118 118"
+        },
+        "retrait_etranger": {
+          "status": "found",
+          "value": "Sans frais selon la page produit",
+          "source": "marara_cartes_visa",
+          "quote": "Elle est à débit immédiat à autorisation systématique¹ et permet d’effectuer des retraits, des paiements en Polynésie Française et à l’international (sans frais)"
+        },
+        "assurance": {
+          "status": "found",
+          "value": "Assistance et assurance (notice CB-VISA Classic)",
+          "code": "incluse",
+          "source": "marara_cartes_visa",
+          "quote": "Notice d’assistance et assurance CB-VISA Classic"
+        },
+        "conditions": {
+          "status": "found",
+          "value": "Dès 16 ans (autorisation parentale pour les mineurs), aucun revenu minimum",
+          "source": "marara_cartes_visa",
+          "quote": "Condition d’éligibilité : Avoir 16 ans"
+        }
+      }
+    },
+    {
+      "id": "marara-visa-premier",
+      "kind": "carte",
+      "bank": "marara",
+      "name": "CB-Visa Premier",
+      "attrs": {
+        "reseau": {
+          "status": "found",
+          "value": "CB-Visa",
+          "code": "visa",
+          "source": "marara_cartes_visa",
+          "quote": "La carte CB-Visa Premier proposée par MARARA Paiement est une carte de paiement internationale acceptée dans le monde entier."
+        },
+        "gamme": {
+          "status": "found",
+          "value": "Premier",
+          "code": "premium",
+          "source": "marara_tarifs_2026",
+          "quote": "Carte VISA PREMIER - Fourniture d’une carte de débit (carte de paiement internationale 16 000"
+        },
+        "debit": {
+          "status": "found",
+          "value": "Débit immédiat (autorisation quasi-systématique)",
+          "code": "immediat",
+          "source": "marara_tarifs_2026",
+          "quote": "Carte VISA PREMIER - Fourniture d’une carte de débit (carte de paiement internationale 16 000 à débit immédiat) - Par an"
+        },
+        "cotisation": {
+          "status": "found",
+          "value": "16 000 XPF/an",
+          "num": 16000,
+          "source": "marara_tarifs_2026",
+          "quote": "Carte VISA PREMIER - Fourniture d’une carte de débit (carte de paiement internationale 16 000"
+        },
+        "packages": [],
+        "international": {
+          "status": "found",
+          "value": "Oui",
+          "code": true,
+          "source": "marara_cartes_visa",
+          "quote": "La carte CB-Visa Premier proposée par MARARA Paiement est une carte de paiement internationale acceptée dans le monde entier."
+        },
+        "sans_contact": {
+          "status": "found",
+          "value": "Oui (activé par défaut ; moins de 5 960 XPF sans code)",
+          "code": true,
+          "source": "marara_cgu_visa",
+          "quote": "La fonctionnalité « sans contact » est activée par défaut.",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Plafond sans code",
+              "source": "marara_cgu_visa",
+              "quote": "Les cartes disposant de la fonctionnalité « sans contact » permettent de régler rapidement des achats de biens ou de prestations d’un montant inférieur à 50 euros (soit la contre-valeur de 5 960 F.CFP)"
+            }
+          ]
+        },
+        "apple_pay": {
+          "status": "not_published",
+          "checked": [
+            "marara_cartes_visa",
+            "marara_cgu_visa",
+            "marara_cartes_locales",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay ; MARARA Paiement absente de la liste Apple (rubrique France)."
+        },
+        "google_pay": {
+          "status": "not_published",
+          "checked": [
+            "marara_cartes_visa",
+            "marara_cgu_visa",
+            "marara_cartes_locales",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay ; MARARA Paiement absente de la liste Apple (rubrique France)."
+        },
+        "samsung_pay": {
+          "status": "not_published",
+          "checked": [
+            "marara_cartes_visa",
+            "marara_cgu_visa",
+            "marara_cartes_locales",
+            "apple_pay_banques"
+          ],
+          "note": "Aucune mention d’Apple Pay, Google Pay ou Samsung Pay ; MARARA Paiement absente de la liste Apple (rubrique France)."
+        },
+        "mobile_local": {
+          "status": "found",
+          "value": "Non (FenuaPay réservé aux cartes Fenua)",
+          "code": false,
+          "source": "marara_fenuapay",
+          "quote": "L’application FenuaPay est destinée aux clients MARARA Paiement disposant d’une carte Fenua."
+        },
+        "ecommerce": {
+          "status": "found",
+          "value": "Oui (authentification forte DSP2)",
+          "code": true,
+          "source": "marara_cartes_visa",
+          "quote": "Elle est à débit immédiat à autorisation quasi-systématique¹ et permet d’effectuer des retraits, des paiements en Polynésie Française et à l’international (sans frais)² ainsi que des achats en ligne"
+        },
+        "plafond_paiement": {
+          "status": "found",
+          "value": "1 000 000 XPF / 30 jours glissants",
+          "num": 1000000,
+          "source": "marara_cartes_visa",
+          "quote": "Plafond de paiement : 1 000 000 FCFP sur 30j glissants"
+        },
+        "plafond_retrait": {
+          "status": "found",
+          "value": "180 000 XPF / 7 jours glissants",
+          "num": 180000,
+          "source": "marara_cartes_visa",
+          "quote": "Plafond de retrait DAB : 180 000 FCFP sur 7j glissants"
+        },
+        "frais_etranger": {
+          "status": "found",
+          "value": "Sans frais (surcharge Visa possible chez certains commerçants)",
+          "num": 0,
+          "source": "marara_cartes_visa",
+          "quote": "Elle est à débit immédiat à autorisation quasi-systématique¹ et permet d’effectuer des retraits, des paiements en Polynésie Française et à l’international (sans frais)",
+          "note": "Chez certains commerçants internationaux, une surcharge liée aux frais Visa peut être appliquée et affichée sur le ticket."
+        },
+        "retrait_banque": {
+          "status": "found",
+          "value": "Gratuit",
+          "num": 0,
+          "source": "marara_tarifs_2026",
+          "quote": "Retrait d’espèces sur DAB MARARA Gratuit Gratuit"
+        },
+        "retrait_pf": {
+          "status": "found",
+          "value": "118 XPF/retrait",
+          "num": 118,
+          "source": "marara_tarifs_2026",
+          "quote": "Retrait d’espèces sur DAB d’une banque confrère en Polynésie française 118 118"
+        },
+        "retrait_etranger": {
+          "status": "found",
+          "value": "Sans frais selon la page produit",
+          "source": "marara_cartes_visa",
+          "quote": "Elle est à débit immédiat à autorisation quasi-systématique¹ et permet d’effectuer des retraits, des paiements en Polynésie Française et à l’international (sans frais)"
+        },
+        "assurance": {
+          "status": "found",
+          "value": "Assistance et assurance (notice CB-VISA Premier)",
+          "code": "incluse",
+          "source": "marara_cartes_visa",
+          "quote": "Notice d’assistance et assurance CB-VISA Premier"
+        },
+        "conditions": {
+          "status": "found",
+          "value": "Dès 18 ans, en CDI, patenté ou retraité",
+          "source": "marara_cartes_visa",
+          "quote": "Avoir 18 ans minimum, Aucun revenu minimum requis, Titulaire d’un CDI, patenté ou retraité"
+        }
+      }
+    }
+  ],
+  "catalogs": [
+    {
+      "id": "carte",
+      "category": "compte",
+      "label": "Trouver ma carte",
+      "itemLabel": [
+        "carte",
+        "cartes"
+      ],
+      "intro": "Toutes les cartes bancaires proposées aux particuliers, une par produit et par type de débit. Chaque attribut renvoie à sa source ; ce que la banque ne publie pas est marqué « non publié » et n’est jamais compté comme un « oui ».",
+      "attributes": [
+        {
+          "id": "reseau",
+          "label": "Réseau",
+          "type": "enum",
+          "options": [
+            {
+              "value": "visa",
+              "label": "Visa",
+              "match": "visa"
+            },
+            {
+              "value": "mastercard",
+              "label": "Mastercard",
+              "match": "mastercard"
+            },
+            {
+              "value": "upi",
+              "label": "UnionPay (UPI)",
+              "match": "union ?pay"
+            },
+            {
+              "value": "local",
+              "label": "Local / privatif",
+              "match": "privative|locale|territoire"
+            }
+          ]
+        },
+        {
+          "id": "gamme",
+          "label": "Gamme",
+          "type": "enum",
+          "options": [
+            {
+              "value": "locale",
+              "label": "Carte locale",
+              "match": "privative|locale"
+            },
+            {
+              "value": "essentielle",
+              "label": "Internationale essentielle (Classic, Red…)",
+              "match": "classic|classique|red|socool"
+            },
+            {
+              "value": "premium",
+              "label": "Premium (Premier, Gold)",
+              "match": "premier|gold|haut de gamme"
+            },
+            {
+              "value": "infinite",
+              "label": "Très haut de gamme (Infinite)",
+              "match": "infinite"
+            }
+          ]
+        },
+        {
+          "id": "debit",
+          "label": "Type de débit",
+          "type": "enum",
+          "options": [
+            {
+              "value": "immediat",
+              "label": "Débit immédiat",
+              "match": "immédiat"
+            },
+            {
+              "value": "differe",
+              "label": "Débit différé",
+              "match": "différé"
+            },
+            {
+              "value": "autorisation",
+              "label": "Autorisation systématique",
+              "match": "autori[a-z]* (quasi[- ])?syst[ée]matique|vérification de votre solde"
+            }
+          ]
+        },
+        {
+          "id": "cotisation",
+          "label": "Cotisation annuelle",
+          "type": "number",
+          "unit": "XPF/an",
+          "better": "lower"
+        },
+        {
+          "id": "packages",
+          "label": "Offres groupées incluant la carte",
+          "type": "list",
+          "unit": "XPF/mois",
+          "audiences": [
+            {
+              "value": "tous",
+              "label": "Tout public"
+            },
+            {
+              "value": "jeunes",
+              "label": "Jeunes"
+            },
+            {
+              "value": "etudiants",
+              "label": "Étudiants"
+            },
+            {
+              "value": "fragile",
+              "label": "Clientèle fragile"
+            }
+          ]
+        },
+        {
+          "id": "international",
+          "label": "Utilisable à l’étranger",
+          "type": "bool",
+          "options": [
+            {
+              "value": true,
+              "label": "Oui"
+            },
+            {
+              "value": false,
+              "label": "Non"
+            }
+          ],
+          "match": "étranger|international|monde|territoire|polynésie"
+        },
+        {
+          "id": "sans_contact",
+          "label": "Sans contact",
+          "type": "bool",
+          "options": [
+            {
+              "value": true,
+              "label": "Oui"
+            },
+            {
+              "value": false,
+              "label": "Non"
+            }
+          ],
+          "match": "sans contact"
+        },
+        {
+          "id": "apple_pay",
+          "label": "Apple Pay",
+          "type": "bool",
+          "options": [
+            {
+              "value": true,
+              "label": "Oui"
+            },
+            {
+              "value": false,
+              "label": "Non"
+            }
+          ],
+          "match": "apple pay"
+        },
+        {
+          "id": "google_pay",
+          "label": "Google Pay",
+          "type": "bool",
+          "options": [
+            {
+              "value": true,
+              "label": "Oui"
+            },
+            {
+              "value": false,
+              "label": "Non"
+            }
+          ],
+          "match": "google pay"
+        },
+        {
+          "id": "samsung_pay",
+          "label": "Samsung Pay",
+          "type": "bool",
+          "options": [
+            {
+              "value": true,
+              "label": "Oui"
+            },
+            {
+              "value": false,
+              "label": "Non"
+            }
+          ],
+          "match": "samsung pay"
+        },
+        {
+          "id": "mobile_local",
+          "label": "Paiement mobile local (FenuaPay, SOCPAY)",
+          "type": "bool",
+          "options": [
+            {
+              "value": true,
+              "label": "Oui"
+            },
+            {
+              "value": false,
+              "label": "Non"
+            }
+          ],
+          "match": "fenuapay|socpay"
+        },
+        {
+          "id": "ecommerce",
+          "label": "Paiement en ligne",
+          "type": "bool",
+          "options": [
+            {
+              "value": true,
+              "label": "Oui"
+            },
+            {
+              "value": false,
+              "label": "Non"
+            }
+          ],
+          "match": "internet|en ligne|à distance|3-?d secure"
+        },
+        {
+          "id": "plafond_paiement",
+          "label": "Plafond de paiement",
+          "type": "text",
+          "unit": "XPF"
+        },
+        {
+          "id": "plafond_retrait",
+          "label": "Plafond de retrait",
+          "type": "text",
+          "unit": "XPF"
+        },
+        {
+          "id": "frais_etranger",
+          "label": "Frais de paiement en devises",
+          "type": "number",
+          "unit": "%",
+          "better": "lower"
+        },
+        {
+          "id": "retrait_banque",
+          "label": "Retrait DAB de la banque",
+          "type": "number",
+          "unit": "XPF",
+          "better": "lower"
+        },
+        {
+          "id": "retrait_pf",
+          "label": "Retrait DAB autre banque (PF)",
+          "type": "number",
+          "unit": "XPF",
+          "better": "lower"
+        },
+        {
+          "id": "retrait_etranger",
+          "label": "Retrait à l’étranger",
+          "type": "text"
+        },
+        {
+          "id": "assurance",
+          "label": "Assurance / assistance",
+          "type": "enum",
+          "options": [
+            {
+              "value": "base",
+              "label": "Assistance de base",
+              "match": "assistance|assurance"
+            },
+            {
+              "value": "etendue",
+              "label": "Garanties voyage étendues",
+              "match": "bagages|annulation"
+            },
+            {
+              "value": "incluse",
+              "label": "Incluse (non détaillée)",
+              "match": "assurance|assistance"
+            }
+          ]
+        },
+        {
+          "id": "conditions",
+          "label": "Conditions / âge",
+          "type": "text"
+        }
+      ],
+      "summary": [
+        "reseau",
+        "gamme",
+        "debit",
+        "sans_contact",
+        "apple_pay",
+        "google_pay",
+        "international",
+        "frais_etranger"
+      ],
+      "cost": {
+        "attr": "cotisation",
+        "unit": "XPF/an",
+        "alt": {
+          "attr": "packages",
+          "factor": 12,
+          "label": "via offre groupée",
+          "caveat": "Prix de l’offre groupée entière (compte et autres services inclus) : à ne pas comparer directement à une cotisation de carte seule."
+        }
+      },
+      "best": {
+        "label": "La moins chère",
+        "basis": "standalone"
+      },
+      "facets": [
+        {
+          "id": "banque",
+          "param": "banque",
+          "label": "Banque",
+          "type": "enum",
+          "field": "bank"
+        },
+        {
+          "id": "reseau",
+          "param": "reseau",
+          "label": "Réseau",
+          "type": "enum",
+          "attr": "reseau"
+        },
+        {
+          "id": "gamme",
+          "param": "gamme",
+          "label": "Gamme",
+          "type": "enum",
+          "attr": "gamme"
+        },
+        {
+          "id": "debit",
+          "param": "debit",
+          "label": "Type de débit",
+          "type": "enum",
+          "attr": "debit"
+        },
+        {
+          "id": "sans_contact",
+          "param": "sans_contact",
+          "label": "Sans contact",
+          "type": "bool",
+          "attr": "sans_contact"
+        },
+        {
+          "id": "mobile",
+          "param": "mobile",
+          "label": "Paiement mobile",
+          "type": "anyOf",
+          "choices": [
+            {
+              "value": "wallet",
+              "label": "Apple Pay, Google Pay ou Samsung Pay",
+              "attrs": [
+                "apple_pay",
+                "google_pay",
+                "samsung_pay"
+              ]
+            },
+            {
+              "value": "apple_google",
+              "label": "Apple Pay ou Google Pay",
+              "attrs": [
+                "apple_pay",
+                "google_pay"
+              ]
+            },
+            {
+              "value": "apple_pay",
+              "label": "Apple Pay",
+              "attrs": [
+                "apple_pay"
+              ]
+            },
+            {
+              "value": "google_pay",
+              "label": "Google Pay",
+              "attrs": [
+                "google_pay"
+              ]
+            },
+            {
+              "value": "samsung_pay",
+              "label": "Samsung Pay",
+              "attrs": [
+                "samsung_pay"
+              ]
+            },
+            {
+              "value": "local",
+              "label": "FenuaPay / SOCPAY (local)",
+              "attrs": [
+                "mobile_local"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "etranger",
+          "param": "etranger",
+          "label": "Utilisable à l’étranger",
+          "type": "bool",
+          "attr": "international"
+        },
+        {
+          "id": "jeune",
+          "param": "jeune",
+          "label": "Offre jeunes ou étudiants",
+          "type": "listHas",
+          "attr": "packages",
+          "listField": "audience",
+          "values": [
+            "jeunes",
+            "etudiants"
+          ],
+          "impliesAlt": true
+        },
+        {
+          "id": "budget",
+          "param": "budget",
+          "label": "Budget maximum",
+          "type": "max",
+          "cost": true,
+          "unit": "XPF/an",
+          "step": 1000
+        },
+        {
+          "id": "packages",
+          "param": "packages",
+          "label": "Inclure les cartes vendues en offre groupée",
+          "type": "flag",
+          "role": "includeAlt"
+        }
+      ],
+      "sorts": [
+        {
+          "id": "cout",
+          "label": "Coût annuel",
+          "by": [
+            {
+              "cost": true
+            }
+          ]
+        },
+        {
+          "id": "banque",
+          "label": "Banque",
+          "by": [
+            {
+              "field": "bank"
+            },
+            {
+              "cost": true
+            }
+          ]
+        },
+        {
+          "id": "gamme",
+          "label": "Gamme",
+          "by": [
+            {
+              "attr": "gamme"
+            },
+            {
+              "cost": true
+            }
+          ]
+        },
+        {
+          "id": "frais_etranger",
+          "label": "Frais à l’étranger",
+          "by": [
+            {
+              "attr": "frais_etranger"
+            },
+            {
+              "cost": true
+            }
+          ]
+        }
+      ],
+      "defaultSort": "cout",
+      "presets": [
+        {
+          "id": "visa-moins-chere",
+          "label": "Visa la moins chère",
+          "state": {
+            "reseau": [
+              "visa"
+            ]
+          },
+          "sort": "cout"
+        },
+        {
+          "id": "sans-contact-moins-chere",
+          "label": "Sans contact la moins chère",
+          "state": {
+            "sans_contact": true
+          },
+          "sort": "cout"
+        },
+        {
+          "id": "apple-google-pay",
+          "label": "Avec Apple Pay / Google Pay",
+          "state": {
+            "mobile": "apple_google"
+          },
+          "sort": "cout"
+        },
+        {
+          "id": "voyager",
+          "label": "Pour voyager (étranger, frais de change)",
+          "state": {
+            "etranger": true
+          },
+          "sort": "frais_etranger"
+        },
+        {
+          "id": "carte-jeune",
+          "label": "Carte jeune",
+          "state": {
+            "jeune": true,
+            "packages": true
+          },
+          "sort": "cout"
+        },
+        {
+          "id": "haut-de-gamme",
+          "label": "Haut de gamme",
+          "state": {
+            "gamme": [
+              "premium",
+              "infinite"
+            ]
+          },
+          "sort": "cout"
+        }
+      ],
+      "notes": [
+        "Une ligne par carte et par type de débit ; les cartes American Express (émises par OFINA, « nous consulter ») et les cartes de retrait seul ne sont pas incluses.",
+        "« Gamme » est un classement d’après le nom du produit cité par la banque (Classic, Premier, Gold, Infinite, carte locale).",
+        "Apple Pay, Google Pay, sans contact : seule la parole de la banque compte. Absence de mention = « non publié », jamais déduit du réseau."
+      ]
+    }
+  ]
 }

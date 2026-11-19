@@ -4,8 +4,8 @@ Comparateur web (Vite + React, SPA statique) des offres bancaires aux particulie
 française : **Banque SOCREDO**, **Banque de Tahiti** (BPCE), **Banque de Polynésie** (Société
 Générale) et **MARARA Paiement** (ex-services financiers / CCP de l'OPT).
 
-Rubriques : crédit immobilier · comptes & cartes · épargne · crédit conso/auto · simulateur de
-capacité d'emprunt (XPF par défaut, bascule €, parité 1 000 XPF = 8,38 €).
+Rubriques : crédit immobilier · comptes & cartes (avec la sous-vue **Trouver ma carte**) · épargne ·
+crédit conso/auto · simulateur de capacité d'emprunt (XPF par défaut, bascule €, parité 1 000 XPF = 8,38 €).
 
 **Règle : aucun chiffre sans source.** Chaque valeur de `data/banks.json` porte l'identifiant de sa
 source et une citation exacte ; `npm run verify` contrôle que la citation figure dans la copie texte
@@ -20,7 +20,7 @@ pas publié est affiché « Non publié », avec la liste des documents consult�
 npm ci
 npm run dev        # http://localhost:5173
 npm run verify     # contrôle des sources (--strict dans npm run build)
-npm test           # tests unitaires et adversariaux : simulateur, vérificateur, valeurs à date d'effet
+npm test           # tests unitaires et adversariaux : simulateur, vérificateur, facettes, valeurs à date d'effet
 npm run build      # verify --strict + build de production dans dist/
 ```
 
@@ -29,7 +29,7 @@ Tests navigateur (Playwright Python + Chromium, axe-core local), lancés aussi e
 ```bash
 BASE_PATH=/comparateur-banques-pf/ npm run build
 BASE_PATH=/comparateur-banques-pf/ npx vite preview --port 4173 --strictPort   # autre terminal, même BASE_PATH
-BASE_PATH=/comparateur-banques-pf/ python3 tests/e2e.py    # parcours, captures dans screenshots/, date simulée au 02/01/2027
+BASE_PATH=/comparateur-banques-pf/ python3 tests/e2e.py    # parcours (dont Trouver ma carte), captures dans screenshots/, date simulée au 02/01/2027
 BASE_PATH=/comparateur-banques-pf/ python3 tests/a11y.py   # axe WCAG 2.1 AA + navigation clavier des onglets
 python3 tests/fuzz/fuzz.py 3000                    # simulateur JS vs implémentation Python indépendante (≤ 2 XPF)
 ```
@@ -50,6 +50,31 @@ jour l'URL/la date dans `banks.json`, corriger les valeurs et citations, puis `n
 saisies dans `changes: [{ effective_from, … }]` (voir `data/SCHEMA.md`). Le site affiche la grille en
 vigueur à la date du visiteur, avec un badge « Nouvelle grille au … », et bascule seul à la date d'effet
 (y compris le minimum de frais de dossier du simulateur).
+
+## Trouver ma carte (catalogue + facettes génériques)
+
+Sous-vue de « Comptes & cartes » : une ligne par carte bancaire et par type de débit (20 produits,
+26 lignes : cartes locales SOCREDO, Tiare, HOA, FENUA, FENUA-KAVEKA ; Visa Classic/Red/SoCool/à
+autorisation systématique ; Premier, Gold, Infinite ; cartes vendues seulement en offre groupée
+comme URU JEUNES). Chaque attribut (réseau, gamme, débit, cotisation, offres groupées, étranger,
+sans contact, Apple/Google/Samsung Pay, paiement mobile local, paiement en ligne, plafonds, frais en
+devises et de retrait, assurance, conditions) est sourcé et cité, ou « non publié » avec les sources
+consultées. Le sans contact et les portefeuilles mobiles ne sont **jamais** déduits du réseau.
+
+- **Questions rapides** (« Visa la moins chère », « Sans contact la moins chère », « Avec Apple Pay /
+  Google Pay », « Pour voyager », « Carte jeune », « Haut de gamme ») : de simples états de filtres + tri.
+- **Filtres** : banque, réseau, gamme, débit, sans contact, paiement mobile, étranger, offre jeunes,
+  budget maximum, inclusion des cartes vendues en offre groupée. Booléens : Indifférent / Oui / Non ;
+  une valeur non publiée n'est jamais comptée comme « oui » : la carte est listée à part « à vérifier »
+  (masquable).
+- **Coûts** : cotisation de la carte seule ; les prix d'offres groupées sont affichés « via offre
+  groupée » (ils incluent d'autres services) et n'obtiennent jamais l'étiquette « La moins chère ».
+- **Lien partageable** : l'état est dans l'URL, ex. `?vue=carte&reseau=visa`,
+  `?vue=carte&sans_contact=1`, `?vue=carte&etranger=1&tri=frais_etranger`.
+- **Générique** : `src/lib/catalog.js` (moteur pur) et `src/Finder.jsx` (interface) ne connaissent pas
+  les cartes ; attributs, facettes, tris, coût et questions rapides sont déclarés dans
+  `data.catalogs[]`, les produits dans `data.products[]` (voir `data/SCHEMA.md`). Ajouter un
+  catalogue (comptes, épargne, crédits) = ajouter des données, sans toucher au moteur.
 
 ## Simulateur
 

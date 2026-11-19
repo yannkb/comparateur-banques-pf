@@ -126,3 +126,60 @@ affiche l'entrée de base jusqu'à la veille de `effective_from` (date locale du
 « Nouvelle grille au … », puis la valeur du changement à partir de cette date. Les presets de frais de
 dossier du simulateur acceptent aussi `changes: [{ "effective_from", "pct"?, "min"? }]`. Une fois la date
 passée, `npm run verify` le signale pour qu'on consolide le changement dans l'entrée de base.
+
+## Catalogues de produits et facettes (`catalogs`, `products`)
+Vue « trouver un produit » générique (aujourd'hui : cartes, rubrique `compte`). Le moteur
+(`src/lib/catalog.js`) et l'interface (`src/Finder.jsx`) ne lisent que ces déclarations.
+
+```json
+"products": [{
+  "id": "socredo-visa-classic", "kind": "carte", "bank": "socredo", "name": "Visa Classic",
+  "note": "optionnel",
+  "attrs": { "<attributId>": {Entrée}, "packages": [ {Offre}, … ] },        // attributs communs
+  "variants": [ { "id": "differe", "label": "débit différé", "attrs": { … } } ] // optionnel : 1 ligne par variante
+}]
+```
+- Une **ligne** = produit × variante (attributs de la variante prioritaires). Chaque attribut déclaré
+  dans le catalogue doit être présent sur chaque ligne : sourcé (`found`) ou `not_published` + `checked`.
+- Attributs `enum` et `bool` : l'entrée porte `code` (valeur machine, ex. `"visa"`, `true`) en plus de
+  `value` (texte affiché). La citation (ou un `extra`) doit contenir le motif `match` de l'option
+  (enum) ou de l'attribut (bool) : un « sans contact : oui » doit citer un texte qui parle de sans
+  contact. Un « non publié » ne porte ni `value`, ni `code`, ni `num`.
+- Attributs `number` : `num` obligatoire (unité de l'attribut) ; une cotisation mensuelle convertie en
+  annuel déclare `"derived": "220 × 12"`.
+- Attribut `list` (offres groupées) : `{ "name", "audience": "tous|jeunes|etudiants|fragile", …Entrée
+  found avec num (prix mensuel) }`.
+- Valeurs à date d'effet : `changes` comme partout (ex. cotisations Banque de Tahiti 2027), y compris
+  dans les éléments de liste.
+
+```json
+"catalogs": [{
+  "id": "carte", "category": "compte", "label": "Trouver ma carte", "itemLabel": ["carte", "cartes"],
+  "attributes": [ { "id": "reseau", "label": "Réseau", "type": "enum|bool|number|text|list", "unit": "XPF/an",
+                    "options": [ { "value": "visa", "label": "Visa", "match": "visa" } ], "match": "(bool)" } ],
+  "summary": ["reseau", …],                       // attributs affichés sur la fiche (les autres : « Tous les attributs »)
+  "cost": { "attr": "cotisation", "unit": "XPF/an",
+            "alt": { "attr": "packages", "factor": 12, "label": "via offre groupée", "caveat": "…" } },
+  "best": { "label": "La moins chère", "basis": "standalone" },   // jamais attribué à un prix d'offre groupée
+  "facets": [
+    { "id": "banque", "param": "banque", "type": "enum", "field": "bank" },       // champ structurel
+    { "id": "reseau", "param": "reseau", "type": "enum", "attr": "reseau" },
+    { "id": "sans_contact", "param": "sans_contact", "type": "bool", "attr": "sans_contact" },
+    { "id": "mobile", "param": "mobile", "type": "anyOf", "choices": [ { "value": "apple_google", "attrs": ["apple_pay", "google_pay"] } ] },
+    { "id": "jeune", "param": "jeune", "type": "listHas", "attr": "packages", "listField": "audience", "values": ["jeunes"], "impliesAlt": true },
+    { "id": "budget", "param": "budget", "type": "max", "cost": true },
+    { "id": "packages", "param": "packages", "type": "flag", "role": "includeAlt" }
+  ],
+  "sorts": [ { "id": "cout", "label": "Coût annuel", "by": [ { "cost": true } ] },
+             { "id": "gamme", "by": [ { "attr": "gamme" }, { "cost": true } ] } ],   // enum : ordre des options
+  "defaultSort": "cout",
+  "presets": [ { "id": "visa-moins-chere", "label": "Visa la moins chère", "state": { "reseau": ["visa"] }, "sort": "cout" } ]
+}]
+```
+Règles du moteur : un filtre actif renvoie `match`, `nomatch` ou `unknown` (valeur non publiée) ;
+une ligne `unknown` n'est jamais comptée comme correspondante (affichée à part, masquable). Les
+lignes sans prix autonome mais présentes dans une offre groupée n'apparaissent qu'avec le drapeau
+`includeAlt` (ou une facette `impliesAlt`). URL : `?vue=<catalogue>&<param>=…` (enum : valeurs séparées
+par des virgules ; bool : 1/0 ; `tri=<sort>` ; `np=0` masque les « non publié »).
+`npm run verify` contrôle aussi : types, options, motifs, facettes ↔ attributs, tris, questions
+rapides (facettes et valeurs existantes), unicité des paramètres d'URL.
