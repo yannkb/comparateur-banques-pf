@@ -28,7 +28,7 @@ Tests navigateur (Playwright Python + Chromium, axe-core local), lancés aussi e
 
 ```bash
 BASE_PATH=/comparateur-banques-pf/ npm run build
-npx vite preview --port 4173 --strictPort          # dans un autre terminal
+BASE_PATH=/comparateur-banques-pf/ npx vite preview --port 4173 --strictPort   # autre terminal, même BASE_PATH
 BASE_PATH=/comparateur-banques-pf/ python3 tests/e2e.py    # parcours, captures dans screenshots/, date simulée au 02/01/2027
 BASE_PATH=/comparateur-banques-pf/ python3 tests/a11y.py   # axe WCAG 2.1 AA + navigation clavier des onglets
 python3 tests/fuzz/fuzz.py 3000                    # simulateur JS vs implémentation Python indépendante (≤ 2 XPF)

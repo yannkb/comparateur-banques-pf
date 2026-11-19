@@ -1,6 +1,6 @@
 """Vérification navigateur (Playwright, headless) + captures desktop/mobile.
 
-Usage : npm run build && npx vite preview --port 4173 --strictPort  (dans un autre terminal)
+Usage : npm run build && npx vite preview --port 4173 --strictPort  (autre terminal, avec le même BASE_PATH que le build)
         python3 tests/e2e.py [URL]      (défaut : http://localhost:4173$BASE_PATH)
 """
 import datetime
