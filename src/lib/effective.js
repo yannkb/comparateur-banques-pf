@@ -33,5 +33,12 @@ export function dataAt(data, iso) {
   const presets = data.simulator.bankDossierPresets.map((p) => presetAt(p, iso));
   const def = presets.find((p) => p.bank === data.simulator.defaults.preset);
   const defaults = def ? { ...data.simulator.defaults, fraisDossierPct: def.pct, fraisDossierMin: def.min } : data.simulator.defaults;
-  return { ...data, banks, simulator: { ...data.simulator, bankDossierPresets: presets, defaults }, asOf: iso };
+  const products = (data.products || []).map((p) => productAt(p, iso));
+  return { ...data, banks, products, simulator: { ...data.simulator, bankDossierPresets: presets, defaults }, asOf: iso };
+}
+
+/** Attributs d'un produit (et de ses variantes) résolus à `iso` ; les attributs-listes sont résolus élément par élément. */
+const attrsAt = (attrs, iso) => Object.fromEntries(Object.entries(attrs || {}).map(([k, e]) => [k, Array.isArray(e) ? e.map((x) => entryAt(x, iso)) : entryAt(e, iso)]));
+export function productAt(p, iso) {
+  return { ...p, attrs: attrsAt(p.attrs, iso), ...(p.variants ? { variants: p.variants.map((v) => ({ ...v, attrs: attrsAt(v.attrs, iso) })) } : {}) };
 }
