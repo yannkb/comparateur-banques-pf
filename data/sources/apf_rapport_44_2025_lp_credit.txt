@@ -1,0 +1,2031 @@
+  
+  
+Le 
+Document mis 
+en distribution 
+17 AVR. 2025 
+    
+& N@QMK 
+ASSEMBLEE 
+DELA 
+POLYNESIE FRANCAISE 
+  
+Enregistré au secrétariat général de 'assembiéele 17 MR, 2005 
+RAPPORT 
+SUR LE PROJET DE LOI DU PAYS RELATIVE AU CREDIT A LA CONSOMMATION 
+ET AU CREDIT IMMOBILIER, 
+présenté au nom de la commission de I’économie, des finances et du budget 
+par Madame Elise VANAA et Monsieur Tematai LE GAYIC, 
+Représentants G 'assemblée de la Polynésie frangaise, 
+Rapporteurs du projet de loi du pays. 
+ 
+Monsieur le Président, 
+Mesdames, Messieurs les représentants, 
+Par lettre n° 983/PR du 14 février 2025, le Président de la Polynésie francaise a transmis aux fins 
+d’examen par 'assemblée de la Polynésie frangaise, un projet de loi du pays relative au crédit 4 la consommation 
+et au crédit immobilier. 
+L. Contexte 
+L’article 14 de la loi organique statutaire précise que |Etat est compétent en matiére de : « 7° Monnaie ; 
+crédit ; change ; Trésor ; marchés financiers ; obligations relatives  la lutte contre la circulation illicite et le 
+blanchiment des capitaux ». 
+Aussi, entre 2011 et 2017, I’Etat avait étendu en Polynésie frangaise sur ce fondement 1’ensemble des 
+dispositions du livre III du code de la consommation national relatif au crédit dont celles relatives a I'information 
+précontractuelle et au formalisme des contrats de crédit a la consommation et de crédit immobilier. 
+Cependant, un avis du Conseil d’Etat (n° 391.140 du 17 mars 2016) est venu clarifier la répartition des 
+compétences en matiére de droit du crédit. Cet avis a opéré une distinction entre les dispositions ayant pour finalité 
+essentielle la régulation bancaire (relevant de I'Ftat) et celles visant la protection des consommateurs (relevant 
+de la compétence du Pays) considérant ainsi les régles relatives a I’offre, la formation et I’exécution des contrats 
+de crédit comme relevant des compétences de la Polynésie frangaise. 
+En conséquence, I’ordonnance n® 2017-269 du 2 mars 2017 portant dispositions relatives a I’outre-mer 
+du code de la consommation n’a plus étendu  la Polynésie frangaise les dispositions des chapitres 1 (Définitions), Il 
+(Crédit & la consommation) et III (Crédit immobilier) du livre II du code de la consommation — & I'exception de 
+quelques dispositions spécifiques relatives aux taux d’intérét — provoquant ainsi une situation d’insécurité 
+Juridique. 
+Face a cette situation, une incertitude est née quant au maintien ou non des anciennes lois qui avaient 
+été précédemment étendues. 
+Interrogé a ce sujet, le Haut-commissariat de la République en Polynésie francaise, dans un courrier du 
+30 juin 2017, a indiqué que « le droit applicable est en principe celui figé en 2004 au moment de 1'entrée en 
+vigueur de la loi organique ». 
+Se fondant sur cette interprétation, la Polynésie frangaise a donc considéré que restaient en vigueur 
+plusieurs textes relatifs au crédit : deux lois de 1978 et 1979 sur le crédit & la consommation et le crédit immobilier 
+dites « Lois SCRIVENER », ainsi que leurs textes d’application et un arrété de 1992 sur la protection du 
+consommateur'. 
+Toutefois, cette position a été remise en cause par un avis de la Cour de cassation (n° 23-70.010 du 
+29 novembre 2023), saisi par le tribunal de premiére instance de Papeete. 
+La Cour a en effet jugé que les lois dites « Lois SCRIVENER » étaient abrogées et que : « les contrats 
+de crédit a la consommation soumis au droit applicable a la Polynésie frangaise et conclus aprés l'entrée en 
+vigueur de l'ordonnance n® 2017-269 du 2 mars 2017, sont régis, d'une part, par les dispositions du code de la 
+consommation mentionnées aux articles L. 351-5,R. 351-4 et D. 351-6 et, d'autre part, par le droit commun 
+ressortissant a la compétence de la Polynésie frangaise en matiére de droit civil ou d'obligations commerciales ». 
+! Loi n° 78-22 du 10 janvier 1978 relative & I'information et  la protection des consommateurs dans le domaine de certaines 
+opérations de crédit ; Loi n° 79-596 du 13 juillet 1979 relative a I'information et 4 la protection des emprunteurs dans le 
+domaine immobilier ; Décret n° 88-293 du 25 mars 1988 pris pour I'application de I'article 3 de la loi n® 78-22 du 10 janvier 
+1978 relative a I'information et & la protection des consommateurs dans le domaine de certaines opérations de crédit ; Arrété 
+n° 170 CM du 7 février 1992, modifié, relatif a I'information et & la protection du consommateur sur le territoire de la 
+Polynésie francaise. 
+2/9
+Le présent projet de loi du pays propose donc de reprendre dans le corpus réglementaire polynésien les 
+dispositions du livre ITI du code de la consommation national avec des adaptations. Ne sont toutefois pas reprises, 
+car relévent de la compétence de IEtat, les dispositions relatives : 
+= au taux débiteur ; 
+= au crédit relais ; 
+= au crédit renouvelable ; 
+< au fichier des incidents de remboursement des crédits aux particuliers. 
+A noter que I’extension de ces dispositions sera sollicitée auprés de I’Etat par le biais d’une résolution. 
+11 Présentation du projet de loi du pays 
+Le présent projet de loi du pays comporte trois titres : 
+— Titre I : les opérations de crédit ; 
+— Titre II : les sanctions ; 
+— Titre I11 : les dispositions transitoires et diverses. 
+Titre I : Opérations de crédit 
+  
+L'article LP. 1 définit les différentes notions utilisées en matiére de crédit 4 la consommation, qu’il 
+s’agisse des acteurs de ce crédit (préteur, consommateur, vendeur, intermédiaire de crédit), des instruments 
+juridiques (contrat de crédit, contrat de crédit lié, facilité de découvert, dépassement, support durable) ou encore 
+des concepts financiers (codit total du crédit, montant di, montant total du crédit). 
+4 Chapitre I1; Crédita 
+Ce chapitre comprend 11 sections. 
+  
+La._section I (articles LP. 2 a LP. 4) délimite le champ d’application du régime protecteur du 
+consommateur qui souscrit un crédit 4 la consommation. Le régime du crédit a la consommation est notamment 
+défini au regard de son montant, en précisant qu’il s’applique dés lors que le montant est égal ou supérieur & 
+24000 F CFP et inférieur ou égal a 8 950 000 FCFP. 
+Conformément a I'article LP 4, échappent notamment & ce régime : 
+— les opérations de crédit destinées & ’acquisition de droits de propriété sur un terrain ou un immeuble (1°), les 
+opérations de crédit garanties par une hypothéque (2°) ainsi que les crédits-relais (7°), qui relévent d'une 
+logique de crédit immobilier ; 
+— les préts de I'employeur a ses salariés a des conditions préférentielles (6°) ; 
+~ les contrats de crédit qui sont ’expression d’un accord passé devant une juridiction (8°) ou résultant d'un plan 
+conventionnel dans le cadre du traitement du surendettement (9°), qui ne s’inscrivent pas dans une logique de 
+marché ; 
+— les opérations de découvert ne dépassant pas un mois (4°) ; 
+— les opérations de moins de 24 000 F CFP et de plus de 8 950 000 F CFP (3°) ; 
+— les opérations de crédit sans frais remboursés en moins de trois mois (5°). 
+  
+L ) encadre la publicité en matiére de crédit a la consommation et 
+prévoit no dans les publicités, en particulier un message standardisé qui devra 
+figurer sur chacune d’entre elles, impose des conditions de forme visant & empécher les pratiques publicitaires 
+abusives et interdit aux annonceurs de laisser entendre que le prét améliore la situation financiére de l'emprunteur 
+ou constitue un substitut d’épargne. 
+  
+3/9 
+ 
+La section Il (articles 
+avant que celui-ci ne conclue un contrat de crédit, consistant en la remise au client potentiel d’une fiche 
+d’information standardisée précontractuelle. 
+  
+Cette étape présente trois caractéristiques : 
+— elle est préalable et distincte du contrat de crédit lui-méme. La remise de cette fiche étant sanctionnée trés 
+lourdement par la déchéance totale du droit aux intéréts, I'accomplissement de cette obligation devra étre 
+attestée par la signature du client ; 
+— I’obligation de remise de la fiche est valable quelle que soit la technique de commercialisation du crédit & la 
+consommation : qu’il ait comme interlocuteur le préteur directement ou un intermédiaire de crédit, 
+I'emprunteur devra se voir remettre la fiche. Lorsque le crédit est proposé sur le lieu de vente, la fiche devra 
+également étre remise sur le lieu de vente ; 
+—le contenu normalisé de la fiche ainsi que les conditions de sa présentation sont renvoyés & un arrété pris en 
+conseil des ministres. 
+La section IV (articles LP 14.a LP 17) a trait au devoir d’explication du préteur ou de I'intermédiaire en 
+faveur de I'emprunteur et 4 I'évaluation de la solvabilité de I’emprunteur. 
+  
+Le préteur ou I'intermédiaire de crédit a I’obligation d’expliquer clairement a I'emprunteur si le contrat 
+proposé correspond & ses besoins et capacité financiére, en s’appuyant sur la fiche précontractuelle et en insistant 
+sur les caractéristiques essentielles et impacts financiers du crédit. Il doit aussi évaluer la solvabilité de 
+Pemprunteur en croisant ses déclarations avec une consultation obligatoire du fichier national des incidents de 
+crédit (article L. 771-4). En cas de vente & distance ou sur lieu de vente, une fiche complémentaire, cosignée, 
+détaille les ressources, charges et crédits en cours de I’emprunteur, et doit étre conservée sur support durable. 
+La section V. (articles LP 18 a LP 27) encadre la formation du contrat de crédit, imposant au préteur de 
+remettre une offre éerite ou sur support durable, valable 15 jours, et garantissant & I’emprunteur un droit de 
+rétractation de 14 jours sans justification (via un formulaire détachable). 1e contrat ne devient définitif qu’aprés 
+I’absence de rétractation et I'accord explicite du préteur dans les 7 jours. Pendant ce délai, aucun versement n’est 
+autorisé. En cas de rétractation post-déblocage, I’emprunteur rembourse le capital et les intéréts sous 30 jours, 
+sans pénalités. Le préteur est responsable des erreurs des intermédiaires, assurant ainsi une protection stricte de 
+I’emprunteur durant la formation du contrat. 
+      ] n VI (articles LP 28 a 
+durable, clairement distinct des documents publicitaires et de la fiche précontractuelle, avec un encadré 
+introductif résumant les caractéristiques essentielles du crédit. Si le crédit est lié a une assurance, une notice 
+détaillée (risques couverts, exclusions, assureur) doit étre remise a 'emprunteur, qui a le droit de choisir son 
+assureur si I'assurance est obligatoire (mention explicite dans l'offre). Enfin, il est interdit de faire 
+souscrire plusieurs crédits pour un méme bien/dépassant sa valeur, sauf pour les crédits renouvelables. Un arrété 
+en conseil des ministres précisera les informations qui doivent figurer dans le contrat de crédit et dans ’encadré 
+devant contenir les caractéristiques essentielles du contrat. 
+   
+    LP 42) réglemente I'exécution du contrat de crédit en quatre volets : 
+— Pinformation de I'emprunteur : I'obligation d’informer sur les modifications de taux ou du contrat, d’envoyer 
+un relevé annuel du capital restant dil et de communiquer les changements d’assurance ; 
+— le remboursement anticipé : I'emprunteur peut rembourser en avance sans frais dans la plupart des cas, avec 
+une indemnité plafonnée & 1% du capital si le délai restant dépasse un an, sauf pour la location avec option 
+d’achat ; 
+— les mesures de remédiation : les préteurs doivent proposer des solutions aux emprunteurs en difficulté 
+(rééchelonnement, suspension, etc.) avant toute procédure coercitive ; 
+— la défaillance de I’emprunteur : aprés un premier impayé, le préteur doit avertir 'emprunteur des risques. En 
+cas de défaut persistant, il peut exiger le remboursement immédiat avec intéréts de retard et une indemnité 
+calculée selon un baréme officiel, sans frais abusifs. 
+4/9
+  
+'5) encadre strictement les crédits gratuits (sans intéréts) : toute 
+publicité poi p! véler I’escompte comptant et ’entité finangant le crédit. Le prix 
+crédit ne peut dépasser le tarif comptant le plus bas des 30 derniers jours, et les crédits payants associés doivent 
+faire I’objet d’un contrat séparé. Ces mesures visent & garantir transparence et équité, empéchant toute tromperie 
+ou désavantage pour le consommateur. 
+  
+    .38) encadre les crédits affectés (liés a un achat spécifique) en 
+prévoyant que : 
+— le contrat de vente doit mentionner le recours au crédit ; 
+— I’acheteur n’est engagé qu’aprés acceptation du crédit ; 
+— la livraison est suspendue jusqu’a I’octroi du crédit (sauf demande expresse de I'acheteur) ; 
+— en cas de refus ou rétractation du crédit, la vente est automatiquement annulée avec remboursement ; 
+— tout litige sur la vente peut suspendre le crédit. 
+   La section X (arti P 84) concerne le crédit renouvelable qui est une ouverture de crédit qui 
+peut étre éventuellement associée a une carte de crédit, permettant au titulaire d’utiliser les fonds par tranches, & 
+tout moment selon ses besoins, dans la limite du montant approuvé. 
+Cette section impose une transparence totale sur la nature du crédit renouvelable : toute publicité doit 
+clairement mentionner cette mention et expliquer son fonctionnement. Pour les montants importants, le préteur 
+doit obligatoirement proposer une alternative amortissable avec comparaison claire des cofits. Le contrat, 
+obligatoirement écrit, doit inclure des garde-fous comme un remboursement minimal du capital, une durée limitée 
+4 1 an renouvelable (avec préavis de 3 mois), et une information claire sur la révision des taux. 
+L’utilisation du crédit nécessite un accord exprés et s’accompagne d’un relevé mensuel détaillé. 
+L’emprunteur bénéficie de droits étendus : refus des hausses de taux, remboursement anticipé sans frais, et 
+possibilité de réduire/supprimer son crédit a tout moment. La reconduction annuelle déclenche des vérifications 
+de solvabilité et permet au préteur d’ajuster I’offre, tandis que ’inactivité prolongée entraine une suspension puis 
+une résiliation automatique. 
+La section XI (articles LP. 85 a LP 96) encadre les autorisations de découvert avec des protections 
+progressives : pour les découverts courts (1-3 mois), la banque doit fournir une information claire et des relevés 
+réguliers, tout en signalant a I'avance toute hausse de taux. Pour les découverts longs (+3 mois), toutes les 
+protections s’appliquent, avec un droit de résiliation gratuit pour le client et un préavis de 2 mois pour la banque. 
+En cas de dépassement prolongé, la banque doit alerter le client et proposer une solution alternative aprés 3 mois. 
+Tous les documents doivent étre accessibles, notamment pour les personnes en situation de handicap. 
+  
+Ce chapitre comprend 9 sections. 
+  
+' 98) définit les crédits immobiliers concernés : tous les préts destinés 
+4 financer I'acquisition (en propriété ou jouissance), la construction ou les travaux d’immeubles d’habitation 
+(ou mixtes professionnels/habitation), y compris via des parts de sociétés (SCI), ainsi que I’achat de terrains 
+constructibles, & condition qu’ils soient garantis par une hypothéque ou une siireté équivalente. Sont 
+exclus notamment les préts aux professionnels de I'immobilier, aux personnes publiques, les crédits sans intérét, 
+les découverts courts (<1 mois) et les accords judiciaires. 
+La, 
+immobiliers : toute publicité doit clairement indiquer le délai de réflexion de 10 jours, la condition suspensive 
+d’obtention du prét et les modalités de remboursement en cas de refus. Elle doit également mentionner I’identité 
+du préteur, les caractéristiques essentielles du prét (taux, coiit) selon un format standardisé, et interdire toute 
+comparaison trompeuse ou promesse abusive. Par ailleurs, préteurs et intermédiaires doivent fournir gratuitement 
+des informations claires et accessibles sur les contrats de crédit immobilier. 
+  
+    
+5/9 
+ 
+La section LI (articles LP. 103.a LP 106) a trait aux informations précontractuelles dans le cadre d’un 
+crédit immobilier. Elle garantit une transparence totale avant signature : le préteur doit fournir gratuitement une 
+fiche standardisée permettant de comparer les offres de crédit, avec séparation claire entre informations 
+essentielles et détails complémentaires. Pour I’assurance emprunteur, le coft doit &tre présenté sous trois angles 
+(tawex annuel, coiit total sur 8 ans et durée compléte, montant périodique), avec une obligation de remise d’une 
+fiche type dés la premiére simulation et la mention du droit de résiliation. Ces régles s'appliquent aussi aux 
+intermédiaires d’assurance. 
+    
+' 119) impose au préteur ou a I'intermédiaire de crédit de fournir 
+gratuitement 4 l'emprunteur des explications claires sur les contrats proposés, leurs risques (dont les conséquences 
+en cas de défaut de paiement) et les services accessoires, avec une mise en garde obligatoire si le crédit présente 
+des risques pour sa situation financiére. Un service de conseil personnalisé ou indépendant (sans rémunération 
+par le préteur) peut étre proposé pour guider I’emprunteur. Le préteur doit évaluer rigoureusement la solvabilité 
+de I’emprunteur avant tout accord, en vérifiant ses revenus, dépenses et historiques (via le fichier des incidents de 
+crédit), et I’informer en cas de refus. Pour les crédits immobiliers, I’évaluation du bien doit étre impartiale, réalisée 
+par un expert indépendant selon des normes reconnues au niveau international, et documentée. 
+  
+   
+Y (articles LP 120 4 LP. 135) encadre la phase précontractuelle des crédits immobiliers avec 
+plusieurs garanties : le préteur doit fournir une offre écrite gratuite détaillant toutes les conditions du prét (taux, 
+échéancier, coilt total, assurances exigées) et accompagnée d’une fiche d’information standardisée. L’emprunteur 
+bénéficie d’un délai de réflexion de 10 jours aprés réception pour accepter I’offre, qui reste valable 30 jours. Des 
+régles strictes s’appliquent aux assurances emprunteur : liberté de choix (avec interdiction pour le préteur de 
+modifier les conditions du crédit en cas de substitution d’assurance), information transparente sur les garanties, 
+et procédure encadrée pour les refus. Le contrat est conclu sous conditions suspensives (octroi des autres préts si 
+Jfinancement multiple, conclusion de I'acte immobilier sous 4 mois). En cas de renégociation, un avenant détaillé 
+est obligatoire, avec un nouveau délai de réflexion de 10 jours. Aucun versement n’est autorisé avant I'acceptation 
+finale. 
+La section VI (articles LP 136 a LP 141) lie systématiquement la validité du contrat immobilier (vente, 
+construction ou travaux) & I’obtention du crédit le finangant : I'acte doit mentionner explicitement le recours au 
+prét (& défaut, la condition suspensive s applique par défaut), avec une durée minimale d"un mois pour I'obtention 
+du financement et un remboursement intégral des sommes versées en cas d’échec. Pour les travaux hypothécaires, 
+la condition suspensive doit étre notifiée par écrit avant le démarrage du chantier, tandis qu’en cas de litige sur un 
+projet immobilier, le tribunal peut suspendre le prét. Les ventes par adjudication sont exclues de ce dispositif. 
+  
+ticles LP 142 a LP 149) encadre la gestion des crédits immobiliers avec des obligations 
+claires : le préteur doit informer annuellement sur le capital restant dd et toute modification de taux, tout en 
+permettant des remboursements anticipés avec des indemnités limitées. En cas de difficultés, des mesures 
+d’accompagnement (rééchelonnement, suspension, etc.) doivent étre proposées avant toute action en justice. Pour 
+les défaillances de I'emprunteur, les pénalités sont strictement encadrées (majoration d'intéréts plafonnée, 
+remboursement total possible mais avec interdiction de frais abusifs). 
+   
+de vente en imposant une transparence totale : toute publicité doit clairement 
+indiquer 'identité du bailleur, la durée et le cofit complet de I'opération, tandis qu’une offre écrite détaillée 
+(modalités de paiement, conditions d'achat) doit étre fournie gratuitement et maintenue 30 jours. Le preneur 
+bénéficie de protections strictes : interdiction de tout versement avant acceptation, plafonnement des pénalités en 
+cas de défaillance et condition suspensive d’obtention de prét pour la promesse de vente. Le bailleur ne peut 
+reprendre le bien qu’aprés remboursement de la part capitalisée des loyers. 
+La section IX (article. 
+ne sont autorisés que si I’emprunteur pergoit I’essentiel de ses revenus ou détient son patrimoine dans cette devise 
+(sauf si le risque de change n'est pas supporté par I'emprunteur). Le préteur doit impérativement informer 
+I’emprunteur, avant I'offre de prét, des risques de change et des éventuelles options de conversion en franc 
+Pacifique durant le remboursement, permettant ainsi de protéger les emprunteurs contre les risques financiers liés 
+aux fluctuations monétaires. 
+  
+6/9
+  
+Ce chapitre, qui comprend 6 sections, précise les régles pour les regroupements de crédits et s’applique 
+aux situations ol deux types de crédits sont concernés. Les régles qui s’appliqueront dépendront du volume et de 
+la nature des crédits regroupés. Aussi, quand un regroupement concerne principalement des crédits a la 
+consommation, ¢’est le chapitre II qui s’appliquera, alors que s’il concerne principalement des crédits immobiliers 
+ou comporte une hypothéque, ce sera le chapitre III. 
+Plusieurs dispositifs sont prévus pour protéger les emprunteurs en difficulté. Les cautionnements doivent 
+respecter les régles du code civil applicable en Polynésie frangaise et de protection des consommateurs. Les 
+emprunteurs en situation de difficultés financiéres 2 la suite d’un licenciement par exemple, un délai de grice par 
+ordonnance judiciaire peut étre accordé, permettant ainsi une suspension temporaire des remboursements ou un 
+rééchelonnement sur une période plus longue. 
+L’utilisation de supports dématérialisés est autorisée mais les préteurs doivent s’assurer que les 
+documents soient accessibles et informer clairement les emprunteurs de leurs droits. Ces derniers conservent 
+toujours le droit de demander gratuitement des versions papier de leurs contrats. L'utilisation d’instruments 
+comme les lettres de change est limitée pour certains types de crédits, afin d’éviter tout risque de surendettement. 
+  
+Le titre II établit une classification des sanctions proportionnelles 4 la gravité des manquements. Pour 
+les crédits & la consommation et les crédits immobiliers, trois niveaux de sanctions existent : la déchéance totale 
+ou partielle des intéréts, des amendes administratives et pénales, et des mesures correctives. 
+4 
+  
+Ce chapitre fixe un encadrement de la publicité et de I’information précontractuelle. En effet, toute 
+publicité ou information précontractuelle non conforme expose le préteur a des sanctions (contraventions de 5° 
+classe, obligations de rectification publique, perte du droit aux intéréts). 
+Sur la formation et I’exécution des contrats, il est prévu plusieurs types de sanctions comme : 
+= la suppression partielle ou totale des intéréts sur décision judiciaire, notamment en cas de défaut de livraison 
+de la fiche d’information ou d’irrégularités dans le contrat ; 
+= des amendes pénales pouvant aller jusqu’a 35,8 millions de FCFP pour les infractions les plus graves, par 
+exemple en cas d’usage abusif de moyens de paiement ou d’actions menant au surendettement. 
+Des régles spécifiques sont également fixées en fonction du type de crédit : 
+= contrble renforcé de Iaffichage des prix pour les crédits gratuits ; 
+= mention explicite du lien avec I"opération financée pour les crédits affectés ; 
+= obligations d’information accrues et limitations strictes pour la reconduction des crédits renouvelables ; 
+= régime spécial pour les découverts bancaires étant précisé qu’ils doivent tout de méme respecter les principes 
+de protection essentiels. 
+  
+4 Chapitre IL: Crédit i 
+Ce chapitre prévoit un régime strict concernant la publicité et I'information précontractuelle des crédits 
+immobiliers, par exemple : 
+= une amende de 3 580 000 francs CFP pour toute publicité non conforme, notamment celles qui omettent des 
+mentions obligatoires ou contiennent des informations trompeuses ; 
+= la déchéance partielle des intéréts, plafonnée a 30%, et amendes pénales pour les préteurs qui ne fournissent 
+pas gratuitement une information claire et compléte sur les caractéristiques du prét. 
+79 
+ 
+Les obligations des établissements préteurs sont également renforcées en matiére d’analyse financiére 
+et de conseil. En effet, en cas de non-respect de ces obligations, les professionnels peuvent encourir une déchéance 
+du droit aux intéréts, des amendes allant de 3 580 000 francs CFP a 35,8 millions francs CFP en fonction des 
+manquements constatés ainsi que des peines complémentaires (interdictions professionnelles). 
+Sur la formation et I'exécution des contrats, il est prévu des amendes pouvant aller jusqu’a 35,8 millions 
+francs CFP en cas de manquements aux régles de formalités pour les offres de préts (délais de réflexion, mentions 
+obligatoires) ou des intéréts au taux légal majoré en cas de retard dans la restitution des sommes versées. 
+L’exécution du contrat est également encadrée, avec notamment une obligation d’information en cas de 
+modification des conditions et des sanctions pour exigences de paiement excessives. 
+A noter que lorsqu’un préteur est déchu de son droit aux intéréts, I’emprunteur ne doit rembourser que 
+le capital et les sommes indiment pergues au titre des intéréts doivent étre restituées avec des intéréts au taux 
+légal. 
+Titre 11 : Dispositions transitoires et diverses (articles LP 245 a LP 249) 
+Ce titre a trait aux dispositions transitoires et diverses. 
+Ainsi, il est prévu que la Polynésie francaise puisse transiger, aprés accord du procureur de la 
+République, pour les délits concernant la publicité et I'information précontractuelle pour les crédits immobiliers, 
+ce qui permettra d’optimiser I’intervention de 1’administration en matiére de controle. 
+Les infractions pénales aux dispositions de la présente loi du pays sont recherchées et constatées par les 
+fonctionnaires et agents assermentés, qualifiés dans les conditions prévues par une loi du pays adoptées dans les 
+conditions prévues aux articles 31, 32 et 35 de la loi organique statutaire au titre de la participation de la Polynésie 
+frangaise aux compétences de I'Etat. 
+Les manquements administratifs seront quant & eux recherchés et constatés par les fonctionnaires et 
+agents du service en charge des affaires économiques conformément a la loi du pays n° 2021-42 du 
+7 septembre 2021 visant a encourager I'exemplarité des pratiques économiques. 
+Par ailleurs, toutes références au code de la consommation national, non applicable en Polynésie 
+frangaise, sont supprimées des dispositions du code des assurances polynésien. 
+Enfin, il est prévu une entrée en vigueur différée au premier jour du deuxiéme mois suivant la 
+promulgation de la loi du pays. Des dispositions transitoires suivantes sont toutefois prévues : 
+* I’obligation des établissements bancaires de Polynésie francaise de s’assurer que les contrats prévus en matiére 
+de crédits & la consommation répondent aux exigences d’accessibilité aux personnes handicapées ne sera 
+applicable qu’aux produits et services fournis aprés le 30 décembre 2026 ; 
+= les contrats conclus avant I'ordonnance n® 2017-269 du 2 mars 2017, restent soumis au droit en vigueur au 
+moment de leur conclusion, & savoir les dispositions du code de la consommation précédemment étendues. 
+II.  Travaux en commission 
+L’examen du présent projet de loi du pays en commission, le 17 avril 2025, a suscité des débats 
+principalement portés sur la nécessité de simplifier et de rendre davantage accessible les informations essentielles 
+du projet de texte. 
+A ce titre, et tenant compte notamment des observations émises par le Conseil économique, social, 
+environnemental et culturel dans son avis rendu sur ce projet de texte le 27 novembre 2024, les définitions prévues 
+4 article LP 1 ont d’ores et déja été traduites en langue tahitienne et seront publiées sur le site de la direction 
+générale des affaires économiques et transmises aux comités des banques locales. 
+8/9
+Par ailleurs, des notices d’information simplifiées, en frangais et en langue tahitienne, dans lesquelles 
+figureront les principales clauses de contrats, seront fournies aux établissements bancaires & destination des 
+emprunteurs. 
+FEEEE 
+A Vissue des débats, le projet de loi du pays relative au crédit & la consommation et au crédit immobilier 
+a recueilli un vote favorable unanime des membres de la commission. 
+En conséquence, la commission de I'économie, des finances et du budget propose a l'assemblée de la 
+Polynésie frangaise, d’adopter le projet de loi du pays ci-joint. 
+LES RAPPORTEURS 
+Elise VANAA Tematai LE GAYIC 
+9/9 
+ 
+TEXTE ADOPTE N® 2025-9 LP/APF 
+  
+  
+ASSEMBLEE DE LA POLYNESIE FRANCAISE 
+LOI ORGANIQUE N° 2004-192 DU 27 FEVRIER 2004 
+SESSION ADMINISTRATIVE 
+  
+  
+LOI DU PAYS 
+(NOR : DAE24202994LP-9) 
+relative au crédit a la consommation et au crédit immobilier 
+L’assemblée de la Polynésie frangaise a adopté le projet de loi du pays dont la teneur suit : 
+  
+Travaux préparatoires : 
+= Avis n 38/CESEC du 27 novembre 2024 du Conscil économique. social, environnemental et culturel de la Polynésie frangaise ; 
+- Arrété n® 192 CM du 14 février 2025 soumettant un projet de loi du pays 4 I'assemblée de la Polynésie frangaise ; 
+= Examen par la commission de I'économie, des finances et du budget le 17 avril 202: 
+- Rapport n° 44-2025 du 17 avril 2025 de M™ Elise VANAA et M. Tematai LE GAYIC, rapporteurs du projet de loi du pays ; 
+= Adoption en date du 27 mai 2025 : 
+    
+ 
+20 
+30 
+40 
+50 
+6° 
+70 
+g0 
+9o 
+10° 
+5 12! 
+140 
+TITRE I- OPERATIONS DE CREDIT 
+CHAPITRE I - DEFINITIONS (ARTICLE LP 1) 
+Article LP 1.- Pour I'application des dispositions du présent titre, sont considérés comme :   
+Préteur, toute personne qui consent ou s’engage a consentir un crédit mentionné au présent titre dans le 
+cadre de I’exercice de ses activités commerciales ou professionnelles ; 
+Emprunteur ou consommateur, toute personne physique qui est en relation avec un préteur, ou un 
+intermédiaire de crédit, dans le cadre d’une opération de crédit réalisée ou envisagée dans un but étranger & 
+son activité commerciale ou professionnelle ; 
+Acquéreur, toute personne qui acquiert, souscrit ou commande au moyen des préts mentionnés au 1° de 
+Iarticle LP 97 ; 
+Vendeur, I"autre partie & ces mémes opérations ; 
+Intermédiaire de crédit, toute personne qui, dans le cadre de ses activités commerciales ou professionnelles 
+habituelles et contre une rémunération ou un avantage économique, apporte son concours a la réalisation 
+d’une opération mentionnée au présent titre, sans agir en qualité de préteur ; 
+Opération ou contrat de crédit, un contrat en vertu duquel un préteur consent ou s’engage a consentir a 
+I'emprunteur un crédit, relevant du champ d’application du présent titre, sous la forme d’un délai de 
+paiement, d’un prét, y compris sous forme de découvert ou de toute autre facilité de paiement similaire, a 
+I’exception des contrats conclus en vue de la fourniture d’une prestation continue ou & exécution successive 
+de services ou de biens de méme nature et aux termes desquels I’'emprunteur en régle le coiit par paiements 
+échelonnés pendant toute la durée de la fourniture ; 
+Coit total du crédit pour I'emprunteur, tous les coiits, y compris les intéréts, les frais, les taxes, les 
+commissions ou rémunérations de toute nature, directs ou indirects, supportés par I'emprunteur et connus 
+du préteur & la date d*émission de I'offre de crédit ou de Iavenant au contrat de crédit, ou dont le montant 
+peut étre déterminé & ces mémes dates, et qui constituent une condition pour obtenir le crédit ou pour 
+I’obtenir aux conditions annoncées. Ce coiit ne comprend pas les frais liés & I'acquisition des immeubles 
+mentionnés au 1° de Iarticle LP 97 tels que les taxes y afférentes ou les frais d’acte notarié, ni les frais a la 
+charge de I'emprunteur en cas de non-respect de I'une de ses obligations prévues dans le contrat de crédit. 
+’ensemble de ces coiits est défini a article L. 314-1 du code de la consommation tel quapplicable en 
+Polynésie frangaise relatif au taux annuel effectif global. 
+Le taux débiteur au sens de la réglementation en vigueur ; 
+Montant total dii par 'emprunteur, la somme du montant total du crédit et du cofit total du crédit dii par 
+I'emprunteur ; 
+Montant total du crédit, le plafond ou le total des sommes rendues disponibles en vertu d’un contrat ou 
+d’une opération de crédit ; 
+Contrat de crédit affecté ou contrat de crédit lié, le crédit servant exclusivement a financer un contrat relatif 
+i la fourniture de biens particuliers ou la prestation de services particuliers ; ces deux contrats constituent 
+une opération commerciale unique. Une opération commerciale unique est réputée exister lorsque le 
+vendeur ou le prestataire de services finance lui-méme le crédit ou, en cas de financement par un tiers, 
+lorsque le préteur recourt aux services du vendeur ou du prestataire pour la conclusion ou la préparation du 
+contrat de crédit ou encore lorsque le contrat de crédit mentionne spécifiquement les biens ou les services 
+concernés ; 
+  
+Autorisation de découvert ou facilité de découvert. le contrat de crédit en vertu duquel le préteur autorise 
+expressément I’emprunteur a disposer de fonds qui dépassent le solde du compte de dépot de ce dernier : 
+Dépassement, un découvert tacitement accepté en vertu duquel un préteur autorise I’emprunteur a disposer 
+de fonds qui dépassent le solde de son compte de dépot ou de I"autorisation de découvert convenue ; 
+Support durable, tout instrument permettant 4 I'emprunteur de conserver les informations qui lui sont 
+adressées personnellement, d’une maniére qui permet de s’y reporter aisément & I"avenir pendant un laps de 
+temps adapté aux fins auxquelles les informations sont destinées et qui permet la reproduction identique 
+des informations stockées : 
+2/38
+15° Service accessoire, un service proposé a I’emprunteur en rapport avec un contrat de crédit entrant dans le 
+champ du présent titre ; 
+16° Le crédit relais au sens de la réglementation en vigueur. 
+CHAPITRE II - CREDIT A LA CONSOMMATION (ARTICLES LP 2 A LP 96) 
+Section I - Champ d’application (articles LP2 a LP 4] 
+Article LP 2.- Les dispositions du présent chapitre s’appliquent & toute opération de crédit mentionnée 
+au 6° de Particle LP 1, qu’elle soit conclue a titre onéreux ou a titre gratuit et, le cas échéant, 2 son 
+cautionnement, dés lors que le montant total du crédit est égal ou supérieur a 24 000 francs CFP et inférieur ou 
+égal 4 8 950 000 francs CFP. 
+Article LP 3.- Pour I"application des dispositions du présent chapitre, la location-vente et la location 
+avec option d’achat sont assimilées a des opérations de crédit. 
+Article LP 4.- Sont exclus du champ d’application des dispositions du présent chapitre :   
+o Les opérations de crédit destinées & permettre I'acquisition ou le maintien de droits de propriété ou de 
+Jjouissance d’un terrain ou d’un immeuble existant ou a construire, y compris lorsque ces opérations visent 
+également a permettre la réalisation de travaux de réparation, d’amélioration ou d’entretien du terrain ou de 
+I'immeuble ainsi acquis ; 
+2° Les opérations de crédit garanties par une hypothéque, par une autre sireté comparable sur les biens 
+immobiliers a usage d’habitation ou par un droit li¢ 4 un bien immobilier a usage d’habitation relevant des 
+dispositions du chapitre 111 du présent titre ; 
+3° Les opérations dont le montant total du crédit est inférieur & 24 000 francs CFP ou supérieur a 8 950 000 
+francs CFP, a I'exception des opérations ayant pour objet le regroupement de crédits et de celles destinées a 
+financer les dépenses relatives 4 la réparation, I'amélioration ou I'entretien d’un immeuble d’habitation ou 
+4 usage professionnel et d’habitation, lorsque le crédit n’est pas garanti par une hypothéque, par une autre 
+stireté comparable sur les biens immobiliers & usage d’habitation ou par un droit lié a un bien immobilier & 
+usage d’habitation ; 
+4°  Les opérations consenties sous la forme d’une autorisation de découvert remboursable dans un délai d’un 
+mois ; 
+5°  Les opérations de crédit comportant un délai de remboursement ne dépassant pas trois mois qui ne sont 
+assorties d’aucun intérét ni d’aucuns frais ou seulement d’intéréts et de frais d’un montant négligeable ; 
+6°  Les opérations mentionnées au 3 de article L. 511-6 du code monétaire et financier tel qu’applicable en 
+Polynésie frangaise ; 
+7°  Les opérations mentionnées au 2 de I'article L. 321-2 du code monétaire et financier tel qu’applicable en 
+Polynésie frangaise ; 
+82 Les contrats qui sont I'expression d’un accord intervenu devant une juridiction ; 
+9° Les contrats résultant d'un plan conventionnel de redressement, conclus devant la commission de 
+surendettement des particuliers conformément a la réglementation en vigueur : 
+10° Les accords portant sur des délais de paiement accordés pour le réglement amiable d’une dette existante, & 
+condition qu’aucuns frais supplémentaires & ceux stipulés dans le contrat ne soient mis a la charge du 
+consommateur ; 
+11° Les cartes proposant un débit différé n'excédant pas quarante jours et n’occasionnant aucuns autres frais 
+que la cotisation li¢e au bénéfice de ce moyen de paiement. 
+Section I - Publicité (articles LP5a LP 11) 
+Article LP 5.- Toute publ contient, quel que soit le support utilisé, la mention suivante : « Un 
+crédit vous engage et doit étre remboursé. Vérifiez vos capacités de remboursement avant de vous engager. ». 
+  
+3/38
+Article LP 6.- Toute publicité, quel qu'en soit le support, qui porte sur I'une des opérations 
+mentionnées a I'article LP 2 et indique un taux d’intérét ou des informations chiffrées li¢es au coiit du crédit 
+mentionne de fagon claire, précise et visible les informations suivantes a I"aide d’un exemple représentatif : 
+1° Le taux débiteur et la nature fixe, variable ou révisable du taux, sauf pour les opérations de location-vente 
+ou de location avec option d"achat, ainsi que les informations relatives a tous les frais compris dans le coat 
+total du crédit pour I'emprunteur ; 
+2°  Le montant total du crédit ; 
+3° Le taux annuel effectif global, sauf pour les opérations de location-vente ou de location avec option 
+d’achat ; 
+4°  S’ily a lieu, la durée du contrat de crédit ; 
+5% 8l s"agit d’un crédit accordé sous la forme d’un délai de paiement pour un bien ou un service donné, le 
+prix au comptant et le montant de tout acompte ; 
+6° Le montant total di par I'emprunteur et le montant des échéances. 
+Si le préteur exige qu’un service accessoire soit fourni pour I'obtention du crédit, notamment une 
+assurance, la publicité mentionne de fagon claire, précise et visible la nécessité de contracter ce service. 
+Article LP 7.- Lorsqu’un préteur propose habituellement des contrats de crédit assortis d’une 
+proposition d’assurance ayant pour objet la garantie de remboursement du crédit, toute publicité mentionnée au 
+premier alinéa de I'article LP 6 diffusée pour son compte sur ces contrats mentionne le cofit de I'assurance, a 
+I"aide de I'exemple représentatif mentionné au méme alinéa. Ce coiit est exprimé : 
+1° A I'exclusion de tout autre taux, en taux annuel effectif de ’assurance, qui permette la comparaison par 
+I'emprunteur de ce taux avec le taux annuel effectif global du crédit ; 
+2% Enmontant total dii en franes Pacifique par I'emprunteur au titre de I’assurance sur la durée totale du prét ; 
+3° En francs Pacifique par mois. Il est précisé si ce montant s’ajoute ou non a I'échéance de remboursement 
+du crédit. 
+Article LP 8.- Dans toute publicité écrite, quel que soit le support utilisé, les informations relatives au 
+taux annuel effectif global, a sa nature fixe, variable ou révisable, au montant total dii par I’emprunteur et au 
+montant des échéances, ainsi que la mention indiquée a I'article LP 5, figurent dans une taille de caractére plus 
+importante que celle utilisée pour indiquer toute autre information relative aux caractéristiques du financement, 
+notamment le taux promotionnel, et s”inscrivent dans le corps principal du texte publicitaire. 
+    
+Article LP 9.- Lorsqu'une publicité est adressée par voie postale ou par courrier électronique, 
+distribuée directement & domicile ou sur la voie publique, le document envoyé au consommateur lui rappelle de 
+fagon claire, précise et visible son droit de s’opposer sans frais & I"utilisation de ses données personnelles & des 
+fins de prospection ainsi que les modalités d’exercice de ce droit. 
+Lorsque cette publicité indique un taux d’intérét ou des informations chiffrées lices au coiit du crédit, 
+les informations mentionnées a I"article LP 8 figurent, sous forme d’encadré, en en-téte du texte publicitaire. 
+Article LP 10.- Il est interdit dans toute publicité d’indiquer qu’une opération ou un contrat de crédit, 
+ou une opération de crédit consistant a regrouper des crédits antérieurs peut étre consenti sans élément 
+d’information permettant d’apprécier la situation financiére de I'emprunteur, ou de laisser entendre que le prét 
+améliore la situation financiére ou le budget de I'emprunteur, entraine une augmentation de ressources, constitue 
+un substitut d’épargne ou accorde une réserve automatique d’argent immédiatement disponible sans contrepartie 
+financiére identifiable. 
+Lorsqu’une publicité compare le montant des échéances d’un ou plusieurs crédits antérieurs, et le cas 
+échéant d’autres dettes,  celui d’une échéance résultant d’une opération de regroupement de crédits, elle 
+mentionne de maniére claire et apparente, d’une part, la somme des coiits totaux des crédits antérieurs et, d’autre 
+part, le coiit total du crédit postérieur a I'opération précitée. 
+4/38
+11 est également interdit dans toute publicité de mentionner I"existence d’une période de franchise de 
+paiement de loyers ou de remboursement des échéances du crédit supérieure  trois mois. Cette interdiction ne 
+s’applique pas aux préts aidés par I’Etat ou la Polynésie frangaise. 
+Article LP 11.- Il est interdit dans toute publicité de proposer sous quelque forme que ce soit des lots 
+promotionnels liés & I"acceptation d’une offre préalable de crédit. 
+Section I11 - Information précontractuelle de I’emprunteur (articles LP 12 3 LP 13) 
+Article LP 12.- Préalablement a la conclusion du contrat de crédit, le préteur ou I’intermédiaire de 
+crédit fournit & I'emprunteur, sous forme d’une fiche d’informations, sur support papier ou sur un autre support 
+durable, les informations nécessaires & la comparaison de différentes offres et permettant & I’emprunteur, 
+compte tenu de ses préférences, d’appréhender clairement I'étendue de son engagement. 
+  
+La liste et le contenu des informations devant figurer dans la fiche d’informations a fournir pour 
+chaque offre de crédit ainsi que les conditions de sa présentation sont fixés par un arrété pris en conseil des 
+ministres. 
+Cette fiche comporte, en caractéres lisibles, la mention indiquée a Iarticle LP 5. 
+Lorsque le consommateur sollicite la conclusion d’un contrat de crédit sur le lieu de vente, le préteur 
+veille a ce que la fiche d’informations mentionnée au premier alinéa lui soit fournie, sur le lieu de vente, sur 
+support papier, ou tout autre support durable. 
+Lorsque le préteur offre a I’emprunteur ou exige de lui la souscription d’une assurance, le préteur ou 
+I'intermédiaire de crédit informe I’emprunteur du coiit de I’assurance en portant a sa connaissance les éléments 
+mentionnés a I"article LP 7. 
+Article LP 13.- A la demande de I'emprunteur, le préteur lui fournit sans frais, s'il est disposé a lui 
+consentir un crédit, outre les informations mentionnées a Iarticle LP 12, un exemplaire de I'offre de contrat sur 
+support papier ou tout autre support durable. 
+Toutes les informations complémentaires que le préteur souhaite donner a I'emprunteur sont fournies 
+dans un document distinct de la fiche mentionnée a I'article LP 12. 
+Section IV - Explications fournies 4 'emprunteur et évaluation de sa solvabilité (articles LP 144 LP 17, 
+  
+Sous-section 1 : Explications fournies a I'emprunteur (art. LP 14 a LP 15) 
+Article LP 14.- Le préteur ou I'intermédiaire de crédit fournit a I'emprunteur les explications lui 
+permettant de déterminer si le contrat de crédit proposé est adapté a ses besoins et & sa situation financiére, 
+notamment & partir des informations contenues dans la fiche mentionnée a I’article LP 12. Il attire Iattention de 
+I’emprunteur sur les caractéristiques essentielles du ou des crédits proposés et sur les conséquences que ces 
+crédits peuvent avoir sur sa situation financiére, y compris en cas de défaut de paiement. Ces informations sont 
+données, le cas échéant, sur la base des préférences exprimées par I'emprunteur. 
+  
+Lorsque le crédit est proposé sur un lieu de vente, le préteur veille a ce que I"'emprunteur regoive ces 
+explications de maniére compléte et appropriée sur le lieu méme de la vente, dans des conditions garantissant la 
+confidentialité des échanges. 
+Article LP 15.- Lorsque la conclusion d’une opération mentionnée a I"article LP 2 donne droit, ou 
+peut donner droit, 2 titre gratuit, immédiatement ou a terme. & une prime en nature de produits ou biens, la 
+valeur de cette prime ne peut étre supérieure a un seuil fixé par un arrété pris en conseil des ministres. 
+5/38
+Sous-section 2 : Evaluation de la solvabilité de I ‘emprunteur (art. LP 16 a LP 17) 
+Article LP 16.- Avant de conclure le contrat de crédit, le préteur vérifie la solvabilité de I'emprunteur 
+4 partir d’un nombre suffisant d’informations, y compris des informations fournies par ce dernier 4 la demande 
+du préteur. Le préteur consulte le fichier prévu a I’article L. 771-4 du code de la consommation tel qu’applicable 
+en Polynésie frangaise, dans les conditions prévues par la réglementation en vigueur , sauf dans le cas d’une 
+opération mentionnée au 1 de I’article L. 511-6 ou au | du I de article L. 511-7 du code monétaire et financier 
+tel qu’applicable en Polynésie frangaise. 
+Article LP 17.- Lorsque les opérations de crédit sont conclues sur le lieu de vente ou au moyen d’une 
+technique de communication a distance, une fiche d’informations distincte de la fiche mentionnée a I’article LP 
+12 est fournie par le préteur ou par I'intermédiaire de crédit a I'emprunteur. 
+Cette fiche, établie sur support papier ou sur un autre support durable, comporte notamment les 
+€éléments relatifs aux ressources et charges de I'emprunteur ainsi que, le cas échéant, aux préts en cours 
+contractés par ce dernier. 
+La fiche est signée ou son contenu confirmé par voie électronique par I’emprunteur et contribue a 
+I"évaluation de sa solvabilité par le préteur. Les informations figurant dans la fiche font I'objet d’une déclaration 
+certifiant sur I’honneur leur exactitude. 
+Cette fiche est conservée par le préteur pendant toute la durée du prét. 
+Si le montant du crédit accordé est supérieur a un seuil fixé par un arrété pris en conseil des ministres, 
+la fiche est corroborée par des piéces justificatives dont la liste est définie par un arrété pris en conseil des 
+ministres, 
+Section V - Formation du contrat de crédit (articles LP 18 & LP 27) 
+Article LP 18.- L'offre de contrat de crédit est établie sur support papier ou sur un autre support 
+durable. 
+Elle est fournie en autant d’exemplaires que de parties et, le cas échéant, & chacune des cautions. 
+La remise ou I'envoi de I'offre de contrat de crédit a I'emprunteur oblige le préteur a en maintenir les 
+conditions pendant une durée minimale de quinze jours 4 compter de cette remise ou de cet envoi. 
+Article LP 19.- L'emprunteur peut se rétracter sans motifs dans un délai de quatorze jours calendaires 
+révolus & compter du jour de I"acceptation de I’offre de contrat de crédit comprenant les informations prévues a 
+I'article LP 28. 
+Article LP 20.- Le délai mentionné a I"article LP 19 court a compter du jour de I'acceptation de I’offre 
+de contrat de crédit comprenant les informations prévues 4 article LP 28. 
+Article LP 21.- Afin de permettre I'exercice du droit de rétractation mentionné a Iarticle LP 19, un 
+formulaire détachable est joint & son exemplaire du contrat de crédit. 
+Article LP 22.- L’exercice par I'emprunteur de son droit de rétractation ne peut donner lieu & 
+enregistrement sur un fichier. 
+Article LP 23.- En cas d’exercice de son droit de rétractation, I’emprunteur n’est plus tenu par le 
+contrat de service accessoire au contrat de crédit. 
+Article LP 24.- Le contrat accepté par I'emprunteur ne devient parfait qu’a la double condition que 
+celui-ci n’ait pas fait usage de sa faculté de rétractation et que le préteur ait fait connaitre 4 I’emprunteur sa 
+décision d’accorder le crédit. dans un délai de sept jours. L agrément de la personne de I'emprunteur est réputé 
+refusé si, & I'expiration de ce délai, la décision d’accorder le crédit n’a pas été portée 4 la connaissance de 
+I'intéressé. L’agrément de la personne de I'emprunteur parvenu a sa connaissance aprés I’expiration de ce délai 
+reste néanmoins valable si celui-ci entend toujours bénéficier du crédit. 
+6/38
+La mise & disposition des fonds au-dela du délai de sept jours mentionné a I’article LP 25 vaut 
+agrément de I’emprunteur par le préteur. 
+Article LP 25.- Pendant un délai de sept jours a compter de I"acceptation du contrat par I'emprunteur, 
+aucun paiement, sous quelque forme et & quelque titre que ce soit, ne peut étre fait par le préteur 4 I’'emprunteur 
+ou pour le compte de celui-ci, ni par I'emprunteur au préteur. 
+Pendant ce méme délai, I’emprunteur ne peut non plus faire, au titre de I'opération en cause, aucun 
+dépdt au profit du préteur ou pour le compte de celui-ci. 
+Si une autorisation du prélévement sur son compte bancaire est signée par I’'emprunteur, sa validité et 
+sa prise d’effet sont subordonnées a celles du contrat de crédit. 
+Article LP 26.- A compter du jour suivant la mise a disposition des fonds & I'emprunteur et en cas de 
+rétractation, I’'emprunteur rembourse au préteur le capital versé et paye les intéréts cumulés sur ce capital depuis 
+la date & laquelle le crédit lui a été versé jusqu’a la date a laquelle le capital est remboursé, sans retard indu et au 
+plus tard trente jours aprés avoir envoyé la notification de la rétractation au préteur. Les intéréts sont calculés 
+sur la base du taux débiteur figurant au contrat. 
+  
+Le préteur n’a droit & aucune indemnité versée par I’emprunteur en cas de rétractation. 
+Article LP 27.- Le préteur est responsable de plein droit a I’égard de I’emprunteur de la bonne 
+exécution des obligations relatives a la formation du contrat de crédit, que ces obligations soient a exécuter par 
+le préteur qui a conclu ce contrat ou par des intermédiaires de crédit intervenant dans le processus de formation 
+du contrat de crédit, sans préjudice de son droit de recours contre ceux-ci. 
+Section VI - Informations mentionnées dans le contrat de crédit (articles LP 28 4 LP 30) 
+Article LP 28.- Le contrat de crédit est établi sur support papier ou sur un autre support durable. Il 
+constitue un document distinct de tout support ou document publicitaire, ainsi que de la fiche mentionnée & 
+Particle LP 12. 
+Un encadré, inséré au début du contrat, informe I’'emprunteur des caractéristiques essentielles du 
+crédit. 
+La liste des informations figurant dans le contrat et dans I'encadré mentionné au premier alinéa est 
+fixée par un arrété pris en conseil des ministres. 
+Article LP 29.- Lorsque I'offre de contrat de crédit est assortie d’une proposition d’assurance, une 
+notice est fournie & I'emprunteur, sur support papier, ou tout autre support durable. Cette notice comporte les 
+extraits des conditions générales de I"assurance le concernant, notamment les nom et adresse de I'assureur, la 
+durée, les risques couverts et ceux qui sont exclus. 
+Si I'assurance est exigée par le préteur pour obtenir le financement, la fiche d’informations 
+mentionnée a I'article LP 12 et I'offre de contrat de crédit rappellent que I'emprunteur peut souscrire une 
+assurance équivalente auprés de I'assureur de son choix. Si I'assurance est facultative, I'offre de contrat de 
+crédit rappelle les modalités suivant lesquelles I'emprunteur peut ne pas y adhérer. 
+Article LP 30.- Aucun vendeur ni prestataire de services ne peut, pour un méme bien ou une méme 
+prestation de services, faire signer par un méme client un ou plusieurs contrats de crédit, d’un montant total en 
+capital supérieur a la valeur payable a crédit du bien acheté ou de la prestation de services fournie. 
+Cette disposition ne s’applique pas aux contrats de crédit renouvelable mentionnés a I'article LP 59. 
+7/38
+Section VII - Exécution du contrat de crédit (articles LP 31 a LP 42) 
+Sous-section 1 : Information de 'emprunteur (art. LP 31 G LP 34) 
+Article LP 31.- En cas de modification du taux débiteur, I'emprunteur en est informé sur support 
+papier ou sur un autre support durable, avant que la modification n’entre en vigueur. Cette information indique 
+le montant des échéances aprés I'entrée en vigueur du nouveau taux débiteur ainsi que, le cas échéant, toute 
+modification du nombre ou de la périodicité des échéances. 
+Lorsque la modification du taux débiteur résulte d’une variation du taux de référence, que le nouveau 
+taux de référence est rendu public par des moyens appropriés et que I'information relative au nouveau taux de 
+référence est également disponible dans les locaux du préteur. les parties peuvent convenir dans le contrat de 
+crédit que cette information est fournie périodiquement a I’emprunteur. 
+Article LP 32.- Avant de modifier les conditions du contrat de crédit, le préteur communique & 
+I'emprunteur les informations relatives aux modifications envisagées au contrat de crédit de ce dernier, en 
+précisant celles qui nécessitent son consentement, ainsi que les informations relatives au calendrier de mise en 
+ceuvre des modifications envisagées et aux modalités de réclamation et de médiation. 
+  
+La liste des informations & communiquer a I'emprunteur est fixée par un arrété pris en conseil des 
+ministres. 
+Article LP 33.- Pour les opérations de crédit mentionnées au présent chapitre, a I’exclusion de la 
+location-vente et de la location avec option d’achat, le préteur fournit, au moins une fois par an, a I'emprunteur, 
+I"information relative au montant du capital restant & rembourser, sur support papier ou tout autre support 
+durable. Cette information figure, en caractéres lisibles, sur la premiére page du document fourni & 
+I’emprunteur. 
+Article LP 34.- Lorsque la souscription d’une assurance a été exigée par le préteur et que 
+I'emprunteur a souscrit une assurance auprés de I'assureur de son choix, celui-ci informe le préteur de toute 
+modification substantielle du contrat d’assurance. 
+  
+Sous-section 2 : Remboursement anticipé (art. LP 35 a LP 36) 
+  
+rticle LP 35.- L’emprunteur peut toujours, & son initiative, rembourser par anticipation, en partie ou 
+en totalité, le crédit qui lui a été consenti. Dans ce cas, les intéréts et frais afférents a la durée résiduelle du 
+contrat de crédit ne sont pas dus. 
+Aucune indemnité de remboursement anticipé ne peut étre réclamée a I'emprunteur dans les 
+suivants : 
+  
+1°  En cas d’autorisation de découvert ; 
+2° Si le remboursement anticipé a été effectué en exécution d’un contrat d’assurance destiné a garantir le 
+remboursement du crédit ; 
+3°  Si le remboursement anticipé intervient dans une période o le taux débiteur n’est pas fixe. 
+Dans les autres cas, lorsque le montant du remboursement anticipé est supérieur a un seuil fixé par 
+arrété pris en conseil des ministres, le préteur peut exiger une indemnité qui ne peut dépasser 1 % du montant du 
+crédit faisant I'objet du remboursement anticipé si le délai entre le remboursement anticipé et la date de fin du 
+contrat de crédit est supérieur a un an. Si le délai ne dépasse pas un an, I'indemnité ne peut pas dépasser 0,5 % 
+du montant du crédit faisant I"objet d"un remboursement anticipé. En aucun cas I'indemnité éventuelle ne peut 
+dépasser le montant des intéréts que I'emprunteur aurait payés durant la période comprise entre le 
+remboursement anticipé et la date de fin du contrat de crédit convenue initialement. 
+Aucune indemnité autre que celle mentionnée au présent article ni aucuns frais ne peuvent étre mis a la 
+charge de I’'emprunteur en cas de remboursement par anticipation. 
+8/38
+Article LP 36.- Les dispositions de I'article LP 35 ne s"appliquent pas aux opérations de location avec 
+option d’achat. 
+  
+Sous-section 3 : Mesures de remédiation (art. LP 37) 
+Article LP 37.- Les préteurs disposent de politiques et de procédures adéquates les incitant a faire 
+preuve d’une tolérance raisonnable avant d’engager une procédure d’exécution a I'encontre d’un emprunteur en 
+difficulté et a lui proposer, s’il y a lieu, des mesures de renégociation tenant notamment compte de sa situation 
+personnelle. 
+Ces mesures peuvent étre : 
+a) Le refinancement total ou partiel du contrat de crédit : 
+b) La modification des conditions existantes d’un contrat de crédit, qui peut comprendre entre autres : 
+i)  La prolongation de la durée du contrat de crédit ; 
+ii) La suspension de tout ou partie des versements du remboursement pendant une période donnée ; 
+iii) La modification du taux d’intérét ; 
+iv) Le réaménagement de I'échéancier, notamment la réduction du montant des versements du 
+remboursement ; 
+v) Une remise de dette partielle et la consolidation de la dette. 
+Sous-section 4 : Défaillance de I'emprunteur (art. LP 38 a LP 42) 
+Article LP 38.- Dés le premier manquement de I'emprunteur @ son obligation de rembourser, le 
+préteur informe celui-ci, sur support papier ou tout autre support durable des risques qu'il encourt au titre des 
+articles LP 41 et LP 42. 
+Cette alerte ne fait pas obstacle & ce que, si les difficultés de remboursement ne sont pas rapidement 
+résolues, le préteur puisse régler de maniére temporaire et pour une durée fixée par lui la cotisation d’assurance 
+du crédit pour lequel des impayés ont été constatés, afin de permettre le maintien de la couverture assurantielle. 
+Article LP 39.- Lorsque la souscription d'une assurance a été exigée par le préteur et que 
+Iemprunteur a souscrit une assurance auprés de I'assureur de son choix, celui-ci informe le préteur du non- 
+paiement par I’emprunteur de sa prime d’assurance. 
+  
+Article LP 40.- Aucune indemnité ni aucuns frais autres que ceux mentionnés aux articles LP 41 et LP 
+42 ne peuvent étre mis & la charge de I’'emprunteur dans les cas de défaillance prévus par ces articles. 
+Toutefois, le préteur peut réclamer a I'emprunteur, en cas de défaillance de celui-ci, le remboursement 
+des frais taxables qui lui ont été occasionnés par cette défaillance. & I'exclusion de tout remboursement 
+forfaitaire de frais de recouvrement. 
+En cas de défaillance de I'emprunteur. seuls les modes de réalisation du gage autorisés par les articles 
+2073 et suivants du code civil tel qu’applicable en Polynésie frangaise sont ouverts aux créanciers gagistes. 
+Article LP 41.- En cas de défaillance de I'emprunteur, le préteur peut exiger le remboursement 
+immédiat du capital restant di, majoré des intéréts échus mais non payés. Jusqu’a la date du réglement effectif, 
+les sommes restant dues produisent les intéréts de retard a un taux égal a celui du prét. 
+En outre, le préteur peut demander a I'emprunteur défaillant une indemnité qui, dépendant de la durée 
+restant & courir du contrat et sans préjudice de I'application de I"article 1152 du code civil tel qu’applicable en 
+Polynésie frangaise, est fixée suivant un baréme déterminé par un arrété pris en conseil des ministres. 
+9/38
+Article LP 42.- En cas de défaillance dans I’exécution par I'emprunteur d’un contrat de location 
+assorti d’une promesse de vente ou d’un contrat de location-vente, le préteur est en droit d’exiger, outre la 
+restitution du bien et le paiement des loyers échus et non réglés, une indemnité qui, dépendant de la durée 
+restant a courir du contrat et sans préjudice de I’application de I'article 1152 du code civil tel qu’applicable en 
+Polynésie frangaise, est fixée suivant un baréme déterminé par un arrété pris en conseil des ministres. 
+Section VIII - Crédit gratuit (articles LP 43 a LP 45) 
+Article LP 43.- Toute publicité, quel qu’en soit le support, qui porte sur une opération de crédit dont 
+la durée est supérieure & trois mois et pour laquelle ne sont pas requis d’intéréts ou d’autres frais, indique le 
+montant de I'escompte sur le prix d’achat éventuellement consenti en cas de paiement comptant et précise qui 
+prend en charge le coiit du crédit consenti gratuitement. 
+  
+Article LP 44.- Lorsqu’une opération de financement comporte une prise en charge totale ou partielle 
+des frais, le vendeur ne peut demander a I'acheteur a crédit ou au locataire une somme d’argent supérieure au 
+prix le plus bas effectivement pratiqué pour I’achat au comptant d’un article ou d’une prestation similaire, dans 
+le méme établissement de vente au détail, au cours des trente derniers jours précédant le début de la publicité ou 
+de I'offre. 
+  
+Article LP 45.- Toute opération de crédit a titre onéreux proposée concomitamment & une opération 
+de crédit gratuit ou promotionnel est conclue dans les termes d’un contrat de crédit distinet, sur support papier, 
+ou tout autre support durable, conforme aux dispositions des articles LP 18 & LP 29. 
+Section IX - Crédit affecté (articles LP 46 3 LP 58) 
+Article LP 46.- Sont soumis aux dispositions de la présente section les contrats de crédit affecté 
+mentionnés au 11° de I"article LP 1. 
+Article LP 47.- Chaque fois que le paiement du prix est acquitté, en tout ou partie, a I'aide d’un crédit, 
+le contrat de vente ou de prestation de services le précise, quelle que soit I'identité du préteur. 
+  
+Article LP 48.- Aucun engagement ne peut valablement étre contracté par I'acheteur a I'égard du 
+vendeur tant qu’il n’a pas accepté le contrat de crédit. Lorsque cette condition n’est pas remplie, le vendeur ne 
+peut recevoir aucun paiement, sous quelque forme que ce soit, ni aucun dépot. 
+  
+Article LP 49.- Tant que le préteur ne I'a pas avisé de I'octroi du crédit, et tant que I'emprunteur peut 
+exercer sa faculté de rétractation, le vendeur n’est pas tenu d’accomplir son obligation de livraison ou de 
+fourniture. 
+Toutefois, lorsque par une demande expresse rédigée, datée et signée de sa main méme, 1'acheteur 
+sollicite la livraison ou la fourniture immédiate du bien ou de la prestation de services, le délai de rétractation 
+ouvert a I’emprunteur par I"article LP 19 expire & la date de la livraison ou de la fourniture, sans pouvoir ni 
+excéder quatorze jours ni étre inférieur 4 trois jours. 
+Toute livraison ou fourniture anticipée est & la charge du vendeur qui en supporte tous les frais et 
+risques. 
+Article LP 50.- Les obligations de I'emprunteur ne prennent effet qu'a compter de la livraison du bien 
+ou de la fourniture de la prestation. 
+En cas de contrat de vente ou de prestation de services a exécution successive, les obligations prennent 
+effet a compter du début de la livraison ou de la fourniture et cessent en cas d’interruption de celle-ci. 
+Article LP 51.- Le vendeur ou le prestataire de services conserve une copie du contrat de crédit et la 
+présente sur leur demande aux agents chargés du controle. 
+10/38
+Article LP 52.- Le vendeur ou le prestataire de services ne peut recevoir, de la part de I’acheteur, 
+aucun paiement sous quelque forme que ce soit, ni aucun dépdt. en sus de la partie du prix que Iacheteur a 
+accepté de payer au comptant, tant que le contrat relatif & I’opération de crédit n’est pas définitivement conclu. 
+Si une autorisation de prélévement sur compte bancaire est signée par I'acquéreur, sa validité et sa 
+prise d’effet sont subordonnées a celles du contrat de vente. 
+En cas de paiement d’une partie du prix au comptant, le vendeur ou prestataire de services fournit a 
+I’acheteur un récépissé sur support papier ou tout autre support durable valant regu et comportant la 
+reproduction intégrale des dispositions des articles LP 54, LP 55 et LP 187. 
+Article LP 53.- En cas de vente ou de démarchage a domicile, le délai de rétractation est de quatorze 
+Jjours calendaires révolus quelle que soit la date de livraison ou de fourniture du bien ou de la prestation de 
+services. 
+Aucun paiement comptant ne peut intervenir avant I'expiration de ce délai. 
+Article LP 54.- Le contrat de vente ou de prestation de services est résolu de plein droit, sans 
+indemnité : 
+1° Si le préteur n’a pas, dans un délai de sept jours & compter de I'acceptation du contrat de crédit par 
+I’emprunteur, informé le vendeur de Iattribution du crédit ; 
+2° Ousil'emprunteur a exercé son droit de rétractation dans le délai prévu a I'article LP 19. 
+Toutefois, lorsque I'emprunteur, par une demande expresse, sollicite la livraison ou la fourniture 
+immédiate du bien ou de la prestation de services, I’exercice du droit de rétractation du contrat de crédit 
+n’emporte résolution de plein droit du contrat de vente ou de prestation de services que s’il intervient dans un 
+délai de trois jours a compter de I’acceptation du contrat de crédit par I'emprunteur. 
+Le contrat n’est pas résolu si, avant I'expiration des délais mentionnés au présent article, I’acquéreur 
+paie comptant. 
+Article LP 55.- Dans les cas de résolution du contrat de vente ou de prestations de services prévus a 
+Iarticle LP 54, le vendeur ou le prestataire de services rembourse, sur simple demande, toute somme que 
+I’acheteur aurait versée d’avance sur le prix. 
+Article LP 56.- Lorsque le consommateur exerce son droit de rétractation du contrat de vente ou de 
+fourniture de prestation de services mentionné au 11° de I"article LP 1, le contrat de crédit destiné a en assurer le 
+financement est résilié de plein droit sans frais ni indemnité, a I’exception éventuellement des frais engagés pour 
+I"ouverture du dossier de crédit. 
+  
+Article LP 57.- En cas de contestation sur I'exécution du contrat principal, le tribunal peut, jusqu’a la 
+solution du litige, suspendre I’exécution du contrat de crédit. Celui-ci est résolu ou annulé de plein droit lorsque 
+le contrat en vue duquel il a été conclu est lui-méme judiciairement résolu ou annulé. 
+  
+Les dispositions du premier alinéa ne sont applicables que si le préteur est intervenu a Iinstance ou 
+s'il a été mis en cause par le vendeur ou I'emprunteur. 
+Article LP 58.- Si la résolution judiciaire ou I'annulation du contrat principal survient du fait du 
+vendeur, celui-ci peut, a la demande du preteur. étre condamné a garantir I’emprunteur du remboursement du 
+prét, sans préjudice de dommages et intéréts vis-a-vis du préteur et de I'emprunteur. 
+  
+Section X - Crédit renouvelable (articles LP 59 a LP 84) 
+Article LP 59.- Tout crédit renouvelable au sens de la réglementation en vigueur est désigné dans tout 
+document commercial ou publicitaire par le terme : " crédit renouvelable ", a I'exclusion de tout autre. 
+  
+11/38
+Sous-section 1 : Publicité (art. LP 60 a LP 62) 
+Article LP 60.- Pour Iapplication de I'article LP 6, le contenu et les modalités de présentation de 
+I"exemple représentatif pour le crédit renouvelable sont précisés par un arrété pris en conseil des ministres. 
+Article LP 61.- La publicité portant sur les avantages de toute nature, ouverts par la carte associde a 
+un crédit renouvelable indique a I'emprunteur les modalités selon lesquelles cette carte permet de payer 
+comptant ou a crédit et I'informe des modalités d’utilisation du crédit. 
+Article LP 62.- Lorsqu’une carte de paiement émise par un établissement de crédit est associée soit & 
+un compte de dépot et a un crédit renouvelable, soit a un compte de paiement et a un crédit renouvelable, la 
+publicité portant sur cette carte informe le consommateur des modalités dutilisation du crédit. 
+  
+Sous-section 2 : Information précontractuelle (art. LP 63 G LP 64) 
+Article LP 63.- Lorsqu’un consommateur se voit proposer, sur le licu de vente ou par un moyen de 
+vente de biens ou de services & distance, un contrat de crédit renouvelable pour financer I"achat de biens ou de 
+prestations de services particuliers pour un montant supérieur & un seuil fixe par un arrété pris en conseil des 
+ministres, le préteur ou I'intermédiaire de crédit accompagne I'offre de crédit renouvelable d*une proposition de 
+crédit amortissable. 
+La proposition comporte les informations permettant au consommateur de comparer de fagon claire le 
+fonctionnement, le coiit et les modalités d’amortissement des deux crédits proposés selon au moins deux 
+hypothéses de délai de remboursement. Ces informations ainsi que les conditions de leur présentation sont 
+définies par un arrété pris en conseil des ministres. 
+Si le consommateur opte pour le crédit amortissable qui lui est proposé, le préteur ou I'intermédiaire 
+de crédit lui fournit I'offre de crédit correspondant a la proposition. 
+Article LP 64.- Les enseignes de distribution proposant un programme comportant des avantages de 
+toute nature et incluant un crédit proposent par ailleurs au consommateur un autre programme comportant des 
+avantages de toute nature non liés a un crédit. 
+  
+Sous-section 3 : Formation du contrat (art. LP 65 a LP 68) 
+Article LP 65.- Lors de I'ouverture d’un crédit renouvelable, I'établissement d’un contrat de crédit, 
+sur support papier ou tout autre support durable, est obligatoire pour la conclusion du crédit initial et, dans les 
+mémes conditions, pour toute augmentation de ce crédit consentie ultérieurement. 
+  
+Article LP 66.- Outre les informations obligatoires prévues a I'article LP 28, le contrat de crédit 
+prévoit que chaque échéance comprend un remboursement minimal du capital emprunté, qui varie selon le 
+montant total du crédit consenti et dont les modalités sont définies par un arrété pris en conseil des ministres. 
+  
+11 précise que la durée du contrat est limitée a un an renouvelable et que le préteur devra indiquer, 
+trois mois avant Iéchéance, les conditions de reconduction du contrat. 
+  
+11 fixe également les modalités du remboursement, qui doit étre échelonné, sauf volonté contraire du 
+débiteur, des sommes restant dues dans le cas ol le débiteur demande a ne plus bénéficier de son ouverture de 
+crédit. 
+Le contrat précise également que le taux débiteur qu’il mentionne est révisable et qu'il suivra les 
+variations en plus ou en moins du taux de base que le préteur applique aux opérations de méme nature ou du 
+taux qui figure dans les barémes qu’il diffuse auprés du public. 
+Article LP 67.- Lorsque le crédit renouvelable est assorti d’une carte ouvrant droit 4 des avantages de 
+toute nature. le contrat de crédit indique a I'emprunteur les modalités selon lesquelles cette carte offre la 
+possibilité de payer au comptant ou a crédit et I'informe des modalités d’utilisation du crédit. 
+12/38
+Article LP 68.- Lorsqu’une carte de crédit est associée au contrat, la mention : " carte de crédit " est 
+spécifiée en caractéres lisibles au recto de la carte. 
+Sous-section 4 : Exécution du contrat (art. LP 69 a LP 75) 
+Article LP 69.- Lorsque le crédit renouvelable est assorti d’une carte ouvrant droit & des avantages de 
+toute nature, le bénéfice de ces avantages ne peut étre subordonné au paiement 4 crédit. 
+  
+Dans ce cas, le préteur ou I'intermédiaire de crédit a I'obligation de proposer au consommateur la 
+de payer au comptant avec cette carte.    
+Est assimilé & une carte tout moyen de paiement dématérialisé accessoire a un crédit renouvelable. 
+Article LP 70.- L’utilisation du crédit résulte de I’accord exprés du consommateur exprimé lors du 
+paiement ou dans un délai raisonnable, & réception de I'état actualisé a I'exécution du contrat de crédit prévu a 
+Particle LP 72. 
+Article LP 71.- Lorsqu’une carte de paiement émise par un établissement de crédit est associée soit a 
+un compte de dépdt et a un crédit renouvelable, soit & un compte de paiement et a un crédit renouvelable, 
+I'utilisation du crédit résulte de I'accord exprés du consommateur exprimé lors du paiement avec la carte 
+ou dans un délai raisonnable, a réception de I’état actualisé de I'exécution du contrat de crédit prévu a article 
+LP72. 
+Article LP 72.- Le préteur fournit & I’emprunteur, par tout moyen, mensuellement et dans un délai 
+raisonnable avant la date de paiement, un état actualisé de I'exécution du contrat de crédit renouvelable, faisant 
+clairement référence a I'état précédent et précisant : 
+1°  La date d’arrété du relevé et la date du paiement ; 
+2°  La fraction du capital disponible ; 
+3°  Le montant de I’échéance, dont la part correspondant aux intéréts ; 
+4°  Le taux de la période et le taux effectif global ; 
+59 Le cas échéant, le coiit de I"assurance : 
+6° La totalité des sommes exigibles : 
+7°  Le montant des remboursements déja effectués depuis le dernier renouvellement, en faisant ressortir la part 
+respective versée au titre du capital emprunté et celle versée au titre des intéréts et frais divers liés 
+4 I'opération de crédit ; 
+8° La possibilité¢ pour I'emprunteur de demander a tout moment la réduction de sa réserve de crédit, la 
+suspension de son droit a I"utiliser ou la résiliation de son contrat ; 
+9°  Le fait qu'a tout moment I'emprunteur peut payer comptant tout ou partie du montant restant dd, sans se 
+limiter au montant de la seule derniére échéance : 
+10° L’estimation du nombre de mensualités restant dues pour parvenir au remboursement intégral du montant 
+effectivement emprunté, établie en fonction des conditions de remboursement convenues. 
+Ces informations figurent obligatoirement, en caractéres lisibles, sur la premiére page du document 
+adressé a I'emprunteur. 
+13/38
+Article LP 73.- En cas de révision du taux débiteur, le préteur fournit cette information préalablement 
+4 I'emprunteur sur support papier ou tout autre support durable avant la date effective d’application du nouveau 
+taux. 
+L’emprunteur dispose d’un délai de trente jours aprés réception de cette information, pour refuser cette 
+révision sur demande écrite adressée au préteur. 
+Dans ce cas, son droit & crédit prend fin et le remboursement du crédit déja utilisé s’effectue de 
+maniére échelonnée, sauf avis contraire de sa part, aux conditions applicables avant la modification que celui-ci 
+a refusée. 
+Les dispositions du présent article sont reproduites dans le contrat. 
+Article LP 74.- Lorsqu'en application des dispositions du premier alinéa de Iarticle LP 35, 
+I’emprunteur rembourse & son initiative la totalité du crédit renouvelable par anticipation, aucune indemnité de 
+remboursement anticipé ne peut lui étre réclamée. 
+  
+Article LP 75.- La capitalisation des intéréts est soumise aux dispositions de I'article 1154 du 
+code civil tel qu'applicable en Polynésie frangaise. 
+Sous-section 5 : Reconduction (art. LP 76 a LP 84) 
+Article LP 76.- Avant de proposer a I'emprunteur de reconduire le contrat, le préteur consulte tous les 
+ans le fichier prévu par la réglementation en vigueur dans les conditions prévues par la réglementation en 
+vigueur, et tous les trois ans, il vérifie la solvabilité de I'emprunteur dans les conditions fixées a I'article LP 16. 
+Article LP 77.- Le préteur peut réduire le montant total du crédit, suspendre le droit d’utilisation du 
+crédit par I'emprunteur ou ne pas proposer la reconduction du contrat lorsque les éléments recueillis en 
+application des dispositions de I'article LP 76 le justifient ou, & tout moment, s’il dispose d’informations 
+démontrant une diminution de la solvabilité de I'emprunteur telle qu’elle avait pu étre appréciée lors de la 
+conclusion du contrat. Il en informe préalablement I'emprunteur sur support papier ou sur un autre support 
+durable. 
+A tout moment, & I'initiative du préteur ou a la demande de I'emprunteur, le montant total du crédit 
+peut étre rétabli et la suspension du droit d’utilisation du crédit levée, aprés vérification de la solvabilité de 
+I"emprunteur dans les conditions fixées a I'article LP 16. 
+Pendant la période de suspension du droit d’utilisation du crédit par I"emprunteur ou en cas de 
+non-reconduction du contrat, I'emprunteur rembourse, aux conditions fixées par le contrat, le montant du crédit 
+utilisé. 
+Article LP 78.- Lors de la reconduction du contrat, jusqu'au moins vingt jours avant la date 
+ol celles-ci deviennent effectives, I'emprunteur peut s’opposer aux modifications proposées par le préteur 
+en utilisant un bordereau-réponse annexé aux informations fournies par le préteur. sur support papier ou tout 
+autre support durable. 
+Les caractéristiques de ce bordereau ainsi que les mentions devant y figurer sont précisées par un 
+arrété pris en conseil des ministres. 
+Article LP 79.- En cas de refus des nouvelles conditions de taux ou de remboursement proposées 
+lors de la reconduction du contrat, I'emprunteur rembourse aux conditions précédant les modifications 
+proposées le montant du crédit déja utilisé, sans pouvoir, toutefois, procéder a une nouvelle utilisation de 
+I"ouverture de crédit. 
+  
+  
+Article LP 80.- L’emprunteur peut demander & tout moment la réduction du montant maximal 
+de crédit consenti, la suspension de son droit a I"utiliser ou la résiliation de son contrat. 
+Dans ce dernier cas, il rembourse, aux conditions du contrat, le montant du crédit déja utilisé. 
+14/38
+Article LP 81.- Si, pendant un an, le contrat d’ouverture de crédit ou tout moyen de paiement associé¢ 
+n’a fait I'objet d’aucune utilisation, le préteur qui entend proposer la reconduction du contrat fournit a 
+I’emprunteur, sur support papier ou tout autre support durable, 4 I’échéance de I'année écoulée, un document 
+annexé aux conditions de cette reconduction. Ce document indique I'identité des parties, la nature de 
+I’opération, le montant du crédit disponible, le taux annuel effectif global ainsi que le montant des 
+remboursements par échéance et par fractions de crédit utilisées. 
+Article LP 82.- A défaut pour I'emprunteur de retourner le document mentionné a I'article LP 81, 
+signé et daté, au plus tard vingt jours avant la date d’échéance du contrat, le préteur suspend a cette date le droit 
+d’utilisation du crédit par I'emprunteur. 
+La suspension ne peut étre levée qu'a la demande de I'emprunteur et aprés vérification de la 
+solvabilité de ce dernier dans les conditions fixées a I'article LP 16. 
+Article LP 83.- Dans le cas ou I'emprunteur n’a pas demandé la levée de la suspension a I’expiration 
+du délai d’un an suivant la date de la suspension de son contrat de crédit renouvelable, le contrat est résilié¢ de 
+plein droit. 
+  
+Article LP 84.- Lorsque I'ouverture de crédit est assortic de I'usage d'une carte de crédit, le 
+prélévement de la cotisation liée au bénéfice de ce moyen de paiement ne fait pas obstacle a la mise en ceuvre 
+des dispositions de I'article LP 83. 
+Section XI - Opérations de découvert en compte (articles LP 85 a LP 96) 
+Article LP 85.- Les dispositions des 1° 4 3° de I'article LP 6 et celle des articles LP 16, LP 17, LP 27, 
+LP 40, LP 41, LP 46, LP 50, LP 51, LP 56, LP 57, LP 58 et LP 86 a LP 92, s"appliquent aux opérations de 
+crédit consenties sous la forme d’une autorisation de découvert remboursable dans un délai supérieur & un mois 
+et inférieur ou égal a trois mois. 
+Lorsque le contrat de crédit prévoit un délai de remboursement supérieur a trois mois, I'intégralité des 
+dispositions du présent chapitre lui est applicable. 
+Article LP 86.- Préalablement & la conclusion d’une opération mentionnée au premier alinéa de 
+Iarticle LP 85, le préteur donne & I'emprunteur, sur support papier ou sur un autre support durable, les 
+informations lui permettant d’appréhender clairement I’étendue de son engagement. 
+La liste et les conditions de présentation de ces informations sont fixées par un arrété pris en conseil 
+des ministres. 
+Article LP 87.- Si le préteur est disposé a consentir un crédit, il fournit sans frais, a I'emprunteur, 
+a sa demande, sur support papier ou tout autre support durable, les informations prévues au second alinéa 
+de Iarticle LP 88. 
+Article LP 88.- Le contrat de crédit est établi sur support papier ou sur un autre support durable. 
+11 constitue un document distinct de tout support ou document publicitaire. 
+La liste des informations figurant dans le contrat est fixée par un arrété pris en conseil des ministres. 
+Article LP 89.- Pour les opérations consenties sous la forme d’une autorisation de découvert 
+remboursable dans un délai supérieur a un mois, le préteur est tenu d’adresser réguliérement a I’emprunteur, sur 
+support papier ou sur un autre support durable, un relevé de compte comprenant les informations dont la liste et 
+le contenu sont fixés par un arrété pris en conseil des ministres. 
+15/38
+Article LP 90.- En cas d’augmentation du taux débiteur ou des frais dont il est redevable, 
+I’emprunteur est informé sur support papier ou sur un autre support durable avant que ces modifications 
+n’entrent en vigueur. 
+Lorsque la modification du taux débiteur résulte d’une variation du taux de référence, que le nouveau 
+taux de référence est rendu public par des moyens appropriés et que I'information relative au nouveau taux de 
+référence est également disponible dans les locaux du préteur, les parties peuvent convenir dans le contrat de 
+crédit que cette information est fournie dans le relevé de compte mentionné a I'article LP 89. 
+Article LP 91.- L’emprunteur peut procéder a tout moment et sans frais a la résiliation d’une 
+autorisation de découvert & durée indéterminée, & moins que les parties n’aient convenu d’un délai de préavis. 
+Ce délai ne peut étre supérieur & un mois. 
+Article LP 92.- Si le contrat de crédit le prévoit, le préteur a la faculté de résilier ’autorisation de 
+découvert a durée indéterminée moyennant un préavis d’au moins deux mois fourni & I'emprunteur sur support 
+papier ou sur un autre support durable, En cas de motif légitime, cette résiliation peut intervenir sans préavis et, 
+dans ce cas, le préteur en fournit les motifs & I'emprunteur, si possible avant la résiliation. 
+  
+Article LP 93.- Lorsque la convention de compte mentionnée au deuxiéme alinéa du I de Darticle L. 
+312-1-1 du code monétaire et financier tel qu'applicable en Polynésie frangaise prévoit la possibilité d’un 
+dépassement, cette convention mentionne le taux débiteur, les conditions applicables a ce taux, tout indice ou 
+taux de référence qui se rapporte au taux débiteur initial, les frais applicables et, le cas échéant, les conditions 
+dans lesquelles ces frais peuvent étre modifiés. Dans tous les cas, le préteur fournit ces informations sur support 
+papier ou sur un autre support durable & intervalles réguliers. 
+Dans le cas d’un dépassement significatif qui se prolonge au-dela d’un mois, le préteur foumnit cette 
+information & I'emprunteur, sans délai, sur support papier ou sur un autre support durable, du montant du 
+dépassement, du taux débiteur et de tous frais ou intéréts sur arriérés qui sont applicables. 
+Article LP 94.- Lorsque le dépassement se prolonge au-deld de trois mois, le préteur propose sans 
+délai & I'emprunteur un autre type d’opération de crédit au sens du 6° de I'article LP 1, dans les conditions 
+régies par les dispositions du présent chapitre. 
+Article LP 95.- Les dispositions des articles LP 27, LP 93 et LP 94 s’appliquent aux opérations de 
+crédit consenties sous la forme d’un dépassement mentionné au 13° de I'article LP 1. 
+  
+Article LP 96.- Le préteur s’assure que les contrats prévus a la présente section répondent aux 
+exigences d’accessibilité aux personnes handicapées fixées par un arrété pris en conseil des ministres. 
+  
+CHAPITRE I11 - CREDIT IMMOBILIER (ARTICLES LP 97 A LP 161) 
+Section I- Champ d’application (articles LP 97 4 LP 98) 
+Article LP 97.- Les dispositions du présent chapitre s’ appliquent :   
+19 Aux contrats de crédit, définis au 6° de I'article LP | destinés & financer les opérations suivantes : 
+a) Pour les immeubles & usage d’habitation ou & usage professionnel et d*habitation : 
+- leur acquisition en propriété ou la souscription ou I'achat de parts ou actions de sociétés donnant vocation a 
+leur attribution en propriété, y compris lorsque ces opérations visent également a permettre la réalisation de 
+travaux de réparation, d’amélioration ou d’entretien de I'immeuble ainsi acquis ; 
+- leur acquisition en jouissance ou la souscription ou I’achat de parts ou actions de sociétés donnant vocation & 
+leur attribution en jouissance, y compris lorsque ces opérations visent également a permettre la réalisation de 
+travaux de réparation, d’amélioration ou d’entretien de I'immeuble ainsi acquis ; 
+- les dépenses relatives a leur construction ; 
+16/38
+b) L’achat de terrains destinés a la construction des immeubles mentionnés au a ci-dessus ; 
+2°  Aux contrats de crédit accordés a un emprunteur défini au 2° de I’article LP 1, qui sont garantis par une 
+hypothéque, par une autre siireté comparable sur les biens immobiliers a usage d’habitation, ou par un droit 
+1i€ & un bien immobilier & usage d’habitation. Ces contrats ainsi garantis sont notamment ceux destinés a 
+financer, pour les immeubles 4 usage d’habitation ou a usage professionnel et d’habitation, les dépenses 
+relatives a leur réparation, leur amélioration ou leur entretien : 
+3°  Aux contrats de crédit mentionnés au 1°, qui sont souscrits par les personnes morales de droit privé, lorsque 
+le crédit accordé n’est pas destiné a financer une activité professionnelle, notamment celle des personnes 
+morales qui, a titre habituel, méme accessoire & une autre activité, ou en vertu de leur objet social, 
+procurent, sous quelque forme que ce soit, des immeubles ou fractions d’immeubles, bétis ou non, achevés 
+ou non, collectifs ou individuels, en propriété ou en jouissance. 
+Article LP 98.- Sont exclus du champ d’application du présent chapitre :   
+1°  Les préts consentis a des personnes morales de droit public ; 
+2°  Ceux destinés, sous quelque forme que ce soit, & financer une activité professionnelle, notamment celle des 
+personnes physiques ou morales qui,  titre habituel, méme accessoire 4 une autre activité, ou en vertu de 
+leur objet social, procurent, sous quelque forme que ce soit, des immeubles ou fractions d’immeubles, batis 
+ou non, achevés ou non, collectifs ou individuels, en propriété ou en jouissance ; 
+3° Les opérations de crédit différé, régies par laloi n® 52-332 du 24 mars 1952 relative aux entreprises de 
+crédit différé lorsqu’elles ne sont pas associées a un crédit d’anticipation : 
+4°  Les opérations mentionnées au 3° de I'article L. 511-6 du code monétaire et financier tel qu’applicable en 
+Polynésie frangaise : 
+5% Les opérations de crédit qui ne sont assorties d’aucun intérét ni d’aucun frais autres que les frais couvrant 
+les coilts liés 4 la garantie du crédit ; 
+6°  Les opérations consenties sous la forme d’une autorisation de découvert remboursable dans un délai d’un 
+mois ; 
+7°  Les contrats qui sont I'expression d’un accord intervenu devant une juridiction ; 
+8°  Les contrats résultant d’un plan conventionnel de redressement relevant de la réglementation en vigueur en 
+matiére de traitement de surendettement des particuliers ; 
+9°  Les contrats de crédit conclus a I'occasion d’un délai de paiement accordé, sans frais, pour le réglement 
+d’une dette existante qui ne sont pas garantis par une hypothéque ou une siireté réelle comparable. 
+Section Il - Publicité et informations générales (articles LP 99 a LP 102 
+  
+Sous-section 1 : Publicité (art. LP 99 a LP 101) 
+Article LP 99.- Tout document publicitaire mis a disposition de I'emprunteur portant sur I'une des 
+opérations visées a | le LP 97 mentionne que I'emprunteur dispose d’un délai de réflexion de dix jours, que 
+la vente est subordonnée a I’obtention du prét et que, si celui-ci n’est pas obtenu, le vendeur doit lui rembourser 
+les sommes versées. 
+  
+Article LP 100.- Toute publicité faite, regue ou pergue en Polynésie frangaise, qui, quel que soit son 
+support, porte sur I’un des préts mentionnés a I"article LP 97 précise I'identité du préteur ou de I'intermédiaire 
+de crédit, la nature et I'objet du prét. Lorsque cette publicité comporte un taux d’intérét ou des chiffres relatifs 
+au coiit du crédit pour I'emprunteur, elle précise également de facon claire, concise et visible les informations 
+complémentaires sur les caractéristiques du crédit, fournies, le cas échéant, 4 I'aide d’un exemple représentatif. 
+Un arrété pris en conseil des ministres fixe la liste et les modalités de présentation de ces 
+informations. 
+17/38
+Article LP 101.- [l est interdit dans toute communication publicitaire et commerciale :   
+1° D’assimiler les mensualités de remboursement & des loyers ou faisant référence. pour le calcul des 
+échéances, a des prestations sociales qui ne sont pas assurées pendant toute la durée du contrat ; 
+2° De faire figurer toute formulation susceptible de faire naitre chez le consommateur de fausses attentes 
+concernant la disponibilité ou le coiit d’un crédit. 
+Sous-section 2 : Informations générales (art. LP 102) 
+Article LP 102.- Le préteur assure la disponibilité permanente des informations générales, claires et 
+compréhensibles, sur les contrats de crédit visés & I'article LP 97. L’intermédiaire de crédit assure également la 
+disponibilité permanente des mémes informations. Ces derniéres sont délivrées sur papier, sur tout autre support 
+durable ou sous forme électronique. Elles sont facilement accessibles et sont fournies gratuitement a 
+I’emprunteur. 
+Un arrété pris en conseil des ministres détermine la liste et le contenu de ces informations générales. 
+Section III - Informations précontractuelles (articles LP 103 & LP 106) 
+Sous-section I : Fiche d’information type (art. LP 103) 
+Article LP 103.- Au plus tard lors de I'émission de I'offre de crédit, le préteur ou I'intermédiaire de 
+crédit fournit a I'emprunteur, sur support papier ou sur un autre support durable, sous la forme d’une fiche 
+d’information type, les informations personnalisées permettant a I'emprunteur de comparer les différentes offres 
+de crédit disponibles sur le marché, d’évaluer leurs implications et de se déterminer en toute connaissance de 
+cause sur I"opportunité de conclure un contrat de crédit. 
+  
+Un arrété pris en conseil des ministres fixe la liste et le contenu des informations devant figurer dans 
+cette fiche d’information a fournir pour I'offre de crédit ainsi que les conditions de sa présentation. 
+Toutes les informations complémentaires que le préteur souhaite donner a I"emprunteur sont fournies 
+dans un document distinct de la fiche mentionnée au présent article. 
+L’ensemble des informations fourni en application du présent article I'est gratuitement. 
+Sous-section 2 : Information relative a I'assurance emprunteur (art. LP 104 a LP 106) 
+Article LP 104.- Tout document fourni a I'emprunteur, sur support papier ou tout autre support 
+durable préalablement a la formulation de I'offre mentionnée 4 I'article LP 120 et comportant un ou plusieurs 
+¢éléments chiffrés sur I"assurance mentionnée au premier alinéa de I'article LP 125 mentionne le coit de cette 
+assurance. 
+Ce coilt est exprimé : 
+1° A I'exclusion de tout autre taux, en taux annuel effectif de I'assurance, qui permette la comparaison par 
+I’emprunteur de ce taux avec le taux annuel effectif global du crédit ; 
+2°  En montant total en francs Pacifique dii par I'emprunteur au titre de 1’assurance, sur une durée de huit ans 
+et sur la durée totale du prét ; 
+3°  En franc Pacifique et par période, selon la périodicité de paiement. Il est précisé si ce montant s’ajoute ou 
+non a Iéchéance de remboursement du crédit. 
+Simultanément a la fourniture de tout document mentionné au présent article, doivent étre fournies la 
+fiche type d’information mentionnée a I"article LP 106 ainsi que la notice mentionnée au 1° de 1'article LP 125. 
+Cette notice indique la possibilité pour I'emprunteur de résilier le contrat d’assurance & tout moment & compter 
+de la signature de I"offre de prét. 
+18/38
+Article LP 105.- Tout intermédiaire d’assurance ou organisme assurcur au sens du code des 
+assurances tel qu'applicable en Polynésie francaise proposant a I’emprunteur une assurance en couverture d’un 
+crédit immobilier est soumis aux obligations prévues a I'article LP 104. 
+Article LP 106.- Une fiche type d’information est fournie, lors de la premiére simulation, a toute 
+personne qui se voit proposer ou qui sollicite une assurance ayant pour objet de garantir le remboursement d’un 
+prét mentionné au 1° de larticle LP 97 ou destiné a financer une opération relative a la réparation, 
+’amélioration ou I'entretien d’immeubles & usage d’habitation ou & usage professionnel et d’habitation, lorsque 
+le crédit est supérieur & 8 950 000 francs pacifique et garanti par une hypothéque, par une autre sireté 
+comparable sur les biens immobiliers & usage d’habitation, ou par un droit lié & un bien immobilier a usage 
+d’habitation. Les modalités dapplication du présent alinéa sont fixées par un arrété pris en conseil des 
+ministres. 
+  
+La fiche type d'information mentionne la possibilité pour I'emprunteur de souscrire auprés de 
+I’assureur de son choix une assurance dans les conditions fixées aux articles LP 125 et LP 126 et précise les 
+types de garanties proposées. Le format de cette fiche ainsi que son contenu sont fixés par un arrété pris en 
+conseil des ministres. 
+Section IV - Explications fournies 4 'emprunteur et évaluation de sa solvabilité 
+(articles LP 107 a LP 119) 
+Sous-Section 1 : Explications adéquates et mises en garde (art. LP 107 a LP 108) 
+Article LP 107.- Le préteur ou I'intermédiaire de crédit fournit gratuitement a I'emprunteur les 
+explications adéquates lui permettant de déterminer si le ou les contrats de crédit proposés et les éventuels 
+services accessoires sont adaptés a ses besoins et a sa situation financiére. 
+Ces explications comprennent notamment : 
+1° Les informations contenues dans la fiche d’information type mentionnée a I'article LP 103, ainsi que, pour 
+les intermédiaires de crédit, les obligations d’information prévues en application de I'article L 519-4-1 du 
+code monétaire et financier tel qu'applicable en Polynésie frangaise : 
+2° Les principales caractéristiques du ou des crédits et services accessoires proposés : 
+3° Les effets spécifiques que le ou les crédits et services accessoires proposés peuvent avoir sur I'emprunteur, y 
+compris les conséquences d'un défaut de paiement de I'emprunteur, notamment en cas de réalisation des 
+garanties. Lorsque la garantie est constituée par un cautionnement accordé par un organisme de 
+cautionnement professionnel, le préteur informe I'emprunteur de la nature, des bénéficiaires et des conditions 
+dans lesquelles celle-ci peut étre actionnée et des conséquences pour I'emprunteur ; 
+4° S’agissant des éventuels services accessoires liés au contrat de crédit, I'indication de la possibilité ou non de 
+résilier chaque composante séparément et les implications d"une telle procédure pour I'emprunteur. 
+Article LP 108.- Sans préjudice de I'examen de solvabilité mentionné a I'article LP 112, le préteur ou 
+I'intermédiaire de crédit met en garde gratuitement I’'emprunteur lorsque, compte tenu de sa situation financiére, 
+un contrat de crédit peut induire des risques spécifiques pour lui. 
+Sous-section 2 : Service de conseil (art. LP 109 a LP 111) 
+Article LP 109.- Sans préjudice des dispositions relatives aux explications adéquates et a la mise en 
+garde mentionnées aux articles LP 107 et LP 108, le préteur ou I'intermédiaire peut fournir a I'emprunteur un 
+service de conseil en matiére de contrats de crédit définis a I"article LP 97. 
+  
+Le service de conseil consiste en la fourniture 4 I"'emprunteur de recommandations personnalisées en 
+ce qui concerne un ou plusieurs contrats de crédit et constitue une activité distincte de I'octroi de crédit et de 
+Iactivité d’intermédiation. 
+19/38
+Cette recommandation personnalisée porte sur un ou plusieurs contrats de crédits adaptés aux besoins et & la situation financiére de I'emprunteur sur la base de la prise en considération : 
+- par les préteurs ainsi que les intermédiaires, lorsque ceux-ci agissent en vertu d’un mandat délivré par un préteur, d’un nombre suffisamment important de contrats de crédit de leur gamme de produits ; 
+- par les intermédiaires, lorsque ceux-ci agissent en vertu d’un mandat délivré par un client au sens de Iarticle L. 519-2 du code monétaire et financier tel qu'applicable en Polynésie francaise, d’un nombre suffisamment important de contrats de crédit disponibles sur le marché. 
+Les conditions de la fourniture du service de conseil sont précisées par un arrété pris en conseil des 
+ministres. 
+Article LP 110.- Le conseil est qualifi¢ d’indépendant dés lors qu'il est rendu a partir d’un nombre 
+suffisamment important de contrats de crédit disponibles sur le marché et que sa fourniture ne donne lieu a 
+aucune rémunération autre que celle versée, le cas échéant, par I'emprunteur. Le service de conseil indépendant 
+ne peut en aucun cas donner lieu & une rémunération, sous quelque forme que ce soit, de la part d’un préteur ou 
+d’un intermédiaire de crédit. 
+  
+Le préteur ou I'intermédiaire de crédit qui fournit un service de conseil indépendant peut se prévaloir 
+de I'appellation de conseiller indépendant. 
+  
+Les conditions de la fourniture du service de conseil indépendant sont précisées par un arrété pris en 
+conseil des ministres. 
+Article LP 111.- Seul le conseil qualifi¢ d'indépendant au sens de Iarticle LP 110 peut donner lieu & 
+rémunération. Cette rémunération émane uniquement de 1’emprunteur. 
+  
+Sous-Section 3 : Evaluation de la solvabilité (art. LP 112 a LP 115) 
+Article LP 112.- Le crédit n’est accordé a I'emprunteur que si le préteur a pu vérifier que les 
+obligations découlant du contrat de crédit seront vraisemblablement respectées conformément & ce qui est prévu 
+par ce contrat. 
+A cette fin, avant de conclure un contrat de crédit, le préteur procéde & une évaluation rigoureuse de la 
+solvabilité¢ de I'emprunteur. Cette évaluation prend en compte de maniére appropriée les facteurs pertinents 
+permettant d*apprécier la capacité de I'emprunteur a remplir ses obligations définies par le contrat de crédit. 
+Le préteur s’appuie dans ce cadre sur les informations nécessaires, suffisantes et proportionnées 
+relatives aux revenus et dépenses de I'emprunteur ainsi que sur d’autres critéres économiques et financiers. 
+Ces informations sont recueillies par le préteur auprés de sources internes ou externes pertinentes, y 
+compris de I’emprunteur et comprennent notamment les informations fournies, le cas échéant, par 
+I'intermédiaire de crédit au cours de la procédure de demande de crédit. 
+L’emprunteur est informé par le préteur, au stade précontractuel, de manicre claire et simple, des 
+informations nécessaires  la conduite de I'évaluation de solvabilité et les délais dans lesquels celles-ci doivent 
+lui étre fournies. 
+Les informations sont controlées de fagon appropriée, en se référant notamment a des documents 
+vérifiables. 
+Le préteur consulte également le fichier prévu a I'article L 771-7 du code de la consommation tel 
+qu’applicable en Polynésie frangaise. dans les conditions prévues par I’arrété mentionné a I'article L 751-6 de ce 
+méme code. 
+A Iissue de la vérification de la solvabilité, le préteur informe, dans les meilleurs délais, I'emprunteur 
+du rejet, le cas échéant, de sa demande de crédit. 
+20/38
+Lorsque cette décision est fondée sur le résultat de la consultation du fichier mentionné ci-dessus, le 
+préteur en informe 'emprunteur. Il lui communique ce résultat ainsi que les renseignements issus de cette 
+consultation. 
+Article LP 113 Le préteur ne peut ni résilier ni modifier ultérieurement le contrat de crédit conclu 
+avec I’emprunteur au motif que les informations fournies étaient incomplétes ou qu’il a vérifié la solvabilité de 
+maniére incorrecte, sauf dans I’hypothése ol il est avéré que des informations essentielles a la conclusion du 
+contrat ont été sciemment dissimulées ou falsifiées par I’emprunteur. 
+Article LP 114.- Le préteur réévalue la solvabilité de I'emprunteur, sur la base d’informations mises a 
+jour, avant qu’une augmentation significative du montant total du crédit ne soit accordée aprés la conclusion du 
+contrat de crédit, & moins que ce crédit supplémentaire n’ait été prévu et intégré dans I’évaluation initiale de la 
+solvabilité. 
+  
+  
+rticle LP 115.- Les modalités d’application de I’évaluation de la solvabilité de I’emprunteur sont 
+précisées par un arrété pris en conseil des ministres. 
+Sous-section 4 : Evaluation du bien immobilier (art. LP 116 a LP 119) 
+Article LP 116.- Lorsque le préteur procéde ou fait procéder a I’évaluation du bien immobilier & usage 
+d’habitation financé a I'aide d’un prét mentionné a I’article LP 97, il veille 4 ce que : 
+1° Celle-ci soit réalisée par un expert en évaluation immobiliére justifiant de sa compétence professionnelle et 
+indépendant du processus de décision d’octroi du prét afin de fournir une évaluation impartiale et objective ; 
+2° 11 soit fait application de normes d’évaluation fiables, tenant compte des normes reconnues au niveau 
+international. 
+Un arrété pris en conseil des ministres précise les conditions du présent article, et notamment celles 
+relatives a la compétence et a I'indépendance de I"évaluateur. 
+Article LP 117.- L.’¢évaluation mentionnée a Iarticle LP 116 consiste 4 déterminer la valeur du bien 
+immobilier aprés analyse de toutes les piéces communiquées par le préteur et qui sont utiles a la réalisation de 
+I’évaluation selon les normes en vigueur. 
+Article LP 118.- L évaluation mentionnée a Iarticle LP 116 donne lieu a la rédaction d’un document 
+d’expertise prenant en compte, suivant les normes mentionnées au 2° du méme article, les facteurs juridiques, 
+économiques, techniques et fiscaux permettant détablir la valeur du bien immobilier. 
+Cette évaluation est consignée sur un support durable. La liste des piéces conservées par le préteur est 
+précisée par un arrété pris en conseil des ministres. 
+Article LP 119.- Le préteur tient des archives appropriées concernant les types de biens immobiliers 
+aceeplés comme garantie ainsi que les procédures qui s’y rapportent en matiére d*octroi de préts mentionnés 
+au 2° de I'article LP 97. 
+Section V - Formation du contrat de crédit (articles LP 120 4 LP 135) 
+Article LP 120.- Pour les préts mentionnés a Iarticle LP 97, le préteur formule une offre fournie 
+gratuitement sur support papier ou sur un autre support durable & I’'emprunteur ainsi qu’aux cautions déclarées 
+par I’emprunteur lorsqu’il s’agit de personnes physiques. 
+Cette offre est accompagnée de la fiche d’information type mentionnée a I'article LP 103. lorsque ses 
+caractéristiques sont différentes des informations contenues dans la fiche d’information fournie précédemment 
+le cas échéant. 
+21/38
+Article LP 121.- L’offre mentionnée a I"article LP 120 : 
+  
+1° Mentionne ['identité des parties et éventuellement des cautions déclarées ; 
+2° Précise la nature, I'objet, les modalités du prét, notamment celles qui sont relatives aux dates et conditions de 
+mise a disposition des fonds : 
+3° Pour les offres de préts dont le taux d”intérét est fixe, comprend un échéancier des amortissements détaillant 
+pour chaque échéance la répartition du remboursement entre le capital et les intéréts ; 
+4° Pour les offres de préts dont le taux d’intérét est variable, ou révisable, est accompagnée d’une notice 
+présentant les conditions et modalités de variation du taux d’intérét et d’un document d’information 
+contenant une simulation de I'impact d’une variation de ce taux sur les mensualités, la durée du prét et le 
+coilt total du crédit. Cette simulation ne constitue pas un engagement du préteur a I'égard de I'emprunteur 
+  
+quant & I'évolution effective des taux dintérét pendant le prét et a son impact sur les mensualités, la durée du 
+prét et le coit total du crédit. Le document d”information mentionne le caractére indicatif de la simulation et 
+I"absence de responsabilité du préteur quant a I’évolution effective des taux d'intérét pendant le prét et a son 
+impact sur les mensualités, la durée du prét et le coiit total du crédit ; 
+5% Indique, outre le montant du crédit susceptible d’étre consenti et, le cas échéant, celui de ses fractions 
+périodiquement disponibles, son coilt total, son taux défini conformément aux articles L 314-1 & L 314-4 du 
+code de la consommation tel qu’applicable en Polynésie francaise ainsi que, s'il y a lieu, les modalités de 
+Iindexation : 
+6° Enonce, en donnant une évaluation de leur coit, les stipulations, les assurances et les siretés réelles ou 
+personnelles exigées, qui conditionnent la conclusion du prét ; 
+7° Mentionne que I'emprunteur peut souscrire auprés de I'assureur de son choix une assurance dans les 
+conditions fixées aux articles LP 125 et LP 126 et précise les documents que doit contenir la demande de 
+substitution ; 
+8° Fait état des conditions requises pour un transfert éventuel du prét 4 une tierce personne ; 
+9° Rappelle les dispositions de I'article LP 130. 
+Le cas échéant, I'information relative aux différents contrats de crédit composant une opération de 
+financement peut figurer dans Ioffre. 
+Article LP 122.- Le modéle de I'offre mentionnée aux articles LP 120 et LP 121 peut, en tant que de 
+besoin, étre fixé par arrété pris en conseil des ministres. 
+  
+Article LP 123.- Toute modification des conditions d’obtention d’un prét dont le taux d’intérét est 
+fixe, notamment le montant ou le taux du crédit, donne lieu  la fourniture a I'emprunteur d’une nouvelle offre 
+préalable sur support papier ou sur un autre support durable. 
+Article LP 124.- Dans les cas o I'emprunteur présente un autre contrat d’assurance a la place du 
+contrat d"assurance proposé par le préteur dans les conditions prévues a I'article LP 125, le préteur peut émettre 
+une offre modifiée. sur support papier ou sur un autre support durable, sous réserve des dispositions de I’article 
+LP 128, sans que les délais mentionnés & I"article LP 130 ne soient prorogés ni ne courent a nouveau. 
+Les modalités selon lesquelles le préteur établit I'offre modifiée mentionnée a I'article LP 123 et les 
+conditions dans lesquelles le préteur et I'assureur délégué s’échangent les informations préalables a la 
+souscription des contrats sont fixées par un arrété pris en conseil des ministres. 
+Article LP 125.- Lorsque le préteur propose a I'emprunteur un contrat d’assurance en vue de garantir 
+en cas de survenance d’un des risques que ce contrat définit, soit le remboursement total ou partiel du montant 
+du prét restant da, soit le paiement de tout ou partie des échéances dudit prét, les dispositions suivantes sont 
+obligatoirement appliquées : 
+1 Au contrat de prét est annexée une notice énumérant les risques garantis et précisant toutes les modalités de 
+la mise en jeu de I'assurance : 
+22/38
+2°  Toute modification apportée ultérieurement  la définition des risques garantis, aux modalités de la mise en 
+jeu de I'assurance ou a la tarification du contrat est inopposable a I'emprunteur qui n’y a pas donné son 
+acceptation ; 
+Lorsque I'assureur a subordonné sa garantie & I'agrément de la personne de I’assuré et que cet agrément 
+n’est pas donné, le contrat de prét est résolu de plein droit a la demande de I'emprunteur sans frais ni 
+pénalité d’aucune sorte. Cette demande doit étre présentée dans le délai d’un mois a compter de la 
+notification du refus de I"agrément. 
+Article LP 126.- Jusqu'a la signature par I'emprunteur de I'offre mentionnée a I'article LP 120, le 
+préteur ne peut pas refuser en garantie un autre contrat d’assurance dés lors que ce contrat présente un niveau de 
+garantie équivalent au contrat d’assurance qu’il propose. 1l en est de méme lorsque I’emprunteur fait usage du 
+droit de résiliation prévu au premier alinéa de I'article L. 113-12-2 du code des assurances tel qu’applicable en 
+Polynésie frangaise. Toute décision de refus est explicite et comporte Iintégralité des motifs de refus. Elle 
+précise, le cas échéant, les informations et garanties manquantes. 
+  
+  
+  
+Article LP 127.- Si Ioffre mentionnée a I"article LP 120 a été émise, le préteur informe I'emprunteur 
+sur support papier ou tout autre support durable de sa décision d’acceptation ou de refus et lui adresse, s'il y a 
+lieu, I'offre modifiée mentionnée a I'article LP 123, dans un délai de dix jours ouvrés a compter de la réception 
+de la demande de substitution. 
+Si I'emprunteur fait usage du droit de résiliation du contrat d’assurance en application du premier 
+alinéa de I'article L. 113-12-2 du code des assurances tel qu'applicable en Polynésie frangaise, le préteur notifie 
+a I'emprunteur sa décision d’acceptation ou de refus dans un délai de dix jours ouvrés a compter de la réception 
+d’un autre contrat d"assurance. 
+En cas d’acceptation, le préteur modifie par voie d’avenant, dans un délai de dix jours ouvrés a 
+compter de la réception de la demande de substitution, le contrat de crédit conformément & 'article LP 135 en y 
+mentionnant, notamment, le nouveau taux annuel effectif global calculé, conformément aux articles L. 314-1 
+a L 314-4 du code de la consommation tel qu'applicable en Polynésie frangaise, en se fondant sur les 
+informations transmises par I"assureur délégué dans les conditions fixées au deuxiéme alinéa de I'article LP 124. 
+  
+Lorsque I"avenant comporte un ou plusieurs éléments chiffrés sur le colt de I’assurance, ce coiit est 
+exprimé selon les modalités définies a I"article LP 104. 
+Le préteur ne peut exiger de frais supplémentaires de I'emprunteur pour I'émission de cet avenant. 
+Article LP 128.- Le préteur ne peut, en contrepartie de son acceptation en garantie d’un contrat 
+d’assurance autre que le contrat d’assurance qu’il propose, y compris en cas d’exercice du droit de résiliation en 
+application du premier alinéa de I'article L 113-12-2 du code des assurances tel qu’applicable en Polynésie 
+francaise ni modifier le taux, qu’il soit fixe, variable ou révisable, ou les conditions d’octroi du crédit, y compris 
+son mode d’amortissement, prévus dans I'offre mentionnée a I'article LP 120, ni exiger le paiement de frais 
+supplémentaires, y compris les frais liés aux travaux d’analyse de cet autre contrat d”assurance. 
+Article LP 129.- L’assureur est tenu d’informer le préteur du non-paiement par I'emprunteur de sa 
+prime d’assurance ou de toute modification substantielle du contrat d’assurance. 
+Article LP 130.- La remise de I'offre oblige le préteur 2 maintenir les conditions qu’elle indique 
+pendant une durée minimale de trente jours & compter de sa réception par I'emprunteur. 
+L’offre est soumise & I'acceptation de I'emprunteur et des cautions, personnes physiques, déclarées. 
+L’emprunteur et les cautions ne peuvent accepter I’offre que dix jours aprés qu'ils I'ont regue. L acceptation est 
+donnée par lettre, le cachet de I"opérateur postal faisant foi, ou selon tout autre moyen convenu entre les parties 
+de nature a rendre certaine la date de I"acceptation par I'emprunteur. 
+Article LP 131.- Jusqu'a I'acceptation de I'offre par I'emprunteur, aucun versement, sous quelque 
+forme que ce soit, ne peut, au titre de I'opération en cause, étre fait par le préteur a I’emprunteur ou pour le 
+compte de celui-ci, ni par I'emprunteur au préteur. 
+  
+23/38
+Jusqu’a cette acceptation, I'emprunteur ne peut, au méme titre, faire aucun dépét, souscrire ou avaliser 
+aucun effet de commerce, ni signer aucun chéque. Si une autorisation de prélévement sur compte bancaire ou 
+postal est signée par I’emprunteur, sa validité et sa prise d’effet sont subordonnées 2 celle du contrat de crédit. 
+Article LP 132.- [ "offre est toujours acceptée sous la condition résolutoire de la non-conclusion, dans 
+un délai de quatre mois a compter de son acceptation, du contrat pour lequel le prét est demandé. 
+Les parties peuvent convenir, par disposition contractuelle, d’un délai plus long que celui défini au 
+premier alinéa. 
+Article LP 133.- Lorsque I'emprunteur informe ses préteurs qu’il recourt a plusieurs préts pour la 
+méme opération, chaque prét est conclu sous la condition suspensive de Ioctroi de chacun des autres préts. 
+Cette disposition ne s’applique qu’aux préts dont le montant est supérieur a 10 % du crédit total. 
+Article LP 134.- Lorsque le contrat en vue duquel le prét a été demandé n’est pas conclu dans le délai 
+fixé en application des dispositions de I'article LP 132, I'emprunteur rembourse la totalité des sommes que le 
+préteur lui aurait déja effectivement versées ou qu’il aurait versées pour son compte ainsi que les intéréts y 
+afférents ; le préteur ne peut retenir ou demander que des frais d*étude dont le montant maximum est fix¢é 
+suivant un baréme déterminé par un arrété pris en conseil des ministres. 
+Le montant de ces frais ainsi que les conditions dans lesquelles ils sont pergus figurent distinctement 
+dans I'offre. 
+Article LP_135.- En cas de renégociation de prét, les modifications au contrat de crédit initial sont 
+apportées sous la seule forme d’un avenant établi sur support papier ou sur un autre support durable. 
+  
+Cet avenant comprend, d’une part, un échéancier des amortissements détaillant pour chaque échéance 
+le capital restant dii en cas de remboursement anticipé et, d"autre part, le taux annuel effectif global ainsi que le 
+cofit du crédit, calculés sur la base des seuls échéances et frais a venir. Pour les préts a taux variable ou 
+révisable, I'avenant comprend le taux annuel effectif global ainsi que le coiit du crédit, calculés sur la base des 
+seuls échéances et frais a venir jusqu’a la date de la révision du taux, ainsi que les conditions et modalités de 
+variation du taux. 
+L’emprunteur dispose d’un délai de réflexion de dix jours & compter de la réception des informations 
+mentionnées au deuxiéme alinéa. 
+L'acceptation doit étre donnée par lettre, le cachet de I’opérateur postal faisant foi, ou selon tout autre 
+moyen convenu entre les parties de nature a rendre certaine la date de I'acceptation par I'emprunteur. 
+Section VI - Contrat principal (articles LP 136 4 LP 141) 
+Article LP 136.- L"acte écrit, y compris la promesse unilatérale de vente acceptée et le contrat en cas 
+de vente en I"état futur d*achévement (V.E.F.A.), ayant pour objet de constater |'une des opérations mentionnées 
+au 19 de I'article LP 97, doit indiquer si le prix sera payé directement ou indirectement, méme en partie, avec ou 
+sans I"aide d’un ou plusieurs préts régis par les sections | & V du présent chapitre. 
+Article LP 137.- Lorsque I'acte mentionné  Iarticle LP 136 indique que le prix est payé, directement 
+ou indirectement, méme partiellement. a I"aide d’un ou plusieurs préts régis par les dispositions des sections I & 
+V et de la section VII du présent chapitre, cet acte est conclu sous la condition suspensive de I’obtention du ou 
+des préts qui en assument le financement. La durée de vali de cette condition suspensive ne peut étre 
+inférieure & un mois a compter de la date de la signature de I'acte ou, s'il s’agit d’un acte sous seing privé 
+soumis a peine de nullité 4 la formalité de I'enregistrement, a compter de la date de I’enregistrement. 
+   
+  
+Lorsque la condition suspensive prévue au premier alinéa n’est pas réalisée, toute somme versée 
+d’avance par I"acquéreur a I"autre partie ou pour le compte de cette derniére est immédiatement et intégralement 
+remboursable sans retenue ni indemnité a quelque titre que ce soit. 
+24/38
+  
+le LP 138.- Lorsque I’acte mentionné a I'article LP 136 indique que le prix sera payé sans I’aide 
+d’un ou plusieurs préts, cet acte porte, de la main de I"acquéreur, une mention par laquelle celui-ci reconnait 
+avoir été informé que s’il recourt néanmoins a un prét il ne peut se prévaloir des dispositions du présent 
+chapitre. 
+En I’absence de I'indication prescrite & I'article LP 136 ou si la mention exigée au premier alinéa 
+manque ou n’est pas de la main de I'acquéreur et si un prét est néanmoins demandé, le contrat est considéré 
+comme conclu sous la condition suspensive prévue a I"article LP 137. 
+Article LP 139.- Pour les dépenses relatives a la réparation, I"amélioration ou I'entretien d’immeubles 
+4 usage d’habitation ou a usage professionnel et d’habitation, lorsque le crédit est garanti par une hypothéque, 
+par une autre sireté comparable sur les biens immobiliers a usage d’habitation ou par un droit lié a un bien 
+immobilier & usage d’habitation, et a défaut d’un contrat signé des deux parties, la condition suspensive prévue a 
+'article LP 137 ne peut résulter que d’un avis donné par le maitre de I'ouvrage par écrit avant tout 
+commencement d’exécution des travaux indiquant qu’il entend en payer le prix directement ou indirectement, 
+méme en partie, avec I’aide d’un ou plusieurs préts. 
+Article LP 140.- Lorsqu’il est déclaré dans I’acte constatant le prét que celui-ci est destiné a financer 
+des ouvrages ou des travaux immobiliers au moyen d’un contrat de promotion, de construction, de maitrise 
+d’ceuvre ou d’entreprise, le tribunal peut, en cas de contestation ou d’accidents affectant I’exécution des contrats 
+et jusqu’a la solution du litige, suspendre I’exécution du contrat de prét sans préjudice du droit éventuel du 
+préteur & I'indemnisation. Ces dispositions ne sont applicables que si le préteur est intervenu a I'instance ou s'il 
+a été mis en cause par I'une des parties. 
+Article LP_141.- Les dispositions de la présente section ne sont pas applicables aux ventes par 
+adjudication au sens de la réglementation applicable en Polynésie frangaise. 
+Section VII - Exécution du contrat de crédit (articles LP 142 & LP 149) 
+Sous-section 1 : Information de I'emprunteur (art. LP 142 a LP 143) 
+  
+Article LP 142.- Pour les préts dont le taux d’intérét est variable ou révisable, le préteur est tenu, une 
+fois par an, de fournir & I'emprunteur I'information relative au montant du capital restant & rembourser. 
+En cas de modification du taux débiteur, le préteur fournit cette information a I'emprunteur sur support 
+papier ou sur un autre support durable, avant que la modification n’entre en vigueur. Cette information indique 
+le montant des échéances aprés I'entrée en vigueur du nouveau taux débiteur ainsi que, le cas échéant, toute 
+modification du nombre ou de la périodicité des échéances. 
+Lorsque la modification du taux débiteur résulte d’une variation du taux de référence, que le nouveau 
+taux de référence est rendu public par des moyens appropriés et que I'information relative au nouveau taux de 
+référence est également disponible dans les locaux du préteur, les parties peuvent convenir dans le contrat de 
+crédit que cette information est fournie périodiquement & I'emprunteur avec le montant des nouveaux paiements 
+périodiques. 
+Lorsque le contrat de crédit est un crédit a taux variable ou révisable, le préteur veille a utiliser un 
+indice ou taux de référence clair, accessible, objectif et vérifiable. Il conserve des archives des indices utilisés 
+pour calculer les taux débiteurs. 
+Le préteur fournit gratuitement a I’emprunteur les informations fournies mentionnées au présent 
+article. 
+Article LP 143.- Avant de modifier les conditions du contrat de crédit, le préteur communique & 
+I’emprunteur les informations relatives aux modifications envisagées au contrat de crédit de ce dernier, en 
+précisant celles qui nécessitent son consentement. ainsi que les informations relatives au calendrier de mise en 
+ceuvre des modifications envisagées et aux modalités de réclamation et de médiation. 
+  
+La liste des informations @ communiquer 4 I'emprunteur est fixée par un arrété pris en conseil des 
+ministres. 
+25/38
+Sous-section 2 : Remboursement anticipé (art. LP 144 a LP 145) 
+Article LP 144.- Lemprunteur peut toujours, 4 son initiative, rembourser par anticipation, en partie 
+ou en totalité, les préts régis par les sections I 2 V du présent chapitre. Le contrat de prét peut interdire les 
+remboursements égaux ou inférieurs 4 10 % du montant initial du prét, sauf s°il s’agit de son solde. 
+  
+Si le contrat de prét comporte une clause aux termes de laquelle, en cas de remboursement par 
+anticipation, le préteur est en droit d’exiger une indemnité au titre des intéréts non encore échus, celle-ci ne 
+peut, sans préjudice de I'application de Iarticle 1152 du code civil tel qu'applicable en Polynésie francaise 
+excéder un montant qui, dépendant de la durée restant a courir du contrat, est fixé suivant un baréme déterminé 
+par un arrété pris en conseil des ministres. 
+Le préteur foumit gratuitement sans tarder & I'emprunteur, aprés réception de la demande de 
+remboursement par anticipation, sur support papier ou sur un autre support durable, les informations nécessaires 
+4 I'examen de cette faculté. Ces informations chiffrent au moins les conséquences qui s’imposeront & 
+I’emprunteur s'il s’acquitte de ses obligations avant 'expiration du contrat de crédit et formule clairement les 
+hypothéses utilisées. 
+Article LP 145.- Aucune indemnité ni aucun coiit autres que ceux qui sont mentionnés a I'article 
+LP 144 ne peuvent étre mis & la charge de I'emprunteur dans les cas de remboursement par anticipation prévus 
+par ces articles. 
+Sous-section 3 : Mesures de remédiation (art. LP 146) 
+Article LP 146.- Les préteurs disposent de politiques et de procédures adéquates les incitant a faire 
+preuve d’une tolérance raisonnable avant d’engager une procédure d’exécution a I'encontre d’un emprunteur en 
+difficulté et  lui proposer, s’il y a lieu, des mesures de renégociation tenant notamment compte de sa situation 
+personnelle. Ces mesures peuvent étre : 
+  
+a) Le refinancement total ou partiel du contrat de crédit ; 
+b) La modification des conditions existantes d’un contrat de crédit, qui peut comprendre entre autres : 
+i) La prolongation de la durée du contrat de crédit ; 
+i) La suspension de tout ou partie des versements du remboursement pendant une période donnée ; 
+iti) La modification du taux d’intérét ; 
+iv) Le réaménagement de I'échéancier, notamment la réduction du montant des versements du 
+remboursement ; 
+v)  Une remise de dette partielle et la consolidation de la dette. 
+Sous-section 4 : Défaillance de I'emprunteur (art. LP 147 a LP 149) 
+Article LP 147.- En cas de défaillance de I'emprunteur et lorsque le préteur n’exige pas le 
+remboursement immédiat du capital restant dii, il peut majorer, dans des limites fixées par un arrété pris en 
+conseil des ministres, le taux d’intérét que I'emprunteur aura a payer jusqu‘a ce qu'il ait repris le cours normal 
+des ¢chéances contractuelles. 
+Article LP 148.- Lorsque le préteur est amené & demander la résolution du contrat, il peut exiger le 
+remboursement immédiat du capital restant di, ainsi que le paiement des intéréts échus. Jusqu’a la date du 
+réglement effectif. les sommes restant dues produisent des intéréts de retard a un taux égal a celui du prét. 
+  
+En outre, le préteur peut demander a I'emprunteur défaillant une indemnité qui, sans préjudice de 
+Iapplication de I'article 1152 du code civil tel qu'applicable en Polynésie frangaise ne peut excéder un montant 
+qui, dépendant de la durée restant a courir du contrat, est fixé suivant un baréme déterminé par un arrété pris en 
+conseil des ministres. 
+26/38
+Article LP 149.- Aucune indemnité ni aucun colt autres que ceux qui sont mentionnés a larticle 
+LP 148 ne peuvent étre mis a la charge de I"emprunteur dans les cas de défaillance prévus par les dispositions de 
+cet article. 
+Toutefois, le préteur peut réclamer a I'emprunteur, en cas de défaillance de celui-ci, le remboursement, 
+sur justification, des frais taxables qui lui ont été occasionnés par cette défaillance a I’exclusion de tout 
+remboursement forfaitaire de frais de recouvrement. 
+Section VIII - Location-vente et location assortie d’une promesse de vente (articles LP 150 a LP 160) 
+Article LP 150.- Les contrats de location-vente ou de location assortis d’une promesse de vente 
+relatifs aux immeubles mentionnés au a du 1° de I'article LP 97 sont soumis aux dispositions du présent 
+chapitre, dans des conditions fixées a la présente section. 
+  
+Article LP 151.- Toute publicité faite, regue ou pergue en Polynésie frangaise qui, quel que soit son 
+support, porte sur I’'un des contrats régis par les dispositions de la présente section, précise I'identité du bailleur, 
+la nature et I’objet du contrat. 
+   Si cette publicité comporte un ou plusieurs éléments chiffrés, elle mentionne la durée du bail ainsi que 
+le coiit annuel et le coiit total de I'opération. 
+Article LP 152.- Pour les contrats régis par les dispositions de la présente section, le bailleur est tenu 
+de formuler par écrit sur support papier ou tout autre support durable une offre adressée gratuitement au preneur 
+¢éventuel. 
+  
+Cette offre mentionne I'identité des parties. Elle précise la nature et I'objet du contrat ainsi que ses 
+modalités, notamment en ce qui concerne les dates et conditions de mise a disposition du bien, le montant des 
+versements initiaux et celui des loyers ainsi que les modalités éventuelles d’indexation. Elle rappelle, en outre, 
+les dispositions de I'article LP 155. 
+icle LP_153.- Pour les contrats de location assortis d’une promesse de vente, I'offre fixe 
+également : 
+    
+1°  Les conditions de levée de I'option et son coiit décomposé entre, d’une part, la fraction des versements P P P 
+initiaux et des loyers prise en compte pour le paiement du prix et, d’autre part, la valeur résiduelle du bien, 
+compte tenu de I'incidence des clauses de révision éventuellement prévues au contrat ; 
+2°  Les conditions et le colt de la non-réalisation de la vente. 
+Article LP 154.- Le modéle de I'offre mentionnée a I'article LP 152 est fixé par un arrété pris en 
+conseil des ministres. 
+Article LP 155.- La remise de I'offre oblige le bailleur a maintenir les conditions qu’elle indique 
+pendant une durée minimale de trente jours & compter de sa réception par le preneur. 
+  
+L’offre est soumise a I’acceptation du preneur qui ne peut accepter I'offre que dix jours aprés qu'il I'a 
+regue. L’acceptation est notifiée par lettre, le cachet de I'opérateur postal faisant foi, ou selon tout autre moyen 
+dématérialisé convenu entre les parties de nature 4 rendre certaine la date de I'acceptation par I'emprunteur. 
+Article LP 156.- Jusqu'a I"acceptation de Ioffre, le preneur ne peut faire aucun dépét, souscrire ou 
+avaliser aucun effet de commerce, signer aucun chéque ni aucune autorisation de prélévement sur compte 
+bancaire ou postal au profit du bailleur ou pour le compte de celui-ci. 
+Article LP 157.- En cas de défaillance du preneur dans I’exécution d’un contrat régi par la présente 
+section, le bailleur est en droit d’exiger. outre le paiement des loyers échus et non réglés, une indemnité qui, 
+sans préjudice de I"application de I"article 1152 du code civil tel qu'applicable en Polynésie frangaise ne peut 
+excéder un montant dépendant de la durée restant a courir du contrat et fixé suivant un baréme déterminé par un 
+arrété pris en conseil des ministres. 
+27/38
+En cas de location-vente, le bailleur ne peut exiger la remise du bien qu’aprés remboursement de la 
+part des sommes versées correspondant 4 la valeur en capital de ce bien. 
+  
+Article LP 158.- Aucune indemnité ni aucun cofit autres que ceux qui sont mentionnés a I’article LP 
+157 ne peuvent étre mis & la charge du preneur. Toutefois, le bailleur peut réclamer au preneur, en cas de 
+défaillance de celui-ci, le remboursement sur justification des frais taxables qui lui ont été occasionnés par cette 
+défaillance, a I'exclusion de tout remboursement forfaitaire de frais de recouvrement. 
+Article LP 159.- En cas de location assortie d’une promesse de vente, I'acte constatant la levée de 
+I’option est conclu sous la condition suspensive prévue a I'article LP 137. 
+Lorsque cette condition n’est pas réalisée, le bailleur restitue toutes sommes versées par le preneur a 
+I’exception des loyers et des frais de remise en état du bien. 
+Article LP 160.- Les dispositions de I'article LP 168 sont applicables aux contrats soumis aux 
+dispositions de la présente section. 
+Section IX - Préts libellés dans une devise autre que le franc Pacifique (article LP 161) 
+Article LP 161.- Les emprunteurs ne peuvent contracter de préts libellés dans une devise autre que le 
+franc Pacifique, remboursables en franc Pacifique ou dans la devise concernée, que s'ils déclarent percevoir 
+principalement leurs revenus ou détenir un patrimoine dans cette devise au moment de la signature du contrat de 
+preét, excepté si le risque de change n’est pas supporté par I’emprunteur. 
+Le risque de change supporté par I'emprunteur est établi lorsque la variation du taux de change affecte 
+le montant des échéances, la durée du prét ou le coit total du crédit qu'il acquitte. Lorsque I'emprunteur a 
+souscrit une assurance ou un contrat financier le garantissant contre le risque de change sur toute la durée du 
+contrat, le risque de change n’est pas considéré comme supporté par I’emprunteur. 
+Au plus tard a I'émission de I'offre de prét, le préteur informe I'emprunteur des risques inhérents & un 
+tel contrat de prét et des possibilités éventuelles de conversion des remboursements franc pacifique en cours de 
+prét leur sont précisées. 
+Un arrété pris en conseil des ministres précise les conditions dapplication du présent article. 
+CHAPITRE 1V - DISPOSITIONS COMMUNES AU CREDIT A LA CONSOMMATION ET AU 
+CREDIT IMMOBILIER (ARTICLES LP 162 A LP 174) 
+Section I - Regroupement de crédits (articles LP 162 & LP 166) 
+Article LP 162.- Lorsque les crédits mentionnés a I"article LP 2 font I'objet d’une opération de crédit 
+destinée a les regrouper. le nouveau contrat de crédit est soumis au chapitre I1. 
+Article LP 163.- Lorsqu’une opération de crédit destinée a regrouper des crédits antérieurs comprend 
+un ou des crédits mentionnés a I'article LP 97 dont la part relative ne dépasse pas un seuil fixé par un arrété pris 
+en conseil des ministres. le nouveau contrat de crédit est soumis au chapitre 1I. Lorsque cette part relative 
+dépasse ce seuil, le nouveau contrat de crédit est soumis au chapitre 111 du présent titre. 
+Article LP 164.- Lorsqu’une opération de crédit est destinée a regrouper des crédits mentionnés a 
+T"article LP 97, le nouveau contrat de crédit est soumis au chapitre I11. 
+Toute opération de regroupement de crédit garantie par une hypothéque, par une autre siireté 
+comparable sur les biens immobiliers & usage d’habitation ou par un droit lié a un bien immobilier & usage 
+d’habitation est soumise, quel que soit son objet. aux dispositions du chapitre I du présent titre. 
+28/38
+Article LP 165.- Le préteur qui consent une opération de regroupement de crédits comprenant un ou 
+plusieurs contrats de crédits renouvelables au sens de la réglementation en vigueur, effectue le remboursement 
+du montant dii au titre de ces crédits directement auprés du préteur initial. Lorsque I"opération porte sur la 
+totalité du montant restant dii au titre d’un crédit renouvelable, le préteur rappelle 4 I'emprunteur la possibilité 
+de résilier le contrat afférent et lui propose d’adresser sans frais la lettre de résiliation signée par I’emprunteur. 
+Article LP 166.- Les modalités selon lesquelles les opérations de crédit mentionnées aux articles 
+LP 162 a LP 165 sont conclues afin de garantir la bonne information de I'emprunteur sont précisées par un 
+arrété pris en conseil des ministres. 
+Section Il - Siiretés personnelles (article LP 167) 
+Article LP 167.- Les opérations de cautionnement relatives a I'une des opérations relevant des 
+chapitres II ou III du présent titre doivent satisfaire aux dispositions du code civil tel qu’applicable en Polynésie 
+frangaise et aux dispositions de la réglementation en vigueur relative a la protection des consommateurs. 
+Section 111 - Délai de griice (article LP 168 
+Article LP 168.- L’exécution des obligations du débiteur peut étre, notamment en cas de licenciement, 
+suspendue par ordonnance de la juridiction compétente dans les conditions prévues aux articles 1244-1 et 
+1244-2 du code civil tels qu'applicables en Polynésie frangaise. L.’ordonnance peut décider que, durant le délai 
+de griice, les sommes dues ne produiront point intérét. 
+En outre, le juge peut déterminer dans son ordonnance les modalités de paiement des sommes qui 
+seront exigibles au terme du délai de suspension, sans que le dernier versement puisse excéder de plus de deux 
+ans le terme initialement prévu pour le remboursement du prét ; il peut cependant surseoir & statuer sur ces 
+modalités jusqu’au terme du délai de suspension. 
+Section IV - Lettre de change et billets & ordre (article LP 169) 
+Article LP 169.- Les dispositions de I'article 511-5 du code de commerce tel qu'applicable en 
+Polynésie frangaise sont applicables aux lettres de change et billets & ordre souscrits ou avalisés par les 
+emprunteurs méme majeurs a I'occasion des opérations de crédit régies par le présent titre a I'exception des 
+sections 11, VI et VIII du chapitre 11 et des sections I, 11l et IV du présent chapitre et de la section IT du chapitre 
+1 du titre 11 
+  
+Section V - Dispositions d’ordre public (article LP 170) 
+Article LP 170.- Les dispositions des chapitres Il et I1l et des sections I & VI du présent chapitre sont 
+d’ordre public. 
+Section VI - Dispositions relatives i la mise a disposition ou remise d’information ou document sur tout 
+autre support durable que le papier (articles LP 171 a LP 174) 
+Article LP 171.- Pour I'application des chapitres II et Il du présent titre, lorsque le préteur souhaite 
+mettre a disposition ou fournir des informations et documents sur un support durable autre que le papier, ce 
+dernier vérifie au préalable que ce mode de communication est adapté a la situation de I'emprunteur dans le 
+cadre de I'opération de crédit envisagée ou en cours : il s’assure qu’il est en mesure de prendre connaissance de 
+ces informations et documents sur le support durable envisagé. 
+Aprés cette vérification, le préteur informe I'emprunteur de fagon claire. précise et compréhensible de 
+la poursuite de la relation commerciale sur un support durable autre que le papier. 
+A moins que cela ne soit incompatible avec la nature du contrat a distance conclu ou du service 
+financier fourni. il doit informer I'emprunteur de son droit a s’opposer a I"utilisation de ce support dés Ientrée 
+en relation ou & n’importe quel moment. 11 justific 4 tout moment de la relation que cette information a bien été 
+portée & la connaissance de I'emprunteur. 
+29/38
+Article LP 172.- A moins que cela ne soit incompatible avec la nature du contrat a distance conclu ou 
+du service financier fourni, I'emprunteur peut, immédiatement et a n’importe quel moment de Popération de 
+crédit, s’opposer par tout moyen a I'usage d’un support durable autre que le papier et demander a bénéficier 
+sans frais d’un support papier. 1l peut par ailleurs effectuer I’ensemble des formalités et obligations qui lui 
+incombent sur tout autre support convenu avec le préteur et sur un support identique a celui utilisé par le préteur. 
+Article LP 173.- Lorsque le préteur fournit & I'emprunteur des informations et des documents par le 
+biais d’un espace personnel sécurisé sur internet, il porte a la connaissance de 'emprunteur I'existence et la 
+disponibilité de ces informations et documents sur I'espace personnel sécurisé par tout moyen adapté a la 
+situation de I’emprunteur. 
+Article LP 174.- Le préteur garantit I'accessibilité des informations et des documents pendant une 
+durée adaptée a leur finalité. Pour les documents précontractuels et contractuels cette durée ne peut étre 
+inférieure a cinq ans aprés la fin de la relation contractuelle. 
+Lorsque le préteur envisage de ne plus rendre accessibles ces informations et documents, il doit en 
+informer préalablement et dans un délai qui ne peut étre inférieur a deux mois, I'emprunteur par tout moyen 
+adapté 4 la situation de ce dernier. 
+TITRE IT- SANCTIONS (ARTICLES LP 175 A LP 244) 
+CHAPITRE I - CREDIT A LA CONSOMMATION (ARTICLES LP 175 A LP212) 
+Section I - Publicité (article LP 175) 
+Article LP 175.- Le fait pour I"annonceur de diffuser ou de faire diffuser une publicité non conforme 
+aux obligations prévues aux articles LP 5, LP 6 et LP 8 a LP 11 est puni de la peine d’amende prévue pour les 
+contraventions de la 5¢ classe. 
+Le tribunal peut également ordonner la publication du jugement et la rectification de la publicité aux 
+frais du condamné. 
+Section II - Information précontractuelle de I'emprunteur (articles LP 176 &4 LP 177) 
+Sous-section 1 : Sanction civile (art. LP 176) 
+Article LP 176.- Sous réserve des dispositions du second alinéa, le préteur qui accorde un crédit sans 
+communiquer  I’emprunteur les informations précontractuelles dans les conditions fixées par I'article LP 12 ou, 
+pour les opérations de découvert en compte, a I'article LP 86 est déchu du droit aux intéréts. 
+  
+En cas de défaut de mention ou de mention erronée du taux annuel effectif global déterminé 
+conformément aux articles L 314-1 a L 314-4 du code de la consommation tel qu’applicable en Polynésie 
+frangaise, le préteur peut étre déchu du droit aux intéréts dans la proportion fixée par le juge. au regard 
+notamment du préjudice pour I'emprunteur. 
+Sous-section 2 : Sanction pénale (art. LP 177) 
+Article LP 177.- Le fait pour le préteur de ne pas respecter les formalités prescrites a I'article LP 12 
+et au deuxiéme alinéa de I'article LP 13 est puni de la peine d’amende prévue pour les contraventions de 
+la 5¢ classe. 
+Section 111 - Explications fournies a 'emprunteur et évaluation de sa solvabilité (article LP 178 
+  
+Article LP 178.- Le fait pour le préteur ou I'intermédiaire de crédit, de contrevenir aux dispositions de 
+I’article LP 15 est puni de la peine d’amende prévue pour les contraventions de la Se classe. 
+30/38
+Section IV - Formation et exécution du contrat (articles LP 179 2 LP 198) 
+Sous-section 1 : Sanctions civiles (articles LP 179 a LP 188) 
+Article LP 179.- Le préteur qui n’a pas respecté les obligations fixées aux articles LP 14 et LP 16 est 
+déchu du droit aux intéréts, en totalité ou dans la proportion fixée par le juge. 
+Article LP 180.- Le préteur qui accorde un crédit sans remettre et faire signer ou valider par voie 
+électronique la fiche mentionnée a I'article LP 17 est déchu du droit aux intéréts. 
+Article LP 181.- Sous réserve des dispositions du second alinéa, le préteur qui accorde un crédit sans 
+remettre & I’emprunteur un contrat satisfaisant aux conditions fixées par les articles LP 18, LP 21, LP 28, LP 29, 
+LP 45, ainsi que pour les opérations de découvert en compte, par les articles LP 86 a LP 88 et LP 93, est déchu 
+du droit aux intéréts. 
+En cas de défaut de mention ou de mention erronée du taux annuel effectif global déterminé 
+conformément aux articles L 314-1 a L 314-4 du code de la consommation tel qu’applicable en Polynésie 
+frangaise, le préteur peut étre déchu du droit aux intéréts dans la proportion fixée par le juge, au regard 
+notamment du préjudice pour I’emprunteur. 
+Article LP 182.- Le préteur qui accorde un crédit renouvelable sans remettre a 'emprunteur un 
+contrat satisfaisant aux conditions fixées par les articles LP 65, LP 66 et LP 67 est déchu du droit aux intéréts. 
+Article LP 183.- Le préteur qui n'a pas respecté les obligations relatives a I'information de 
+I'emprunteur en cas de modification du taux débiteur fixées a I'article LP 31 et, pour les opérations de découvert 
+en compte, & I'article LP 90 est déchu du droit aux intéréts, en totalité ou dans la proportion fixée par le juge. 
+Article LP 184.- Le préteur qui n'a pas respecté les modalités d’utilisation du crédit renouvelable 
+fixées par les dispositions des articles LP 69, LP 70 et LP 71 est déchu du droit aux intéréts, en totalité ou dans 
+la proportion fixée par le juge. 
+Article LP 185.- Lorsque le préteur est déchu du droit aux intéréts dans les conditions prévues aux 
+articles LP 176 et LP 179 a LP 184, I'emprunteur n’est tenu quau seul remboursement du capital suivant 
+I’échéancier prévu, ainsi que, le cas échéant, au paiement des intéréts dont le préteur n’a pas été déchu. 
+Les sommes déja pergues par le préteur au titre des intéréts, qui sont productives d’intéréts au taux de 
+Iintérét légal & compter du jour de leur versement, sont restituées par le préteur ou imputées sur le capital 
+restant dii. 
+Article LP 186.- Le préteur qui n'a pas respecté les formalités prescrites au dernier alinéa de 
+Iarticle LP 93 et a I'article LP 94 ne peut réclamer a I'emprunteur les sommes correspondant aux intéréts et 
+frais de toute nature applicables au titre du dépassement mentionné 4 ces articles. 
+Article LP 187.- Dans les cas de résolution du contrat de vente ou de prestations de services prévus a 
+Iarticle LP 55, & compter du huitiéme jour suivant la demande de remboursement de toute somme versée 
+d’avance par I"acheteur, cette somme est productive d’intéréts, de plein droit, au taux de I'intérét légal majoré de 
+moitié. 
+Article LP 188.- Dans le cas d’un contrat de crédit affecté mentionné a I"article LP 46, I'engagement 
+préalable de payer comptant en cas de refus de prét est nul de plein droit. 
+Sous-section 2 : Sanctions pénales (art. LP 189 a LP 198) 
+Article LP 189.- Le fait pour le préteur de ne pas respecter les formalités prescrites a I'article LP 18 
+ou de ne pas prévoir un formulaire détachable dans I'offre de contrat de crédit. en application des dispositions 
+de I'article LP 21, est puni de la peine d’amende prévue pour les contraventions de la 5¢ classe. 
+31/38
+Article LP 190.- Le fait pour le préteur de ne pas respecter les formalités prescrites aux articles LP 28 
+et LP 29 est puni de la peine d’amende prévue pour les contraventions de la 5¢ classe. 
+Article LP 191.- Le fait pour le préteur de ne pas respecter les formalités prescrites & I'article LP 33 
+est puni de la peine d’amende prévue pour les contraventions de la 5¢ classe. 
+Article LP 192.- Le fait pour le préteur ou le vendeur de réclamer ou de recevoir, en infraction aux 
+dispositions de I'article LP 25 ainsi que, pour un contrat de crédit affecté, a celles de Iarticle LP 52, de 
+’emprunteur ou de I'acheteur un paiement sous quelque forme que ce soit, est puni d’une amende de 
+35 800 000 francs CFP. 
+Article LP 193.- Le fait de faire signer des formules de prélévements sur comptes bancaires contenant 
+des clauses contraires aux dispositions de Iarticle LP 25 et, pour un contrat de crédit affecté,  celles de I"article 
+LP 52 est puni d’une amende de 35 800 000 francs CFP. 
+Article LP 194.- Le fait de faire souscrire ou accepter ou avaliser par 'emprunteur ou I’acheteur des 
+lettres de change ou des billets a ordre est puni d’une amende de 35 800 000 francs CFP. 
+Article LP 195.- Le fait d’enregistrer ou faire enregistrer sur un fichier, en infraction aux dispositions 
+de Particle LP 22, le nom des personnes faisant usage de la faculté de rétractation, est puni d’une amende 
+35800 000 francs CFP. 
+Article LP 196.- Le fait de faire signer par un méme client une ou plusieurs offres de contrat de crédit 
+d’un montant total en capital supérieur a la valeur payable & crédit du bien acheté ou de la prestation de services 
+fournie est puni d’une amende de 35 800 000 francs CFP. 
+Article LP 197.- Le fait pour le vendeur ou le prestataire de services, en méconnaissance des 
+dispositions de I'article LP 55, de ne pas rembourser les sommes dues a I’acheteur, est puni d’une amende de 
+35 800 000 francs CFP. 
+Article LP 198.- Les personnes physiques coupables des délits punis aux articles LP 192 a LP 197 
+encourent également a titre de peines complémentaires les interdictions prévues a I'article 131-27 du code pénal. 
+Section V - Crédit gratuit (articles LP 199 a LP 201) 
+Article LP 199.- Le fait pour I'annonceur de diffuser ou de faire diffuser une publicité non conforme 
+aux obligations prévues aux dispositions de Iarticle LP 43 est puni de la peine d’amende prévue pour les 
+contraventions de la Se classe. 
+Le tribunal peut également ordonner la publication du jugement et la rectification de la publicité aux 
+frais du condamné. 
+Article LP 200.- Le fait pour le vendeur de ne pas respecter les formalités prescrites a I'article LP 44 
+est puni de la peine d’amende prévue pour les contraventions de la Se classe. 
+Article LP 201.- Le fait pour le préteur de ne pas respecter les formalités prescrites & I'article LP 45 
+est puni de la peine d’amende prévue pour les contraventions de la Se classe. 
+Section VI - Crédit affecté (article LP 202) 
+Article LP 202.- Le fait pour le vendeur ou le prestataire de services de ne pas préciser dans le contrat, 
+en méconnaissance des dispositions de I'article LP 47, que le paiement du prix est acquitté a ’aide d’un crédit 
+est puni de la peine d*amende prévue pour les contraventions de la Se classe. 
+32/38
+Section VII - Crédit renouvelable (articles LP 203 32 LP 210) 
+Article LP 203.- Le fait pour I'annonceur de diffuser ou de faire diffuser une publicité non conforme 
+aux obligations prévues aux dispositions des articles LP 59, LP 60 et LP 62 est puni de la peine d’amende 
+prévue pour les contraventions de la Se classe. 
+La juridiction compétente peut également ordonner la publication du jugement et la rectification de la 
+publicité aux frais du condamné. 
+Article LP 204.- Le fait pour le préteur ou I'intermédiaire de crédit de contrevenir aux obligations 
+prévues par les dispositions des articles LP 63 et LP 64 en matiére d’information précontractuelle est puni de la 
+peine d’amende prévue pour les contraventions de la Se classe. 
+Article LP 205.- Le fait pour le préteur de remettre un contrat non conforme aux dispositions des 
+articles LP 65 et LP 66 est puni de la peine d’amende prévue pour les contraventions de la 5e classe. 
+Article LP 206.- Le fait pour le préteur de ne respecter pas la formalité prévue a I'article LP 68 est 
+puni de la peine d’amende prévue pour les contraventions de la Se classe. 
+Article LP 207.- Le fait pour le préteur ou I'intermédiaire de crédit de contrevenir aux obligations 
+prévues par les dispositions de la premiére phrase de Iarticle LP 69 est puni de la peine d’amende prévue pour 
+les contraventions de la Se classe. 
+Article LP 208.- Le fait pour le préteur de ne pas respecter les obligations prévues a Iarticle LP 72 est 
+puni de la peine d’amende prévue pour les contraventions de la Se classe. 
+Article LP 209.- Le fait pour le préteur de ne respecter I'une des obligations relatives a la 
+reconduction des contrats renouvelables prévues aux articles LP 76 a4 LP 84 est puni de la peine d’amende 
+prévue pour les contraventions de la Se classe. 
+Article LP 210.- La récidive des infractions punies aux articles LP 175, LP 177, LP 178, LP 189 
+ALP 191 et LP 199 a LP 209 est réprimée conformément aux dispositions des articles 132-11 et 132-15 du code 
+pénal. 
+Section VIII - Opérations de découvert en compte (articles LP 211 a LP212) 
+Art e LP 211.- Les dispositions des articles LP 176 et LP 179 a LP 186 et LP 192 4 LP 198 
+s’appliquent aux opérations de crédit consenties sous la forme d’une autorisation de découvert remboursable 
+dans un délai supérieur a un mois et inférieur ou égal a trois mois. 
+    
+Article LP 212.- Les dispositions des articles LP 176 et LP 179 a LP 186 et LP 192 a LP 198 
+s’appliquent aux opérations de crédit consenties sous la forme dun dépassement défini au 12° de Iarticle 
+LP1. 
+CHAPITRE I - CREDIT IMMOBILIER (ARTICLES LP 213 A LP 243) 
+Section I - Publicité et informations générales (articles LP 213 a LP 216) 
+Article LP 213.- Le fait pour Iannonceur de diffuser ou de faire diffuser une publicité non conforme 
+aux obligations prévues aux articles LP 99 a LP 101 est puni d’une amende de 3 580 000 francs CFP. 
+Article LP 214.- Le fait pour I"annonceur de diffuser ou de faire diffuser une publicité non conforme 
+aux obligations prévues a I'article LP 151, pour un contrat de location-vente et location assortie d’une promesse 
+de vente, est puni d’une amende de 3 580 000 francs CFP. 
+Article LP 215.- Le fait pour le préteur ou I'intermédiaire de crédit de ne pas respecter les obligations 
+en matiére d’informations générales prévues aux dispositions de I'article LP 102 est puni d’une amende de 
+3 580 000 francs CFP. 
+33/38
+Article LP 216.- Le fait pour le préteur ou I'intermédiaire de crédit de ne pas respecter I'obligation de 
+gratuité des informations fournies en application des dispositions des articles LP 102, LP 103, LP 107, LP 108, 
+LP 142, LP 144, est puni d’une amende de 3 580 000 francs CFP. 
+Section II - Information précontractuelle de 'emprunteur (articles LP 217 a LP 220) 
+Sous-section 1 : Sanctions civiles (art. LP217 a LP218) 
+Article LP 217.- Sous réserve des dispositions du second alinéa, le préteur qui accorde un crédit sans 
+respecter les conditions, applicables en matiére d’information précontractuelle, fixées par les dispositions de 
+Particle LP 103, du second alinéa de I'article LP 120 ou du deuxiéme alinéa de I'article LP 161, peut étre déchu 
+du droit aux intéréts, dans la proportion fixée par le juge, jusqu’a un montant ne pouvant excéder 30 % des 
+intéréts, plafonné a 3 580 000 francs CFP. 
+En cas de défaut de mention ou de mention erronée du taux annuel effectif global déterminé 
+conformément aux articles L 314-1 & L 314-4 du code de la consommation tel qu*applicable en Polynésie 
+frangaise, le préteur peut étre déchu du droit aux intéréts dans la proportion fixée par le juge, au regard 
+notamment du préjudice pour I’emprunteur. 
+Article LP 218.- Sous réserve des dispositions du second alinéa, le préteur qui accorde un crédit sans 
+communiquer & I’'emprunteur la fiche d’information type mentionnée a Iarticle LP 103 et au second alinéa de 
+I"article LP 120 ou I"information précontractuelle mentionnée au deuxiéme alinéa de I'article LP 161 peut étre 
+déchu du droit aux intéréts, en totalité ou dans la proportion fixée par le juge. 
+En cas de défaut de mention ou de mention erronée du taux annuel effectif global déterminé 
+conformément aux articles L 314-1 a L 314-4 du code de la consommation tel qu'applicable en Polynésie 
+frangaise, le préteur peut ére déchu du droit aux intéréts dans la proportion fixée par le juge, au regard 
+notamment du préjudice pour I'emprunteur. 
+Sous-section 2 : Sanction pénale (art. LP 219) 
+Article LP 219.- Le fait pour le préteur ou I'intermédiaire de crédit de ne pas respecter les formalités 
+en matiére dinformation précontractuelle prescrites a I’article LP 103 ou au second alinéa de I'article LP 120 
+est puni de la peine d’amende prévue pour les contraventions de 5¢ classe. 
+Sous-section 2 : Sanction administrative (art. LP 220) 
+Article LP 220.- Le fait pour le préteur de ne pas respecter I'une des obligations prévues au dernier 
+alinéa de Iarticle LP 104 est passible d’une amende administrative dont le montant ne peut excéder 
+500 000 francs CFP pour une personne physique et 3 000 000 francs CFP pour une personne morale. 
+Section 111 - Explications fournies & I'emprunteur et évaluation de sa solvabilité 
+(articles LP 221 a LP 228) 
+Sous-section 1 : Sanctions civiles (art. LP 221 a LP 222) 
+Article LP 221.- Peut étre déchu du droit aux intéréts dans la proportion fixée par le juge, jusqu’a un 
+montant ne pouvant excéder, pour chacun des manquements énumérés ci-aprés, 30 % des intéréts et plafonné a 
+3 580 000 francs CFP, le préteur qui accorde un crédit : 
+1?2 Sans avoir fourni & I'emprunteur les explications adéquates permettant a celui-ci de déterminer si le contrat 
+de crédit et les éventuels services accessoires sont adaptés & ses besoins et a sa situation financiére a partir 
+des informations prévues a I'article LP 107 ; 
+ou 
+2°  Sans avoir, en méconnaissance de I"article LP 108, mis en garde I'emprunteur, sur le risque spécifique que 
+peut induire pour lui le contrat compte tenu de sa situation financiére, lorsqu’un tel risque a été identifié ; 
+ou 
+3° Sans avoir respecté les conditions prévues aux articles LP 112 a LP 114, applicables en matiére 
+d’évaluation de la solvabilité de I'emprunteur. 
+34/38
+Article LP 222.- Le préteur qui accorde un crédit sans réaliser I’étude de solvabilité mentionnée a 
+Iarticle LP 112 peut étre déchu du droit aux intéréts, en totalité ou dans la proportion fixée par le juge. 
+Sous-section 2 : Sanctions pénales (art. LP 223 a LP 228) 
+Article LP 223.- Le fait pour le préteur ou I’intermédiaire de crédit qui fournit un service de conseil 
+prévu a I"article LP 109 de ne pas remettre a I'emprunteur une recommandation personnalisée ou de lui remettre 
+une recommandation ne répondant pas aux exigences de I"article LP 109 est puni d’une amende de 3 580 000 
+francs CFP. 
+Article LP 224.- Le fait pour le prestataire d’un service de conseil indépendant d’étre rémunéré par le 
+préteur ou un intermédiaire de crédit en violation des dispositions du premier alinéa de I"article LP 110 est puni 
+d’une amende de 35 800 000 francs CFP. 
+Article LP 225.- Est puni d'une amende de 3 580 000 francs CFP le fait pour le préteur ou 
+Iintermédiaire de crédit : 
+1°  De ne pas fournir a I’emprunteur les explications adéquates lui permettant de déterminer si le contrat de 
+crédit et les éventuels services accessoires sont adaptés a ses besoins et a sa situation financiére a partir des 
+informations prévues a I"article LP 107 ; 
+2° De ne pas mettre en garde I'emprunteur, en méconnaissance de I'article LP 108, sur le risque spécifique 
+que peut induire pour lui le contrat compte tenu de sa situation financiére, lorsqu’un tel risque a été 
+identifi¢ ; 
+3° De ne pas procéder a I’évaluation de la solvabilité de I'emprunteur dans les conditions prévues aux articles 
+LP112aLP114. 
+Article LP 226.- Le fait pour le préteur de contrevenir aux dispositions du premier alinéa de I'article 
+LP 161 relatives aux conditions d’octroi d’un prét en devises étrangéres est puni d’une amende de 35 800 000 
+francs CFP. 
+Article LP 227.- Le fait pour le préteur de contrevenir aux dispositions des articles LP 116 et LP 118 
+relatives a I’évaluation du bien immobilier est puni de la peine d’amende prévue pour la contravention de Se 
+classe. 
+Article LP 228.- Les personnes physiques déclarées coupables des infractions punies par les 
+dispositions des articles LP 223 a LP 226 encourent également a titre de peines complémentaires |'interdiction, 
+prévues a I'article 131-27 du code pénal. 
+  
+Les personnes morales déclarées responsables pénalement, dans les conditions prévues a I'article 121- 
+2 du code pénal, des infractions punies par les dispositions des articles LP 223 et LP 224 encourent également & 
+titre de peines complémentaires les peines prévues aux 2° a 9° de Iarticle 131-39 du code pénal. 
+Le tribunal pourra en outre ordonner, aux frais du condamné, la publication intégrale ou par extraits du 
+Jjugement dans les journaux qu'il fixe, sans que le cot de cette publication puisse excéder le montant de 
+I’'amende encourue. 
+Section IV - Formation du contrat de crédit et du contrat principal (articles LP 229 4 LP 239) 
+Sous-section 1 : Sanctions civiles (art. LP 229 a LP 231) 
+Article LP 229.- Sous réserve des dispositions du second alinéa, dans les cas prévus aux articles LP 
+232, LP 233, LP 234 et LP 235, le préteur ou le bailleur peut étre déchu du droit aux intéréts, en totalité ou dans 
+la proportion fixée par le juge. 
+35/38
+Dans les cas prévus a I'article LP 232, en cas de défaut de mention ou de mention erronée du taux 
+annuel effectif global déterminé conformément aux articles L 341-1 a L 341-4 du code de la consommation tel 
+qu’applicable en Polynésie frangaise, le préteur peut étre déchu du droit aux intéréts dans la proportion fixée par 
+le juge, au regard notamment du préjudice pour I'emprunteur. 
+Article LP 230.- Lorsque la somme versée d’avance par I’acquéreur n’a pas été remboursée dans les 
+conditions prévues au second alinéa de I'article LP 137, la somme due est productive d’intéréts au taux légal 
+majoré de moitié a compter du quinziéme jour suivant la demande de remboursement. 
+Article LP 231.- Lorsque la somme versée d’avance par le preneur n’a pas été restituée dans les 
+conditions prévues au second alinéa de I'article LP 159 pour un contrat de location-vente et de vente assortie 
+d’une promesse de vente, la somme due est productive d’intéréts au taux légal majoré de moitié a compter du 
+quinzieme jour suivant la demande de remboursement. 
+Sous-section 2 : Sanctions pénales (art. LP 232 a LP 238) 
+Article LP 232.- Le fait pour le préteur ou le bailleur de ne pas respecter I'une des obligations prévues 
+aux articles LP 120 et LP 121 et au deuxiéme alinéa de I’article LP 134 est puni d’une amende de 17 900 000 
+CFP. 
+Article LP 233.- Le fait pour le préteur ou le bailleur de ne pas respecter I’une des obligations prévues 
+a larticle LP 152 pour un contrat de location-vente et de vente assortie d’une promesse de vente, est puni d’une 
+amende de 17 900 000 CFP. 
+Article LP 234.- Le fait pour le préteur de faire souscrire par I'emprunteur ou les cautions déclarées 
+ou de recevoir de leur part I'acceptation de I'offre sans que celle-ci comporte de date ou dans le cas od elle 
+comporte une date fausse de nature a faire croire qu'elle a été donnée aprés expiration du délai de dix jours 
+prescrit a I'article LP 130, est puni d’une amende de 35 800 000 francs CFP. 
+Article LP 235.- Le fait pour le bailleur de faire souscrire par le preneur ou de recevoir de sa part 
+I"acceptation de I'offre sans que celle-ci comporte de date ou dans le cas oii elle comporte une date fausse de 
+nature 4 faire croire qu’elle a été donnée aprés I'expiration du délai de dix jours prescrit a I'article LP 155 pour 
+un contrat de location-vente ou de location assortie d’une promesse de vente, est puni d’une amende de 35 800 
+000 francs CFP. 
+  
+Article LP 236.- Le fait pour le préteur ou le bailleur, en infraction aux dispositions de I'article LP 
+131 ou, pour un contrat de location-vente et de location assortie d’une promesse de vente, i celles de Iarticle 
+LP 156, d’accepter de recevoir de I'emprunteur ou du preneur, ou pour le compte d'un de ces derniers, un 
+versement ou un dépdt, un chéque ou un effet de commerce souscrit, endossé ou avalisé a son profit ou d’utiliser 
+une autorisation de prélévement sur compte bancaire ou postal, est puni d’une amende de 35 800 000 francs 
+CFP. 
+Article LP 237.- Le fait pour le préteur, en infraction aux dispositions de I'article LP 134, pour le 
+vendeur, en infraction aux dispositions de I'article LP 137 ou pour le bailleur, en infraction aux dispositions de 
+I"article LP 159 pour un contrat de location-vente et de location assortie d’une promesse de vente de ne pas 
+restituer les sommes mentionnées a ces articles, est puni d’une amende de 35 800 000 francs CFP. 
+Article LP 238.- Les personnes physiques coupables des délits punis aux articles LP 232, LP 233 et 
+LP 234 4 LP 237, encourent également 4 titre de peines complémentaires les interdictions prévues & I'article 
+131-27 du code pénal. 
+Sous-section 3 : Sanctions administratives (art. LP 239) 
+Article LP 239.- Le fait pour le préteur de ne pas respecter 'une des obligations prévues aux articles 
+LP 126 a LP 128 est passible d'une amende administrative dont le montant ne peut excéder 500 000 francs CFP 
+pour une personne physique et 3 000 000 francs CFP pour une personne morale. 
+36/38
+Section V - Exécution du contrat de crédit (articles LP 240 a LP 242) 
+Sous-section 1 : Sanction civile (art. LP 240) 
+Article LP 240.- Le préteur qui n’a pas respecté |'obligation d’information de I'emprunteur en cas de 
+modification du taux débiteur mentionnée a I'article LP 142 peut étre déchu du droit aux intéréts, en totalité ou 
+dans la proportion fixée par le juge. 
+Sous-section 2 : Sanctions pénales (art. LP 241 a LP 242) 
+Article LP 241.- Le fait pour le préteur de réclamer a I’emprunteur ou au preneur ou de retenir sur son 
+compte des sommes supérieures a celles qu’il est autorisé a réclamer ou a retenir en application des dispositions 
+des articles LP 145, LP 149, LP 157 ou LP 158 est puni d’une amende de 35 800 000 francs CFP. 
+Les personnes physiques encourent également a titre de peines complémentaires les interdictions 
+prévues a I’article 131-27 du code pénal. 
+Article LP 242.- Le fait pour le préteur ou I'intermédiaire de crédit de ne pas respecter les obligations 
+relatives & I'information de I'emprunteur en cas de modification du taux débiteur fixées 4 I'article LP 142 est 
+puni de la peine d’amende prévue pour les contraventions de Se classe. 
+   
+  
+Section VI - Dispositions communes aux sanctions civiles (article LP 243) 
+Article LP 243.- Lorsque le préteur est déchu du droit aux intéréts dans les conditions prévues a la 
+présente section, I’emprunteur n’est tenu qu’au seul remboursement du capital suivant I’échéancier prévu ainsi 
+que, le cas échéant, au paiement des intéréts dont le préteur n’a pas été déchu. Les sommes pergues au titre des 
+intéréts, qui sont productives d’intéréts au taux de I'intérét légal a compter du jour de leur versement, sont 
+restituées par le préteur ou imputées sur le capital restant di. 
+CHAPITRE III - DISPOSITIONS COMMUNES AU CREDIT A LA CONSOMMATION ET AU 
+CREDIT IMMOBILIER (ARTICLE LP 244) 
+Article LP 244.- La récidive des infractions punies aux articles LP 219, LP 227 et LP 242 est 
+réprimée conformément aux dispositions des articles 132-11 et 132-15 du code pénal. 
+TITRE II - DISPOSITIONS TRANSITOIRES ET DIVERSES 
+Article LP 245.- Pour les délits prévus aux articles LP 213, LP 214, LP 215 et LP 216, et 
+conformément aux dispositions de I"article 23 de la loi organique n® 2004-192 du 27 février 2004 portant statut 
+d’autonomie de la Polynésie francaise, I'autorité administrative chargée des contrdles a droit, tant que I’action 
+publique n’a pas été mise en mouvement, de transiger, aprés accord du procureur de la République, selon les 
+modalités définies par arrété pris en conseil des ministres. 
+L’acte par lequel le procureur de la République donne son accord a la proposition de transaction est 
+interruptif de la prescription de I’action publique. 
+L’action publique est éteinte lorsque I'auteur de I'infraction a exécuté, dans le délai imparti, les 
+obligations résultant pour lui de I'acceptation de la transaction. 
+Article LP 246.- Les infractions aux dispositions de la présente loi du pays sont recherchées et 
+constatées par les fonctionnaires et agents assermentés, qualifiés dans les conditions prévues par une loi du pays 
+adoptées dans les conditions prévues aux articles 31, 32 et 35 de la loi organique n° 2004-192 
+du 27 février 2004 modifiée portant statut d*autonomie de la Polynésie frangaise. 
+Article LP 247.- Les manquements aux dispositions de la présente loi du pays sont recherchés, 
+constatés, sanctionnés ou peuvent faire I"objet d’une mesure d’injonction dans les conditions prévues par la 
+réglementation applicable en matiére de recherche et de constatation des manquements administratifs a la 
+réglementation économique et de mise en ceuvre des mesures et sanctions administratives. 
+37/38
+Article LP 248.- A I'alinéa 1¥ de Iarticle LP 113-12-2 du code des assurances tel qu’applicable en 
+Polynésie francaise, les termes « a /'article L 312-2 du code de la consommation tel qu’applicable en Polynésie 
+Srangaise », « a Darticle L 312-7 du méme code » et « au sixiéme alinéa de I'article L 312-9 du méme code » 
+sont remplacés par les termes « par la réglementation en vigueur ». 
+Article LP 249.- Les dispositions de la présente loi du pays entrent en vigueur au premier jour du 
+deuxiéme mois suivant sa promulgation. 
+Par dérogation a I'alinéa précédent, les dispositions de I'article LP 96 sont applicables aux produits et 
+services fournis aprés le 30 décembre 2026. 
+Délibéré en séance publique, 4 Papeete, le 27 mai 2025 
+Le Président, 
+  
+Oddtte HOMAI An GEROS 
+38/38

@@ -14,8 +14,8 @@ from playwright.sync_api import sync_playwright
 
 URL = sys.argv[1] if len(sys.argv) > 1 else "http://localhost:4173" + os.environ.get("BASE_PATH", "/")
 HOST = urlparse(URL).netloc
-OUT = Path(__file__).resolve().parent.parent / "screenshots"
-OUT.mkdir(exist_ok=True)
+OUT = Path(os.environ.get("SCREENSHOTS_DIR") or Path(__file__).resolve().parent.parent / "screenshots")
+OUT.mkdir(parents=True, exist_ok=True)
 failures, errors, external = [], [], []
 DATA = json.loads((Path(__file__).resolve().parent.parent / "data" / "banks.json").read_text())
 
@@ -27,10 +27,36 @@ def expected_cheapest(attr, code, iso):
         return ch[-1] if ch else e
     best, ids = None, set()
     for p in DATA["products"]:
+        if p["kind"] != "carte":
+            continue
         for v in p.get("variants") or [None]:
             attrs = {**p["attrs"], **((v or {}).get("attrs") or {})}
             e, fee = at(attrs[attr]), at(attrs["cotisation"])
             if e.get("status") != "found" or e.get("code") != code or fee.get("status") != "found":
+                continue
+            rid = p["id"] + ("/" + v["id"] if v else "")
+            if best is None or fee["num"] < best:
+                best, ids = fee["num"], {rid}
+            elif fee["num"] == best:
+                ids.add(rid)
+    return ids, best
+
+
+def expected_cheapest_where(conds, iso):
+    """Comme expected_cheapest, avec plusieurs attributs imposés (ex. réseau Visa ET utilisable à l'étranger)."""
+    def at(e):
+        ch = sorted([c for c in (e or {}).get("changes", []) if c["effective_from"] <= iso], key=lambda c: c["effective_from"])
+        return ch[-1] if ch else e
+    best, ids = None, set()
+    for p in DATA["products"]:
+        if p["kind"] != "carte":
+            continue
+        for v in p.get("variants") or [None]:
+            attrs = {**p["attrs"], **((v or {}).get("attrs") or {})}
+            if any(at(attrs[a]).get("status") != "found" or at(attrs[a]).get("code") != c for a, c in conds.items()):
+                continue
+            fee = at(attrs["cotisation"])
+            if fee.get("status") != "found":
                 continue
             rid = p["id"] + ("/" + v["id"] if v else "")
             if best is None or fee["num"] < best:
@@ -140,6 +166,27 @@ with sync_playwright() as p:
     check("55 843" in pre and "NOUVELLE GRILLE AU 01/01/2027" in pre.upper() and "56 960" in pre, "18/11/2026 : Visa Infinite BT 55 843, nouvelle grille 56 960 annoncée")
     check("reseau=visa" in page.url and "vue=carte" in page.url, f"question rapide reflétée dans l'URL ({page.url.split('?')[-1]})")
     check(page.get_by_test_id("preset-visa-moins-chere").get_attribute("aria-pressed") == "true", "question rapide active : aria-pressed")
+    # Carte « Visa » la moins chère non utilisable à l'étranger : alerte dans la fiche + réponse « utilisable à l'étranger » à côté
+    intl = DATA["products"][[q["id"] for q in DATA["products"]].index(got.split("/")[0])]["attrs"]["international"]
+    if intl.get("status") == "found" and intl.get("code") is False:
+        card = page.locator(f"[data-testid='pcard-{got}']")
+        check(card.get_by_test_id("tag-flag-international").count() == 1 and "Non" in text(card.locator(".pattrs").first),
+              f"« Visa la moins chère » ({got}) : « Pas utilisable à l’étranger » affiché dans la fiche")
+    page.screenshot(path=str(OUT / "desktop-light-trouver-ma-carte.png"), full_page=False)
+    exp2, price2 = expected_cheapest_where({"reseau": "visa", "international": True}, "2026-11-18")
+    rel = text(page.get_by_test_id("related-visa-etranger-moins-chere"))
+    names = {f"{b['short']} {q['name']}" for q in DATA["products"] for b in DATA["banks"] if q["id"] in {i.split("/")[0] for i in exp2} and b["id"] == q["bank"]}
+    check(any(n in rel for n in names) and f"{price2:,}".replace(",", " ") in rel,
+          f"question liée : « Visa la moins chère utilisable à l’étranger » → {sorted(names)} {price2} XPF (affiché : {rel})")
+    page.get_by_test_id("related-apply-visa-etranger-moins-chere").click()
+    page.wait_for_timeout(300)
+    got2 = first_card(page)
+    check(got2 in exp2 and page.get_by_test_id("preset-visa-etranger-moins-chere").get_attribute("aria-pressed") == "true"
+          and "etranger=1" in page.url and page.locator(f"[data-testid='pcard-{got2}'] [data-testid=tag-cheapest]").count() == 1,
+          f"« voir » : question « Visa utilisable à l’étranger » active, {got2} en tête et « La moins chère »")
+    page.screenshot(path=str(OUT / "desktop-light-trouver-ma-carte-visa-etranger.png"), full_page=False)
+    page.get_by_test_id("preset-visa-moins-chere").click()
+    page.wait_for_timeout(300)
     page.get_by_test_id("preset-sans-contact-moins-chere").click()
     page.wait_for_timeout(300)
     exp, price = expected_cheapest("sans_contact", True, "2026-11-18")
@@ -173,6 +220,56 @@ with sync_playwright() as p:
     page.wait_for_timeout(500)
     check(page.get_by_test_id("finder-carte").is_visible() and page.get_by_test_id("f-carte-reseau-visa").is_checked(), "lien partagé : vue et filtres restaurés")
     check(page.get_by_test_id("finder-sort").input_value() == "frais_etranger", "lien partagé : tri restauré")
+
+    # ---------- Repères officiels ----------
+    page.get_by_test_id("tab-reperes").click()
+    page.wait_for_timeout(700)
+    R = DATA["reperes"]
+    sec = {x["id"]: x for x in R["sections"]}
+    check(page.get_by_test_id("reperes").is_visible() and page.locator(".rep-table").count() == sum(1 for x in R["sections"] if x["kind"] == "table"),
+          "Repères officiels : onglet et tableaux affichés")
+    taux = sec["taux"]["table"]
+    last = taux["columns"][-1]["id"]
+    hab = next(r for r in taux["rows"] if r["id"] == "pf_habitat")["cells"][last]
+    cell = text(page.locator("[data-testid=rep-row-pf_habitat] td").last)
+    check(hab["value"].replace("\u00a0", " ") in cell and hab["value"].replace("\u00a0", " ") == DATA["market"]["ieom_habitat"]["value"].replace("\u00a0", " "),
+          f"taux moyen habitat IEOM {last} = {cell} (= repère du bandeau)")
+    check(page.locator("[data-testid=rep-row-pf_habitat] td a.cell-src").count() == len(taux["columns"]), "série habitat : chaque trimestre est un lien sourcé")
+    title = page.locator("[data-testid=rep-row-pf_habitat] td a.cell-src").last.get_attribute("title")
+    check("IEOM" in title and "Citation" in title and "2,85" in title, "survol d'une cellule : source et citation")
+    us = sec["usure"]["table"]
+    ucol = us["columns"][-1]["id"]
+    u20 = next(r for r in us["rows"] if r["id"] == "immo_20_plus")["cells"][ucol]
+    check(u20["num"] == DATA["market"]["usure_habitat"]["num"] and u20["value"].replace("\u00a0", " ") in text(page.locator("[data-testid=rep-row-immo_20_plus]")),
+          f"seuil d'usure ≥ 20 ans au {ucol} : {u20['value']} (= paramètre du simulateur)")
+    ira = text(page.get_by_test_id("rule-ira-immo"))
+    check("3 %" in ira and "Arrêté 1813 CM" in ira, "barème IRA immobilier (arrêté n° 1813 CM) affiché et sourcé")
+    check("FIT" in text(page.get_by_test_id("rule-fit-immo")), "fiche d'information type obligatoire (LP 2025-21) affichée")
+    check(page.get_by_test_id("finder-engagement").is_visible(), "engagements de l'accord : moteur de filtres générique")
+    page.get_by_test_id("preset-carte-debit-immediat").click()
+    page.wait_for_timeout(300)
+    cards = page.locator("[data-testid=finder-results] .pcard")
+    exp_rows = [q for q in DATA["products"] if q["kind"] == "engagement" and q["attrs"].get("service", {}).get("code") == "carte_di"]
+    check(cards.count() == len(exp_rows), f"engagements « carte à débit immédiat » : {cards.count()} lignes (données : {len(exp_rows)})")
+    num = {q["id"]: q["attrs"]["tarif"]["num"] for q in exp_rows}
+    tarifs = [num[c.get_attribute("data-testid")[6:]] for c in cards.all()]
+    check(tarifs == sorted(tarifs), f"tri par tarif IEOM croissant ({tarifs})")
+    check("service=carte_di" in page.url and "vue=engagement" in page.url, f"état des engagements dans l'URL ({page.url.split('?')[-1]})")
+    page.get_by_test_id("preset-suivi-ieom").click()
+    page.wait_for_timeout(300)
+    bt = page.get_by_test_id("pcard-eng-bt-suivi")
+    check(bt.count() == 1 and bt.get_by_test_id("tag-compare-diff").count() == 1 and "3 150" in text(bt), "suivi IEOM : écart BT (virement permanent 3 150 vs grille) signalé")
+    check(page.locator("[data-testid=finder-results] [data-testid=tag-compare-diff]").count() == 1, "un seul écart IEOM / grille dans le suivi")
+    page.goto(URL + "?vue=engagement&eb=marara")
+    page.wait_for_load_state("networkidle")
+    page.wait_for_timeout(500)
+    check(page.get_by_test_id("tab-reperes").get_attribute("aria-selected") == "true" and page.get_by_test_id("f-engagement-banque-marara").is_checked(),
+          "lien partagé ?vue=engagement : onglet Repères et filtre banque restaurés")
+    marara = page.locator("[data-testid=finder-results] .pcard")
+    check(marara.count() >= 5 and all(c.get_attribute("data-testid").startswith("pcard-eng-marara") for c in marara.all()), f"filtre banque MARARA ({marara.count()} engagements)")
+    page.get_by_test_id("finder-reset").click()
+    page.wait_for_timeout(300)
+    page.screenshot(path=str(OUT / "desktop-light-reperes-officiels.png"), full_page=True)
 
     page.get_by_test_id("tab-epargne").click()
     page.wait_for_timeout(400)
@@ -293,6 +390,43 @@ with sync_playwright() as p:
     m.get_by_test_id("res-prix").scroll_into_view_if_needed()
     m.screenshot(path=str(OUT / "mobile-04-simulateur-resultat.png"), full_page=False)
     m.screenshot(path=str(OUT / "mobile-05-simulateur-complet.png"), full_page=True)
+    m.goto(URL + "?vue=engagement")
+    m.wait_for_load_state("networkidle")
+    m.wait_for_timeout(900)
+    overflow = m.evaluate("document.documentElement.scrollWidth - 390")
+    check(overflow <= 0, f"mobile Repères officiels : pas de débordement horizontal ({overflow}px)")
+    m.screenshot(path=str(OUT / "mobile-light-reperes-officiels.png"), full_page=True)
+    m.goto(URL + "?vue=carte&reseau=visa")
+    m.wait_for_load_state("networkidle")
+    m.wait_for_timeout(700)
+    m.screenshot(path=str(OUT / "mobile-light-trouver-ma-carte.png"), full_page=False)
+    m.close()
+
+    # ---------- Thème sombre (prefers-color-scheme: dark) ----------
+    for vp, name, mobile in (({"width": 1440, "height": 900}, "desktop", False), ({"width": 390, "height": 844}, "mobile", True)):
+        dctx = browser.new_context(viewport=vp, color_scheme="dark", is_mobile=mobile, has_touch=mobile, device_scale_factor=2 if mobile else 1)
+        d = dctx.new_page()
+        watch(d)
+        d.goto(URL)
+        d.wait_for_load_state("networkidle")
+        d.wait_for_timeout(900)
+        bg = d.evaluate("getComputedStyle(document.body).backgroundColor")
+        fg = d.evaluate("getComputedStyle(document.body).color")
+        check(bg == "rgb(13, 27, 28)" and fg == "rgb(236, 228, 211)", f"{name} sombre : fond et texte du thème sombre ({bg}, {fg})")
+        check(d.evaluate("document.querySelector('meta[name=color-scheme]').content") == "light dark", f"{name} sombre : <meta name=color-scheme content=\"light dark\">")
+        d.get_by_test_id("tab-reperes").click()
+        d.wait_for_timeout(900)
+        overflow = d.evaluate(f"document.documentElement.scrollWidth - {vp['width']}")
+        check(overflow <= 0, f"{name} sombre Repères officiels : pas de débordement horizontal ({overflow}px)")
+        d.screenshot(path=str(OUT / f"{name}-dark-reperes-officiels.png"), full_page=True)
+        d.goto(URL + "?vue=carte&reseau=visa")
+        d.wait_for_load_state("networkidle")
+        d.wait_for_timeout(900)
+        check(d.get_by_test_id("related-visa-etranger-moins-chere").count() == 1, f"{name} sombre : question liée affichée")
+        overflow = d.evaluate(f"document.documentElement.scrollWidth - {vp['width']}")
+        check(overflow <= 0, f"{name} sombre Trouver ma carte : pas de débordement horizontal ({overflow}px)")
+        d.screenshot(path=str(OUT / f"{name}-dark-trouver-ma-carte.png"), full_page=not mobile)
+        dctx.close()
     browser.close()
 
 check(not errors, f"aucune erreur console/JS/CSP ({errors[:3]})")

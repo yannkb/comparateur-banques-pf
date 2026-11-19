@@ -4,9 +4,12 @@ import Simulator from './Simulator.jsx';
 import { SourceChip, MarketPanel } from './common.jsx';
 import { fraisDossier } from './lib/simulator.js';
 import Finder from './Finder.jsx';
+import Reperes from './Reperes.jsx';
 import { defaultState, paramsToState, rowsOf, stateToParams } from './lib/catalog.js';
 
 const TABS = [...data.categories, { id: 'simu', label: 'Simulateur' }];
+// Rubriques « vue » (ex. Repères officiels) : pas de fiches par banque ; leurs catalogues sont intégrés à la vue.
+const VIEW_TABS = new Set(data.categories.filter((c) => c.view).map((c) => c.id));
 const DEFAULT_SORT = { immo: 'immo_frais_dossier', compte: 'cpt_tenue', epargne: 'ep_livret', conso: 'conso_frais_dossier' };
 const MARKET_BY_CAT = {
   immo: ['ieom_habitat', 'usure_habitat_moins_10', 'usure_habitat_10_20', 'usure_habitat', 'usure_relais', 'ptz_pays', 'ptz_plafonds', 'aim', 'lp2025_21_ira'],
@@ -26,7 +29,7 @@ function initialView() {
   const params = new URLSearchParams(typeof window !== 'undefined' ? window.location.search : '');
   const c = CATALOGS.find((x) => x.id === params.get(VIEW_PARAM));
   const states = Object.fromEntries(CATALOGS.map((x) => [x.id, x === c ? paramsToState(x, params, FIELD_OPTIONS) : defaultState(x)]));
-  return { tab: c?.category, sub: c ? { [c.category]: c.id } : {}, states };
+  return { tab: c?.category, sub: c ? { [c.category]: c.id } : {}, states, embedded: !!c && VIEW_TABS.has(c.category) };
 }
 
 /** Valeur de classement : coût réel pour le montant saisi (frais de dossier), sinon `num`. */
@@ -228,7 +231,8 @@ export default function App() {
   const [hideNP, setHideNP] = useState(false);
   const [amounts, setAmounts] = useState({});
 
-  const isData = tab !== 'simu';
+  const isView = VIEW_TABS.has(tab);
+  const isData = tab !== 'simu' && !isView;
   const fields = isData ? fieldsOf(tab) : [];
   const sortable = fields.filter((f) => f.better && data.banks.some((b) => typeof b.fields[f.id]?.num === 'number' || b.fields[f.id]?.fee));
   const sortField = sortable.find((f) => f.id === sortBy[tab]) || sortable[0];
@@ -244,11 +248,11 @@ export default function App() {
   }, {});
   const m = data.market;
   const catalogsHere = CATALOGS.filter((c) => c.category === tab);
-  const activeCatalog = catalogsHere.find((c) => c.id === sub[tab]);
+  const activeCatalog = isView ? catalogsHere[0] : catalogsHere.find((c) => c.id === sub[tab]);
 
   // URL partageable : ?vue=<catalogue>&<filtres> tant que la vue « trouver » est affichée.
   useEffect(() => {
-    if (init.tab) document.querySelector('.finder')?.scrollIntoView({ block: 'start' });
+    if (init.tab && !init.embedded) document.querySelector('.finder')?.scrollIntoView({ block: 'start' });
   }, [init]);
   useEffect(() => {
     const url = new URL(window.location.href);
@@ -379,6 +383,11 @@ export default function App() {
             </>)}
             <MarketPanel ids={MARKET_BY_CAT[tab]} />
           </section>
+        ) : isView ? (
+          <Reperes renderCatalog={(id) => {
+            const c = CATALOGS.find((x) => x.id === id);
+            return <Finder catalog={c} rows={ROWS[c.id]} banks={data.banks} cur={cur} state={finder[c.id]} onChange={(st) => setFinder({ ...finder, [c.id]: st })} />;
+          }} />
         ) : (
           <Simulator cur={cur} />
         )}

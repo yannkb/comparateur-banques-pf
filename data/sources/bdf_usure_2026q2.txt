@@ -1,0 +1,35 @@
+# Taux d'usure et taux effectifs moyens pratiqués par les établissements de crédit et les sociétés de financement (%)
+URL: https://www.banque-france.fr/system/files/webstats/Taux_dusure_2026T2_20260327/FR_202604_RESULT_TABLEAU_INTERNET_USURE_24Mar26.pdf
+Author: LANDAIS François (DGS DSMF)
+
+## Taux d'usure et taux effectifs moyens pratiqués par les établissements de crédit et les sociétés de financement (%)
+
+| Catégorie | Taux effectif moyen pratiqué au 1er trimestre 2026 | Taux d'usure applicable au 1er avril 2026 |
+| --- | --- | --- |
+| CRÉDITS DE TRÉSORERIE | | |
+| Crédits de trésorerie aux ménages et prêts pour travaux d'un montant | Series | Series |
+| inférieur ou égal à 75 000 euros (1) | | |
+| Prêts d'un montant inférieur ou égal à | 17,64 3 000 € | 23,52 |
+| Prêts d'un montant supérieur à 3 000 € | 11,8 et inférieur ou égal à 6 000 € | 15,73 |
+| Prêts d'un montant supérieur à 6 000 € | 6,46 | 8,61 |
+| CRÉDITS IMMOBILIERS Crédits immobiliers et prêts pour travaux d'un montant supérieur à 000 euros (2) | Series 75 | Series |
+| Prêts à taux fixe d'une durée inférieure à | 3 10 ans | 4 |
+| Prêts à taux fixe d'une durée comprise entre 10 ans et moins de 20 ans | 3,36 | 4,48 |
+| Prêts à taux fixe d'une durée de 20 ans et plus | 3,89 | 5,19 |
+| Prêts à taux variable | 3,75 | 5 |
+| Prêts relais | 4,65 | 6,2 |
+| Prêts aux personnes morales n'ayant pas d'activité commerciale, artisanale, agricole ou professionnelle non commerciale | industrielle, Series | Series |
+| Prêts à taux fixe d'une durée comprise entre 2 ans et moins de 10 ans | 4,22 | 5,63 |
+| Prêts à taux fixe d'une durée comprise entre 10 ans et moins 20 ans | 4,22 | 5,63 |
+| Prêts à taux fixe d'une durée de 20 ans et plus | 4,23 | 5,64 |
+| Prêts à taux variable d'une durée initiale supérieure à | 4,31 2 ans (3) | 5,75 |
+| Découverts en compte | 14,29 | 19,05 |
+| Autres prêts d'une durée initiale inférieure ou égale à | 4,53 2 ans | 6,04 |
+| Prêts aux personnes physiques agissant pour leurs besoins professionnels et aux personnes morales ayant une activité commerciale, artisanale, agricole ou professionnelle non commerciale | Series industrielle, | Series |
+| Découverts en compte | 14,29 | 19,05 |
+
+(1) Définition - Crédits de trésorerie : crédits aux ménages n'entrant pas dans le champ d'application du 1° de l'article L. 313-1 du code de la consommation ou ne constituant pas une opération de crédit d'un montant supérieur à 75 000 euros destinés à financer, pour les immeubles à usage d'habitation ou à usage professionnel et d'habitation, les dépenses relatives à leur réparation, leur amélioration ou leur entretien.
+
+(2) Définition - Crédit Immobiliers : crédits aux ménages entrant dans le champ d'application du 1° de l'article L. 313-1 du code de la consommation ou d'un montant supérieur à 75 000 euros destinés à financer, pour les immeubles à usage d'habitation ou à usage professionnel et d'habitation, les dépenses relatives à leur réparation, leur amélioration ou leur entretien
+
+(3) Taux moyen pratiqué (TMP) : le taux moyen pratiqué est le taux effectif des prêts aux entreprises d'une durée initiale supérieure à deux ans, à taux variable, d'un montant inférieur ou égal à 152 449 euros. Ce taux est utilisé par la Direction générale des impôts pour le calcul du taux maximum

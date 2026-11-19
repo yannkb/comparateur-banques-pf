@@ -185,3 +185,20 @@ export function paramsToState(catalog, params, fieldOptions = {}) {
 /** Une question rapide = un état de filtres + un tri. */
 export const presetState = (catalog, preset) => ({ ...defaultState(catalog), f: { ...preset.state }, sort: preset.sort || defaultState(catalog).sort });
 export const sameState = (catalog, a, b) => stateToParams(catalog, a).toString() === stateToParams(catalog, b).toString();
+
+/** Meilleure(s) ligne(s) d'une question rapide (ex. « Visa la moins chère utilisable à l'étranger »), pour l'afficher à côté d'une autre. */
+export function presetBest(catalog, rows, presetId, labels = {}) {
+  const p = (catalog.presets || []).find((x) => x.id === presetId);
+  if (!p) return [];
+  const res = query(catalog, rows, presetState(catalog, p), labels);
+  const best = new Set(bestIds(catalog, res.matches));
+  return res.matches.filter((m) => best.has(m.row.id));
+}
+
+/** Comparaison de deux attributs numériques déclarée par le catalogue (`compare`) : 'same' | 'diff' | null (incomplet). */
+export function compareOf(catalog, row) {
+  const [a, b] = catalog.compare?.attrs || [];
+  const x = row.attrs[a], y = row.attrs[b];
+  if (!isFound(x) || !isFound(y) || typeof x.num !== 'number' || typeof y.num !== 'number') return null;
+  return Math.abs(x.num - y.num) < 1e-9 ? 'same' : 'diff';
+}

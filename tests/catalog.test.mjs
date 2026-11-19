@@ -26,7 +26,7 @@ function naiveCheapest(ctx, attr, code) {
 }
 
 test('catalogue : une ligne par produit × variante, attributs fusionnés', () => {
-  assert.equal(NOW.rows.length, NOW.d.products.reduce((n, p) => n + (p.variants?.length || 1), 0));
+  assert.equal(NOW.rows.length, NOW.d.products.filter((p) => p.kind === 'carte').reduce((n, p) => n + (p.variants?.length || 1), 0));
   const v = row('socredo-visa-classic/differe');
   assert.equal(v.attrs.debit.code, 'differe');
   assert.equal(v.attrs.reseau.code, 'visa'); // attribut commun au produit
@@ -102,7 +102,8 @@ test('URL : aller-retour état ⇄ paramètres, valeurs invalides ignorées, que
     const back = paramsToState(NOW.cat, new URLSearchParams(stateToParams(NOW.cat, st).toString()), { bank: NOW.d.banks.map((b) => ({ value: b.id })) });
     assert.ok(sameState(NOW.cat, st, back), p.id);
   }
-  assert.equal(stateToParams(NOW.cat, presetState(NOW.cat, NOW.cat.presets[1])).toString(), 'sans_contact=1');
+  assert.equal(stateToParams(NOW.cat, presetState(NOW.cat, NOW.cat.presets.find((p) => p.id === 'sans-contact-moins-chere'))).toString(), 'sans_contact=1');
+  assert.equal(stateToParams(NOW.cat, presetState(NOW.cat, NOW.cat.presets.find((p) => p.id === 'visa-etranger-moins-chere'))).toString(), 'reseau=visa&etranger=1');
   const s = paramsToState(NOW.cat, new URLSearchParams('reseau=visa,bidon&sans_contact=2&tri=xxx&budget=-3&np=0'));
   assert.deepEqual(s.f, { reseau: ['visa'] });
   assert.equal(s.sort, NOW.cat.defaultSort);

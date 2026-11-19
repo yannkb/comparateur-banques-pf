@@ -183,3 +183,37 @@ lignes sans prix autonome mais présentes dans une offre groupée n'apparaissent
 par des virgules ; bool : 1/0 ; `tri=<sort>` ; `np=0` masque les « non publié »).
 `npm run verify` contrôle aussi : types, options, motifs, facettes ↔ attributs, tris, questions
 rapides (facettes et valeurs existantes), unicité des paramètres d'URL.
+Options complémentaires d'un catalogue : `"optional": true` sur un attribut (peut manquer sur une
+ligne : il n'est alors ni exigé ni affiché), `"flagFalse": "Pas utilisable à l'étranger"` sur un
+attribut `bool` (badge d'alerte quand la valeur publiée est « non »), `"compare": { "attrs": [a, b],
+"label", "okLabel" }` (deux attributs `number` comparés : badge « écart » ou « identique »),
+`"related": [{ "preset": "<id>", "label" }]` sur une question rapide (la meilleure réponse de l'autre
+question est calculée et affichée à côté, ex. « Visa la moins chère » → « … utilisable à l'étranger »),
+`"layout": "compact"`, `"emptyLabel"`. Le vérificateur contrôle chacune de ces déclarations.
+
+## Repères officiels (`reperes`)
+Rubrique `{ "id": "reperes", "view": "reperes" }` : pas de fiches par banque, une vue faite de
+sections déclarées dans `data.reperes.sections[]` (rendu : `src/Reperes.jsx`).
+
+```json
+{ "id": "taux", "kind": "table", "table": {
+    "id": "ieom-taux", "title": "…", "intro": "…", "unit": "%", "series": true,
+    "columns": [ { "id": "2026-T2", "label": "T2 2026" } ],
+    "headers": [ { "source": "ieom_taux_particuliers_t2_2026", "quote": "<en-tête cité>",
+                   "labels": ["T1 2025", …], "columns": ["2025-T1", …] } ],
+    "rows": [ { "id": "pf_habitat", "group": "Polynésie française", "label": "Crédits à l'habitat",
+                "cells": { "2026-T2": { Entrée found, "num": 2.85, "pos": 6 } } } ],
+    "apply": [ {Entrée} ], "notes": ["…"] } }
+{ "id": "regles", "kind": "rules", "title": "…", "items": [ { "id": "ira-immo", "label": "…", …Entrée } ] }
+{ "id": "engagements", "kind": "catalog", "catalog": "engagement" }
+```
+- Chaque cellule est une Entrée sourcée ; `pos` = rang du nombre dans la ligne citée (les nombres
+  sont découpés comme le fait le contrôle des citations).
+- Chaque source utilisée dans un tableau a un **en-tête** (`headers`) : citation présente dans
+  l'instantané, libellés des colonnes dans l'ordre. Une cellule n'est acceptée que dans une colonne
+  publiée par sa source ; pour une série (`series: true`), son `pos` doit correspondre au rang de la
+  colonne (une valeur ne peut pas glisser d'un trimestre à l'autre).
+- `kind: "catalog"` : catalogue de la rubrique `reperes` (ici les engagements de l'accord de
+  modération 2026-2028, produits `kind: "engagement"`, une ligne par banque × service), rendu par le
+  moteur générique de facettes, état dans l'URL (`?vue=engagement&eb=bt&service=carte_di`).
+- Un élément non publié porte `status: "not_published"` et `checked` (liste des sources consultées).
