@@ -102,6 +102,23 @@ def audit(browser, scheme):
     mob.wait_for_load_state("networkidle")
     mob.wait_for_timeout(1200)
     axe(mob, f"[{scheme}] mobile Repères officiels")
+    # Nouveaux onglets « trouver » : chaque question rapide, détails ouverts, règles communes
+    for cid in ["credit_immo", "compte", "epargne", "credit_conso"]:
+        page.goto(URL + f"?vue={cid}")
+        page.wait_for_load_state("networkidle")
+        page.wait_for_timeout(1000)
+        page.locator(".pmore summary").first.click()
+        axe(page, f"[{scheme}] Trouver ({cid})")
+        for b in page.locator(".presets .chip").all()[1:]:
+            b.click()
+            page.wait_for_timeout(600)
+            axe(page, f"[{scheme}] Trouver ({cid}) · {b.get_attribute('data-testid')}")
+        mob.goto(URL + f"?vue={cid}")
+        mob.wait_for_load_state("networkidle")
+        mob.wait_for_timeout(1000)
+        mob.get_by_test_id("facets-toggle").click()
+        mob.wait_for_timeout(300)
+        axe(mob, f"[{scheme}] mobile Trouver ({cid}) (filtres ouverts)")
     mob.close()
 
     page.get_by_test_id("tab-simu").click()
