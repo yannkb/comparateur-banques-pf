@@ -4,8 +4,10 @@ Comparateur web (Vite + React, SPA statique) des offres bancaires aux particulie
 française : **Banque SOCREDO**, **Banque de Tahiti** (BPCE), **Banque de Polynésie** (Société
 Générale) et **MARARA Paiement** (ex-services financiers / CCP de l'OPT).
 
-Rubriques : crédit immobilier · comptes & cartes (avec la sous-vue **Trouver ma carte**) · épargne ·
-crédit conso/auto · **Repères officiels** · simulateur de capacité d'emprunt (XPF par défaut, bascule €,
+Rubriques : crédit immobilier · comptes & cartes · épargne · crédit conso/auto, chacune avec une
+vue « Comparer les banques » et une vue « Trouver… » (filtres et questions rapides : **Trouver mon
+crédit immobilier**, **Trouver ma carte**, **Trouver mon compte ou mon offre groupée**, **Trouver mon
+épargne**, **Trouver mon crédit conso ou auto**) · **Repères officiels** · simulateur de capacité d'emprunt (XPF par défaut, bascule €,
 parité 1 000 XPF = 8,38 €). Thème clair ou sombre selon le réglage du système (CSS seul, sans bascule).
 
 **Règle : aucun chiffre sans source.** Chaque valeur de `data/banks.json` porte l'identifiant de sa
@@ -30,7 +32,7 @@ Tests navigateur (Playwright Python + Chromium, axe-core local), lancés aussi e
 ```bash
 BASE_PATH=/comparateur-banques-pf/ npm run build
 BASE_PATH=/comparateur-banques-pf/ npx vite preview --port 4173 --strictPort   # autre terminal, même BASE_PATH
-BASE_PATH=/comparateur-banques-pf/ python3 tests/e2e.py    # parcours (Trouver ma carte, Repères officiels, thème sombre), captures dans screenshots/ (ou $SCREENSHOTS_DIR)
+BASE_PATH=/comparateur-banques-pf/ python3 tests/e2e.py    # parcours (toutes les vues « Trouver… », Repères officiels, thème sombre), captures dans screenshots/ (ou $SCREENSHOTS_DIR)
 BASE_PATH=/comparateur-banques-pf/ python3 tests/a11y.py   # axe WCAG 2.1 AA + clavier, thèmes clair ET sombre (A11Y_SCHEMES=light,dark)
 python3 tests/fuzz/fuzz.py 3000                    # simulateur JS vs implémentation Python indépendante (≤ 2 XPF)
 ```
@@ -79,6 +81,24 @@ consultées. Le sans contact et les portefeuilles mobiles ne sont **jamais** dé
   les cartes (le même moteur sert les engagements des Repères officiels) ; attributs, facettes, tris, coût et questions rapides sont déclarés dans
   `data.catalogs[]`, les produits dans `data.products[]` (voir `data/SCHEMA.md`). Ajouter un
   catalogue (comptes, épargne, crédits) = ajouter des données, sans toucher au moteur.
+
+## Les autres vues « Trouver… »
+
+Même moteur, mêmes règles (sourcé ou « non publié », jamais compté comme un « oui ») :
+
+- **Crédit immobilier** (`?vue=credit_immo`) : prêt habitat, offre primo-accédant, PTZ Pays, prêt
+  relais, gros travaux. Frais de dossier calculés pour le montant saisi (défaut 20 MF, partagé avec la
+  comparaison), coût total indicatif seulement là où un taux est publié pour la durée (paliers du
+  simulateur BT, non contractuels). Filtres : type d'offre, garantie, délégation d'assurance, frais
+  maximum. Règles communes : barème légal d'IRA (arrêté n° 1813 CM), choix de l'assureur, délai de
+  réflexion, FIT (LP 2025-21).
+- **Comptes et offres groupées** (`?vue=compte`) : compte seul, HIVA PLUS, URU, Taure'a, IA ORA,
+  FETIA, Pack MARARA, offres clientèle fragile (120 XPF/mois). La carte incluse renvoie à sa fiche
+  « Trouver ma carte » ; les prix d'offres groupées des cartes sont dérivés de ce catalogue.
+- **Épargne** (`?vue=epargne`) : livrets, épargne jeunes, PEL/CEL, comptes à terme ; taux daté.
+- **Crédit conso/auto** (`?vue=credit_conso`) : prêt personnel, auto, travaux, éco, étudiant ; frais
+  pour le montant saisi, coût total au palier de taux BT du montant, IRA et rétractation (règles).
+- `node scripts/preset-answers.mjs [AAAA-MM-JJ]` : réponses de toutes les questions rapides à une date.
 
 ## Repères officiels
 

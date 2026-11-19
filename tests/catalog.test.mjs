@@ -4,14 +4,14 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { dataAt } from '../src/lib/effective.js';
-import { bestIds, costOf, defaultState, paramsToState, presetState, query, rowsOf, sameState, stateToParams } from '../src/lib/catalog.js';
+import { bestIds, codesOf, costOf, defaultState, facetCounts, publishedBanks, rareAttributes, paramsToState, presetState, query, rowsOf, sameState, stateToParams } from '../src/lib/catalog.js';
 
 const raw = JSON.parse(readFileSync(new URL('../data/banks.json', import.meta.url)));
 const at = (iso) => {
   const d = dataAt(raw, iso);
   const cat = d.catalogs.find((c) => c.id === 'carte');
   const labels = { field: (f, v) => d.banks.findIndex((b) => b.id === v) };
-  return { d, cat, rows: rowsOf(cat, d.products), run: (st) => query(cat, rowsOf(cat, d.products), st, labels) };
+  return { d, cat, rows: rowsOf(cat, d.products, d.banks), run: (st) => query(cat, rowsOf(cat, d.products, d.banks), st, labels) };
 };
 const NOW = at('2026-11-18');
 const preset = (id, ctx = NOW) => ctx.run(presetState(ctx.cat, ctx.cat.presets.find((p) => p.id === id)));
@@ -20,7 +20,7 @@ const row = (id, ctx = NOW) => ctx.rows.find((r) => r.id === id);
 
 // Réimplémentation naïve et indépendante : la moins chère des lignes dont l'attribut vaut `code`, prix autonome publié.
 function naiveCheapest(ctx, attr, code) {
-  const c = ctx.rows.filter((r) => r.attrs[attr]?.status === 'found' && r.attrs[attr].code === code && typeof r.attrs.cotisation?.num === 'number');
+  const c = ctx.rows.filter((r) => r.attrs[attr]?.status === 'found' && codesOf(r.attrs[attr]).includes(code) && typeof r.attrs.cotisation?.num === 'number');
   const min = Math.min(...c.map((r) => r.attrs.cotisation.num));
   return c.filter((r) => r.attrs.cotisation.num === min).map((r) => r.id).sort();
 }
@@ -29,7 +29,7 @@ test('catalogue : une ligne par produit × variante, attributs fusionnés', () =
   assert.equal(NOW.rows.length, NOW.d.products.filter((p) => p.kind === 'carte').reduce((n, p) => n + (p.variants?.length || 1), 0));
   const v = row('socredo-visa-classic/differe');
   assert.equal(v.attrs.debit.code, 'differe');
-  assert.equal(v.attrs.reseau.code, 'visa'); // attribut commun au produit
+  assert.deepEqual(codesOf(v.attrs.reseau), ['visa']); // attribut commun au produit
   assert.equal(v.variant, 'débit différé');
 });
 
@@ -38,7 +38,7 @@ test('« Visa la moins chère » : la moins chère des cartes au réseau Visa (c
   assert.deepEqual(bestIds(NOW.cat, r.matches), naiveCheapest(NOW, 'reseau', 'visa'));
   assert.equal(r.matches[0].row.id, 'bt-tiare');
   assert.equal(r.matches[0].cost.value, 3604);
-  assert.ok(r.matches.every((m) => m.row.attrs.reseau.code === 'visa'));
+  assert.ok(r.matches.every((m) => codesOf(m.row.attrs.reseau).includes('visa')));
   for (let i = 1; i < r.matches.length; i++) assert.ok(r.matches[i - 1].cost.value <= r.matches[i].cost.value, 'tri croissant');
 });
 
@@ -154,4 +154,75 @@ test('moteur indépendant du type de produit (catalogue jouet « livret »)', ()
   const r = query(cat, rows, { ...defaultState(cat), f: { jeune: true } });
   assert.deepEqual([ids(r.matches), ids(r.unknown)], [['a'], ['b']]);
   assert.deepEqual(bestIds(cat, query(cat, rows, defaultState(cat)).matches), ['a']);
+});
+
+test('attributs communs de la banque : hérités par les cartes, redéfinis par produit (override)', () => {
+  const soc = NOW.d.banks.find((b) => b.id === 'socredo');
+  const v = row('socredo-visa-classic/immediat');
+  assert.ok(v.inherited.includes('retrait_pf') && v.inherited.includes('frais_etranger'));
+  assert.deepEqual(v.attrs.retrait_pf, soc.shared.retrait_pf, 'valeur commune déclarée une seule fois');
+  // override : la carte URU JEUNES (modèle non précisé) garde son « non publié »
+  const uru = row('socredo-uru-jeunes');
+  assert.ok(!uru.inherited.includes('retrait_pf'));
+  assert.equal(uru.attrs.retrait_pf.status, 'not_published');
+  assert.ok(uru.attrs.retrait_pf.override);
+  // BT 2027 : la valeur commune suit la grille à date d'effet (frais en devises plafonnés à 859 XPF)
+  assert.match(row('bt-visa-premier/immediat', at('2027-01-02')).attrs.frais_etranger.value, /859/);
+  // sans les banques : rien n'est hérité (le moteur n'invente pas de valeur)
+  assert.equal(rowsOf(NOW.cat, NOW.d.products).find((r) => r.id === 'socredo-visa-classic/immediat').attrs.retrait_pf, undefined);
+});
+
+test('attributs communs : jouet (hérité, redéfini, absent)', () => {
+  const cat = { id: 't', attributes: [{ id: 'x', type: 'number', shared: true }, { id: 'y', type: 'number' }], facets: [], sorts: [], presets: [] };
+  const E = (num) => ({ status: 'found', value: String(num), num, source: 's', quote: 'q' });
+  const banks = [{ id: 'b1', shared: { x: E(1) } }, { id: 'b2' }];
+  const rows = rowsOf(cat, [
+    { id: 'p1', kind: 't', bank: 'b1', name: 'P1', attrs: { y: E(5) } },
+    { id: 'p2', kind: 't', bank: 'b1', name: 'P2', attrs: { x: { ...E(2), override: 'tarif propre' }, y: E(5) } },
+    { id: 'p3', kind: 't', bank: 'b2', name: 'P3', attrs: { y: E(5) } },
+  ], banks);
+  assert.deepEqual(rows.map((r) => r.attrs.x?.num), [1, 2, undefined]);
+  assert.deepEqual(rows.map((r) => r.inherited), [['x'], [], []]);
+});
+
+test('réseau multiple (CB + Visa) : chaque code compte pour son option, tri sur la première option', () => {
+  const tiare = row('bt-tiare');
+  assert.deepEqual(codesOf(tiare.attrs.reseau).sort(), ['cb', 'visa']);
+  const cb = NOW.run({ ...defaultState(NOW.cat), f: { reseau: ['cb'] } });
+  assert.ok(cb.matches.length >= 2 && cb.matches.every((m) => codesOf(m.row.attrs.reseau).includes('cb')));
+  assert.ok(ids(cb.matches).includes('bt-tiare') && ids(preset('visa-moins-chere').matches).includes('bt-tiare'), 'une carte CB-Visa répond à « CB » ET à « Visa »');
+  assert.ok(!ids(cb.matches).includes('socredo-visa-classic/immediat'));
+});
+
+test('comptes par option : résultats si l’on choisit cette option, autres filtres actifs, « non publié » jamais comptés', () => {
+  const fo = { bank: NOW.d.banks.map((b) => ({ value: b.id })) };
+  const st = { ...defaultState(NOW.cat), f: { etranger: true } };
+  const counts = facetCounts(NOW.cat, NOW.rows, st, fo);
+  // recalcul naïf : cartes utilisables à l'étranger (publié « oui ») et au réseau donné, prix autonome publié
+  for (const code of ['visa', 'cb', 'local', 'upi']) {
+    const exp = NOW.rows.filter((r) => r.attrs.international?.status === 'found' && r.attrs.international.code === true
+      && r.attrs.reseau?.status === 'found' && codesOf(r.attrs.reseau).includes(code) && typeof r.attrs.cotisation?.num === 'number').length;
+    assert.equal(counts.reseau[code], exp, code);
+  }
+  assert.equal(counts.reseau.local, 0, 'cartes locales : pas utilisables à l’étranger');
+  // la facette elle-même : son option remplace la valeur courante (Oui / Non)
+  assert.equal(counts.etranger.true, NOW.run(st).matches.length);
+  assert.equal(counts.etranger.false, NOW.run({ ...st, f: { etranger: false } }).matches.length);
+  // anyOf : par choix
+  assert.equal(counts.mobile.apple_pay, NOW.run({ ...st, f: { ...st.f, mobile: 'apple_pay' } }).matches.length);
+  // banque (champ structurel)
+  assert.equal(Object.values(counts.banque).reduce((a, b) => a + b, 0), NOW.run(st).matches.length);
+});
+
+test('critères peu publiés : attributs publiés par moins de deux banques, jamais exposés en filtre', () => {
+  for (const f of NOW.cat.facets.filter((x) => x.attr)) assert.ok(publishedBanks(NOW.rows, f.attr).size >= 2, f.id);
+  const toy = { id: 't', attributes: [{ id: 'a', type: 'bool' }, { id: 'b', type: 'bool' }], facets: [], sorts: [], presets: [] };
+  const E = (code) => ({ status: 'found', value: 'v', code, source: 's', quote: 'q' });
+  const NP = { status: 'not_published', checked: ['s'] };
+  const rows = rowsOf(toy, [
+    { id: '1', kind: 't', bank: 'b1', name: '1', attrs: { a: E(true), b: E(true) } },
+    { id: '2', kind: 't', bank: 'b1', name: '2', attrs: { a: E(false), b: NP } },
+    { id: '3', kind: 't', bank: 'b2', name: '3', attrs: { a: E(true), b: NP } },
+  ]);
+  assert.deepEqual(rareAttributes(toy, rows), ['b']);
 });

@@ -191,6 +191,50 @@ attribut `bool` (badge d'alerte quand la valeur publiée est « non »), `"compa
 question est calculée et affichée à côté, ex. « Visa la moins chère » → « … utilisable à l'étranger »),
 `"layout": "compact"`, `"emptyLabel"`. Le vérificateur contrôle chacune de ces déclarations.
 
+### Coût pour un montant saisi, attributs communs, cellules dérivées, règles communes
+Catalogues actuels : `carte` et `compte` (rubrique compte), `credit_immo`, `epargne`, `credit_conso`,
+`engagement` (Repères officiels).
+
+```json
+"inputs": [ { "id": "montant", "param": "montant", "key": "immo_frais_dossier", "label": "Montant emprunté",
+              "unit": "XPF", "default": 20000000, "min": 0, "max": 200000000, "step": 1000000 },
+            { "id": "duree", "param": "duree", "label": "Durée", "unit": "mois", "default": 240, "min": 12, "max": 300 } ],
+"cost": { "attr": "frais_immo", "unit": "XPF", "amount": "montant", "label": "Frais de dossier",
+          "loan": { "rate": "taux", "months": "duree", "label": "Coût total indicatif" } },
+"best": { "label": "Meilleur taux publié", "by": { "attr": "taux", "dir": "desc" } },   // ou basis: standalone
+"rules": [ "ira-immo", "assurance-choix" ]
+```
+- **Montant saisi** (`inputs`) : borné, dans l'URL (`param`), conservé par les questions rapides. `key`
+  partage le montant avec le classement « frais de dossier » de la comparaison par banque (même
+  défaut que `fields[].costFor.default`, vérifié).
+- **Coût** : avec `cost.amount`, une entrée portant un barème `fee: { pct, min?, max? }` coûte
+  `min(max(pct × montant, min), max)` (`src/lib/cost.js`, même calcul que le simulateur et la
+  comparaison) ; sans barème, `num`. `cost.loan` ajoute le coût total indicatif = intérêts au taux
+  publié + frais, hors assurance. Un taux peut être publié par **paliers**
+  `tiers: [{ "upToAmount" | "upToMonths": n, "num": taux }]` (chaque taux et chaque borne figurent dans
+  les citations, bornes croissantes) ; hors des paliers, aucun coût (jamais extrapolé). Un exemple
+  ancien (`stale: true`, ex. taux 2019) est affiché mais n'entre jamais dans un coût.
+- **Attributs communs** : un attribut `"shared": true` est déclaré une fois par banque dans
+  `banks[].shared.<id>` (frais de retrait, frais en devises, frais de dossier, garanties, assurance,
+  IRA…) et hérité par chaque produit du catalogue (« commun à la banque »). Un produit peut le
+  redéfinir avec `"override": "<raison>"` ; le vérificateur refuse une redéfinition sans raison,
+  redondante, ou qui contredit l'attribut commun avec la même citation.
+- **Cellules dérivées** : une cellule de la comparaison (`banks[].fields`) ou un élément de liste
+  d'un produit (offre groupée d'une carte) déclare `"from": [{ "row": "<produit>[/<variante>]",
+  "attr": "<attribut>", "label"? } | { "shared": "<attribut>" }]` et est recopiée du catalogue
+  (`src/lib/derive.js`). Un champ marqué `"derive": true` dans `fields` ne peut plus être saisi à la
+  main ; une valeur ressaisie qui diverge du catalogue est refusée.
+- **Règles communes** (`rules`) : identifiants d'éléments des sections `rules` des Repères officiels
+  (barème légal d'IRA, rétractation, choix de l'assureur, accord de modération…), recopiés dans le
+  catalogue (`ruleItems`) et affichés sous les résultats.
+- **Critère peu publié** : une facette n'est acceptée que si au moins deux établissements publient
+  l'attribut ; sinon l'attribut reste dans les fiches avec l'étiquette « critère peu publié ».
+- **Comptes par option** : chaque option de facette affiche le nombre de résultats qu'elle donnerait
+  compte tenu des autres filtres (les « non publié » ne sont jamais comptés). Un attribut `enum`
+  `"multi": true` porte plusieurs codes (ex. réseau `["cb", "visa"]`, chacun justifié par la citation).
+- `"absent": [{ "bank", "status": "not_published", "checked", "note" }]` : banque sans produit dans
+  le catalogue (ex. MARARA, établissement de paiement, sans crédit ni épargne), affichée à part.
+
 ## Repères officiels (`reperes`)
 Rubrique `{ "id": "reperes", "view": "reperes" }` : pas de fiches par banque, une vue faite de
 sections déclarées dans `data.reperes.sections[]` (rendu : `src/Reperes.jsx`).

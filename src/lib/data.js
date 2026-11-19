@@ -1,11 +1,31 @@
-import raw from '../../data/banks.json';
-import { dataAt, todayIso } from './effective.js';
+// Données du comparateur, chargées par morceaux (code-splitting) : le cœur (banques, champs, sources, repères de marché,
+// simulateur) est dans le bundle principal ; chaque catalogue de produits et les Repères officiels sont des modules
+// chargés à la demande (`virtual:cbpf/*`, générés par scripts/vite-data-plugin.mjs à partir de data/banks.json).
+import core from 'virtual:cbpf/core';
+import { catalogLoaders, loadReperesData } from 'virtual:cbpf/loaders';
+import { dataAt, productAt, todayIso } from './effective.js';
+import { rowsOf } from './catalog.js';
 
 /** Date du visiteur : les valeurs à date d'effet (grille BT 2027…) basculent automatiquement. */
 export const TODAY = todayIso();
-export const data = dataAt(raw, TODAY);
+export const data = dataAt(core, TODAY);
 export const P = data.simulator.params;
 export const EUR = P.xpfToEur.value;
+/** Catalogues déclarés (id, rubrique, libellé), disponibles sans charger leurs produits. */
+export const CATALOG_INDEX = data.catalogIndex || [];
+
+const cache = new Map();
+/** Catalogue + lignes (produits résolus à la date du visiteur, attributs communs des banques hérités). */
+export function loadCatalog(id) {
+  if (!cache.has(id)) {
+    cache.set(id, catalogLoaders[id]().then(({ default: m }) => {
+      const products = m.products.map((p) => productAt(p, TODAY));
+      return { catalog: m.catalog, rows: rowsOf(m.catalog, products, data.banks) };
+    }));
+  }
+  return cache.get(id);
+}
+export const loadReperes = () => loadReperesData().then((m) => m.default);
 
 const nf0 = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 0 });
 const nf2 = new Intl.NumberFormat('fr-FR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });

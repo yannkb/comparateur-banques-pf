@@ -1,5 +1,6 @@
 // Valeurs à date d'effet : une entrée (ou un preset) peut porter `changes: [{ effective_from: 'AAAA-MM-JJ', ...valeurs }]`.
 // L'application affiche la valeur en vigueur à la date du visiteur et annonce la prochaine (badge « nouvelle grille »).
+import { deriveData } from './derive.js';
 
 const pad = (n) => String(n).padStart(2, '0');
 /** Date locale du visiteur au format AAAA-MM-JJ. */
@@ -27,9 +28,14 @@ export function presetAt(p, iso) {
   return { ...base, ...(current || {}), ...(next ? { next: { ...base, ...next } } : {}) };
 }
 
-/** Jeu de données résolu à la date `iso` (banques, presets et valeurs par défaut du simulateur). */
-export function dataAt(data, iso) {
-  const banks = data.banks.map((b) => ({ ...b, fields: Object.fromEntries(Object.entries(b.fields).map(([k, e]) => [k, entryAt(e, iso)])) }));
+/** Jeu de données résolu à la date `iso` (cellules dérivées des catalogues, banques et leurs attributs communs, presets et valeurs par défaut du simulateur). */
+export function dataAt(raw, iso) {
+  const data = deriveData(raw);
+  const banks = data.banks.map((b) => ({
+    ...b,
+    fields: Object.fromEntries(Object.entries(b.fields).map(([k, e]) => [k, entryAt(e, iso)])),
+    ...(b.shared ? { shared: Object.fromEntries(Object.entries(b.shared).map(([k, e]) => [k, entryAt(e, iso)])) } : {}),
+  }));
   const presets = data.simulator.bankDossierPresets.map((p) => presetAt(p, iso));
   const def = presets.find((p) => p.bank === data.simulator.defaults.preset);
   const defaults = def ? { ...data.simulator.defaults, fraisDossierPct: def.pct, fraisDossierMin: def.min } : data.simulator.defaults;

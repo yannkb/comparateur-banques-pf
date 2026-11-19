@@ -20,6 +20,17 @@ failures, errors, external = [], [], []
 DATA = json.loads((Path(__file__).resolve().parent.parent / "data" / "banks.json").read_text())
 
 
+def has_code(e, code):
+    """Code d'un attribut : valeur unique ou liste (attribut « multi », ex. réseau CB + Visa)."""
+    c = e.get("code")
+    return code in c if isinstance(c, list) else c == code
+
+
+def shared(p, attr):
+    """Attribut commun de la banque (hérité par le produit s'il ne le redéfinit pas)."""
+    return next(b for b in DATA["banks"] if b["id"] == p["bank"]).get("shared", {}).get(attr, {})
+
+
 def expected_cheapest(attr, code, iso):
     """Réimplémentation indépendante : carte(s) la/les moins chère(s) dont `attr` est publié et vaut `code` à la date `iso`."""
     def at(e):
@@ -32,7 +43,7 @@ def expected_cheapest(attr, code, iso):
         for v in p.get("variants") or [None]:
             attrs = {**p["attrs"], **((v or {}).get("attrs") or {})}
             e, fee = at(attrs[attr]), at(attrs["cotisation"])
-            if e.get("status") != "found" or e.get("code") != code or fee.get("status") != "found":
+            if e.get("status") != "found" or not has_code(e, code) or fee.get("status") != "found":
                 continue
             rid = p["id"] + ("/" + v["id"] if v else "")
             if best is None or fee["num"] < best:
@@ -53,7 +64,7 @@ def expected_cheapest_where(conds, iso):
             continue
         for v in p.get("variants") or [None]:
             attrs = {**p["attrs"], **((v or {}).get("attrs") or {})}
-            if any(at(attrs[a]).get("status") != "found" or at(attrs[a]).get("code") != c for a, c in conds.items()):
+            if any(at(attrs.get(a) or shared(p, a)).get("status") != "found" or not has_code(at(attrs.get(a) or shared(p, a)), c) for a, c in conds.items()):
                 continue
             fee = at(attrs["cotisation"])
             if fee.get("status") != "found":
@@ -64,6 +75,115 @@ def expected_cheapest_where(conds, iso):
             elif fee["num"] == best:
                 ids.add(rid)
     return ids, best
+
+
+NEW_FINDERS = ["credit_immo", "compte", "epargne", "credit_conso"]
+
+
+def at_date(e, iso):
+    ch = sorted([c for c in (e or {}).get("changes", []) if c["effective_from"] <= iso], key=lambda c: c["effective_from"])
+    return ch[-1] if ch else (e or {})
+
+
+def catalog_rows(cid, iso):
+    """Réimplémentation indépendante des lignes d'un catalogue : variantes, attributs communs hérités de la banque."""
+    c = next(x for x in DATA["catalogs"] if x["id"] == cid)
+    sh = [a["id"] for a in c["attributes"] if a.get("shared")]
+    rows = []
+    for p in DATA["products"]:
+        if p["kind"] != cid:
+            continue
+        for v in p.get("variants") or [None]:
+            attrs = {**p["attrs"], **((v or {}).get("attrs") or {})}
+            for a in sh:
+                if a not in attrs and shared(p, a):
+                    attrs[a] = shared(p, a)
+            rows.append({"id": p["id"] + ("/" + v["id"] if v else ""), "bank": p["bank"], "attrs": {k: at_date(e, iso) if isinstance(e, dict) else e for k, e in attrs.items()}})
+    return c, rows
+
+
+def expected_preset(cid, pid, iso, amount=None):
+    """Résultats attendus d'une question rapide (filtres + coût pour le montant + meilleure(s) ligne(s)), recalculés des données."""
+    c, rows = catalog_rows(cid, iso)
+    preset = next(x for x in c["presets"] if x["id"] == pid)
+    facets = {f["id"]: f for f in c["facets"]}
+    inp = {i["id"]: i for i in c.get("inputs", [])}
+    amt = amount if amount is not None else (inp[c["cost"]["amount"]]["default"] if c.get("cost", {}).get("amount") else None)
+
+    def cost(r):
+        e = r["attrs"].get(c["cost"]["attr"]) if c.get("cost") else None
+        if not e or e.get("status") != "found":
+            return None
+        if c["cost"].get("amount"):
+            if "fee" in e:
+                f = e["fee"]
+                v = amt * f["pct"] / 100 if amt > 0 else 0
+                v = max(v, f.get("min", 0)) if amt > 0 else 0
+                return min(v, f["max"]) if "max" in f else v
+            return e.get("num")
+        return e.get("num")
+
+    matches = []
+    for r in rows:
+        ok = True
+        for fid, v in preset["state"].items():
+            f = facets[fid]
+            if f.get("field") == "bank":
+                ok = ok and r["bank"] in v
+                continue
+            e = r["attrs"].get(f["attr"]) or {}
+            if e.get("status") != "found":
+                ok = False
+            elif f["type"] == "bool":
+                ok = ok and e.get("code") is v
+            else:
+                ok = ok and any(has_code(e, x) for x in v)
+        if ok:
+            matches.append(r)
+    if c["best"].get("by"):
+        a = c["best"]["by"]["attr"]
+        vals = [r["attrs"][a]["num"] for r in matches if r["attrs"].get(a, {}).get("status") == "found" and isinstance(r["attrs"][a].get("num"), (int, float))]
+        top = max(vals) if vals else None
+        best = {r["id"] for r in matches if top is not None and r["attrs"].get(a, {}).get("num") == top}
+    else:
+        costs = [cost(r) for r in matches if cost(r) is not None]
+        low = min(costs) if costs else None
+        best = {r["id"] for r in matches if low is not None and cost(r) == low}
+    return {r["id"] for r in matches}, best, {r["id"]: cost(r) for r in matches}
+
+
+def run_new_finders(page, iso):
+    """Questions rapides de chaque nouvel onglet : résultats et meilleure(s) ligne(s) identiques au calcul de référence."""
+    for cid in NEW_FINDERS:
+        c = next(x for x in DATA["catalogs"] if x["id"] == cid)
+        page.get_by_test_id(f"tab-{c['category']}").click()
+        page.get_by_test_id(f"subview-{cid}").click()
+        page.wait_for_timeout(700)
+        check(page.get_by_test_id(f"finder-{cid}").is_visible(), f"{cid} : sous-vue « {c['label']} » affichée dans l'onglet {c['category']}")
+        for pr in c["presets"]:
+            page.get_by_test_id(f"preset-{pr['id']}").click()
+            page.wait_for_timeout(300)
+            exp, best, costs = expected_preset(cid, pr["id"], iso)
+            got = {x.get_attribute("data-testid")[6:] for x in page.locator("[data-testid=finder-results] .pcard").all()}
+            got_best = {x.get_attribute("data-testid")[6:] for x in page.locator("[data-testid=finder-results] .pcard:has([data-testid=tag-cheapest])").all()}
+            check(got == exp and got_best == best, f"{cid} · « {pr['label']} » : {len(got)} résultat(s), meilleur(s) {sorted(got_best)} (référence : {len(exp)}, {sorted(best)})")
+            if pr["state"]:
+                check(f"vue={cid}" in page.url, f"{cid} · « {pr['id']} » : état dans l'URL ({page.url.split('?')[-1][:60]})")
+        if c.get("rules"):
+            check(page.get_by_test_id("finder-rules").locator("li").count() == len(c["rules"]), f"{cid} : {len(c['rules'])} règles communes affichées et sourcées")
+        if c.get("cost", {}).get("amount"):
+            amount_in = page.get_by_test_id(f"in-{cid}-montant")
+            if amount_in.count():
+                pr = c["presets"][0]
+                page.get_by_test_id(f"preset-{pr['id']}").click()
+                amount_in.fill("5000000")
+                page.wait_for_timeout(400)
+                exp, best, costs = expected_preset(cid, pr["id"], iso, amount=5000000)
+                first = first_card(page)
+                shown = digits(text(page.locator(f"[data-testid=pcard-{first}] [data-testid=pcost-value]")))
+                check(first in best and abs(shown - round(costs[first])) <= 1, f"{cid} : pour 5 000 000 XPF, {first} en tête à {shown} XPF de frais (référence {round(costs[first])})")
+                amount_in.fill(str(next(i for i in c["inputs"] if i["id"] == "montant")["default"]))
+        page.get_by_test_id("finder-reset").click()
 
 
 def first_card(page, sel="finder-results"):
@@ -278,6 +398,15 @@ with sync_playwright() as p:
     page.wait_for_timeout(400)
     page.screenshot(path=str(OUT / "desktop-04-credit-conso.png"), full_page=True)
 
+    run_new_finders(page, datetime.date.today().isoformat())
+    for cid in NEW_FINDERS:
+        page.goto(URL + f"?vue={cid}")
+        page.wait_for_load_state("networkidle")
+        page.wait_for_timeout(800)
+        page.screenshot(path=str(OUT / f"desktop-light-trouver-{cid}.png"), full_page=True)
+    page.get_by_test_id("tab-immo").click()
+    page.get_by_test_id("subview-compare").click()
+
     run_simulator(page)
     pret = page.get_by_test_id("res-pret").inner_text()
     mens_max = page.get_by_test_id("res-mensualite-max").inner_text()
@@ -400,6 +529,16 @@ with sync_playwright() as p:
     m.wait_for_load_state("networkidle")
     m.wait_for_timeout(700)
     m.screenshot(path=str(OUT / "mobile-light-trouver-ma-carte.png"), full_page=False)
+    for cid in NEW_FINDERS:
+        m.goto(URL + f"?vue={cid}")
+        m.wait_for_load_state("networkidle")
+        m.wait_for_timeout(700)
+        m.get_by_test_id("facets-toggle").click()
+        m.locator(".pmore summary").first.click()
+        m.wait_for_timeout(200)
+        overflow = m.evaluate("document.documentElement.scrollWidth - 390")
+        check(overflow <= 0, f"mobile {cid} (filtres et détails ouverts) : pas de débordement horizontal ({overflow}px)")
+        m.screenshot(path=str(OUT / f"mobile-light-trouver-{cid}.png"), full_page=True)
     m.close()
 
     # ---------- Thème sombre (prefers-color-scheme: dark) ----------
@@ -426,6 +565,13 @@ with sync_playwright() as p:
         overflow = d.evaluate(f"document.documentElement.scrollWidth - {vp['width']}")
         check(overflow <= 0, f"{name} sombre Trouver ma carte : pas de débordement horizontal ({overflow}px)")
         d.screenshot(path=str(OUT / f"{name}-dark-trouver-ma-carte.png"), full_page=not mobile)
+        for cid in NEW_FINDERS:
+            d.goto(URL + f"?vue={cid}")
+            d.wait_for_load_state("networkidle")
+            d.wait_for_timeout(800)
+            overflow = d.evaluate(f"document.documentElement.scrollWidth - {vp['width']}")
+            check(overflow <= 0, f"{name} sombre {cid} : pas de débordement horizontal ({overflow}px)")
+            d.screenshot(path=str(OUT / f"{name}-dark-trouver-{cid}.png"), full_page=True)
         dctx.close()
     browser.close()
 

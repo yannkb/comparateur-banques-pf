@@ -3,10 +3,10 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { dataAt } from '../src/lib/effective.js';
-import { compareOf, presetBest, query, presetState, rowsOf } from '../src/lib/catalog.js';
+import { codesOf, compareOf, presetBest, query, presetState, rowsOf } from '../src/lib/catalog.js';
 
 const d = dataAt(JSON.parse(readFileSync(new URL('../data/banks.json', import.meta.url))), '2026-11-18');
-const buildRows = (c, products) => rowsOf(c, products);
+const buildRows = (c, products) => rowsOf(c, products, d.banks);
 const sec = (id) => d.reperes.sections.find((s) => s.id === id);
 const cat = (id) => d.catalogs.find((c) => c.id === id);
 const NOW = '2026-11-18';
@@ -92,7 +92,7 @@ test('Visa la moins chère : la carte est signalée « pas utilisable à l’ét
   const v0 = visa[0].row;
   // calcul indépendant : moins chère des cartes Visa / internationales, d'après les données
   const cheapest = (pred) => {
-    const ok = rows.filter((r) => r.attrs.reseau?.code === 'visa' && pred(r) && typeof r.attrs.cotisation?.num === 'number');
+    const ok = rows.filter((r) => codesOf(r.attrs.reseau).includes('visa') && pred(r) && typeof r.attrs.cotisation?.num === 'number');
     const min = Math.min(...ok.map((r) => r.attrs.cotisation.num));
     return { min, ids: ok.filter((r) => r.attrs.cotisation.num === min).map((r) => r.id) };
   };

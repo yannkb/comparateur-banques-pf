@@ -19,8 +19,9 @@ test('les données versionnées passent la vérification', () => {
 
 test('une citation inventée est rejetée', () => {
   const d = structuredClone(data);
-  d.banks[0].fields.cpt_tenue.quote = 'Tenue de compte à vue (forfait mensuel) 1';
-  d.banks[0].fields.cpt_tenue.quote += '99';
+  const e = d.products.find((p) => p.id === 'cpt-socredo-compte').attrs.prix; // source de la cellule cpt_tenue (dérivée)
+  e.quote = 'Tenue de compte à vue (forfait mensuel) 1';
+  e.quote += '99';
   const r = run(d);
   assert.equal(r.status, 1);
   assert.match(r.stderr, /citation introuvable/);
@@ -28,7 +29,7 @@ test('une citation inventée est rejetée', () => {
 
 test('une valeur sans source est rejetée', () => {
   const d = structuredClone(data);
-  delete d.banks[1].fields.carte_classic.source;
+  delete d.products.find((p) => p.id === 'cpt-bt-compte').attrs.prix.source;
   assert.equal(run(d).status, 1);
 });
 

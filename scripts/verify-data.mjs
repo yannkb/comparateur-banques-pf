@@ -8,12 +8,18 @@
 import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { dirname, join, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { deriveData, derivationErrors } from '../src/lib/derive.js';
+import { publishedBanks, rowsOf } from '../src/lib/catalog.js';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const srcDir = resolve(root, 'data/sources') + sep;
 const dataPath = process.argv.slice(2).find((a) => !a.startsWith('--')) || join(root, 'data/banks.json');
-const data = JSON.parse(readFileSync(dataPath, 'utf8'));
+const raw = JSON.parse(readFileSync(dataPath, 'utf8'));
 const errors = [], warnings = [], infos = [], used = new Set(), cache = new Map();
+// Cellules dérivées des catalogues (`from`) : références valides, aucune valeur ressaisie qui diverge ; puis on vérifie
+// le jeu de données dérivé (les cellules recopiées sont contrôlées comme les autres).
+errors.push(...derivationErrors(raw));
+const data = deriveData(raw);
 const today = new Date().toISOString().slice(0, 10);
 
 // Ligatures typographiques des PDF (ﬁ, ﬀ…) ramenées à leurs lettres, comme les apostrophes et guillemets.
@@ -70,6 +76,7 @@ function evalDerived(expr, quotes) {
 function feeIn({ pct, min }, quote) {
   const q = norm(quote ?? '');
   const pctOk = forms(pct).some((f) => new RegExp(`(^|[^0-9.,])${f.replace(/[.]/g, '\\.')} ?%`).test(q));
+  if (min === undefined) return pctOk; // barème sans minimum publié (ex. « 1 % du montant emprunté »)
   const m = /minimum[^0-9]*([0-9][0-9 .]*[0-9]|[0-9])/.exec(q);
   return pctOk && !!m && Number(m[1].replace(/[ .]/g, '')) === min;
 }
@@ -129,8 +136,18 @@ function checkEntry(e, where) {
       else if (n[e.pos - 1] === undefined || Math.abs(n[e.pos - 1] - e.num) > 1e-9) errors.push(`${where}: num ${e.num} n'est pas le nombre n° ${e.pos} de la citation (${n.join(' | ')})`);
     }
     if (e.fee !== undefined) { // barème de frais (pct, min) utilisé pour classer par coût réel
-      const ok = e.fee && Number.isFinite(e.fee.pct) && Number.isFinite(e.fee.min) && feeIn(e.fee, e.quote);
+      const ok = e.fee && Number.isFinite(e.fee.pct) && (e.fee.min === undefined || Number.isFinite(e.fee.min)) && feeIn(e.fee, e.quote);
       if (!ok) errors.push(`${where}: fee ${JSON.stringify(e.fee)} absent de la citation`);
+    }
+    if (e.tiers !== undefined) { // taux par paliers (montant ou durée) : chaque taux et chaque borne figurent dans les citations, bornes croissantes
+      const quotes = [e.quote, ...(e.extra || []).map((x) => x.quote)].join(' | ');
+      if (!Array.isArray(e.tiers) || !e.tiers.length) errors.push(`${where}: tiers vide`);
+      else e.tiers.forEach((t, i) => {
+        const bound = t.upToAmount ?? t.upToMonths, prev = i ? e.tiers[i - 1].upToAmount ?? e.tiers[i - 1].upToMonths : -Infinity;
+        if (typeof t.num !== 'number' || !numIn(t.num, quotes)) errors.push(`${where}.tiers[${i}]: taux ${t.num} absent des citations`);
+        if (bound !== undefined && !numIn(bound, quotes)) errors.push(`${where}.tiers[${i}]: borne ${bound} absente des citations`);
+        if (bound !== undefined && !(bound > prev)) errors.push(`${where}.tiers[${i}]: bornes non croissantes`);
+      });
     }
     (e.extra || []).forEach((x, i) => checkEntry(x, `${where}.extra[${i}]`));
   } else if (e.status !== 'not_published') return errors.push(`${where}: statut invalide « ${e.status} »`);
@@ -248,7 +265,25 @@ for (const c of catalogs) {
   if (c.cost && !isA(c.cost.attr, 'number')) errors.push(`${w}: cost.attr doit être un attribut numérique`);
   if (c.cost?.alt && !isA(c.cost.alt.attr, 'list')) errors.push(`${w}: cost.alt.attr doit être un attribut liste`);
   for (const s of c.summary || []) if (!A.has(s)) errors.push(`${w}: résumé : attribut inconnu ${s}`);
-  const F = new Map(), params = new Set();
+  const F = new Map(), params = new Set(), I = new Map();
+  // Montants saisis par le visiteur (ex. montant emprunté) : bornes, paramètre d'URL, même défaut que le champ de comparaison partagé.
+  for (const i of c.inputs || []) {
+    const iw = `${w}.montant ${i.id}`;
+    if (!i.id || I.has(i.id) || !String(i.label ?? '').trim()) errors.push(`${iw}: id ou libellé manquant, ou en double`);
+    I.set(i.id, i);
+    if (!i.param || params.has(i.param) || ['tri', 'np', 'vue'].includes(i.param)) errors.push(`${iw}: paramètre d'URL manquant, réservé ou en double`);
+    params.add(i.param);
+    if (!Number.isFinite(i.default) || i.default < (i.min ?? 0) || (i.max !== undefined && i.default > i.max)) errors.push(`${iw}: valeur par défaut hors bornes`);
+    for (const f of data.fields.filter((x) => i.key && x.costFor?.key === i.key)) if (f.costFor.default !== i.default) errors.push(`${iw}: défaut ${i.default} ≠ ${f.id} (${f.costFor.default}) pour le montant partagé ${i.key}`);
+  }
+  if (c.cost?.amount && !I.has(c.cost.amount)) errors.push(`${w}: cost.amount ne désigne aucun montant saisi`);
+  if (c.cost?.loan && !(c.cost.amount && isA(c.cost.loan.rate, 'number') && I.has(c.cost.loan.months) && String(c.cost.loan.label ?? '').trim())) errors.push(`${w}: cost.loan incomplet (montant, taux numérique, durée saisie, libellé)`);
+  for (const a of c.absent || []) {
+    if (!data.banks.some((b) => b.id === a.bank)) errors.push(`${w}.absent: banque inconnue ${a.bank}`);
+    if (products.some((p) => p.kind === c.id && p.bank === a.bank)) errors.push(`${w}.absent: ${a.bank} a des produits dans ce catalogue`);
+    if (a.status !== 'not_published') errors.push(`${w}.absent ${a.bank}: statut « not_published » attendu`);
+    checkEntry(a, `${w}.absent ${a.bank}`);
+  }
   for (const f of c.facets || []) {
     const fw = `${w}.facette ${f.id}`;
     F.set(f.id, f);
@@ -264,7 +299,7 @@ for (const c of catalogs) {
     if (!ok) errors.push(`${fw}: incohérente avec les attributs déclarés`);
   }
   const S = new Set((c.sorts || []).map((s) => s.id));
-  for (const s of c.sorts || []) for (const k of s.by || []) if (!(k.cost ? !!c.cost : k.field === 'bank' || isA(k.attr, 'enum', 'number'))) errors.push(`${w}.tri ${s.id}: clé invalide`);
+  for (const s of c.sorts || []) for (const k of s.by || []) if (!(k.cost === 'total' ? !!c.cost?.loan : k.cost ? !!c.cost : k.field === 'bank' || isA(k.attr, 'enum', 'number'))) errors.push(`${w}.tri ${s.id}: clé invalide`);
   if (!S.has(c.defaultSort)) errors.push(`${w}: tri par défaut inconnu`);
   for (const p of c.presets || []) {
     const pw = `${w}.question ${p.id}`;
@@ -280,6 +315,7 @@ for (const c of catalogs) {
     }
     for (const r of p.related || []) if (!(c.presets || []).some((x) => x.id === r.preset && x !== p)) errors.push(`${pw}: question liée inconnue ${r.preset}`);
   }
+  for (const id of c.rules || []) if (!(data.reperes?.sections || []).some((s) => s.kind === 'rules' && s.items.some((x) => x.id === id))) errors.push(`${w}: règle commune inconnue ${id} (à déclarer dans les Repères officiels)`);
   if (c.compare && !(c.compare.attrs?.length === 2 && c.compare.attrs.every((x) => isA(x, 'number')))) errors.push(`${w}: compare doit citer deux attributs numériques`);
   for (const a of c.attributes || []) if (a.flagFalse !== undefined && (a.type !== 'bool' || !String(a.flagFalse).trim())) errors.push(`${w}.${a.id}: flagFalse réservé aux attributs booléens`);
 }
@@ -299,11 +335,14 @@ function checkAttr(a, e, where) {
   for (const [v, w] of [[e, where], ...(e?.changes || []).map((c, i) => [c, `${where}.changes[${i}]`])]) {
     if (v?.status === 'not_published') { if (v.code !== undefined || v.num !== undefined || v.value !== undefined) errors.push(`${w}: « non publié » portant une valeur`); continue; }
     if (v?.status !== 'found') continue;
-    if (a.type === 'number' && typeof v.num !== 'number') errors.push(`${w}: num manquant (attribut numérique)`);
+    if (a.type === 'number' && typeof v.num !== 'number' && !v.fee) errors.push(`${w}: num (ou barème fee) manquant (attribut numérique)`);
     if (a.type === 'enum') {
-      const o = a.options.find((x) => x.value === v.code);
-      if (!o) errors.push(`${w}: code « ${v.code} » hors des options`);
-      else if (!reOf(o.match, w)?.test(quotesText(v))) errors.push(`${w}: la citation ne justifie pas « ${o.label} » (motif ${o.match})`);
+      if (Array.isArray(v.code) && (!a.multi || !v.code.length || new Set(v.code).size !== v.code.length)) errors.push(`${w}: plusieurs codes réservés aux attributs « multi » (sans doublon)`);
+      for (const code of Array.isArray(v.code) ? v.code : [v.code]) {
+        const o = a.options.find((x) => x.value === code);
+        if (!o) errors.push(`${w}: code « ${code} » hors des options`);
+        else if (!reOf(o.match, w)?.test(quotesText(v))) errors.push(`${w}: la citation ne justifie pas « ${o.label} » (motif ${o.match})`);
+      }
     }
     if (a.type === 'bool') {
       if (typeof v.code !== 'boolean') errors.push(`${w}: code booléen manquant`);
@@ -324,13 +363,53 @@ for (const p of products) {
   const ids = new Set(c.attributes.map((a) => a.id));
   for (const k of [...Object.keys(p.attrs || {}), ...(p.variants || []).flatMap((v) => Object.keys(v.attrs || {}))]) if (!ids.has(k)) errors.push(`${w}: attribut inconnu ${k}`);
   const st = (pstats[`${p.kind}:${p.bank}`] ||= { found: 0, not_published: 0 });
+  const shared = data.banks.find((b) => b.id === p.bank)?.shared || {};
   for (const v of p.variants?.length ? p.variants : [null]) {
-    const attrs = { ...p.attrs, ...(v?.attrs || {}) }, vw = v ? `${w}/${v.id}` : w;
+    const own = { ...p.attrs, ...(v?.attrs || {}) }, vw = v ? `${w}/${v.id}` : w;
     for (const a of c.attributes) {
-      if (attrs[a.id] === undefined) { if (!a.optional) errors.push(`${vw}.${a.id}: attribut manquant (sourcé ou « non publié » obligatoire)`); continue; }
-      checkAttr(a, attrs[a.id], `${vw}.${a.id}`);
-      if (a.type !== 'list') st[attrs[a.id]?.status] = (st[attrs[a.id]?.status] || 0) + 1;
+      const inherited = a.shared && own[a.id] === undefined && shared[a.id] !== undefined;
+      const e = inherited ? shared[a.id] : own[a.id];
+      if (e === undefined) { if (!a.optional) errors.push(`${vw}.${a.id}: attribut manquant (sourcé, « non publié » ou hérité de la banque obligatoire)`); continue; }
+      if (!inherited) checkAttr(a, e, `${vw}.${a.id}`);
+      else if (a.type !== 'list') st.inherited = (st.inherited || 0) + 1;
+      if (a.shared && !inherited && shared[a.id] !== undefined) { // redéfinition d'un attribut commun : justifiée, jamais contradictoire ni redondante
+        const b = shared[a.id], { override, ...rest } = e;
+        if (!String(override ?? '').trim()) errors.push(`${vw}.${a.id}: redéfinit l'attribut commun de la banque sans « override » (raison)`);
+        if (JSON.stringify(rest) === JSON.stringify(b)) errors.push(`${vw}.${a.id}: redondant avec l'attribut commun de la banque (le supprimer)`);
+        else if (e.source && e.source === b.source && norm(e.quote ?? '') === norm(b.quote ?? '') && (e.num !== b.num || JSON.stringify(e.code) !== JSON.stringify(b.code) || e.status !== b.status))
+          errors.push(`${vw}.${a.id}: contredit l'attribut commun de la banque avec la même citation (${b.num ?? b.code} → ${e.num ?? e.code})`);
+      } else if (e?.override !== undefined && !inherited) errors.push(`${vw}.${a.id}: « override » sans attribut commun à redéfinir`);
+      if (a.type !== 'list') st[e?.status] = (st[e?.status] || 0) + 1;
     }
+  }
+}
+
+// Attributs communs d'une banque (`bank.shared`) : déclarés une fois, hérités par les produits des catalogues dont
+// l'attribut est marqué `shared` ; contrôlés comme un attribut de produit (codes, citations, changements).
+const sharedDefs = new Map();
+for (const c of catalogs) for (const a of c.attributes || []) if (a.shared) sharedDefs.set(a.id, a);
+for (const b of data.banks) for (const [k, e] of Object.entries(b.shared || {})) {
+  const a = sharedDefs.get(k);
+  if (!a) errors.push(`${b.id}.shared.${k}: aucun attribut de catalogue « shared » ne porte cet id`);
+  else checkAttr(a, e, `${b.id}.shared.${k}`);
+}
+// Liens entre catalogues (ex. carte incluse dans une offre groupée → fiche de la carte).
+for (const p of products) for (const [pre, attrs] of [[p.id, p.attrs], ...(p.variants || []).map((v) => [`${p.id}/${v.id}`, v.attrs])]) {
+  for (const [k, e] of Object.entries(attrs || {})) for (const x of [e, ...(e?.changes || [])]) {
+    if (!x?.link) continue;
+    const c = catalogOf[x.link.catalog];
+    if (!c || !rowsOf(c, products, data.banks).some((r) => r.id === x.link.row)) errors.push(`produit ${pre}.${k}: lien vers ${x.link.catalog}/${x.link.row} introuvable`);
+  }
+}
+// Règle des filtres : un critère n'est proposé en filtre que si au moins deux établissements le publient ; sinon il reste
+// visible dans les fiches (« critère peu publié »).
+for (const c of catalogs) {
+  const rows = rowsOf(c, products, data.banks);
+  for (const f of c.facets || []) {
+    if (f.field || f.type === 'flag') continue;
+    const attrs = f.type === 'anyOf' ? (f.choices || []).flatMap((ch) => ch.attrs || []) : f.type === 'max' ? [c.cost?.attr, c.cost?.alt?.attr].filter(Boolean) : [f.attr];
+    const n = new Set(attrs.flatMap((a) => [...publishedBanks(rows, a)])).size;
+    if (n < 2) errors.push(`catalogue ${c.id}.facette ${f.id}: critère publié par ${n} établissement(s) — moins de 2 : à garder dans les fiches (« critère peu publié »), pas en filtre`);
   }
 }
 
@@ -408,7 +487,7 @@ console.log('Couverture (found / non publié) :');
 for (const [id, s] of Object.entries(stats)) console.log(`  ${id.padEnd(8)} ${String(s.found).padStart(2)} / ${s.not_published}`);
 if (products.length) {
   console.log('Catalogues (attributs found / non publié) :');
-  for (const [id, s] of Object.entries(pstats)) console.log(`  ${id.padEnd(16)} ${String(s.found).padStart(3)} / ${s.not_published}`);
+  for (const [id, s] of Object.entries(pstats)) console.log(`  ${id.padEnd(16)} ${String(s.found).padStart(3)} / ${s.not_published}${s.inherited ? ` (dont ${s.inherited} hérités de la banque)` : ''}`);
 }
 infos.forEach((w) => console.log('ℹ ' + w));
 warnings.forEach((w) => console.log('⚠ ' + w));
