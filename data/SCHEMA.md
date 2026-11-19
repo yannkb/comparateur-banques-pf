@@ -3,8 +3,9 @@
 Règle d'or : AUCUN chiffre inventé. Toute valeur `found` doit avoir une source
 (id dans `sources`) ET une citation `quote` copiée telle quelle depuis l'instantané
 texte de la source (`data/sources/<sourceId>.txt`). Le script `npm run verify`
-vérifie que la citation (espaces/casse/apostrophes normalisés) figure dans
-l'instantané. Si l'info n'est pas trouvée : `status: "not_published"` + `checked`
+vérifie que la citation (casse/apostrophes normalisées, blancs tolérés) figure dans
+l'instantané sans couper un nombre, que `num` figure dans la citation (ou dans une
+citation `extra`) et que les paramètres du simulateur sont présents dans leur citation. Si l'info n'est pas trouvée : `status: "not_published"` + `checked`
 = liste des sourceIds consultés.
 
 ## Source
@@ -28,7 +29,9 @@ L'instantané = texte brut extrait (pypdf pour les PDF, texte de la page pour le
   "num": 2000,                       // optionnel : nombre pour tri/comparaison (XPF, %, mois) dans l'unité du champ
   "source": "socredo_tarifs_2026",
   "quote": "Frais de tenue de compte ... 2 000", // extrait VERBATIM de l'instantané (20-200 car.)
-  "note": "optionnel : précision, condition, date d'un exemple ancien, etc."
+  "note": "optionnel : précision, condition, date d'un exemple ancien, etc.",
+  "derived": "951 / 3"               // OBLIGATOIRE si `num` est un calcul : opérandes présents dans les
+                                     // citations (sauf diviseurs d'unité 3 et 12), résultat recalculé
 }
 { "status": "not_published", "checked": ["socredo_tarifs_2026"], "note": "absent de la grille" }
 ```
@@ -90,3 +93,12 @@ Crédit conso / auto (conso)
   }
 }
 ```
+
+## Paramètres du simulateur (`simulator.params`)
+Chaque paramètre a `ref` (entrée de `market`, statut `found`) et `cite` : l'une des citations
+(`quote` ou `extra[].quote`) de cette entrée. Chaque nombre du paramètre (`value`, `min`…) doit
+figurer dans `cite`. `unit: "%"` signifie que `value` est une fraction (0.07 ↔ « 7 % »).
+Cas particuliers vérifiés à part : `baremeS1` (taux et plafonds dans l'ordre), `pretRatio`
+(« deux tiers » + majoration), `debours` (= `num` de l'entrée), `xpfToEur` (parité citée).
+Les presets de frais de dossier (`bankDossierPresets`) doivent retrouver `pct` et `min` dans la
+citation du champ de banque référencé.

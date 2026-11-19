@@ -700,6 +700,16 @@
       "accessed": "2026-11-17",
       "short": "Arrêté 1376 CM",
       "snapshot": "data/sources/notaires_arrete_1376.txt"
+    },
+    "bdp_casden_pret_perso": {
+      "title": "Le prêt personnel CASDEN",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/fonctionnaires/les-produits-et-services-casden/Le-pret-personnel-CASDEN/",
+      "documentDate": null,
+      "dateLabel": "page non datée (parité fixe EUR/XPF)",
+      "accessed": "2026-11-18",
+      "short": "Parité EUR/XPF",
+      "snapshot": "data/sources/bdp_casden_pret_perso.txt"
     }
   },
   "banks": [
@@ -726,7 +736,8 @@
           "value": "25 ans (300 mois)",
           "source": "socredo_pret_habitat",
           "quote": "sur une durée maximum de 25 ans",
-          "num": 300
+          "num": 300,
+          "derived": "25 ans × 12"
         },
         "immo_quotite": {
           "status": "not_published",
@@ -856,7 +867,8 @@
               "source": "socredo_tarifs_2026",
               "quote": "Accès Light - Particuliers : Gratuit"
             }
-          ]
+          ],
+          "derived": "3 550 / 12"
         },
         "carte_classic": {
           "status": "found",
@@ -892,7 +904,8 @@
           "source": "socredo_tarifs_2026",
           "quote": "SEPA COM Pacifique : commission de transfert 0,25% • Minimum 1 560 • Maximum 14 430 SEPA COM Pacifique : frais de transfert 510",
           "num": 2070,
-          "note": "Valeur de tri : coût minimum d’un virement en ligne (1 560 + 510)."
+          "note": "Valeur de tri : coût minimum d’un virement en ligne (1 560 + 510).",
+          "derived": "min. 1 560 + 510"
         },
         "vir_international": {
           "status": "found",
@@ -900,7 +913,8 @@
           "source": "socredo_tarifs_2026",
           "quote": "Commission de transfert 0,25% • Minimum 1 580 • Maximum 14 600 Frais de transfert 2 775",
           "num": 4355,
-          "note": "Valeur de tri : minimum 1 580 + 2 775."
+          "note": "Valeur de tri : minimum 1 580 + 2 775.",
+          "derived": "min. 1 580 + 2 775"
         },
         "cpt_commission_intervention": {
           "status": "found",
@@ -920,7 +934,7 @@
           "status": "found",
           "value": "Jusqu’à 2 387 XPF",
           "source": "socredo_tarifs_2026",
-          "quote": "Rejet pour provision insuffisante, d’un virement dans la limite",
+          "quote": "Rejet pour provision insuffisante, d’un virement dans la limite ou d’un prélèvement de 2 387",
           "num": 2387
         },
         "cpt_decouvert": {
@@ -1105,7 +1119,8 @@
           "source": "bt_tarifs_2026_v06",
           "quote": "Tenue de compte (par trimestre) 951Soit 3 804 F CFP / an",
           "num": 317,
-          "note": "Valeur de tri : 3 804 ÷ 12 = 317 XPF/mois."
+          "note": "Valeur de tri : 3 804 ÷ 12 = 317 XPF/mois.",
+          "derived": "951 / 3"
         },
         "cpt_en_ligne": {
           "status": "found",
@@ -1172,7 +1187,8 @@
               "source": "bt_tarifs_2026_v06",
               "quote": "Frais de « SWIFT « toutes destinations 3 679"
             }
-          ]
+          ],
+          "derived": "min. 1 942 + 3 679"
         },
         "cpt_commission_intervention": {
           "status": "found",
@@ -1391,7 +1407,8 @@
           "source": "bdp_tarifs_2026",
           "quote": "Tenue de compte 956 par trimestre",
           "num": 319,
-          "note": "Valeur de tri : 3 824 ÷ 12 ≈ 319 XPF/mois."
+          "note": "Valeur de tri : 3 824 ÷ 12 ≈ 319 XPF/mois.",
+          "derived": "956 / 3"
         },
         "cpt_en_ligne": {
           "status": "found",
@@ -1441,7 +1458,8 @@
           "source": "bdp_tarifs_2026",
           "quote": "Commission de transfert 0,25% Minimum 1 850 Maximum 15 845 + frais SWIFT 2 810",
           "num": 4660,
-          "note": "Valeur de tri : minimum 1 850 + 2 810."
+          "note": "Valeur de tri : minimum 1 850 + 2 810.",
+          "derived": "min. 1 850 + 2 810"
         },
         "cpt_commission_intervention": {
           "status": "found",
@@ -1978,7 +1996,8 @@
       "value": "États hypothécaires 3 000 + cadastre 750 + annexes 50 000 XPF (+ salaire du conservateur, non chiffré)",
       "source": "sz_frais",
       "quote": "États hypothécaires (3 000), cadastre (750), annexes (50 000)",
-      "num": 53750
+      "num": 53750,
+      "derived": "3 000 + 750 + 50 000"
     },
     "notaire_neuf_total": {
       "label": "Frais d’acquisition dans le neuf (permis ≥ 2025)",
@@ -2004,6 +2023,14 @@
         "dgae_guide_credits_2025-12"
       ],
       "note": "Aucune source publique polynésienne ne fixe ce plafond (norme HCSF hexagonale). Utilisé ici comme hypothèse modifiable."
+    },
+    "parite": {
+      "label": "Parité fixe euro / franc pacifique",
+      "status": "found",
+      "value": "1 € = 119,332 XPF (1 000 XPF = 8,38 €)",
+      "num": 119.332,
+      "source": "bdp_casden_pret_perso",
+      "quote": "Selon la parité fixe EUR/F CFP : 1 euro = 119,332 F CFP."
     }
   },
   "simulator": {
@@ -2025,20 +2052,27 @@
     "params": {
       "droitsAncien": {
         "value": 0.07,
-        "ref": "notaire_droits"
+        "ref": "notaire_droits",
+        "unit": "%",
+        "cite": "Tout bien immobilier ancien (ou neuf non résidentiel) est soumis à un droit d'enregistrement unique de 7 % sur le prix"
       },
       "droitsPrimo": {
         "value": 0.01,
-        "ref": "notaire_droits"
+        "ref": "notaire_droits",
+        "unit": "%",
+        "cite": "Un primo-accédant bénéficie d'un droit réduit à 1 % jusqu'à un plafond individuel, au-delà duquel le taux repasse à 7 %."
       },
       "plafondPrimoBati": {
         "value": 40000000,
-        "ref": "notaire_droits"
+        "ref": "notaire_droits",
+        "cite": "Terrain bâti / lot de copropriété / lot copro acquis en VEFA 40 MF CFP (vs 25 MF avant) 7 %"
       },
       "publicite": {
         "value": 0.001,
         "min": 1500,
-        "ref": "notaire_publicite"
+        "ref": "notaire_publicite",
+        "unit": "%",
+        "cite": "celle-ci est de 0,10 % , avec un minimum de 1 500 F CFP par acte"
       },
       "baremeS1": {
         "tranches": [
@@ -2076,12 +2110,15 @@
       },
       "tva": {
         "value": 0.13,
-        "ref": "notaire_tva"
+        "ref": "notaire_tva",
+        "unit": "%",
+        "cite": "TVA 13 % sur l'ensemble des émoluments."
       },
       "formalites": {
         "avecPret": 80775,
         "sansPret": 70125,
-        "ref": "notaire_formalites"
+        "ref": "notaire_formalites",
+        "cite": "Formalités : 80 775 avec prêt, 70 125 sans."
       },
       "debours": {
         "value": 53750,
@@ -2089,11 +2126,13 @@
       },
       "ptzMax": {
         "value": 12000000,
-        "ref": "ptz_pays"
+        "ref": "ptz_pays",
+        "cite": "Jusqu’à 12 000 000 F CFP à taux zéro (si le financement est inférieur à 24 000 000 F CFP, le montant du PTZ est au moins égal au montant du prêt bancaire)"
       },
       "xpfToEur": {
         "value": 0.00838,
-        "label": "1 000 XPF = 8,38 €"
+        "label": "1 000 XPF = 8,38 €",
+        "ref": "parite"
       }
     },
     "bankDossierPresets": [
