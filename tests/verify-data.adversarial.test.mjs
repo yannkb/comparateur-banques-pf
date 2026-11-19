@@ -138,18 +138,21 @@ test('A19 valeur 2027 falsifiée (citation 2027 intacte)', () => {
   mustReject(d);
 });
 
+// La cellule « carte haut de gamme » de la BT est dérivée du catalogue : on falsifie la cotisation du produit.
+const btPremier = (d) => d.products.find((p) => p.id === 'bt-visa-premier').variants.find((v) => v.id === 'immediat').attrs.cotisation;
+
 test('A20 preset BT 2027 falsifié / date d’effet invalide', () => {
   const d = clone();
   d.simulator.bankDossierPresets.find((p) => p.bank === 'bt').changes[0].min = 1;
   mustReject(d);
   const d2 = clone();
-  bank(d2, 'bt').fields.carte_premium.changes[0].effective_from = '1er janvier';
+  btPremier(d2).changes[0].effective_from = '1er janvier';
   mustReject(d2);
 });
 
 test('A21 grille datée après la date d’effet annoncée', () => {
   const d = clone();
-  bank(d, 'bt').fields.carte_premium.changes[0].effective_from = '2026-12-01';
+  btPremier(d).changes[0].effective_from = '2026-12-01';
   mustReject(d);
 });
 
@@ -273,4 +276,83 @@ test('les données versionnées passent la vérification stricte', () => {
   const p = join(mkdtempSync(join(tmpdir(), 'cbpf-adv-')), 'banks.json');
   writeFileSync(p, JSON.stringify(data));
   assert.equal(spawnSync('node', [script, p, '--strict'], { encoding: 'utf8' }).status, 0);
+});
+
+// ---------- Cellules dérivées des catalogues, attributs communs, critères peu publiés ----------
+test('A40 cellule de comparaison ressaisie qui diverge de sa source dans le catalogue', () => {
+  const d = clone();
+  Object.assign(bank(d, 'socredo').fields.carte_classic, { num: 4999 }); // « from » + chiffre ressaisi
+  mustReject(d);
+  const d2 = clone();
+  Object.assign(bank(d2, 'bdp').fields.carte_premium, { value: 'Visa Premier 2 030 XPF/an' });
+  mustReject(d2);
+});
+
+test('A41 cellule couverte par un catalogue saisie à la main (sans « from »)', () => {
+  const d = clone();
+  bank(d, 'bt').fields.carte_classic = { status: 'found', value: 'Visa Classic 5 813 XPF/an', num: 5813, source: 'bt_tarifs_2026_v06', quote: 'Cotisation carte (à débit immédiat) - Cotisation annuelle 5 813' };
+  mustReject(d);
+});
+
+test('A42 cellule dérivée pointant vers le produit d’une autre banque ou une variante inconnue', () => {
+  const d = clone();
+  bank(d, 'socredo').fields.carte_premium.from[0].row = 'marara-visa-premier';
+  mustReject(d);
+  const d2 = clone();
+  bank(d2, 'socredo').fields.carte_classic.from[0].row = 'socredo-visa-classic/inconnue';
+  mustReject(d2);
+});
+
+test('A43 valeur commune de la banque falsifiée (citation intacte)', () => {
+  const d = clone();
+  Object.assign(bank(d, 'bdp').shared.retrait_pf, { num: 12, value: '12 XPF/retrait' });
+  mustReject(d);
+});
+
+test('A44 valeur héritée contredite par un produit avec la même citation', () => {
+  const d = clone();
+  // 842 figure bien dans les citations BT (plafond par paiement) : seul le contrôle de contradiction peut rejeter
+  prod(d, 'bt-visa-infinite').attrs.frais_etranger = { ...structuredClone(bank(d, 'bt').shared.frais_etranger), num: 842, override: 'Infinite' };
+  const r = run(d);
+  assert.equal(r.status, 1);
+  assert.match(r.stderr, /contredit l'attribut commun/);
+});
+
+test('A45 redéfinition d’un attribut commun sans raison (override) ou redondante', () => {
+  const d = clone();
+  delete prod(d, 'bdp-hoa').attrs.frais_etranger.override;
+  mustReject(d);
+  const d2 = clone();
+  prod(d2, 'bt-visa-infinite').attrs.retrait_banque = { ...structuredClone(bank(d2, 'bt').shared.retrait_banque), override: 'copie' };
+  mustReject(d2);
+});
+
+test('A46 filtre sur un critère publié par moins de deux établissements', () => {
+  const d = clone();
+  const c = d.catalogs.find((x) => x.id === 'carte');
+  c.attributes.push({ id: 'cashback', label: 'Cashback', type: 'bool', optional: true, match: 'cashback', options: [{ value: true, label: 'Oui' }, { value: false, label: 'Non' }] });
+  c.facets.push({ id: 'cashback', param: 'cashback', label: 'Cashback', type: 'bool', attr: 'cashback' });
+  const r = run(d); // personne ne publie : 0 établissement
+  assert.equal(r.status, 1);
+  assert.match(r.stderr, /facette cashback: critère publié par 0 établissement/);
+  const d2 = clone();
+  const c2 = d2.catalogs.find((x) => x.id === 'carte');
+  c2.attributes.find((a) => a.id === 'samsung_pay').label = 'Samsung Pay';
+  // garder seules les valeurs Samsung Pay d'UNE banque (les autres → non publié)
+  for (const p of d2.products.filter((x) => x.kind === 'carte' && x.bank !== 'bt')) for (const a of [p.attrs, ...(p.variants || []).map((v) => v.attrs)]) {
+    if (a.samsung_pay) a.samsung_pay = { status: 'not_published', checked: ['bt_cgu_samsung_pay'] };
+  }
+  c2.facets.push({ id: 'samsung', param: 'samsung', label: 'Samsung Pay', type: 'bool', attr: 'samsung_pay' });
+  const r2 = run(d2);
+  assert.equal(r2.status, 1);
+  assert.match(r2.stderr, /facette samsung: critère publié par 1 établissement/);
+});
+
+test('A47 plusieurs réseaux sur un attribut non « multi », ou réseau non justifié par la citation', () => {
+  const d = clone();
+  d.catalogs.find((x) => x.id === 'carte').attributes.find((a) => a.id === 'reseau').multi = false;
+  mustReject(d);
+  const d2 = clone();
+  prod(d2, 'bdp-visa-red').attrs.reseau.code = ['cb', 'visa']; // la citation BDP ne parle pas de CB
+  mustReject(d2);
 });

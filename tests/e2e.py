@@ -20,6 +20,17 @@ failures, errors, external = [], [], []
 DATA = json.loads((Path(__file__).resolve().parent.parent / "data" / "banks.json").read_text())
 
 
+def has_code(e, code):
+    """Code d'un attribut : valeur unique ou liste (attribut « multi », ex. réseau CB + Visa)."""
+    c = e.get("code")
+    return code in c if isinstance(c, list) else c == code
+
+
+def shared(p, attr):
+    """Attribut commun de la banque (hérité par le produit s'il ne le redéfinit pas)."""
+    return next(b for b in DATA["banks"] if b["id"] == p["bank"]).get("shared", {}).get(attr, {})
+
+
 def expected_cheapest(attr, code, iso):
     """Réimplémentation indépendante : carte(s) la/les moins chère(s) dont `attr` est publié et vaut `code` à la date `iso`."""
     def at(e):
@@ -32,7 +43,7 @@ def expected_cheapest(attr, code, iso):
         for v in p.get("variants") or [None]:
             attrs = {**p["attrs"], **((v or {}).get("attrs") or {})}
             e, fee = at(attrs[attr]), at(attrs["cotisation"])
-            if e.get("status") != "found" or e.get("code") != code or fee.get("status") != "found":
+            if e.get("status") != "found" or not has_code(e, code) or fee.get("status") != "found":
                 continue
             rid = p["id"] + ("/" + v["id"] if v else "")
             if best is None or fee["num"] < best:
@@ -53,7 +64,7 @@ def expected_cheapest_where(conds, iso):
             continue
         for v in p.get("variants") or [None]:
             attrs = {**p["attrs"], **((v or {}).get("attrs") or {})}
-            if any(at(attrs[a]).get("status") != "found" or at(attrs[a]).get("code") != c for a, c in conds.items()):
+            if any(at(attrs.get(a) or shared(p, a)).get("status") != "found" or not has_code(at(attrs.get(a) or shared(p, a)), c) for a, c in conds.items()):
                 continue
             fee = at(attrs["cotisation"])
             if fee.get("status") != "found":

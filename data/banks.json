@@ -162,21 +162,24 @@
       "id": "carte_classic",
       "label": "Carte Visa Classic",
       "unit": "XPF/an",
-      "better": "lower"
+      "better": "lower",
+      "derive": true
     },
     {
       "category": "compte",
       "id": "carte_premium",
       "label": "Carte haut de gamme",
       "unit": "XPF/an",
-      "better": "lower"
+      "better": "lower",
+      "derive": true
     },
     {
       "category": "compte",
       "id": "cpt_retrait_autre",
       "label": "Retrait DAB autre banque (PF)",
       "unit": "XPF",
-      "better": "lower"
+      "better": "lower",
+      "derive": true
     },
     {
       "category": "compte",
@@ -1452,25 +1455,34 @@
           ]
         },
         "carte_classic": {
-          "status": "found",
-          "value": "Visa Classic 5 666 XPF/an (débit immédiat) ; 5 373 (différé)",
-          "source": "socredo_tarifs_2026",
-          "quote": "Carte Visa Classic (Immédiat) 5 666",
-          "num": 5666
+          "from": [
+            {
+              "row": "socredo-visa-classic/immediat",
+              "attr": "cotisation",
+              "label": "Visa Classic, débit immédiat"
+            },
+            {
+              "row": "socredo-visa-classic/differe",
+              "attr": "cotisation",
+              "label": "débit différé"
+            }
+          ]
         },
         "carte_premium": {
-          "status": "found",
-          "value": "Visa Premier 21 700 XPF/an",
-          "source": "socredo_tarifs_2026",
-          "quote": "Carte Visa Premier (Immédiat) 21 700",
-          "num": 21700
+          "from": [
+            {
+              "row": "socredo-visa-premier/immediat",
+              "attr": "cotisation",
+              "label": "Visa Premier"
+            }
+          ]
         },
         "cpt_retrait_autre": {
-          "status": "found",
-          "value": "120 XPF/retrait",
-          "source": "socredo_tarifs_2026",
-          "quote": "en XPF sur automate autre banque locale (par opération) 120",
-          "num": 120
+          "from": [
+            {
+              "shared": "retrait_pf"
+            }
+          ]
         },
         "vir_local": {
           "status": "found",
@@ -1614,6 +1626,29 @@
           "source": "socredo_tarifs_2026",
           "quote": "lorsque le montant du remboursement anticipé est supérieur à 1.193.317 XPF",
           "note": "Règle de la grille (seuil 1 193 317 XPF/12 mois, contrats depuis 2011). À recouper avec le barème de l’arrêté n° 1813 CM du 24/09/2025 (LP 2025-21), non publié dans les sources consultées. FAQ : remboursement anticipé du prêt auto possible à tout moment."
+        }
+      },
+      "shared": {
+        "frais_etranger": {
+          "num": 2.5,
+          "quote": "Paiement par carte (par opération) En Polynésie francaise et zone euro Gratuit Hors zone euro 2,50%",
+          "source": "socredo_tarifs_2026",
+          "status": "found",
+          "value": "2,50 % hors zone euro (gratuit en PF et zone euro)"
+        },
+        "retrait_banque": {
+          "num": 0,
+          "quote": "en XPF sur automate SOCREDO Gratuit",
+          "source": "socredo_tarifs_2026",
+          "status": "found",
+          "value": "Gratuit (XPF, automate SOCREDO)"
+        },
+        "retrait_pf": {
+          "num": 120,
+          "quote": "en XPF sur automate autre banque locale (par opération) 120",
+          "source": "socredo_tarifs_2026",
+          "status": "found",
+          "value": "120 XPF/retrait"
         }
       }
     },
@@ -1824,44 +1859,39 @@
           "note": "Valeur de tri : offre d’entrée gratuite (Tiare Net 1 / 1+), comme l’observatoire IEOM. Virements hors PF : Tiare Net 2 à 360 XPF/mois."
         },
         "carte_classic": {
-          "status": "found",
-          "value": "Visa Classic 5 813 XPF/an (débit immédiat) ; 5 446 (différé)",
-          "source": "bt_tarifs_2026_v06",
-          "quote": "Cotisation carte (à débit immédiat) - Cotisation annuelle 5 813",
-          "num": 5813
+          "from": [
+            {
+              "row": "bt-visa-classic/immediat",
+              "attr": "cotisation",
+              "label": "Visa Classic, débit immédiat"
+            },
+            {
+              "row": "bt-visa-classic/differe",
+              "attr": "cotisation",
+              "label": "débit différé"
+            }
+          ]
         },
         "carte_premium": {
-          "status": "found",
-          "value": "Visa Premier 22 557 XPF/an ; Visa Infinite 55 843 XPF/an",
-          "source": "bt_tarifs_2026_v06",
-          "quote": "Cotisation carte (à débit immédiat) - Cotisation annuelle 22 557",
-          "num": 22557,
-          "changes": [
+          "from": [
             {
-              "effective_from": "2027-01-01",
-              "status": "found",
-              "value": "Visa Premier 23 008 XPF/an ; Visa Infinite 56 960 XPF/an",
-              "quote": "Cotisation carte (à débit immédiat) - Cotisation annuelle 23 008",
-              "num": 23008,
-              "extra": [
-                {
-                  "status": "found",
-                  "value": "Visa Infinite : 56 960",
-                  "source": "bt_tarifs_2027",
-                  "quote": "CARTE VISA INFINITE Cotisation carte (à débit différé) - Cotisation annuelle 56 960"
-                }
-              ],
-              "source": "bt_tarifs_2027",
-              "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
+              "row": "bt-visa-premier/immediat",
+              "attr": "cotisation",
+              "label": "Visa Premier"
+            },
+            {
+              "row": "bt-visa-infinite",
+              "attr": "cotisation",
+              "label": "Visa Infinite"
             }
           ]
         },
         "cpt_retrait_autre": {
-          "status": "found",
-          "value": "121 XPF/retrait",
-          "source": "bt_tarifs_2026_v06",
-          "quote": "distributeur d'une banque confrère en Polynésie Française) 121",
-          "num": 121
+          "from": [
+            {
+              "shared": "retrait_pf"
+            }
+          ]
         },
         "vir_local": {
           "status": "found",
@@ -2156,6 +2186,55 @@
           ],
           "note": "La grille renvoie à la convention de crédit."
         }
+      },
+      "shared": {
+        "frais_etranger": {
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "extra": [
+                {
+                  "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 859",
+                  "source": "bt_tarifs_2027",
+                  "status": "found",
+                  "value": "Maximum 859 XPF par paiement"
+                }
+              ],
+              "num": 2.8,
+              "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
+              "source": "bt_tarifs_2027",
+              "status": "found",
+              "value": "2,80 % hors UE (max. 859 XPF par paiement) ; gratuit en PF et zone euro"
+            }
+          ],
+          "extra": [
+            {
+              "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 842",
+              "source": "bt_tarifs_2026_v06",
+              "status": "found",
+              "value": "Maximum 842 XPF par paiement"
+            }
+          ],
+          "num": 2.8,
+          "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
+          "source": "bt_tarifs_2026_v06",
+          "status": "found",
+          "value": "2,80 % hors UE (max. 842 XPF par paiement) ; gratuit en PF et zone euro"
+        },
+        "retrait_banque": {
+          "num": 0,
+          "quote": "Retrait d’espèces au distributeur automatique de billets (cas d’un retrait à un distributeur automatique de la banque) GRATUIT",
+          "source": "bt_tarifs_2026_v06",
+          "status": "found",
+          "value": "Gratuit"
+        },
+        "retrait_pf": {
+          "num": 121,
+          "quote": "Retrait d'espèces au distributeur automatique de billets (cas d'un retrait à un distributeur d'une banque confrère en Polynésie Française) 121",
+          "source": "bt_tarifs_2026_v06",
+          "status": "found",
+          "value": "121 XPF/retrait"
+        }
       }
     },
     {
@@ -2281,25 +2360,34 @@
           "note": "Valeur de tri : offre d’entrée gratuite (Offre Primo : consultation + 3 virements locaux/mois), comme l’observatoire IEOM. Offre Classique : 350 XPF/mois."
         },
         "carte_classic": {
-          "status": "found",
-          "value": "Visa Classique 5 735 XPF/an (immédiat ou différé)",
-          "source": "bdp_tarifs_2026",
-          "quote": "Carte de paiement internationale à débit immédiat (Carte VISA Classique) 5 735 par an",
-          "num": 5735
+          "from": [
+            {
+              "row": "bdp-visa-classique/immediat",
+              "attr": "cotisation",
+              "label": "Visa Classique, débit immédiat"
+            },
+            {
+              "row": "bdp-visa-classique/differe",
+              "attr": "cotisation",
+              "label": "débit différé"
+            }
+          ]
         },
         "carte_premium": {
-          "status": "found",
-          "value": "Visa Premier 20 300 XPF/an",
-          "source": "bdp_tarifs_2026",
-          "quote": "Carte de paiement internationale à débit immédiat 20 300 par an",
-          "num": 20300
+          "from": [
+            {
+              "row": "bdp-visa-premier/immediat",
+              "attr": "cotisation",
+              "label": "Visa Premier"
+            }
+          ]
         },
         "cpt_retrait_autre": {
-          "status": "found",
-          "value": "122 XPF/retrait",
-          "source": "bdp_tarifs_2026",
-          "quote": "autre établissement en Polynésie française 122 par opération",
-          "num": 122
+          "from": [
+            {
+              "shared": "retrait_pf"
+            }
+          ]
         },
         "vir_local": {
           "status": "found",
@@ -2467,6 +2555,29 @@
           ],
           "note": "La grille renvoie à la convention de crédit."
         }
+      },
+      "shared": {
+        "frais_etranger": {
+          "num": 2.7,
+          "quote": "En zone euro GRATUIT ▫ Hors zone euro 2,70% par opération",
+          "source": "bdp_tarifs_2026",
+          "status": "found",
+          "value": "2,70 % hors zone euro (gratuit en PF et zone euro)"
+        },
+        "retrait_banque": {
+          "num": 0,
+          "quote": "Sur un distributeur automatique Banque de Polynésie GRATUIT",
+          "source": "bdp_tarifs_2026",
+          "status": "found",
+          "value": "Gratuit"
+        },
+        "retrait_pf": {
+          "num": 122,
+          "quote": "Sur un autre distributeur en Polynésie Française 122 par retrait",
+          "source": "bdp_tarifs_2026",
+          "status": "found",
+          "value": "122 XPF/retrait"
+        }
       }
     },
     {
@@ -2609,26 +2720,30 @@
           "num": 0
         },
         "carte_classic": {
-          "status": "found",
-          "value": "Visa Classic 5 000 XPF/an (autorisation systématique) ; carte locale Fenua 220 XPF/mois",
-          "source": "marara_tarifs_2026",
-          "quote": "Carte VISA Classic - Fourniture d’une carte de débit (carte de paiement à autorisation systématique) 5 000",
-          "num": 5000,
+          "from": [
+            {
+              "row": "marara-visa-classic",
+              "attr": "cotisation",
+              "label": "CB-Visa Classic (autorisation systématique)"
+            }
+          ],
           "note": "Carte à autorisation systématique (solde vérifié à chaque opération)."
         },
         "carte_premium": {
-          "status": "found",
-          "value": "Visa Premier 16 000 XPF/an",
-          "source": "marara_tarifs_2026",
-          "quote": "Carte VISA PREMIER - Fourniture d’une carte de débit (carte de paiement internationale 16 000",
-          "num": 16000
+          "from": [
+            {
+              "row": "marara-visa-premier",
+              "attr": "cotisation",
+              "label": "CB-Visa Premier"
+            }
+          ]
         },
         "cpt_retrait_autre": {
-          "status": "found",
-          "value": "118 XPF/retrait",
-          "source": "marara_tarifs_2026",
-          "quote": "Retrait d’espèces en XPF sur un DAB d’une banque confrère en Polynésie française 118",
-          "num": 118
+          "from": [
+            {
+              "shared": "retrait_pf"
+            }
+          ]
         },
         "vir_local": {
           "status": "found",
@@ -2725,6 +2840,22 @@
               "quote": "L’offre proposée par MARARA Paiement en collaboration avec la COGEP"
             }
           ]
+        }
+      },
+      "shared": {
+        "retrait_banque": {
+          "num": 0,
+          "quote": "Retrait d’espèces sur DAB MARARA Gratuit Gratuit",
+          "source": "marara_tarifs_2026",
+          "status": "found",
+          "value": "Gratuit"
+        },
+        "retrait_pf": {
+          "num": 118,
+          "quote": "Retrait d’espèces sur DAB d’une banque confrère en Polynésie française 118 118",
+          "source": "marara_tarifs_2026",
+          "status": "found",
+          "value": "118 XPF/retrait"
         }
       }
     }
@@ -3310,27 +3441,6 @@
           "source": "socredo_carte_classic",
           "quote": "200 000 F CFP par jour sur les distributeurs SOCREDO"
         },
-        "frais_etranger": {
-          "status": "found",
-          "value": "2,50 % hors zone euro (gratuit en PF et zone euro)",
-          "num": 2.5,
-          "source": "socredo_tarifs_2026",
-          "quote": "Paiement par carte (par opération) En Polynésie francaise et zone euro Gratuit Hors zone euro 2,50%"
-        },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit (XPF, automate SOCREDO)",
-          "num": 0,
-          "source": "socredo_tarifs_2026",
-          "quote": "en XPF sur automate SOCREDO Gratuit"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "120 XPF/retrait",
-          "num": 120,
-          "source": "socredo_tarifs_2026",
-          "quote": "en XPF sur automate autre banque locale (par opération) 120"
-        },
         "retrait_etranger": {
           "status": "found",
           "value": "1,50 € en XPF/euro ; 1,50 € + 2,50 % en devise",
@@ -3479,27 +3589,6 @@
           "source": "socredo_carte_gold",
           "quote": "500 000 F CFP par jour* sur les distributeurs SOCREDO"
         },
-        "frais_etranger": {
-          "status": "found",
-          "value": "2,50 % hors zone euro (gratuit en PF et zone euro)",
-          "num": 2.5,
-          "source": "socredo_tarifs_2026",
-          "quote": "Paiement par carte (par opération) En Polynésie francaise et zone euro Gratuit Hors zone euro 2,50%"
-        },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit (XPF, automate SOCREDO)",
-          "num": 0,
-          "source": "socredo_tarifs_2026",
-          "quote": "en XPF sur automate SOCREDO Gratuit"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "120 XPF/retrait",
-          "num": 120,
-          "source": "socredo_tarifs_2026",
-          "quote": "en XPF sur automate autre banque locale (par opération) 120"
-        },
         "retrait_etranger": {
           "status": "found",
           "value": "1,50 € en XPF/euro ; 1,50 € + 2,50 % en devise",
@@ -3633,27 +3722,6 @@
           "num": 40000,
           "source": "socredo_visa_classic",
           "quote": "Local 40 000 F CFP sur 7 jours"
-        },
-        "frais_etranger": {
-          "status": "found",
-          "value": "2,50 % hors zone euro (gratuit en PF et zone euro)",
-          "num": 2.5,
-          "source": "socredo_tarifs_2026",
-          "quote": "Paiement par carte (par opération) En Polynésie francaise et zone euro Gratuit Hors zone euro 2,50%"
-        },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit (XPF, automate SOCREDO)",
-          "num": 0,
-          "source": "socredo_tarifs_2026",
-          "quote": "en XPF sur automate SOCREDO Gratuit"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "120 XPF/retrait",
-          "num": 120,
-          "source": "socredo_tarifs_2026",
-          "quote": "en XPF sur automate autre banque locale (par opération) 120"
         },
         "retrait_etranger": {
           "status": "found",
@@ -3821,27 +3889,6 @@
           "num": 100000,
           "source": "socredo_visa_premier",
           "quote": "Local 100 000 F CFP sur 7 jours"
-        },
-        "frais_etranger": {
-          "status": "found",
-          "value": "2,50 % hors zone euro (gratuit en PF et zone euro)",
-          "num": 2.5,
-          "source": "socredo_tarifs_2026",
-          "quote": "Paiement par carte (par opération) En Polynésie francaise et zone euro Gratuit Hors zone euro 2,50%"
-        },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit (XPF, automate SOCREDO)",
-          "num": 0,
-          "source": "socredo_tarifs_2026",
-          "quote": "en XPF sur automate SOCREDO Gratuit"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "120 XPF/retrait",
-          "num": 120,
-          "source": "socredo_tarifs_2026",
-          "quote": "en XPF sur automate autre banque locale (par opération) 120"
         },
         "retrait_etranger": {
           "status": "found",
@@ -4017,27 +4064,6 @@
             "socredo_faq"
           ]
         },
-        "frais_etranger": {
-          "status": "found",
-          "value": "2,50 % hors zone euro (gratuit en PF et zone euro)",
-          "num": 2.5,
-          "source": "socredo_tarifs_2026",
-          "quote": "Paiement par carte (par opération) En Polynésie francaise et zone euro Gratuit Hors zone euro 2,50%"
-        },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit (XPF, automate SOCREDO)",
-          "num": 0,
-          "source": "socredo_tarifs_2026",
-          "quote": "en XPF sur automate SOCREDO Gratuit"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "120 XPF/retrait",
-          "num": 120,
-          "source": "socredo_tarifs_2026",
-          "quote": "en XPF sur automate autre banque locale (par opération) 120"
-        },
         "retrait_etranger": {
           "status": "found",
           "value": "Gratuit en XPF/euro ; 1,50 € + 2,50 % en devise",
@@ -4198,7 +4224,8 @@
             "socredo_tarifs_2026",
             "socredo_cartes"
           ],
-          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle.",
+          "override": "Modèle de carte non précisé par la grille (« une carte bancaire »)."
         },
         "retrait_banque": {
           "status": "not_published",
@@ -4206,7 +4233,8 @@
             "socredo_tarifs_2026",
             "socredo_cartes"
           ],
-          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle.",
+          "override": "Modèle de carte non précisé par la grille (« une carte bancaire »)."
         },
         "retrait_pf": {
           "status": "not_published",
@@ -4214,7 +4242,8 @@
             "socredo_tarifs_2026",
             "socredo_cartes"
           ],
-          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle."
+          "note": "La grille indique seulement « une carte bancaire », sans préciser le modèle.",
+          "override": "Modèle de carte non précisé par la grille (« une carte bancaire »)."
         },
         "retrait_etranger": {
           "status": "not_published",
@@ -4357,21 +4386,24 @@
           "checked": [
             "socredo_tarifs_2026",
             "socredo_cartes"
-          ]
+          ],
+          "override": "Modèle de carte non précisé par la grille (« une carte bancaire »)."
         },
         "retrait_banque": {
           "status": "not_published",
           "checked": [
             "socredo_tarifs_2026",
             "socredo_cartes"
-          ]
+          ],
+          "override": "Modèle de carte non précisé par la grille (« une carte bancaire »)."
         },
         "retrait_pf": {
           "status": "not_published",
           "checked": [
             "socredo_tarifs_2026",
             "socredo_cartes"
-          ]
+          ],
+          "override": "Modèle de carte non précisé par la grille (« une carte bancaire »)."
         },
         "retrait_etranger": {
           "status": "not_published",
@@ -4406,7 +4438,10 @@
         "reseau": {
           "status": "found",
           "value": "CB-Visa (la grille la nomme « carte privative Tiare »)",
-          "code": "visa",
+          "code": [
+            "cb",
+            "visa"
+          ],
           "source": "bt_contrat_porteur",
           "quote": "les cartes de paiement à autorisation systématique : CB-VISA Tiare et la Visa Classic à contrôle de solde systématique ; Toutes ces Cartes fonctionnent sous les deux marques CB et VISA."
         },
@@ -4514,7 +4549,8 @@
             "bt_tarifs_2026_v06",
             "bt_carte_tiare"
           ],
-          "note": "Carte non utilisable hors de France ; les frais à l’étranger de la grille visent les cartes Visa."
+          "note": "Carte non utilisable hors de France ; les frais à l’étranger de la grille visent les cartes Visa.",
+          "override": "Carte Tiare : la grille ne donne ces frais que pour les cartes Visa."
         },
         "retrait_banque": {
           "status": "not_published",
@@ -4522,14 +4558,16 @@
             "bt_tarifs_2026_v06",
             "bt_carte_tiare"
           ],
-          "note": "La grille ne donne les frais de retrait que pour les cartes Visa."
+          "note": "La grille ne donne les frais de retrait que pour les cartes Visa.",
+          "override": "Carte Tiare : la grille ne donne ces frais que pour les cartes Visa."
         },
         "retrait_pf": {
           "status": "found",
           "value": "121 XPF/retrait",
           "num": 121,
           "source": "bt_carte_tiare",
-          "quote": "121 FCFP TTC de frais par retrait sur DAB confrères"
+          "quote": "121 FCFP TTC de frais par retrait sur DAB confrères",
+          "override": "Valeur citée par la page produit de la carte Tiare."
         },
         "retrait_etranger": {
           "status": "not_published",
@@ -4687,53 +4725,6 @@
             "bt_paiement_mobile"
           ]
         },
-        "frais_etranger": {
-          "status": "found",
-          "value": "2,80 % hors UE (max. 842 XPF par paiement) ; gratuit en PF et zone euro",
-          "num": 2.8,
-          "source": "bt_tarifs_2026_v06",
-          "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
-          "extra": [
-            {
-              "status": "found",
-              "value": "Maximum 842 XPF par paiement",
-              "source": "bt_tarifs_2026_v06",
-              "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 842"
-            }
-          ],
-          "changes": [
-            {
-              "effective_from": "2027-01-01",
-              "status": "found",
-              "value": "2,80 % hors UE (max. 859 XPF par paiement) ; gratuit en PF et zone euro",
-              "num": 2.8,
-              "source": "bt_tarifs_2027",
-              "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
-              "extra": [
-                {
-                  "status": "found",
-                  "value": "Maximum 859 XPF par paiement",
-                  "source": "bt_tarifs_2027",
-                  "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 859"
-                }
-              ]
-            }
-          ]
-        },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit",
-          "num": 0,
-          "source": "bt_tarifs_2026_v06",
-          "quote": "Retrait d’espèces au distributeur automatique de billets (cas d’un retrait à un distributeur automatique de la banque) GRATUIT"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "121 XPF/retrait",
-          "num": 121,
-          "source": "bt_tarifs_2026_v06",
-          "quote": "Retrait d'espèces au distributeur automatique de billets (cas d'un retrait à un distributeur d'une banque confrère en Polynésie Française) 121"
-        },
         "retrait_etranger": {
           "status": "found",
           "value": "2,80 % + 842 XPF (DAB hors UE, en devises)",
@@ -4863,53 +4854,6 @@
             "bt_visa_classic",
             "bt_paiement_mobile"
           ]
-        },
-        "frais_etranger": {
-          "status": "found",
-          "value": "2,80 % hors UE (max. 842 XPF par paiement) ; gratuit en PF et zone euro",
-          "num": 2.8,
-          "source": "bt_tarifs_2026_v06",
-          "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
-          "extra": [
-            {
-              "status": "found",
-              "value": "Maximum 842 XPF par paiement",
-              "source": "bt_tarifs_2026_v06",
-              "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 842"
-            }
-          ],
-          "changes": [
-            {
-              "effective_from": "2027-01-01",
-              "status": "found",
-              "value": "2,80 % hors UE (max. 859 XPF par paiement) ; gratuit en PF et zone euro",
-              "num": 2.8,
-              "source": "bt_tarifs_2027",
-              "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
-              "extra": [
-                {
-                  "status": "found",
-                  "value": "Maximum 859 XPF par paiement",
-                  "source": "bt_tarifs_2027",
-                  "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 859"
-                }
-              ]
-            }
-          ]
-        },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit",
-          "num": 0,
-          "source": "bt_tarifs_2026_v06",
-          "quote": "Retrait d’espèces au distributeur automatique de billets (cas d’un retrait à un distributeur automatique de la banque) GRATUIT"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "121 XPF/retrait",
-          "num": 121,
-          "source": "bt_tarifs_2026_v06",
-          "quote": "Retrait d'espèces au distributeur automatique de billets (cas d'un retrait à un distributeur d'une banque confrère en Polynésie Française) 121"
         },
         "retrait_etranger": {
           "status": "found",
@@ -5133,53 +5077,6 @@
             "bt_paiement_mobile"
           ]
         },
-        "frais_etranger": {
-          "status": "found",
-          "value": "2,80 % hors UE (max. 842 XPF par paiement) ; gratuit en PF et zone euro",
-          "num": 2.8,
-          "source": "bt_tarifs_2026_v06",
-          "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
-          "extra": [
-            {
-              "status": "found",
-              "value": "Maximum 842 XPF par paiement",
-              "source": "bt_tarifs_2026_v06",
-              "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 842"
-            }
-          ],
-          "changes": [
-            {
-              "effective_from": "2027-01-01",
-              "status": "found",
-              "value": "2,80 % hors UE (max. 859 XPF par paiement) ; gratuit en PF et zone euro",
-              "num": 2.8,
-              "source": "bt_tarifs_2027",
-              "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
-              "extra": [
-                {
-                  "status": "found",
-                  "value": "Maximum 859 XPF par paiement",
-                  "source": "bt_tarifs_2027",
-                  "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 859"
-                }
-              ]
-            }
-          ]
-        },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit",
-          "num": 0,
-          "source": "bt_tarifs_2026_v06",
-          "quote": "Retrait d’espèces au distributeur automatique de billets (cas d’un retrait à un distributeur automatique de la banque) GRATUIT"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "121 XPF/retrait",
-          "num": 121,
-          "source": "bt_tarifs_2026_v06",
-          "quote": "Retrait d'espèces au distributeur automatique de billets (cas d'un retrait à un distributeur d'une banque confrère en Polynésie Française) 121"
-        },
         "retrait_etranger": {
           "status": "found",
           "value": "2,80 % + 842 XPF (DAB hors UE, en devises)",
@@ -5400,53 +5297,6 @@
             "bt_paiement_mobile"
           ]
         },
-        "frais_etranger": {
-          "status": "found",
-          "value": "2,80 % hors UE (max. 842 XPF par paiement) ; gratuit en PF et zone euro",
-          "num": 2.8,
-          "source": "bt_tarifs_2026_v06",
-          "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
-          "extra": [
-            {
-              "status": "found",
-              "value": "Maximum 842 XPF par paiement",
-              "source": "bt_tarifs_2026_v06",
-              "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 842"
-            }
-          ],
-          "changes": [
-            {
-              "effective_from": "2027-01-01",
-              "status": "found",
-              "value": "2,80 % hors UE (max. 859 XPF par paiement) ; gratuit en PF et zone euro",
-              "num": 2.8,
-              "source": "bt_tarifs_2027",
-              "quote": "Retrait et/ou Paiement par carte dans un pays non membre de l’union européenne (par opération) - Commission variable 2,80%",
-              "extra": [
-                {
-                  "status": "found",
-                  "value": "Maximum 859 XPF par paiement",
-                  "source": "bt_tarifs_2027",
-                  "quote": "Maximum pour les paiements par carte en devises (hors EURO) dans un pays non membre de l’union européenne (par opération) 859"
-                }
-              ]
-            }
-          ]
-        },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit",
-          "num": 0,
-          "source": "bt_tarifs_2026_v06",
-          "quote": "Retrait d’espèces au distributeur automatique de billets (cas d’un retrait à un distributeur automatique de la banque) GRATUIT"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "121 XPF/retrait",
-          "num": 121,
-          "source": "bt_tarifs_2026_v06",
-          "quote": "Retrait d'espèces au distributeur automatique de billets (cas d'un retrait à un distributeur d'une banque confrère en Polynésie Française) 121"
-        },
         "retrait_etranger": {
           "status": "found",
           "value": "2,80 % + 842 XPF (DAB hors UE, en devises)",
@@ -5657,21 +5507,8 @@
             "bdp_tarifs_2026",
             "bdp_carte_hoa"
           ],
-          "note": "Carte valable uniquement en Polynésie française."
-        },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit",
-          "num": 0,
-          "source": "bdp_tarifs_2026",
-          "quote": "Sur un distributeur automatique Banque de Polynésie GRATUIT"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "122 XPF/retrait",
-          "num": 122,
-          "source": "bdp_tarifs_2026",
-          "quote": "Sur un autre distributeur en Polynésie Française 122 par retrait"
+          "note": "Carte valable uniquement en Polynésie française.",
+          "override": "Carte valable uniquement en Polynésie française."
         },
         "retrait_etranger": {
           "status": "not_published",
@@ -5776,27 +5613,6 @@
           "code": true,
           "source": "bdp_visa_red",
           "quote": "Information sécurité (3-D Secure) : Pour assurer la sécurité sur Internet des porteurs de cartes, Visa a mis en place depuis 2009 le dispositif 3-D Secure."
-        },
-        "frais_etranger": {
-          "status": "found",
-          "value": "2,70 % hors zone euro (gratuit en PF et zone euro)",
-          "num": 2.7,
-          "source": "bdp_tarifs_2026",
-          "quote": "En zone euro GRATUIT ▫ Hors zone euro 2,70% par opération"
-        },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit",
-          "num": 0,
-          "source": "bdp_tarifs_2026",
-          "quote": "Sur un distributeur automatique Banque de Polynésie GRATUIT"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "122 XPF/retrait",
-          "num": 122,
-          "source": "bdp_tarifs_2026",
-          "quote": "Sur un autre distributeur en Polynésie Française 122 par retrait"
         },
         "retrait_etranger": {
           "status": "found",
@@ -5964,27 +5780,6 @@
           "code": true,
           "source": "bdp_visa_classique",
           "quote": "Information sécurité (3-D Secure) : Pour assurer la sécurité sur Internet des porteurs de cartes, Visa a mis en place depuis 2009 le dispositif 3-D Secure."
-        },
-        "frais_etranger": {
-          "status": "found",
-          "value": "2,70 % hors zone euro (gratuit en PF et zone euro)",
-          "num": 2.7,
-          "source": "bdp_tarifs_2026",
-          "quote": "En zone euro GRATUIT ▫ Hors zone euro 2,70% par opération"
-        },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit",
-          "num": 0,
-          "source": "bdp_tarifs_2026",
-          "quote": "Sur un distributeur automatique Banque de Polynésie GRATUIT"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "122 XPF/retrait",
-          "num": 122,
-          "source": "bdp_tarifs_2026",
-          "quote": "Sur un autre distributeur en Polynésie Française 122 par retrait"
         },
         "retrait_etranger": {
           "status": "found",
@@ -6163,27 +5958,6 @@
           "code": true,
           "source": "bdp_visa_premier",
           "quote": "Information sécurité (3-D Secure) : Pour assurer la sécurité sur Internet des porteurs de cartes, Visa a mis en place depuis 2009 le dispositif 3-D Secure."
-        },
-        "frais_etranger": {
-          "status": "found",
-          "value": "2,70 % hors zone euro (gratuit en PF et zone euro)",
-          "num": 2.7,
-          "source": "bdp_tarifs_2026",
-          "quote": "En zone euro GRATUIT ▫ Hors zone euro 2,70% par opération"
-        },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit",
-          "num": 0,
-          "source": "bdp_tarifs_2026",
-          "quote": "Sur un distributeur automatique Banque de Polynésie GRATUIT"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "122 XPF/retrait",
-          "num": 122,
-          "source": "bdp_tarifs_2026",
-          "quote": "Sur un autre distributeur en Polynésie Française 122 par retrait"
         },
         "retrait_etranger": {
           "status": "found",
@@ -6418,20 +6192,6 @@
           ],
           "note": "Carte utilisable en Polynésie uniquement."
         },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit",
-          "num": 0,
-          "source": "marara_tarifs_2026",
-          "quote": "Retrait d’espèces sur DAB MARARA Gratuit Gratuit"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "118 XPF/retrait",
-          "num": 118,
-          "source": "marara_tarifs_2026",
-          "quote": "Retrait d’espèces sur DAB d’une banque confrère en Polynésie française 118 118"
-        },
         "retrait_etranger": {
           "status": "not_published",
           "checked": [
@@ -6577,7 +6337,8 @@
             "marara_tarifs_2026",
             "marara_kaveka"
           ],
-          "note": "Carte absente de la grille du 1er mars 2026."
+          "note": "Carte absente de la grille du 1er mars 2026.",
+          "override": "Carte absente de la grille du 1er mars 2026."
         },
         "retrait_pf": {
           "status": "not_published",
@@ -6585,7 +6346,8 @@
             "marara_tarifs_2026",
             "marara_kaveka"
           ],
-          "note": "Carte absente de la grille du 1er mars 2026."
+          "note": "Carte absente de la grille du 1er mars 2026.",
+          "override": "Carte absente de la grille du 1er mars 2026."
         },
         "retrait_etranger": {
           "status": "not_published",
@@ -6618,7 +6380,10 @@
         "reseau": {
           "status": "found",
           "value": "CB-Visa",
-          "code": "visa",
+          "code": [
+            "cb",
+            "visa"
+          ],
           "source": "marara_cartes_visa",
           "quote": "La carte CB-Visa Classic proposée par MARARA Paiement est une carte de paiement internationale acceptée dans le monde entier."
         },
@@ -6732,20 +6497,6 @@
           "quote": "Elle est à débit immédiat à autorisation systématique¹ et permet d’effectuer des retraits, des paiements en Polynésie Française et à l’international (sans frais)",
           "note": "Chez certains commerçants internationaux, une surcharge liée aux frais Visa peut être appliquée et affichée sur le ticket."
         },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit",
-          "num": 0,
-          "source": "marara_tarifs_2026",
-          "quote": "Retrait d’espèces sur DAB MARARA Gratuit Gratuit"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "118 XPF/retrait",
-          "num": 118,
-          "source": "marara_tarifs_2026",
-          "quote": "Retrait d’espèces sur DAB d’une banque confrère en Polynésie française 118 118"
-        },
         "retrait_etranger": {
           "status": "found",
           "value": "Sans frais selon la page produit",
@@ -6776,7 +6527,10 @@
         "reseau": {
           "status": "found",
           "value": "CB-Visa",
-          "code": "visa",
+          "code": [
+            "cb",
+            "visa"
+          ],
           "source": "marara_cartes_visa",
           "quote": "La carte CB-Visa Premier proposée par MARARA Paiement est une carte de paiement internationale acceptée dans le monde entier."
         },
@@ -6889,20 +6643,6 @@
           "source": "marara_cartes_visa",
           "quote": "Elle est à débit immédiat à autorisation quasi-systématique¹ et permet d’effectuer des retraits, des paiements en Polynésie Française et à l’international (sans frais)",
           "note": "Chez certains commerçants internationaux, une surcharge liée aux frais Visa peut être appliquée et affichée sur le ticket."
-        },
-        "retrait_banque": {
-          "status": "found",
-          "value": "Gratuit",
-          "num": 0,
-          "source": "marara_tarifs_2026",
-          "quote": "Retrait d’espèces sur DAB MARARA Gratuit Gratuit"
-        },
-        "retrait_pf": {
-          "status": "found",
-          "value": "118 XPF/retrait",
-          "num": 118,
-          "source": "marara_tarifs_2026",
-          "quote": "Retrait d’espèces sur DAB d’une banque confrère en Polynésie française 118 118"
         },
         "retrait_etranger": {
           "status": "found",
@@ -8936,6 +8676,11 @@
               "match": "visa"
             },
             {
+              "value": "cb",
+              "label": "CB",
+              "match": "(^|[^a-z])cb([^a-z]|$)"
+            },
+            {
               "value": "mastercard",
               "label": "Mastercard",
               "match": "mastercard"
@@ -8950,7 +8695,8 @@
               "label": "Local / privatif",
               "match": "privative|locale|territoire"
             }
-          ]
+          ],
+          "multi": true
         },
         {
           "id": "gamme",
@@ -9162,21 +8908,24 @@
           "label": "Frais de paiement en devises",
           "type": "number",
           "unit": "%",
-          "better": "lower"
+          "better": "lower",
+          "shared": true
         },
         {
           "id": "retrait_banque",
           "label": "Retrait DAB de la banque",
           "type": "number",
           "unit": "XPF",
-          "better": "lower"
+          "better": "lower",
+          "shared": true
         },
         {
           "id": "retrait_pf",
           "label": "Retrait DAB autre banque (PF)",
           "type": "number",
           "unit": "XPF",
-          "better": "lower"
+          "better": "lower",
+          "shared": true
         },
         {
           "id": "retrait_etranger",

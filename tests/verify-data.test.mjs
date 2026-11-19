@@ -28,7 +28,7 @@ test('une citation inventée est rejetée', () => {
 
 test('une valeur sans source est rejetée', () => {
   const d = structuredClone(data);
-  delete d.banks[1].fields.carte_classic.source;
+  delete d.banks[1].fields.cpt_tenue.source;
   assert.equal(run(d).status, 1);
 });
 
