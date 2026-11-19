@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { data, fieldsOf, fmtDate, fmtNum, fmtMoney, sourceOf, bankById } from './lib/data.js';
 import Simulator from './Simulator.jsx';
 import { SourceChip, MarketPanel } from './common.jsx';
-import { fraisDossier } from './lib/simulator.js';
+import { entryCost } from './lib/cost.js';
 import Finder from './Finder.jsx';
 import Reperes from './Reperes.jsx';
 import { defaultState, paramsToState, rowsOf, stateToParams } from './lib/catalog.js';
@@ -21,7 +21,7 @@ const BEST_LABEL = { lower: 'Le plus bas', higher: 'Le plus élevé' };
 
 // Vues « trouver un produit » (catalogues déclarés dans les données), rattachées à une rubrique.
 const CATALOGS = data.catalogs || [];
-const ROWS = Object.fromEntries(CATALOGS.map((c) => [c.id, rowsOf(c, data.products || [])]));
+const ROWS = Object.fromEntries(CATALOGS.map((c) => [c.id, rowsOf(c, data.products || [], data.banks)]));
 const FIELD_OPTIONS = { bank: data.banks.map((b) => ({ value: b.id, label: b.short })) };
 const VIEW_PARAM = 'vue';
 /** État initial lu dans l'URL (?vue=<catalogue>&filtres…), pour des liens partageables. */
@@ -32,13 +32,15 @@ function initialView() {
   return { tab: c?.category, sub: c ? { [c.category]: c.id } : {}, states, embedded: !!c && VIEW_TABS.has(c.category) };
 }
 
-/** Valeur de classement : coût réel pour le montant saisi (frais de dossier), sinon `num`. */
+/** Valeur de classement : coût réel pour le montant saisi (barème publié, moteur commun `cost.js`), sinon `num`. */
 function sortValue(e, field, amount) {
   if (e?.status !== 'found') return null;
-  if (field.costFor && e.fee) return fraisDossier(amount, e.fee.pct, e.fee.min);
+  if (field.costFor) return entryCost(e, amount);
   return typeof e.num === 'number' ? e.num : null;
 }
-const amountOf = (amounts, f) => amounts[f.id] ?? f.costFor?.default;
+/** Montant saisi : partagé par clé (`costFor.key`) entre la comparaison des banques et les catalogues (`inputs[].key`). */
+const amountKey = (f) => f.costFor?.key || f.id;
+const amountOf = (amounts, f) => amounts[amountKey(f)] ?? f.costFor?.default;
 
 function Entry({ e, field, cur, amount }) {
   if (!e) return null;
@@ -59,7 +61,7 @@ function Entry({ e, field, cur, amount }) {
     <div className={`entry${e.stale ? ' stale' : ''}`}>
       <p className="value">{e.value}</p>
       {showConv && <p className="conv">≈ {n}</p>}
-      {field.costFor && e.fee && amount > 0 && <p className="conv" data-testid="fee-cost">Pour {fmtMoney(amount, cur)} empruntés : {fmtMoney(fraisDossier(amount, e.fee.pct, e.fee.min), cur)}</p>}
+      {field.costFor && e.fee && amount > 0 && <p className="conv" data-testid="fee-cost">Pour {fmtMoney(amount, cur)} empruntés : {fmtMoney(entryCost(e, amount), cur)}</p>}
       {e.stale && <span className="tag tag-stale">Exemple ancien</span>}
       {e.indicative && <span className="tag tag-indicative" data-testid="tag-indicative">{e.indicative}</span>}
       {e.next && (
@@ -356,8 +358,8 @@ export default function App() {
                 {sortField?.costFor && (
                   <label className="sort amount">
                     <span>{sortField.costFor.label}</span>
-                    <input type="number" min={0} step={sortField.costFor.step} value={amounts[sortField.id] ?? sortField.costFor.default} data-testid="cost-amount"
-                      onChange={(e) => setAmounts({ ...amounts, [sortField.id]: e.target.value === '' ? 0 : Math.max(0, Number(e.target.value) || 0) })} />
+                    <input type="number" min={0} step={sortField.costFor.step} value={amountOf(amounts, sortField)} data-testid="cost-amount"
+                      onChange={(e) => setAmounts({ ...amounts, [amountKey(sortField)]: e.target.value === '' ? 0 : Math.max(0, Number(e.target.value) || 0) })} />
                     <span>XPF</span>
                   </label>
                 )}

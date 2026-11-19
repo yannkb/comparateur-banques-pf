@@ -496,3 +496,22 @@ table.rep-table { border-collapse: separate; border-spacing: 0; width: 100%; min
   .market ul { grid-template-columns: repeat(3, 1fr); }
   .src-groups { columns: 3; }
 }
+
+/* Catalogues : montants saisis, comptes par option, critères peu publiés, valeurs héritées de la banque */
+.finder-inputs { display: flex; flex-wrap: wrap; gap: 10px 18px; margin: 0 0 14px; padding: 10px 14px; border: 1px solid var(--rule); border-radius: var(--r); background: var(--card); }
+.finder-input { border-top: 0; padding-top: 0; min-width: min(100%, 240px); flex: 1 1 240px; }
+.finder-input .field-input { display: flex; align-items: center; gap: 6px; }
+.finder-input input { width: 100%; min-width: 0; }
+.fcount { font: 500 11.5px var(--mono); color: var(--muted); }
+.check.zero { border-style: dashed; }
+.tag-rare { background: var(--sec-bg); color: var(--sec-fg); text-transform: none; letter-spacing: 0; font-weight: 500; vertical-align: middle; }
+.pattrs dt .tag-rare { font-size: 10px; padding: 1px 7px; }
+.rare-note { margin: 0; font-size: 12.5px; }
+.inh { font: 500 11px var(--mono); color: var(--muted); border: 1px dotted var(--rule); border-radius: 6px; padding: 0 6px; }
+.pcost-for { display: block; margin-top: 2px; }
+.ploan { margin: 8px 0 0; font-size: 13px; color: var(--ink-2); }
+.ploan b { color: var(--ink); font-family: var(--mono); }
+.plink { font-size: 13px; }
+.preset-answer { margin: -6px 0 12px; max-width: 85ch; }
+.finder-absent { list-style: none; margin: 16px 0 0; padding: 10px 12px; border: 1px dashed var(--np-border); border-radius: 10px; display: grid; gap: 6px; font-size: 13px; color: var(--ink-2); }
+.finder-absent .checked { display: inline-flex; flex-wrap: wrap; gap: 4px; }

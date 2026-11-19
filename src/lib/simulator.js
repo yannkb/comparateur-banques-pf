@@ -1,5 +1,6 @@
 // Simulateur de capacité d'emprunt — fonctions pures, sans dépendance à l'UI.
 // Tous les paramètres chiffrés viennent de data/banks.json (simulator.params), eux-mêmes sourcés.
+import { feeAmount } from './cost.js';
 
 /** Facteur d'annuité mensuelle : mensualité = capital × facteur. */
 export function annuityFactor(rateAnnualPct, months) {
@@ -24,8 +25,7 @@ export function bareme(amount, tranches) {
 
 /** Frais de dossier bancaires pour un montant emprunté : max(% × montant, minimum). */
 export function fraisDossier(montant, pct, min = 0) {
-  if (!(montant > 0)) return 0;
-  return Math.max(montant * pct / 100, min);
+  return feeAmount({ pct, min }, montant);
 }
 
 /** Frais d'acquisition détaillés pour un prix et un montant de prêt donnés. */
