@@ -26,7 +26,7 @@ export function MarketPanel({ ids, title = 'Repères du marché' }) {
   if (!ids.length) return null;
   return (
     <aside className="market" aria-label={title}>
-      <h3>{title}</h3>
+      <h2 className="market-title">{title}</h2>
       <ul>
         {ids.map((id) => {
           const m = data.market[id];

@@ -226,8 +226,20 @@ export default function App() {
   }, {});
   const m = data.market;
 
+  // Onglets au clavier (motif ARIA « tabs ») : flèches gauche/droite, Début/Fin ; activation automatique.
+  const onTabKey = (e) => {
+    const i = TABS.findIndex((t) => t.id === tab);
+    const next = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: TABS.length - 1 }[e.key];
+    if (next === undefined) return;
+    e.preventDefault();
+    const t = TABS[(next + TABS.length) % TABS.length];
+    setTab(t.id);
+    document.getElementById(`tab-${t.id}`)?.focus();
+  };
+
   return (
     <div className="page">
+      <header className="masthead">
       <div className="topbar">
         <p>Édition du <time dateTime={data.meta.updated}>{fmtDate(data.meta.updated)}</time> · dernière vérification des sources : <time dateTime={data.meta.verified}>{fmtDate(data.meta.verified)}</time> · chaque chiffre sourcé</p>
         <div className="cur" role="group" aria-label="Devise">
@@ -240,7 +252,7 @@ export default function App() {
         </div>
       </div>
 
-      <header className="hero">
+      <div className="hero">
         <div className="hero-text">
           <p className="kicker">Socredo · Banque de Tahiti · Banque de Polynésie · Marara (OPT)</p>
           <h1>
@@ -258,18 +270,23 @@ export default function App() {
             </div>
           ))}
         </div>
-      </header>
+      </div>
       <Tapa />
+      </header>
 
-      <nav className="tabs" role="tablist" aria-label="Rubriques">
-        {TABS.map((t) => (
-          <button key={t.id} role="tab" aria-selected={tab === t.id} className={tab === t.id ? 'tab active' : 'tab'} onClick={() => setTab(t.id)} data-testid={`tab-${t.id}`}>
-            {t.label}
-          </button>
-        ))}
+      <nav className="tabs" aria-label="Rubriques">
+        <div className="tablist" role="tablist" aria-label="Rubriques" onKeyDown={onTabKey}>
+          {TABS.map((t) => (
+            <button key={t.id} id={`tab-${t.id}`} role="tab" type="button" aria-selected={tab === t.id} aria-controls={`panel-${t.id}`} tabIndex={tab === t.id ? 0 : -1}
+              className={tab === t.id ? 'tab active' : 'tab'} onClick={() => setTab(t.id)} data-testid={`tab-${t.id}`}>
+              {t.label}
+            </button>
+          ))}
+        </div>
       </nav>
 
       <main>
+        <div role="tabpanel" id={`panel-${tab}`} aria-labelledby={`tab-${tab}`} data-testid="tabpanel">
         {isData ? (
           <section className="offers" aria-label={TABS.find((t) => t.id === tab).label}>
             <div className="controls">
@@ -322,6 +339,7 @@ export default function App() {
         ) : (
           <Simulator cur={cur} />
         )}
+        </div>
 
         <section className="method" aria-labelledby="method-titre">
           <h2 id="method-titre">Méthode & limites</h2>
