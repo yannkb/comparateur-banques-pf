@@ -5,7 +5,8 @@ française : **Banque SOCREDO**, **Banque de Tahiti** (BPCE), **Banque de Polyn�
 Générale) et **MARARA Paiement** (ex-services financiers / CCP de l'OPT).
 
 Rubriques : crédit immobilier · comptes & cartes (avec la sous-vue **Trouver ma carte**) · épargne ·
-crédit conso/auto · simulateur de capacité d'emprunt (XPF par défaut, bascule €, parité 1 000 XPF = 8,38 €).
+crédit conso/auto · **Repères officiels** · simulateur de capacité d'emprunt (XPF par défaut, bascule €,
+parité 1 000 XPF = 8,38 €). Thème clair ou sombre selon le réglage du système (CSS seul, sans bascule).
 
 **Règle : aucun chiffre sans source.** Chaque valeur de `data/banks.json` porte l'identifiant de sa
 source et une citation exacte ; `npm run verify` contrôle que la citation figure dans la copie texte
@@ -29,8 +30,8 @@ Tests navigateur (Playwright Python + Chromium, axe-core local), lancés aussi e
 ```bash
 BASE_PATH=/comparateur-banques-pf/ npm run build
 BASE_PATH=/comparateur-banques-pf/ npx vite preview --port 4173 --strictPort   # autre terminal, même BASE_PATH
-BASE_PATH=/comparateur-banques-pf/ python3 tests/e2e.py    # parcours (dont Trouver ma carte), captures dans screenshots/, date simulée au 02/01/2027
-BASE_PATH=/comparateur-banques-pf/ python3 tests/a11y.py   # axe WCAG 2.1 AA + navigation clavier des onglets
+BASE_PATH=/comparateur-banques-pf/ python3 tests/e2e.py    # parcours (Trouver ma carte, Repères officiels, thème sombre), captures dans screenshots/ (ou $SCREENSHOTS_DIR)
+BASE_PATH=/comparateur-banques-pf/ python3 tests/a11y.py   # axe WCAG 2.1 AA + clavier, thèmes clair ET sombre (A11Y_SCHEMES=light,dark)
 python3 tests/fuzz/fuzz.py 3000                    # simulateur JS vs implémentation Python indépendante (≤ 2 XPF)
 ```
 
@@ -61,8 +62,11 @@ sans contact, Apple/Google/Samsung Pay, paiement mobile local, paiement en ligne
 devises et de retrait, assurance, conditions) est sourcé et cité, ou « non publié » avec les sources
 consultées. Le sans contact et les portefeuilles mobiles ne sont **jamais** déduits du réseau.
 
-- **Questions rapides** (« Visa la moins chère », « Sans contact la moins chère », « Avec Apple Pay /
-  Google Pay », « Pour voyager », « Carte jeune », « Haut de gamme ») : de simples états de filtres + tri.
+- **Questions rapides** (« Visa la moins chère », « Visa la moins chère utilisable à l'étranger »,
+  « Sans contact la moins chère », « Avec Apple Pay / Google Pay », « Pour voyager », « Carte jeune »,
+  « Haut de gamme ») : de simples états de filtres + tri. Une question peut en citer une autre
+  (`related`) : sous « Visa la moins chère », la meilleure Visa utilisable à l'étranger est calculée et
+  affichée ; une carte non utilisable à l'étranger porte le badge « Pas utilisable à l'étranger ».
 - **Filtres** : banque, réseau, gamme, débit, sans contact, paiement mobile, étranger, offre jeunes,
   budget maximum, inclusion des cartes vendues en offre groupée. Booléens : Indifférent / Oui / Non ;
   une valeur non publiée n'est jamais comptée comme « oui » : la carte est listée à part « à vérifier »
@@ -72,9 +76,27 @@ consultées. Le sans contact et les portefeuilles mobiles ne sont **jamais** dé
 - **Lien partageable** : l'état est dans l'URL, ex. `?vue=carte&reseau=visa`,
   `?vue=carte&sans_contact=1`, `?vue=carte&etranger=1&tri=frais_etranger`.
 - **Générique** : `src/lib/catalog.js` (moteur pur) et `src/Finder.jsx` (interface) ne connaissent pas
-  les cartes ; attributs, facettes, tris, coût et questions rapides sont déclarés dans
+  les cartes (le même moteur sert les engagements des Repères officiels) ; attributs, facettes, tris, coût et questions rapides sont déclarés dans
   `data.catalogs[]`, les produits dans `data.products[]` (voir `data/SCHEMA.md`). Ajouter un
   catalogue (comptes, épargne, crédits) = ajouter des données, sans toucher au moteur.
+
+## Repères officiels
+
+Données d'organismes indépendants des banques, chacune citée et vérifiée comme le reste :
+
+- **Taux moyens IEOM** des crédits nouveaux aux particuliers (habitat, conso, découverts ; Polynésie
+  et France entière), par trimestre de T2 2024 à T2 2026 (notes IEOM T3 2025 et T2 2026).
+- **Seuils de l'usure** par catégorie, du 1er octobre 2025 au 1er octobre 2026 (Banque de France,
+  Journal officiel), applicables en Polynésie.
+- **Règles du crédit** : loi du pays n° 2025-21 du 15/07/2025 et arrêté n° 1813 CM du 24/09/2025
+  (barème des indemnités de remboursement anticipé, fiche d'information type, offre de prêt,
+  rétractation, défaillance, dates d'entrée en vigueur), CESEC, Assemblée ; code de la consommation
+  annoncé pour le 01/01/2027 (presse, signalée comme source secondaire).
+- **Accord de modération des tarifs bancaires 2026-2028** (signé le 13/02/2026, texte reproduit en
+  annexe du rapport annuel de l'Observatoire IEOM 2025-2026) : engagements, extrait standard des
+  tarifs (moyennes Polynésie / Hexagone 2014-2026), et engagements par banque × service filtrables
+  avec le moteur générique (tarif relevé par l'IEOM au 01/04/2026 confronté à la grille de la banque,
+  écart signalé).
 
 ## Simulateur
 
