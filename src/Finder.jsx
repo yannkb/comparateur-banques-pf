@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { fmtDate, fmtMoney, fmtNum } from './lib/data.js';
 import { SourceChip } from './common.jsx';
-import { attrOf, bestIds, defaultState, facetOf, isActive, optionsOf, presetState, query, sameState } from './lib/catalog.js';
+import { attrOf, bestIds, compareOf, defaultState, facetOf, isActive, isFound, optionsOf, presetBest, presetState, query, sameState } from './lib/catalog.js';
 
 // Vue « trouver un produit » générique : tout (attributs, facettes, tris, questions rapides, coût) vient du
 // catalogue déclaré dans les données. Aucun libellé ni attribut propre aux cartes ici.
@@ -74,8 +74,12 @@ function Cost({ catalog, item, cur }) {
 function ProductCard({ catalog, item, best, bank, cur, idx }) {
   const { row } = item;
   const shown = new Set([catalog.cost?.attr, catalog.cost?.alt?.attr]);
-  const summary = catalog.summary.filter((id) => !shown.has(id)).map((id) => attrOf(catalog, id));
-  const rest = catalog.attributes.filter((a) => !shown.has(a.id) && !catalog.summary.includes(a.id));
+  // attributs facultatifs (`optional`) absents d'une ligne : simplement non affichés
+  const summary = catalog.summary.filter((id) => !shown.has(id) && row.attrs[id] !== undefined).map((id) => attrOf(catalog, id));
+  const rest = catalog.attributes.filter((a) => !shown.has(a.id) && !catalog.summary.includes(a.id) && row.attrs[a.id] !== undefined);
+  // alerte déclarée dans les données (`flagFalse`) quand un attribut booléen publié vaut « non » (ex. pas utilisable à l'étranger)
+  const flags = catalog.attributes.filter((a) => a.flagFalse && isFound(row.attrs[a.id]) && row.attrs[a.id].code === false);
+  const cmp = catalog.compare ? compareOf(catalog, row) : null;
   return (
     <article className="pcard" style={{ '--bank': bank?.color, '--i': Math.min(idx, 8) }} data-testid={`pcard-${row.id}`} data-product={row.productId}>
       <header className="pcard-head">
@@ -83,6 +87,9 @@ function ProductCard({ catalog, item, best, bank, cur, idx }) {
         <h3>{row.name}{row.variant && <span className="pvariant"> · {row.variant}</span>}</h3>
         <div className="ptags">
           {best && <span className="tag tag-best" data-testid="tag-cheapest">{catalog.best.label}</span>}
+          {flags.map((a) => <span key={a.id} className="tag tag-warn" data-testid={`tag-flag-${a.id}`}>{a.flagFalse}</span>)}
+          {cmp === 'diff' && <span className="tag tag-warn" data-testid="tag-compare-diff">{catalog.compare.label}</span>}
+          {cmp === 'same' && <span className="tag tag-ok" data-testid="tag-compare-same">{catalog.compare.okLabel}</span>}
           {item.unknownFacets.map((f) => <span key={f} className="tag tag-np">Non publié : {facetOf(catalog, f).label.toLowerCase()}</span>)}
         </div>
       </header>
@@ -90,13 +97,17 @@ function ProductCard({ catalog, item, best, bank, cur, idx }) {
       <dl className="pattrs">
         {summary.map((a) => <div key={a.id}><dt>{a.label}</dt><dd><AttrValue a={a} e={row.attrs[a.id]} cur={cur} /></dd></div>)}
       </dl>
-      <details className="pmore">
-        <summary>Tous les attributs</summary>
-        <dl className="pattrs">
-          {rest.map((a) => <div key={a.id}><dt>{a.label}</dt><dd><AttrValue a={a} e={row.attrs[a.id]} cur={cur} /></dd></div>)}
-        </dl>
-        {row.note && <p className="note">{row.note}</p>}
-      </details>
+      {(rest.length > 0 || row.note) && (
+        <details className="pmore">
+          <summary>{rest.length ? 'Tous les attributs' : 'Précisions'}</summary>
+          {rest.length > 0 && (
+            <dl className="pattrs">
+              {rest.map((a) => <div key={a.id}><dt>{a.label}</dt><dd><AttrValue a={a} e={row.attrs[a.id]} cur={cur} /></dd></div>)}
+            </dl>
+          )}
+          {row.note && <p className="note">{row.note}</p>}
+        </details>
+      )}
     </article>
   );
 }
@@ -171,6 +182,21 @@ function Facet({ catalog, facet, value, set, fieldOptions, cur }) {
   );
 }
 
+/** Réponse d'une question liée (ex. « Visa la moins chère » → « … utilisable à l'étranger »), calculée par le moteur. */
+function Related({ catalog, rows, labels, rel, bankById, cur, onApply }) {
+  const best = presetBest(catalog, rows, rel.preset, labels);
+  const unit = unitSuffix(catalog.cost?.unit);
+  return (
+    <p className="related" data-testid={`related-${rel.preset}`}>
+      <span className="related-label">{rel.label} :</span>{' '}
+      {best.length ? best.map((m, i) => (
+        <span key={m.row.id}>{i > 0 && ', '}<b>{bankById[m.row.bank]?.short} {m.row.name}{m.row.variant ? ` (${m.row.variant})` : ''}</b>{m.cost.value !== null && <> · {fmtMoney(m.cost.value, cur)}{unit}</>}</span>
+      )) : <span>aucune carte publiée</span>}{' '}
+      <button type="button" className="linkish" onClick={onApply} data-testid={`related-apply-${rel.preset}`}>voir</button>
+    </p>
+  );
+}
+
 export default function Finder({ catalog, rows, banks, cur, state, onChange }) {
   const [open, setOpen] = useState(() => typeof window !== 'undefined' && window.matchMedia?.('(min-width: 1080px)').matches);
   const bankById = useMemo(() => Object.fromEntries(banks.map((b) => [b.id, b])), [banks]);
@@ -184,7 +210,7 @@ export default function Finder({ catalog, rows, banks, cur, state, onChange }) {
   const [one, many] = catalog.itemLabel || ['produit', 'produits'];
 
   return (
-    <section className="finder" aria-labelledby={`finder-${catalog.id}-titre`} data-testid={`finder-${catalog.id}`}>
+    <section className="finder" aria-labelledby={`finder-${catalog.id}-titre`} data-testid={`finder-${catalog.id}`} data-layout={catalog.layout || 'cards'}>
       <h2 id={`finder-${catalog.id}-titre`} className="finder-title">{catalog.label}</h2>
       {catalog.intro && <p className="hint finder-intro">{catalog.intro}</p>}
 
@@ -195,6 +221,10 @@ export default function Finder({ catalog, rows, banks, cur, state, onChange }) {
             onClick={() => onChange(presetState(catalog, p))} data-testid={`preset-${p.id}`}>{p.label}</button>
         ))}
       </div>
+      {current?.related?.map((rel) => (
+        <Related key={rel.preset} catalog={catalog} rows={rows} labels={labels} rel={rel} bankById={bankById} cur={cur}
+          onApply={() => onChange(presetState(catalog, catalog.presets.find((p) => p.id === rel.preset)))} />
+      ))}
 
       <div className="finder-grid">
         <details className="facets-box" open={open} onToggle={(e) => setOpen(e.currentTarget.open)}>
@@ -225,7 +255,7 @@ export default function Finder({ catalog, rows, banks, cur, state, onChange }) {
               </select>
             </label>
           </div>
-          {res.matches.length === 0 && <p className="np np-label">Aucune {one} ne correspond à tous les critères publiés.</p>}
+          {res.matches.length === 0 && <p className="np np-label">{catalog.emptyLabel || `Aucune ${one} ne correspond à tous les critères publiés.`}</p>}
           <ol className="plist" data-testid="finder-results">
             {res.matches.map((m, i) => <li key={m.row.id}><ProductCard catalog={catalog} item={m} best={best.has(m.row.id)} bank={bankById[m.row.bank]} cur={cur} idx={i} /></li>)}
           </ol>
