@@ -1,0 +1,1746 @@
+INSTITUT D’ÉMISSION D’OUTRE-MER
+Rapport  a nnuel 
+2025-2026
+OBSERVATOIRE 
+DES TARIFS 
+BANCAIRES
+DANS LES COM 
+PÉRIMÈTRE D’ACTIVITÉS DE L’IEOM
+Agences IEOM
+Nouvelle-Calédonie /  
+Polynésie Française /  
+Wallis-et-Futuna
+Siège Paris
+ 
+   1 
+ 
+ 
+  
+ 
+ 
+Publication réalisée par la division Observatoire économique et des établissements 
+de crédit 
+de l’Institut d’émission d’outre-mer (IEOM). 
+ 
+ 
+ 
+Rapport annuel portant sur les tarifs bancaires aux particuliers pratiqués 
+dans les collectivités 
+de la Nouvelle-Calédonie, de la Polynésie française et 
+de Wallis-et-Futuna 
+ 
+ 
+ 
+   2 
+ 
+Sommaire 
+ 
+Synthèse ______________________________________________________________________________ 3 
+I. ÉVOLUTIONS DE L’ENSEMBLE DES TARIFS SUIVIS EN AVRIL 2026 _________________________ 6 
+1. Analyse détaillée des 14 tarifs moyens pondérés de l’extrait standard 6 
+2. Analyse détaillée et évolution des autres tarifs moyens pondérés suivis par l’Observatoire 10 
+II. COMPARAISON DES TARIFS DE L’EXTRAIT STANDARD AVEC L’HEXAGONE EN AVRIL 2026 _ 11 
+1. Évolutions comparées des tarifs moyens des COM du Pacifique et de l’Hexagone 12 
+2. Évolutions comparées des tarifs moyens des COM du Pacifique et les départements et collectivités 
+d’outre-mer (DCOM) de la zone euro 15 
+III. ANNEXES _______________________________________________________________________ 17 
+Annexe 1 : Les dispositions législatives sur les tarifs bancaires outre-mer ; les rapports « Constans » et 
+« Dromer » 17 
+Annexe 2 : Liste des établissements financiers participant à l’Observatoire, par géographie 22 
+Annexe 3 : Niveaux des tarifs bancaires de l’extrait standard (avril 2014 à avril 2026), évolutions annuelles et 
+écarts avec l’Hexagone (2025) 23 
+Annexe 4 : Niveaux des tarifs bancaires « hors extrait standard » (avril 2014 à avril 2026) et évolutions 
+annuelles (2026) 26 
+Annexe 5 : Accord de concertation signé en Nouvelle-Calédonie le 17 décembre 2024 27 
+Annexe 6 : Accord de concertation signé en Polynésie française le 13 février 2026 33 
+ 
+ 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+ 3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Synthèse 
+ 
+Le présent rapport de l’Observatoire des tarifs bancaires pour les collectivités d’outre-mer 
+(COM) du Pacifique examine les évolutions de 17 tarifs, dont 14 de l’extrait standard, entre 
+avril 2025 et avril 2026. Il compare également les niveaux moyens et les évolutions des 
+14 tarifs de l’extrait standard avec l’Hexagone. Enfin, ce rapport présente les écarts tarifaires 
+avec les DCOM de la zone euro sur les 17 tarifs dont les 3 tarifs réglementés.  
+Entre avril 2025 et avril 2026, les tarifs bancaires dans les COM du Pacifique  évoluent 
+globalement de manière modérée, dans le contexte des accords de modération sur les 
+tarifs bancaires signés en Nouvelle-Calédonie et en Polynésie française. 
+Ces accords de modération des tarifs bancaires contribuent effectivement à  limiter les 
+hausses tarifaires et à favoriser les baisses, participant ainsi à la convergence des tarifs avec 
+ceux pratiqués dans l’Hexagone. 
+Sur les 14 services de l’extrait standard, 6 enregistrent une hausse en 2026. Cependant, ces 
+hausses sont globalement contenues (3 tarifs sont en hausse de moins de 30 F CFP) et moins 
+marquées que dans les DCOM de la zone euro. Les situations restent toutefois contrastées 
+selon les géographies. 
+Les frais de tenue de compte affichent une hausse modérée dans les COM (+0,7  %), 
+nettement inférieure à celle de l’Hexagone (+2,8 %). 
+La progression d es frais liés aux cartes de paiement à débit différé et  à débit immédiat est 
+également contenue (respectivement +90 F CFP et +195 F CFP), tandis que les frais liés à 
+la carte à autorisation systématique connaissent un repli notable (-109 F CFP). 
+Plusieurs tarifs bancaires deviennent, ou demeurent gratuits :  
+- services de banque à distance ; 
+- virements en ligne et prélèvements dans toutes les géographies. 
+ 
+Quant aux trois tarifs "hors extrait standard" suivis par l'Observatoire qui concernent les frais 
+d’incidents (rejets de chèques et prélèvements), ils restent globalement  stables avec des 
+évolutions faibles ou nulles dans la majorité des cas, à l’exception des frais de rejet de 
+prélèvement, en légère hausse en Polynésie française. 
+En 2026, la convergence des tarifs bancaires entre les COM du Pacifique et l’Hexagone 
+se confirme, en lien avec réduction des écarts sur plusieurs tarifs , notamment les frais de 
+tenue de compte, l’abonnement à des services de banque à distance, la fourniture d'une carte 
+de paiement à autorisation systématique et les frais de mise en place d'un mandat de 
+prélèvement. 
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+ 4 
+ 
+Mis en place par la loi n°  2010-1249 du 22 octobre 2010 de régulation bancaire et financière, 
+complétée par la loi n°  2012-1270 du 20 novembre 2012 relative à la régulation économique outre -mer, 
+l’Observatoire des tarifs bancaires 1 couvre la zone d’intervention de l’IEOM (Nouvelle -Calédonie, Polynésie 
+française et  Wallis-et-Futuna). Le cadre législatif et les rapports du Comité consultatif du secteur financier 
+(CCSF) dédiés aux tarifs bancaires en Outre-mer sont rappelés plus en détail en annexe 1. Les établissements 
+financiers participants à l’Observatoire figurent dans l’annexe 2. 
+ 
+ 
+ 
+ 
+  
+Alexandre GAUTIER 
+          Directeur général de l’IEOM 
+  
+ 
+1 Son statut est codifié à l’article L. 721 -23 du Code monétaire et financier  : « Au sein de l’Institut d’émission d’outre-mer, un observatoire des 
+tarifs bancaires est chargé d’étudier les questions relatives aux tarifs bancaires pratiqués dans les collectivités mentionnées à l ’article L. 721-
+4 [Nouvelle-Calédonie, Polynésie française et îles de Wallis -et-Futuna]. Il publie périodiquement des relevés portant sur l ’évolution des tarifs 
+et les différences constatées entre les établissements. Il établit chaque année un rapport d’activité, qui est publié sur son site internet. » 
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+ 5 
+  
+Méthodologie de l’Observatoire des tarifs bancaires 
+ 
+Depuis 2009, l’IEOM relève chaque semestre, respectivement au 1 er avril et au 1 er octobre, des tarifs 
+individuels aux particuliers de services bancaires tels qu’ils sont présentés dans les plaquettes tarifaires 
+mises en ligne sur les sites internet des 9 banques et 2 établissements de paiement installés dans les 
+3 collectivités couvertes par la zone d’intervention de l’IEOM. Les deux établissements de paiements sont 
+polynésiens : MARARA Paiement qui a repris les activités bancaires de l’OPT PF depuis août 2 022, et 
+EGPF Polynésie en activité depuis 2022. Depuis l’Observatoire d’octobre 2017, la collecte des tarifs est 
+effectuée par la société Sémaphore Conseil. 
+Les 11 établissements précités appartiennent pour 9 d’entre eux à l’un des 4 grands réseaux bancaires 
+(BNPP, BPCE, OPT, Société Générale), comme le détaille le tableau présenté en annexe  2. Ces 
+établissements sont soit filiales, soit succursales de ces gro upes, et peuvent intervenir sur plusieurs 
+géographies, en pratiquant des tarifications homogènes ou différenciées.  
+Sur la base de ces relevés, et après confirmation des données par chaque banque, l’IEOM calcule le tarif 
+moyen de chaque service observé par géographie ainsi que le tarif moyen pour la zone d’intervention de 
+l’IEOM, arrondi au franc près. Depuis cette année, le tarif moyen d’un service est calculé en pondérant les 
+tarifs moyens de chaque zone géographique, en fonction du nombre de comptes ordinaires de particuliers 
+qui y sont détenus, afin de refléter plus fidèlement leur importance relative. En cas d’absence de données 
+sur le nombre de comptes pour certains établissements sur une année donnée, le calcul s’appuie sur les 
+données disponibles à la fin de l’année précédente. 
+La diffusion du tarif moyen calculé est réalisée seulement si la représentativité du service est significative. 
+La mention NS, « non significatif », est apposée le cas échéant. Par ailleurs, la structure des places 
+bancaires, avec parfois le poids important de certains établissements, peut expliquer les écarts sensibles 
+entre les géographies. De plus, une variation du tarif moyen pondéré peut n’être qu’apparente, dès lors 
+qu’elle résulte uniquement de l’ évolution du nombre de comptes détenus par chaque étab lissement, 
+notamment lorsque celui-ci gagne ou perd des parts de marché. Enfin, l’Observatoire ne retient que les 
+valeurs unitaires de services et ne présente pas les forfaits, dont les définitions sont spécifiques à chaque 
+établissement. 
+Les tarifs relevés incluent ceux de « l’extrait standardisé de 10 produits ou services courants » adopté par 
+la profession bancaire depuis le 1 er janvier 2011. Un onzième tarif standard, celui des frais annuels de 
+tenue de compte, complète cette liste depuis le 5 novembre 2013. Compte tenu de subdivisions, les tarifs 
+de l’extrait standard examinés dans ce rapport sont, au final, au nombre de 14.  
+Afin de permettre des comparaisons avec l’Hexagone, le rapport annuel de l’Observatoire des tarifs 
+bancaires de l’IEOM et ses publications semestrielles mentionnent pour les tarifs de l’extrait standard 
+précités, les tarifs moyens hexagonaux pondérés tels que calculés par le Conseil consultatif du secteur 
+financier (CCSF). Ces moyennes hexagonales sont susceptibles d’être révisées par le CCSF et de fait ne 
+correspondent pas forcément aux moyennes publiées antérieurement. En 2025, pour la première fois le 
+périmètre de déclarant du CCSF comprend des banques en ligne et  des établissements de paiements.  
+Enfin, ce rapport présente aussi les tarifs moyens pondérés des DCOM de la zone euro, publiés dans le 
+rapport annuel de l’Observatoire des tarifs bancaires de l’IEDOM de la même année. 
+ 
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+ 6 
+I. ÉVOLUTIONS DE L’ENSEMBLE DES TARIFS 
+SUIVIS EN AVRIL 2026 
+1. Analyse détaillée des 14 tarifs moyens pondérés de l’extrait 
+standard 
+Nombre de 
+tarifs* 
+Nouvelle-
+Calédonie 
+Polynésie 
+française Wallis-et-Futuna COM DCOM zone euro Hexagone (1) 
+Tarifs gratuits 3 4 5 3 3 2 
+Tarifs en baisse 3 baisses, dont 2 > à 60 F CFP  0 1 baisse, aucune > à 60 F CFP 2 baisses, dont 2 > à 60 F CFP  2 baisses, aucune > à 60 F CFP 3 baisses, aucune > à 60 F CFP 
+Tarifs stables 1 3 6 1 2 2 
+Tarifs en hausse 5 hausses, dont 3 > à 60 F CFP  6 hausses, dont 3 > à 60 F CFP  0 6 hausses, dont 3 > à 60 F CFP  6 hausses, dont 3 > à 60 F CFP  7 hausses, dont 3 > à 60 F CFP  
+Non significatifs** 2 1 2 2 1 0 
+(1) Les données pondérées de l’Hexagone intègrent pour la deuxième année les banques en ligne et les établissements de paieme nt. 
+* Tarifs arrondis au franc CFP près pour les COM. Si un tarif passe de 1,1 F CFP à 1,3 F CFP, il est présenté comme stable à 1 F CFP. 
+** Tarifs ne donnant pas lieu à un calcul de moyenne  
+ 
+Entre avril 2025 et avril 2026, l’analyse des 14 tarifs 
+de l’extrait standard met en évidence une 
+prédominance des hausses tarifaires dans 
+l’ensemble des géographies, mais avec des 
+évolutions contrastées selon le territoire. 
+En Nouvelle -Calédonie, 5 tarifs sont en hausse 
+(dont 3 supérieures à 60 F CFP), 3 sont en baisse, 
+1 est stable, tandis que 3 services demeurent 
+gratuits.  
+En Polynésie française, les hausses dominent 
+(6 hausses, dont 3 supérieures à 60 F CFP), sans 
+baisse observée, 3 tarifs sont stables et 4 gratuits.  
+À Wallis -et-Futuna, aucune hausse n’est 
+enregistrée, 6 tarifs sont stables, 1 tarif est en 
+baisse et 5 services sont gratuits. 
+Au niveau agrégé, on dénombre dans les COM 
+6 tarifs en  hausse (dont 3 de plus de  60 F CFP), 
+2 en sensible baisse, 1 tarif stable et 3 gratuits. 
+À titre de comparaison, 7 tarifs sont en hausse dans 
+l’Hexagone, contre 6 dans les DCOM de la zone 
+euro. 
+Les tarifs pratiqués dans les COM tendent à 
+converger vers ceux de l’Hexagone,  avec une 
+réduction continue des écarts et par un nombre de 
+hausses moins important dans les COM du 
+Pacifique. 
+Par ailleurs, la présence de plusieurs services 
+gratuits dans les COM contribue à contenir le 
+niveau moyen des tarifs bancaires , notamment à 
+Wallis-et-Futuna où seule une banque est présente. 
+Enfin, le renouvellement régulier des accords de 
+modération des tarifs bancaires en Polynésie 
+française et en Nouvelle -Calédonie contribue 
+fortement à limiter les hausses de tarif et à favoriser 
+des ajustements à la baisse.  
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+7 
+Évolution des tarifs de l’extrait standard pondérés par géographie (avril 2025 à avril 2026)  
+ 
+(1) Les données pondérées de l’Hexagone intègrent pour la deuxième année les banques en ligne et les établissements de paieme nt. 
+Les variations égales à 0 F CFP sont considérées comme stables. Les variations des tarifs Hexagone et DCOM sont celles calculées en euro.  
+ 
+ Baisse ou gratuité du tarif  
+ Hausse du tarif (y compris tarif Gratuit devenu payant) NS : non significatif 
+ Stabilité du tarif (voir la page méthodologie)  
+    
+Nouvelle- 
+Calédonie 
+Polynésie 
+française 
+Wallis- 
+et-Futuna 
+COM DCOM Hexagone (1) 
+Tenue de compte (par an) 
+-1,7 % +0,5 % +0,0 % +0,7 % +2,8 % +3,7 % 
+-35 F CFP +21 F CFP +0 F CFP +23 F CFP +86 F CFP +96 F CFP 
+Abonnement à des services de banque à 
+distance (internet, téléphone fixe, SMS, etc.) 
+(par mois) 
+gratuit gratuit gratuit gratuit 
+-1,6 % -9,1 % 
+-1 F CFP -0 F CFP 
+Abonnement à des produits offrant des alertes 
+sur la situation du compte par SMS (par mois) NS 
++162,1 % 
+NS NS 
++0,00 % -0,2 % 
++274 F CFP +0 F CFP -0 F CFP 
+Abonnement à des produits offrant des alertes 
+sur la situation du compte par SMS (par 
+message) 
+NS NS NS NS NS 
+-0,0 % 
+-0 F CFP 
+Fourniture d’une carte de débit (carte de 
+paiement internationale à débit différé) 
++1,7 % +2,3 % +0,0 % +1,7 % +2,7 % +1,6 % 
++87 F CFP +124 F CFP +0 F CFP +90 F CFP +150 F CFP +82 F CFP 
+Fourniture d’une carte de débit (carte de 
+paiement internationale à débit immédiat) 
++5,1 % 
++254 F CFP 
++2,4 % 
++131 F CFP 
++0,0 % 
++0 F CFP 
++3,7 % 
++195 F CFP 
++2,9 % 
++161 F CFP 
++1,6 % 
++83 F CFP 
+Fourniture d’une carte de débit (carte de 
+paiement à autorisation systématique) 
+-6,9 % +0,9 % -1,1 % -2,8 % -0,1 % +1,5 % 
+-265 F CFP +35 F CFP -38 F CFP -109 F CFP -4 F CFP +52 F CFP 
+Retrait dans un DAB d’un autre établissement 
+dans le territoire avec une carte de paiement 
+internationale (au 1er retrait payant) 
++3,2 % +0,0 % 
+gratuit 
++1,9 % +1,0 % +1,0 % 
++3 F CFP +0 F CFP +2 F CFP +1 F CFP +2 F CFP 
+Virement occasionnel externe dans le territoire 
+en agence (par virement et au 1er virement) 
++1,5 % +0,0 % +0,0 % +0,9 % +5,5 % +5,4 % 
++6 F CFP +0 F CFP +0 F CFP +4 F CFP +30 F CFP +32 F CFP 
+Virement occasionnel externe dans le territoire 
+par internet (par virement et au 1er virement) gratuit gratuit gratuit gratuit gratuit gratuit 
+Prélèvement (frais de mise en place d’un 
+mandat de prélèvement) 
+-62,4 % 
+gratuit gratuit 
+-64,4 % 
+gratuit 
+-7,1 % 
+-179 F CFP -94 F CFP -1 F CFP 
+Prélèvement (frais par paiement d’un 
+prélèvement) gratuit gratuit gratuit gratuit gratuit gratuit 
+Commission d’intervention (par opération) 
++0,0 % +0,1 % +0,0 % +0,0 % +0,0 % +0,0 % 
++0 F CFP +1 F CFP +0 F CFP +0 F CFP +1 F CFP +0 F CFP 
+Cotisation à une offre d’assurance perte ou vol 
+des moyens de paiement 
++9,6 % +0,0 % +0,0 % +4,6 % +1,7 % +0,04 % 
++279 F CFP +0 F CFP +0 F CFP +134 F CFP +56 F CFP +1 F CFP 
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+8 
+Tenue de compte (par an) 
+En avril 2026, le tarif moyen pondéré des frais de 
+tenue de compte dans les COM du Pacifique affiche 
+une hausse modérée de 0,7 %, soit +23 F CFP sur 
+un an. Cette évolution confirme la tendance à la 
+stabilisation progressive des frais de tenue de 
+compte dans les territoires ultramarins du Pacifique. 
+Les évolutions demeurent toutefois contrastées 
+selon les géographies : 
+En Nouvelle -Calédonie, le tarif diminue de 1,7  %  
+(-35 F CFP), dans un contexte de réajustements 
+tarifaires limités et encadrés par le nouvel accord 
+local, qui plafonne désormais la moyenne locale au 
+niveau de la moyenne hexagonale.  
+En Polynésie française, les établissements n’ont 
+pas augmenté leurs frais de tenue de compte. L a 
+hausse observée (+0,5 %, +21  F CFP) résulte 
+exclusivement d’un effet de pondération lié à 
+l’évolution du nombre de comptes par 
+établissement, sans aucune modification des tarifs 
+appliqués.  
+À Wallis -et-Futuna, le tarif reste stable, pour la 
+troisième année consécutive. 
+À titre de comparaison, les tarifs pratiqués dans les 
+DCOM de la zone euro et dans l’Hexagone affichent 
+une hausse plus soutenue (respectivement +2,8 % 
+et +3,7 %). Si les frais pratiqués dans les COM du 
+Pacifique sont désormais inférieurs à ceux 
+pratiqués dans les DCOM (3  165 F CFP contre 
+3 180 F CFP), l’écart avec le tarif hexagonal reste 
+significatif (493 F CFP). 
+ 
+Abonnement à des services de banque à 
+distance (internet, téléphone fixe, SMS, 
+etc.) (par mois) 
+En 2026, la gratuité des services de banque à 
+distance est désormais généralisée à  l’ensemble 
+des COM du Pacifique. Cette situation témoigne de 
+l’aboutissement des accords locaux successifs, qui 
+prévoyaient la suppression progressive de la 
+tarification de ce service essentiel à l’inclusion 
+bancaire. 
+Cette gratuité constitue un marqueur fort de la 
+convergence des pratiques bancaires dans les 
+COM. Elle contraste avec la situation observée 
+dans les DCOM, et dans une moindre mesure dans 
+l’Hexagone, où le tarif moyen diminue, mais reste 
+encore facturé par une partie des établissements.  
+L’accord signé en  Nouvelle-Calédonie en 
+décembre 2024 prévoyait la gratuité de ce tarif au 
+31 décembre 2025. Dès avril 2025, 
+4 établissements sur 5 proposaient ce service 
+gratuitement.  
+Le nouvel accord en Polynésie française entérine 
+cette gratuité et l’ensemble des établissements ont 
+mis en œuvre les mesures nécessaires pour y 
+parvenir. 
+À Wallis-et-Futuna, bien qu’il n’y ait pas d’accord, la 
+banque locale ne facture plus ce service.  
+ 
+Abonnement à des produits offrant des 
+alertes sur la situation du compte par SMS 
+(par mois) 
+Le tarif moyen pondéré des abonnements 
+mensuels aux alertes SMS reste non significatif à 
+l’échelle des COM du Pacifique . C e service 
+demeure insuffisamment commercialisé en 
+Nouvelle-Calédonie et n’est pas proposé  à 
+Wallis-et-Futuna. 
+En Polynésie française, le tarif moyen affiche une 
+hausse marquée (+162,1  %, +274  F CFP), due 
+exclusivement à un ajustement tarifaire opéré par 
+un seul établissement. 
+ 
+Abonnement à des produits offrant des 
+alertes sur la situation du compte par SMS 
+(par message) 
+La facturation des alertes SMS par message 
+demeure marginale. Elle ne permet toujours pas le 
+calcul d’une moyenne représentative dans les 
+COM. 
+ 
+Fourniture d’une carte de débit (carte de 
+paiement internationale à débit différé) 
+En 2026, le tarif moyen pondéré de la carte à débit 
+différé progresse de 1,7  % dans les COM du 
+Pacifique (+90 F CFP).  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+9 
+En Nouvelle -Calédonie, 2 établissements 
+augmentent leurs tarifs de cette carte . L’évolution 
+tarifaire constatée en Polynésie française est 
+uniquement due à un effet de pondération du 
+nombre de comptes par établissement . Enfin, l e 
+tarif demeure inchangé à Wallis -et-Futuna, qui 
+conserve le tarif le plus faible des COM du 
+Pacifique. 
+En Hexagone, le tarif progresse également (+1,6 % 
+pour s’établir à 5 314 F CFP en avril 2026), mais il 
+reste légèrement inférieur au tarif moyen pratiqué 
+par les établissements des COM du Pacifique 
+(5 355 F CFP). 
+ 
+Fourniture d’une carte de débit (carte de 
+paiement internationale à débit immédiat) 
+Le tarif moyen pondéré de la carte à débit immédiat 
+augmente de +3,7 % en 2026, soit  +195 F CFP. 
+Cette évolution s’explique principalement par les 
+hausses enregistrées en Nouvelle -Calédonie 
+(+5,1 %) et en Polynésie française (+2,4  %), dans 
+un contexte de rattrapages tarifaires pratiqué par  
+2 établissements. À Wallis-et-Futuna, le tarif est 
+demeuré stable. 
+La progression modérée enregistrée dans 
+l’Hexagone (+ 1,6 %), contraste avec la situation 
+des COM, où le tarif de la carte à débit immédiat est 
+désormais plus élevé.  
+Dans les DCOM de la zone euro, ce tarif s’aligne 
+sur celui de la carte à débit différé. 
+ 
+Fourniture d’une carte de débit (carte de 
+paiement à autorisation systématique) 
+Le tarif moyen pondéré de la carte à autorisation 
+systématique recule dans les COM du Pacifique 
+(-2,8 %, -109 F CFP). 
+Cette baisse est principalement observée en  
+Nouvelle-Calédonie, où le tarif diminue 
+sensiblement (-6,9 %, -265 F CFP), 4 des 
+5 banques locales ayant réduit leurs tarifs , tandis 
+que la dernière a maintenu le tarif appliqué l’année 
+précédente. Wallis-et-Futuna contribue également 
+à la baisse, tandis que l’évolution du tarif en 
+Polynésie française résulte d’un effet de 
+pondération. 
+Dans le même temps, le tarif progresse dans 
+l’Hexagone (+1,5 %), ce qui entraîne une réduction 
+significative de l’écart tarifaire, qui demeure 
+toutefois défavorable aux COM (+275 F CFP). 
+ 
+Retrait dans un DAB d’un autre 
+établissement dans le territoire avec une 
+carte de paiement internationale (au 1er 
+retrait payant) 
+Le tarif moyen pondéré du premier retrait payant 
+dans un DAB d’un autre établissement augmente 
+légèrement dans les COM (+1,9 %, +2 F CFP). 
+Il reste gratuit à Wallis -et-Futuna, stable en 
+Polynésie française et n’enregistre qu’une légère 
+hausse en Nouvelle -Calédonie, à la suite de la 
+décision d‘ un établissement d‘augmenter son tarif 
+de 5 F CFP. À 107 F CFP, les frais de retrait dans 
+un DAB d’un autre établissement pratiqués dans les 
+COM du Pacifique  demeurent inférieurs à ce ux 
+observés dans les DCOM de la zone euro et dans 
+l’Hexagone (environ 120 F CFP). 
+ 
+Virement occasionnel externe dans le 
+territoire en agence (par virement et au 1er 
+virement) 
+Dans les COM du Pacifique, le tarif progresse de 
+4 F CFP sur un an ( +0,9 %), pour s’établir à 
+426 F CPF. Il reste sensiblement inférieur a u tarif 
+hexagonal (632 F CPF) qui enregistre une hausse 
+plus marquée (+5,4 %). 
+ 
+Virement occasionnel externe dans le 
+territoire par internet (par virement et au 
+1er virement) 
+Les virements occasionnels par internet resten t 
+gratuits en 2026 dans toutes les géographies y 
+compris dans l’Hexagone.  
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+10 
+Prélèvement (frais de mise en place d’un 
+mandat de prélèvement)2 
+La mise en place d’un mandat de prélèvement 
+enregistre une baisse très marquée en avril 2026 
+dans les COM du Pacifique (-64,4 %, -94 F CFP). 
+Cette forte diminution s’explique principalement par 
+la gratuité instaurée en Nouvelle -Calédonie par 
+4 établissements de la place, tandis que le dernier 
+a maintenu son tarif à 276 F CFP.  
+En Polynésie française , ce service est gratuit 
+depuis 2015 en respect de l’accord du 8 décembre 
+2014, tandis qu ’il devient gratuit cette année à 
+Wallis-et-Futuna (contre 429 F CFP en avril 2025).  
+ 
+Le tarif moyen pratiqué dans les COM du Pacifique 
+reste supérieur à celui relevé dans l’Hexagone  
+tandis que ce service est gratuit dans les DCOM de 
+la zone euro. 
+ 
+Prélèvement (frais par paiement d’un 
+prélèvement) 
+Les frais par paiement d’un prélèvement demeurent 
+gratuits dans toutes les géographies. 
+ 
+Commission d’intervention (par opération) 
+Tous les établissements des COM du Pacifique 
+respectent le plafonnement des commissions 
+d’intervention fixé à 1 000  F CFP hors taxe par 
+opération depuis le 1er décembre 2015.  
+En 2026, le tarif moyen pondéré de la commission 
+d’intervention est stable dans les COM  du 
+Pacifique. À 985 F CFP, ce tarif reste supérieur à 
+celui pratiqué dans l’ Hexagone (770 F CFP), en 
+raison notamment des spécificités fiscales locales. 
+ 
+Cotisation à une offre d’assurance perte 
+ou vol des moyens de paiement 
+La cotisation à une assurance perte ou vol des 
+moyens de paiement augmente de 4,6 % dans les 
+COM du Pacifique . Cette progression  provient 
+exclusivement de  la Nouvelle-Calédonie, où un 
+établissement a relevé son tarif de 20 %. 
+À 3 062 F CFP contre 3  056 F CFP, le tarif moyen 
+pratiqué dans les COM du Pacifique devient 
+légèrement supérieur à celui de l’Hexagone.
+2. Analyse détaillée et évolution des autres tarifs moyens pondérés 
+suivis par l’Observatoire 
+Entre avril 2025 et avril 2026, les tarifs moyens 
+pondérés « hors extrait standard » suivis par 
+l’Observatoire demeurent globalement stables. Les 
+évolutions relevées sont limitées, avec des 
+variations faibles, voire nulles, sur les trois 
+territoires. 
+Les frais de rejet de prélèvement dans les COM du 
+Pacifique constituent la principale exception à cette 
+stabilité, avec une hausse de 4,0 %, soit +88 F CFP, 
+sous l’effet d’une sensible progression de ces frais 
+en Polynésie française. 
+Les frais de rejet de chèque demeurent globalement 
+inchangés, traduisant un gel des tarifs dans la 
+ 
+2 À noter que cette comparaison doit être nuancée, l’autorisation 
+de prélèvement subsiste dans les COM du Pacifique tandis que le 
+mandat de prélèvement SEPA prévaut dans l’Hexagone.  
+plupart des géographies. 
+Les écarts constatés entre géographies restent 
+limités et s’expliquent principalement par des effets 
+de pondération  du nombre de comptes par 
+établissement ou des ajustements tarifaires 
+ponctuels. 
+Par ailleurs, bien que les tarifs suivis par 
+l’Observatoire incluent les commissions 
+d’intervention, les niveaux observés pour les frais de 
+rejet demeurent inférieurs aux plafonds 
+réglementaires en vigueur. Il convient de rappeler 
+que ces plafonds n’intègrent pas ces commissions. 
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+11 
+ 
+Évolution des tarifs hors extrait standard pondérés par géographie (avril 2025 à avril 2026) 
+  Nouvelle- 
+Calédonie 
+Polynésie 
+française 
+Wallis- 
+et-Futuna 
+COM DCOM 
+Frais de rejet de chèque < 5 967 F CFP 
+(le tarif maximum imposé par la loi est de 3 580 F CFP) * 
++0,03 % +0,0 % +0,0 % +0,0 % +0,0 % 
++1 F CFP +0 F CFP +0 F CFP +0 F CFP +0 F CFP 
+Frais de rejet de chèque > 5 967 F CFP  
+(le tarif maximum imposé par la loi est de 5 967 F CFP) * 
++0,1 % +0,0 % +0,0 % -0,1 % -0,02 % 
++8 F CFP +0 F CFP +0 F CFP -5 F CFP -2 F CFP 
+Frais de rejet de prélèvement  
+(le tarif maximum imposé par la loi est de 2 387 F CFP) * 
++0,7 % +6,9 % +0,0 % +4,0 % +0,05 % 
++15 F CFP +153 F CFP +0 F CFP +88 F CFP +1 F CFP 
+* Les montants intègrent d’éventuelles commissions d’intervention, qui ne sont pas comprises dans le tarif maximum imposé par la loi. 
+Les variations égales à 0 F CFP sont considérées comme stables. Les variations des tarifs Hexagone et DCOM sont celles calculées en euro. 
+ 
+ Baisse ou gratuité du tarif  
+ Hausse du tarif (y compris tarif gratuit devenu payant) 
+Stabilité du tarif (voir la page méthodologie) 
+ 
+ 
+Frais de rejet d’un chèque inférieur à 
+5 967 F CFP  
+Le tarif moyen pondéré des frais de rejet d’un 
+chèque inférieur à 5 967 F CFP est quasiment 
+stable dans l’ensemble des géographies étudiées. 
+La très légère hausse observée en Nouvelle -
+Calédonie s’explique par un effet de pondération du 
+nombre de comptes par établissement , aucun tarif 
+n’ayant évolué entre avril 2025 et avril 2026. Ces 
+frais sont stables en Polynésie française et à Wallis-
+et-Futuna. 
+ 
+Frais de rejet d’un chèque supérieur à 
+5 967 F CFP 
+Le tarif moyen pondéré des frais de rejet d’un 
+chèque supérieur à 5  967 F CFP diminue 
+légèrement dans les COM ( -0,1 %, soit -5 F CFP), 
+sous l’effet des variations de pondération entre 
+établissements, confirmant la stabilité de ces frais 
+dans le Pacifique. 
+En Nouvelle-Calédonie, l a faible augmentation 
+observée (+0,1 %, soit +8 F CFP) résulte d’un effet 
+de pondération , les tarifs rest ant identiques entre 
+avril 2025 et avril 2026. Les tarifs sont également 
+restés stables en Polynésie française et à Wallis-et-
+Futuna. 
+ 
+Frais de rejet de prélèvement  
+Les frais de rejet de prélèvement constituent la 
+seule catégorie présentant une évolution notable. 
+Le tarif moyen pondéré progresse de 4,0 % dans les 
+COM du Pacifique, soit +88 F CFP. 
+Cette hausse des frais provient principalement de la 
+Polynésie française  (+6,9 %), en raison d’un 
+rattrapage tarifaire opéré par un établissement qui a 
+relevé son tarif de 43 % entre avril 2025 et avril 
+2026. 
+En Nouvelle -Calédonie, en raison d ’un effet de 
+pondération, une faible évolution est constatée 
+(+0,7 %, soit +15 F CFP) sans changement sur les 
+tarifs qui, comme à Wallis -et-Futuna, demeurent 
+inchangés. 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+12 
+II. COMPARAISON DES TARIFS DE L’EXTRAIT 
+STANDARD AVEC L’HEXAGONE EN 2026 
+1. Évolutions comparées des tarifs moyens des COM du Pacifique 
+et de l’Hexagone 
+Suite à son enquête annuelle auprès des 
+établissements de crédit hexagonaux, le CCSF a 
+publié 14 tarifs moyens pondérés, selon une 
+méthodologie comparable à celle de l’IEOM 3. Ces 
+tarifs moyens hexagonaux constituent des points de 
+référence qui permettent d’enrichir l’analyse des 
+tarifs moyens de la zone de l’IEOM et de ceux de 
+chaque géographie.  
+Entre avril 2025 et avril 2026, sur les 14 tarifs 
+moyens hexagonaux, 7 sont en hausse (dont 
+3 supérieures à 60  F CFP), 3 sont en baisse et 
+2 sont stables tandis que 2 services demeurent 
+gratuits. 
+Dans l’Hexagone, l es hausses tarifaires restent 
+marquées pour certains services bancaires, en 
+particulier les frais de tenue de compte (+96 F CFP, 
+soit + 3,7 %) ainsi que la fourniture d ’une carte de 
+paiement, qu’elle soit à débit immédiat, à débit 
+différé ou à autorisation systématique . Ces quatre 
+tarifs continuent d’augmenter pour la troisième 
+année consécutive. Néanmoins, les évolutions 
+tarifaires constatées cette année s ’avèrent moins 
+marquées que celles des années précédentes. 
+ 
+ 
+Dans les COM du Pacifique, les frais de tenue de 
+compte progressent moins rapidement que dans 
+l’Hexagone, réduisant ainsi l’écart avec celui -ci à 
+493 F CFP (contre 566  F CFP en 2025). La 
+fourniture d’une carte à autorisation systématique , 
+dont le tarif recule de 109 F CFP, affiche un écart de 
+275 F CFP avec l’Hexagone, contre 436  F CFP en 
+2025. 
+Le tarif des deux autres cartes de paiement, à débit 
+immédiat et à débit différé, ainsi que la cotisation à 
+une offre d’assurance perte ou vol des moyens de 
+paiement progressent plus fortement dans les COM 
+du Pacifique que dans l’Hexagone. Si le tarif de la 
+carte de paiement à débit immédiat et la cotisation 
+à une offre d’assurance des moyens de paiement 
+sont désormais plus élevés dans les COM du 
+Pacifique que dans l’Hexagone, l’écart de tarif de la 
+carte de paiement à débit différé se creuse ( à 
+41 F CFP, contre 33 F CFP en 2025). 
+Dans ce contexte, parmi les 14 tarifs  de l’extrait  
+standard, 7 sont supérieurs dans les COM du 
+Pacifique à ceux de l’Hexagone contre 3 inférieurs, 
+2 sont gratuits et identiques, et 2  demeurent non 
+significatifs. 
+ 
+ 
+  
+  
+ 
+3 Voir méthodologie, page 5 
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+13 
+Niveaux moyens, par géographie, des tarifs bancaires de l’extrait standard en avril 2026 
+ 
+Montant en F CFP 
+Nouvelle- 
+Calédonie 
+Polynésie 
+française 
+Wallis- 
+et-Futuna 
+COM 
+DCOM 
+zone euro 
+Hexagone 
+(1) 
+Tenue de compte (par an) * 2 073 F CFP 4 143 F CFP 6 300 F CFP 3 165 F CFP 3 180 F CFP 2 672 F CFP 
+Abonnement à des services de banque à distance 
+(internet, téléphone fixe, SMS, etc.) (par mois) 0 F CFP 0 F CFP 0 F CFP 0 F CFP 74 F CFP 3 F CFP 
+Abonnement à des produits offrant des alertes sur 
+la situation du compte par SMS (par mois) NS 443 F CFP NS NS 169 F CFP 152 F CFP 
+Abonnement à des produits offrant des alertes sur 
+la situation du compte par SMS (par message) NS NS NS NS NS 33 F CFP 
+Fourniture d’une carte de débit (carte de paiement 
+internationale à débit différé) 5 261 F CFP 5 485 F CFP 5 000 F CFP 5 355 F CFP 5 669 F CFP 5 314 F CFP 
+Fourniture d’une carte de débit (carte de paiement 
+internationale à débit immédiat) 5 264 F CFP 5 556 F CFP 4 953 F CFP 5 411 F CFP 5 669 F CFP 5 323 F CFP 
+Fourniture d’une carte de débit (carte de paiement 
+à autorisation systématique) 3 572 F CFP 3 899 F CFP 3 420 F CFP 3 738 F CFP 4 309 F CFP 3 463 F CFP 
+Retrait dans un DAB d’un autre établissement 
+dans le territoire avec une carte de paiement 
+internationale (au 1er retrait payant) 96 F CFP 119 F CFP 0 F CFP 107 F CFP 122 F CFP 121 F CFP 
+Virement occasionnel externe dans le territoire en 
+agence (par virement et au 1er virement) 419 F CFP 432 F CFP 436 F CFP 426 F CFP 576 F CFP 632 F CFP 
+Virement occasionnel externe dans le territoire 
+par internet (par virement et au 1er virement) 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 
+Prélèvement (frais de mise en place d’un mandat 
+de prélèvement) 108 F CFP 0 F CFP 0 F CFP 52 F CFP 0 F CFP 16 F CFP 
+Prélèvement (frais par paiement d’un 
+prélèvement) 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 
+Commission d’intervention (par opération) 998 F CFP 975 F CFP 900 F CFP 985 F CFP 955 F CFP 770 F CFP 
+Cotisation à une offre d’assurance perte ou vol 
+des moyens de paiement 3 190 F CFP 2 940 F CFP 3 156 F CFP 3 062 F CFP 3 310 F CFP 3 056 F CFP 
+(1) Tarifs d’avril 2026 
+* La moyenne hexagonale des frais de tenue de comptes inclue les comptes actifs y compris cas de gratuité. 
+ 
+ Tarif moyen inférieur au tarif hexagonal  
+ Tarif moyen supérieur au tarif hexagonal NS : non significatif 
+ Tarif moyen égal au tarif hexagonal  
+ 
+ 
+Plus de la moitié des tarifs moyens pondérés sont 
+inférieurs ou égaux aux tarifs hexagonaux en 
+Nouvelle-Calédonie (8 sur 14) et à Wallis-et-Futuna 
+(9 sur 14).  
+En Polynésie française, la situation est plus 
+contrastée, avec 7 tarifs inférieurs ou égaux et 
+6 supérieurs à ceux de l’Hexagone.  
+  
+
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+14 
+Les frais de tenue de compte demeurent plus élevés 
+dans les COM du Pacifique que dans l’Hexagone, 
+même si l’écart continue de se réduire (+493 F CFP 
+en 2026 contre +566 F CFP en 2025). De même, la 
+carte à autorisation systématique reste plus chère 
+dans les COM , avec un écart moyen observé de 
++275 F CFP en 2026.  
+À l’inverse, les virements  effectués en agence 
+restent plus couteux dans l’Hexagone, avec un écart 
+moyen de 206 F CFP en 2026. Cet écart tend à se 
+creuser, en raison de l’augmentation continue de ce 
+tarif en Hexagone, tandis qu’il reste quasiment 
+stable dans les COM du Pacifique.  
+Enfin, l’intégration des banques en ligne et des 
+établissements de paiement dans le rapport du 
+CCSF continue d’influencer certains écarts tarifaires 
+entre l’Hexagone et les COM du Pacifique. 
+ 
+ 
+Évolution des écarts de tarifs (extrait standard) entre COM du Pacifique et Hexagone (2014 à 2026) 
+  Avril-14 Avril-18 Avril-20 Avril-22 Avril-25** Avril-26 
+Tenue de compte  
+(par an) * +2 957 F CFP +782 F CFP +683 F CFP +720 F CFP +566 F CFP +493 F CFP 
+Abonnement à des services de banque à 
+distance 
+(internet, téléphone fixe, SMS, etc.)  
+(par mois) 
++568 F CFP +210 F CFP +146 F CFP +101 F CFP +39 F CFP -3 F CFP 
+Abonnement à des produits offrant des 
+alertes sur la situation du compte par SMS 
+(par mois) 
++110 F CFP NS NS NS NS NS 
+Abonnement à des produits offrant des 
+alertes sur la situation du compte par SMS 
+(par message) 
+NS NS NS NS NS NS 
+Fourniture d’une carte de débit (carte de 
+paiement internationale à débit différé) -81 F CFP -46 F CFP +145 F CFP +200 F CFP +33 F CFP +41 F CFP 
+Fourniture d’une carte de débit (carte de 
+paiement internationale à débit immédiat) +150 F CFP -279 F CFP -103 F CFP -55 F CFP -24 F CFP +88 F CFP 
+Fourniture d’une carte de débit (carte de 
+paiement à autorisation systématique) +856 F CFP -237 F CFP -244 F CFP -179 F CFP +436 F CFP +275 F CFP 
+Retrait dans un DAB d’un autre 
+établissement dans le territoire avec une 
+carte de paiement internationale  
+(au 1er retrait payant) 
+-38 F CFP -31 F CFP -20 F CFP -28 F CFP -14 F CFP -14 F CFP 
+Virement occasionnel externe dans le 
+territoire en agence  
+(par virement et au 1er virement) -102 F CFP -55 F CFP -87 F CFP -123 F CFP -178 F CFP -206 F CFP 
+Virement occasionnel externe dans le 
+territoire par internet  
+(par virement et au 1er virement) +31 F CFP Gratuit Gratuit Gratuit Gratuit Gratuit 
+Prélèvement (frais de mise en place d’un 
+mandat de prélèvement) +1 506 F CFP +365 F CFP +135 F CFP +136 F CFP +129 F CFP +36 F CFP 
+Prélèvement (frais par paiement d’un 
+prélèvement) +23 F CFP Gratuit Gratuit Gratuit Gratuit Gratuit 
+Commission d’intervention  
+(par opération) +623 F CFP +107 F CFP +131 F CFP +165 F CFP +215 F CFP +215 F CFP 
+Cotisation à une offre d’assurance perte ou 
+vol des moyens de paiement -26 F CFP -38 F CFP +35 F CFP -175 F CFP -127 F CFP +6 F CFP 
+* Tarifs hexagonaux de tenue de comptes actifs y compris cas de gratuité  
+** Les tarifs CCSF ont été révisés sur 2024 et 2025. 
+ Tarif moyen inférieur au tarif hexagonal  
+ Tarif moyen supérieur au tarif hexagonal NS : non significatif 
+ Tarif moyen égal au tarif hexagonal  
+
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+15 
+2. Évolutions comparées des tarifs moyens des COM du Pacifique 
+et des départements et collectivités d’outre-mer (DCOM) de la 
+zone euro 
+Alors que la quasi -totalité des tarifs de l’extrait 
+standard dans les COM du Pacifique étaient 
+supérieurs à ceux de l’Hexagone ainsi qu’à ceux 
+des DCOM de la zone euro en 2014, la 
+convergence des tarifs bancaires dans les COM 
+s’est réalisée en grande partie en 2018. Depuis, la 
+convergence des tarifs pratiqués dans les COM 
+vers ceux d es DCOM de la zone euro 4 et de 
+l’Hexagone se poursui t, mais à un rythme plus 
+progressif. 
+En avril 2026, sur les 14 tarifs de l’extrait standard 
+suivis, 9 tarifs sont inférieurs à ceux pratiqués dans 
+les DCOM et 4 tarifs sont supérieurs  (les autres 
+tarifs étant soit non significatifs, soit gratuits). 
+Les frais de rejets  de chèque , suivis hors extrait 
+standard, restent plus élevés dans les COM  du 
+Pacifique. À l’inverse, les frais de rejet de 
+prélèvement y sont moins élevés, mais l’écart avec 
+les DCOM de la zone euro tend à se réduire.  
+ 
+4 Les DCOM de la zone euro comprennent : la Guadeloupe, la 
+Guyane, La Réunion, la Martinique, Mayotte, Saint-Barthélemy, 
+Saint-Martin et Saint-Pierre-et-Miquelon. 
+Les frais de tenue de compte sont désormais moins 
+élevés dans les COM, avec un écart de 15 F CFP 
+avec le tarif moyen pratiqué dans les DCOM de la 
+zone euro. Cette évolution s’explique par la hausse 
+des frais de tenue de compte dans les DCOM et la 
+légère baisse observée dans les COM. 
+Les frais de mise en place d’un mandat de 
+prélèvement et les commissions d’intervention 
+continuent de converger vers les tarifs des DCOM 
+de la zone euro. 
+La carte de paiement à autorisation systématique 
+est le tarif présentant l’écart le plus favorable aux 
+COM du Pacifique (-571 F CPF). 
+Enfin, comme les années précédentes , les 
+virements en ligne et les prélèvements  demeurent 
+gratuits dans les COM et les DCOM. 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+16 
+Évolution des écarts de tarifs entre COM du Pacifique et DCOM de la zone euro (2014 à 2026) 
+ 
+  Avril-14 Avril-18 Avril-20 Avril-22 Avril-25 Avril-26 
+Tenue de compte  
+(par an) * +1 178 F CFP +748 F CFP +617 F CFP +344 F CFP +48 F CFP -15 F CFP 
+Abonnement à des services de banque à 
+distance 
+(internet, téléphone fixe, SMS, etc.)  
+(par mois) 
++576 F CFP +203 F CFP +129 F CFP +32 F CFP -33 F CFP -74 F CFP 
+Abonnement à des produits offrant des 
+alertes sur la situation du compte par SMS 
+(par mois) 
+NS NS NS NS NS NS 
+Abonnement à des produits offrant des 
+alertes sur la situation du compte par SMS 
+(par message) 
+NS NS NS NS NS NS 
+Fourniture d’une carte de débit (carte de 
+paiement internationale à débit différé) +26 F CFP -78 F CFP -111 F CFP -84 F CFP -254 F CFP -314 F CFP 
+Fourniture d’une carte de débit (carte de 
+paiement internationale à débit immédiat) +253 F CFP -173 F CFP -194 F CFP -268 F CFP -292 F CFP -258 F CFP 
+Fourniture d’une carte de débit (carte de 
+paiement à autorisation systématique) +861 F CFP -271 F CFP -398 F CFP -588 F CFP -466 F CFP -571 F CFP 
+Retrait dans un DAB d’un autre 
+établissement dans le territoire avec une 
+carte de paiement internationale  
+(au 1er retrait payant) 
++57 F CFP -22 F CFP -22 F CFP -31 F CFP -16 F CFP -15 F CFP 
+Virement occasionnel externe dans le 
+territoire en agence  
+(par virement et au 1er virement) -92 F CFP -24 F CFP -38 F CFP -59 F CFP -123 F CFP -150 F CFP 
+Virement occasionnel externe dans le 
+territoire par internet  
+(par virement et au 1er virement) +30 F CFP Gratuit Gratuit Gratuit Gratuit Gratuit 
+Prélèvement (frais de mise en place d’un 
+mandat de prélèvement) +1 653 F CFP +390 F CFP +150 F CFP +151 F CFP +146 F CFP +52 F CFP 
+Prélèvement (frais par paiement d’un 
+prélèvement) +21 F CFP Gratuit Gratuit Gratuit Gratuit Gratuit 
+Commission d’intervention  
+(par opération) +675 F CFP +130 F CFP +130 F CFP +120 F CFP +31 F CFP +30 F CFP 
+Cotisation à une offre d’assurance perte ou 
+vol des moyens de paiement +63 F CFP -8 F CFP -2 F CFP +19 F CFP -326 F CFP -248 F CFP 
+Frais de rejet de chèque < 5 967 F CFP (le 
+tarif maximum imposé par la loi est de 
+3 580 F CFP) * 
++224 F CFP +227 F CFP +87 F CFP +95 F CFP +78 F CFP +78 F CFP 
+Frais de rejet de chèque > 5 967 F CFP (le 
+tarif maximum imposé par la loi est de 
+5 967 F CFP) * 
++88 F CFP +352 F CFP +197 F CFP +230 F CFP +242 F CFP +239 F CFP 
+Frais de rejet de prélèvement (le tarif 
+maximum imposé par la loi est de 
+2 387 F CFP) * 
++105 F CFP +52 F CFP -219 F CFP -179 F CFP -212 F CFP -125 F CFP 
+* Les montants intègrent d’éventuelles commissions intervention, qui ne sont pas comprises dans le tarif maximum imposé par la loi. 
+ Tarif moyen inférieur au tarif DCOM zone €  
+ Tarif moyen supérieur au tarif DCOM zone € 
+Tarif moyen égal au tarif DCOM zone € 
+NS : non significatif 
+
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+17 
+III. ANNEXES 
+Annexe 1 : Les dispositions législatives sur les tarifs bancaires 
+outre-mer ; les rapports « Constans » et « Dromer » 
+Cadre législatif 
+La loi n° 2012 -1270 du 20 /11/2012 relative à la 
+régulation économique outre -mer (loi «  vie 
+chère ») comporte des dispositions concernant les 
+tarifs bancaires outre -mer. Ces dispositions 
+définissent deux régimes distincts  : un relatif aux 
+DCOM de la zone euro, qui prévoit un alignement 
+sur les tarifs hexagonaux  ; un relatif aux COM du 
+Pacifique, qui prévoit la possibilité d’une fixation 
+des tarifs par décret.  
+La question des tarifs bancaires outre -mer est 
+également abordée dans les lois : 
+• La loi de séparation et de régulation des 
+activités bancaires (loi n° 2013 -672 du 
+26/07/2013). Dans son article 53, elle dispose 
+que «  le gouvernement remet au Parlement, 
+[…] un rapport sur la tarification des services 
+bancaires dans les départements et 
+collectivités d’outre -mer ». En 2014, 
+l’élaboration en avait été confiée à E. 
+Constans, alors Président du Comité 
+consultatif du secteur financier (CCSF) (voir 
+présentation infra). Afin d’apprécier l’atteinte 
+des orientations fixées à la suite du rapport 
+Constans et d’élaborer des axes 
+d’amélioration ainsi que de nouvelles 
+orientations, le ministre de l’Économie et des 
+Finances et la ministre des Outre -mer ont 
+confié à l a présidente du CCSF  de 2018 , le 
+soin d’élaborer le rapport final sur la tarification 
+des services bancaires dans les départements 
+et collectivités  d’outre-mer (voir Dromer ci -
+après) ; 
+ 
+ 
+• La loi portant diverses dispositions sur l’Outre-
+mer (loi n° 2013-1029 du 15/11/2013), contient 
+des dispositions relatives aux tarifs bancaires 
+en Nouvelle -Calédonie (article 16) et en 
+Polynésie française (article 17). 
+ 
+Le rapport Constans de 2014 
+Il a été communiqué en soulignant que «  le 
+Gouvernement (…) partage les conclusions de ce 
+rapport, qui recommande la convergence avec les 
+tarifs métropolitains (…) selon des modalités et un 
+rythme qui tiennent compte des réalités 
+économiques dans ces territoires (…). Dès le mois 
+de septembre [2014], les établissements de crédit 
+et les associations de consommateurs seront 
+associés, dans le cadre du CCSF ». 
+Ce rapport présente les principales 
+caractéristiques de la situation des banques outre-
+mer et analyse l’évolution des tarifs bancaires pour 
+les clients non professionnels depuis 2009. Il 
+rappelle l’i mportance du rôle économique des  
+banques en matière d’emploi et met en exergue un 
+contexte concurrentiel et des spécificités avérés 
+(coûts de structures plus importants, fiscalité 
+parfois plus importante, fragilité des populations). 
+Il conclut que pour les DOM, une convergence 
+avec l’Hexagone a été presque entièrement 
+réalisée, alors que les tarifs moyens des COM du 
+Pacifique restent supérieurs à ceux de 
+l’Hexagone. 
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+18 
+Avis du CCSF, suite au rapport Constans 
+Le CCSF adopt e en 2014 un «  avis sur un 
+dispositif visant à favoriser une convergence des 
+tarifs bancaires outre -mer avec les tarifs 
+métropolitains ». Il reprend à son compte les 
+objectifs proposés dans le rapport Constans : 
+• « Pour les DOM, faire en sorte qu’en 3 ans, les 
+moyennes départementales des frais de tenue 
+de compte rejoignent les moyennes France 
+entière » ; 
+• « Pour les COM du Pacifique , faire qu’en 
+3 ans, les écarts moyens de tarifs entre 
+chaque COM et la France entière soient 
+réduits d’au moins 50 % ». 
+L’avis précise que l’atteinte de cet objectif de 
+convergence se fera « selon des procédures et un 
+rythme adapté à chaque géographie et en prenant 
+en compte les différences de condition d’exercice 
+des banques  ». Il souligne qu’« il s’agit de 
+maintenir et développer en Outre-mer une 
+industrie bancaire dynamique fondée notamment 
+sur des banques de plein exercice favorisant 
+l’emploi local, d’assurer aux consommateurs 
+ultramarins une offre diversifiée comparable à 
+celle disponible en Métropole, de préserver un 
+environnement concurrentiel dense et de tenir 
+compte de la soutenabilité  financière pour les 
+établissements de crédit de l’évolution de leurs 
+tarifs ». 
+Dans l’esprit de cet avis du CCSF, des réunions 
+se sont tenues sous l’égide des Préfets en 
+Guadeloupe, en Martinique et à La Réunion, 
+débouchant sur des ac cords triennaux signés en 
+2015.  
+ 
+Le rapport « Dromer » de 20185 
+Il établit un bilan du processus , initié en 2014,  de 
+convergence des tarifs bancaires pour les 
+ 
+5 La publication est disponible en ligne sur le site internet du 
+CCSF.  
+particuliers. 
+Il souligne que les accords triennaux , avec 
+l’organisation de réunions annuelles, traduisent le 
+succès global de cette approche appliquée dans 
+les DOM. Ces accords triennaux ont ainsi 
+disparu dans les DOM depuis 2018. 
+Dans les COM du Pacifique, les résultats sont plus 
+limités, même si on observe une amélioration. De 
+fait, il indique que « la convergence en cours doit 
+être poursuivie  » et peut être réalisée, sur les 
+services en ligne, grâce à l’action menée pour la 
+réduction des zones blanches et le 
+développement de l’accès à internet. Ces accords 
+triennaux sont maintenus dans les COM du 
+Pacifique. 
+Le rapport présente ensuite des préconisations, 
+parmi lesquelles : 
+• La poursuite de l’application d’une mesure 
+globale des effets en Nouvelle -Calédonie de 
+l’article 68 de la loi EROM6, conformément à la 
+méthode de convergence mise en œuvre 
+depuis le rapport Constans ; 
+• Pour les banques polynésiennes, la poursuite 
+de la dynamique de convergence avec les 
+tarifs hexagonaux sur certaines 
+lignes tarifaires ; 
+• Un soutien aux populations  fragiles, qui 
+bénéficient depuis les mois de septembre et 
+décembre 2018 de mesures visant à limiter les 
+frais d’incident et à réduire le coût d’un certain 
+nombre de services bancaires. 
+ 
+L’accord de concertation signé en 
+Nouvelle-Calédonie 
+L’accord triennal signé le 17 décembre 2024, 
+couvrant les années 2025 à 2027 prévoit : 
+• La gratuité de certains services bancaires dont 
+6 Loi n° 2017-256 du 28/02/2017 relative à l’égalité réelle outre -
+mer. 
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+19 
+l’ouverture et la clôture de comptes, la mise en 
+œuvre d’un mandat de prélèvement ( au plus 
+tard le 31 décembre 2025 ), l’abonnement 
+permettant la gestion des comptes sur 
+internet, l’accès aux espèces dans l’agence 
+teneur de compte, l’encaissement de chèques 
+et de virements bancaires libellés en francs 
+CFP, etc ;  
+• Que si la si la moyenne locale d’un tarif hors 
+taxes de l'article L752 -3 du CMF figurant à 
+l'extrait standard devient supérieure à celle de 
+l’Hexagone, les établissements bancaires et 
+l’OPT-NC s’engagent à réduire leur tarif 
+individuel du niveau de l’écart , pour que la 
+moyenne locale soit au plus égale à la 
+moyenne publiée par le CCSF ; 
+• Le maintien du niveau hors taxes des frais 
+d’opposition sur chèque ; deux formules de 
+chèques de banque par mois ou moyens de 
+paiement équivalents offrant les mêmes 
+services ; mise en place d’un ordre de 
+virement permanent vers un autre compte 
+bancaire en Nouvelle-Calédonie ; frais pour 
+saisie-arrêt, pour saisie -administrative à tiers 
+détenteur et pour opposition administrative. 
+L’accord de concertation signé en 
+Polynésie française 
+Un cinquième accord triennal a été signé le 
+13 février 2026 en Polynésie française, élargissant 
+le suivi des tarifs de l’Observatoire, en plus du 
+traditionnel extrait standard (EST), au périmètre 
+légal prévu par l’article L.753-3 du code monétaire 
+et financier applicable en Polynésie française 
+(Art 1 de l’accord) et prévoit :  
+• La gratuité de l’abonnement permettant la 
+gestion des comptes sur internet ; 
+• Le gel global des tarifs, à l’identique de ceux 
+observés en octobre 2025,  de l’extrait 
+standard des tarifs et du périmètre légal défini 
+à l’art. L.753-3 du code monétaire et financier ; 
+• Pour les établissements de paiement, 
+l’engagement à une modération tarifaire 
+renforcée sur les services relevant de leur 
+périmètre d’activité et figurant dans l’extrait 
+standard des tarifs en vigueur au 1er octobre 
+2025. Toute révision tarifaire fera l’objet d’une 
+information préalable de l’IEOM. 
+ 
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+20 
+ 
+Dispositions applicables aux tarifs bancaires en Nouvelle-Calédonie 
+Article L. 752-3 du Code monétaire et financier (créé par l’ordonnance n°2022-230 du 15/02/2022) 
+Le Gouvernement peut, par décret, définir les valeurs maximales que les établissements bancaires peuvent 
+facturer aux personnes physiques en Nouvelle-Calédonie, pour les services bancaires suivants : 
+1° L’ouverture, la tenue et la clôture du compte ; 
+2° Un changement d’adresse par an ; 
+3° La délivrance à la demande de relevés d’identité bancaire ; 
+4° La domiciliation de virements bancaires ; 
+5° L’envoi mensuel d’un relevé des opérations effectuées sur le compte ; 
+6° L’encaissement à titre gratuit de chèques et de virements bancaires ; 
+7° Les dépôts et les retraits à titre gratuit d’espèces au guichet de l’organisme teneur de compte ; 
+8° Les paiements par prélèvement, titre interbancaire de paiement ou virement bancaire ; 
+9° Des moyens de consultation à distance du solde du compte ; 
+10° Une carte de paiement dont chaque utilisation est autorisée par l’établissement de crédit qui l’a émise ; 
+11° Deux formules de chèques de banque par mois ou moyens de paiement équivalents offrant les mêmes 
+services ; 
+12° La mise en place d ’un ordre de virement permanent vers un autre compte bancaire en Nouvelle -
+Calédonie ; la révocation de cet ordre et la modification de son montant étant gratuites ; 
+13° Des moyens de programmation à distance de virements occasionnels ou permanents à titre gratuit vers 
+d’autres comptes bancaires en Nouvelle-Calédonie ; 
+14° Le retrait d’espèces, par carte, dans un distributeur automatique en Nouvelle-Calédonie, ce retrait étant 
+gratuit ; 
+15° Les frais pour saisie-arrêt ; 
+16° Les frais pour saisie administrative à tiers détenteur ; 
+17° Les frais pour opposition administrative ; 
+18° Les frais d’opposition sur chèque. 
+ 
+Article L. 752-3 du Code monétaire et financier (créé par l’ordonnance n°2022-230 du 15/02/2022) 
+I. - En Nouvelle-Calédonie, les établissements de crédit, les établissements de paiement, les établissements 
+de monnaie électronique et l ’Office des postes et télécommunications de Nouvelle -Calédonie participent, 
+entre le 1 er juin et le 31 juillet, sur convocation du haut -commissaire et en présence de l ’Institut d’émission 
+d’outre-mer, à des négociations visant à obtenir un accord de modération des prix des services bancaires 
+mentionnés à l’article L. 752-3. 
+Chaque établissement de crédit présente, au plus tard le 1 er juin, ses propositions tarifaires pour les unes à 
+trois années à venir. La négociation porte en priorité sur la baisse des tarifs qui présentent les plus fortes 
+différences avec ceux relevés dans le rapport annuel de l ’Observatoire des tarifs bancaires publié par le 
+Comité consultatif des services financiers. L’accord est rendu public par arrêté du haut-commissaire au plus 
+tard le 1er septembre de chaque année et applicable au 1er janvier de l’année suivante. 
+II. - En l ’absence d ’accord au 1 er septembre et en tenant compte des négociations menées, le haut -
+commissaire fixe par arrêté, après avis de l’Institut d’émission d’outre-mer, le prix global maximal de la liste 
+des services bancaires mentionnés à l ’article L. 752-3 pour l’ensemble des établissements mentionnés au 
+premier alinéa du I du présent article. L ’arrêté du haut-commissaire est publié au plus tard le 1 er novembre 
+et applicable au 1er janvier de l’année suivante. 
+ 
+ 
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+21   
+Dispositions applicables aux tarifs bancaires en Polynésie française 
+Article L. 753-3 du Code monétaire et financier (créé par l’ordonnance n°2022-230 du 15/02/2022) 
+Le Gouvernement peut, par décret, définir les valeurs maximales que les établissements bancaires peuvent 
+facturer aux personnes physiques en Polynésie française, pour les services bancaires suivants : 
+1° L’ouverture, la tenue et la clôture du compte ; 
+2° Un changement d’adresse par an ; 
+3° La délivrance à la demande de relevés d’identité bancaire ; 
+4° La domiciliation de virements bancaires ; 
+5° L’envoi mensuel d’un relevé des opérations effectuées sur le compte ; 
+6° L’encaissement à titre gratuit de chèques et de virements bancaires ; 
+7° Les dépôts et les retraits à titre gratuit d’espèces au guichet de l’organisme teneur de compte ; 
+8° Les paiements par prélèvement, titre interbancaire de paiement ou virement bancaire ; 
+9° Des moyens de consultation à distance du solde du compte ; 
+10° Une carte de paiement dont chaque utilisation est autorisée par l’établissement de crédit qui l’a émise ; 
+11° Deux formules de chèques de banque par mois ou moyens de paiement équivalents offrant les mêmes 
+services ; 
+12° La mise en place d ’un ordre de virement permanent vers un autre compte bancaire en Polynésie 
+française ; la révocation de cet ordre et la modification de son montant étant gratuites ; 
+13° Des moyens de programmation à distance de virements occasionnels ou permanents à titre gratuit vers 
+d’autres comptes bancaires en Polynésie française ; 
+14° Le retrait d’espèces, par carte, dans un distributeur automatique en Polynésie française, ce retrait étant 
+gratuit ; 
+15° Les frais pour saisie-arrêt ; 
+16° Les frais pour saisie administrative à tiers détenteur ; 
+17° Les frais pour opposition administrative ; 
+18° Les frais d’opposition sur chèque. 
+ 
+Article L. 753-4 du Code monétaire et financier (créé par l’ordonnance n°2022-230 du 15/02/2022) 
+I. - En Polynésie française, les établissements de crédit, les établissements de paiement, les établissements 
+de monnaie électronique et l ’Office des postes et télécommunications de Polynésie française participent, 
+entre le 1er juin et le 31 juillet, sur convocation du haut -commissaire et en présence de l ’Institut d’émission 
+d’outre-mer, à des négociations visant à obtenir un accord de modération des prix des services bancaires 
+mentionnés à l’article L. 753-3. 
+Chaque établissement de crédit présente, au plus tard le 1er juin, ses propositions tarifaires pour les unes à 
+trois années à venir. La négociation porte en priorité sur la baisse des tarifs qui présentent les plus fortes 
+différences avec ceux relevés dans le rapport annuel de l ’Observatoire des tarifs bancaires publié par le 
+Comité consultatif des services financiers. 
+L’accord est rendu public par arrêté du haut-commissaire au plus tard le 1er septembre de chaque année et 
+applicable au 1er janvier de l’année suivante. 
+II. - En l ’absence d ’accord au 1 er septembre et en tenant compte des négociations menées, le haut -
+commissaire fixe par arrêté, après avis de l’Institut d’émission d’outre-mer, le prix global maximal de la liste 
+des services bancaires mentionnés à l ’article L. 753-3 pour l’ensemble des établissements mentionnés au 
+premier alinéa du I du présent article. L’arrêté du haut-commissaire est publié au plus tard le 1er novembre 
+et applicable au 1er janvier de l’année suivante. 
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+22 
+Annexe 2 : Liste des établissements financiers participant à 
+l’Observatoire, par géographie 
+ 
+Groupe bancaire / enseigne Nouvelle-Calédonie Polynésie française Wallis-et-Futuna 
+Société générale  SGCB BDP   
+BNP Paribas BNPP NC   BWF 
+BPCE / Réseau BRED Banque Populaire BCI     
+BPCE / Réseau Caisse d’Épargne BNC BDT   
+Office des Postes et Télécommunications OPT NC MARARA PAIEMENT*   
+Autres     SOCREDO EGPF POLYNESIE**     
+Nombre d’établissements 5 5 1 
+* L’établissement de paiement MARARA Paiement a repris les activités bancaires de l’OPT PF depuis le 1er août 2022 
+** EGPF a commencé ses activités en septembre 2022 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+23 
+Annexe 3 : Niveaux des tarifs bancaires de l’extrait standard (avril 2014 à avril 2026), évolutions 
+annuelles et écarts avec l’Hexagone (2026) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+** En 2026, les tarifs CCSF ont été révisés sur 2024 et 2025   
+ Baisse ou gratuité du service  Tarif inférieur ou égal au tarif hexagonal    
+ Hausse du tarif (y compris tarif gratuit devenu payant)   Tarif supérieur au tarif hexagonal               
+ Stabilité du tarif NS : non significatif              SO : sans objet 
+  
+Tenue de compte (par an)
+Var avril 25-avril 26 7 aaaatitre avril 2014 avril 2018 avril 2020 avril 2022 avril 2025** avril 2026** Écart Hexagone 2026
+-1,66% 8 Nouvelle-Calédonie 3 590 F CFP 2 122 F CFP 2 061 F CFP 2 018 F CFP 2 108 F CFP 2 073 F CFP -22,41%
++0,51% 9 Polynésie française 4 354 F CFP 4 097 F CFP 3 966 F CFP 4 190 F CFP 4 122 F CFP 4 143 F CFP +55,06%
++0,00% 10 Wallis-et-Futuna 7 000 F CFP 7 000 F CFP 7 000 F CFP 7 000 F CFP 6 300 F CFP 6 300 F CFP +135,79%
++0,73% 11 COM 4 001 F CFP 3 077 F CFP 2 969 F CFP 3 103 F CFP 3 142 F CFP 3 165 F CFP +18,46%
++3,71% 12 Hexagone* 1 044 F CFP 2 295 F CFP 2 286 F CFP 2 383 F CFP 2 576 F CFP 2 672 F CFP SO
++2,82% 14 DCOM zone euro (XFP) 2 823 F CFP 2 329 F CFP 2 352 F CFP 2 759 F CFP 3 094 F CFP 3 180 F CFP +19,03%
+17 * Moyennes hexagonales des frais de tenue de compte actif y compris cas de gratuité.-84 F CFP 23 F CFP
+18 Abonnement à des services de banque à distance (Internet, téléphone fixe, sms, etc.) (par mois)
+Var avril 25-avril 26 19 avril 2014 avril 2018 avril 2020 avril 2022 avril 2025** avril 2026** Écart Hexagone 2026
+gratuit 20 Nouvelle-Calédonie 1 017 F CFP 184 F CFP 75 F CFP 76 F CFP 14 F CFP 0 F CFP gratuit
+gratuit 21 Polynésie française 244 F CFP 262 F CFP 233 F CFP 138 F CFP 70 F CFP 0 F CFP gratuit
+gratuit 22 Wallis-et-Futuna 943 F CFP 943 F CFP 71 F CFP 71 F CFP 0 F CFP 0 F CFP gratuit
+gratuit 23 COM 637 F CFP 227 F CFP 147 F CFP 106 F CFP 42 F CFP 0 F CFP gratuit
+-9,09% 24 Hexagone 69 F CFP 17 F CFP 1 F CFP 5 F CFP 3 F CFP 3 F CFP SO
+-1,59% 26 DCOM zone euro (XFP) 61 F CFP 24 F CFP 18 F CFP 74 F CFP 75 F CFP 74 F CFP +2 380,00%
+27
+29 Abonnement à des produits offrant des alertes sur la situation du compte par SMS (par mois)
+Var avril 25-avril 26 30 avril 2014 avril 2018 avril 2020 avril 2022 avril 2025** avril 2026** Écart Hexagone 2026
+NS 31 Nouvelle-Calédonie 523 F CFP NS NS NS NS NS NS
++162,13% 32 Polynésie française 203 F CFP 170 F CFP 168 F CFP 168 F CFP 169 F CFP 443 F CFP +191,55%
+NS 33 Wallis-et-Futuna NS NS NS NS NS NS NS
+NS 34 COM 361 F CFP NS NS NS NS NS NS
+-0,20% 35 Hexagone 251 F CFP 229 F CFP 175 F CFP 177 F CFP 152 F CFP 152 F CFP SO
++0,00% 37 DCOM zone euro (XFP) NS 184 F CFP 162 F CFP 171 F CFP 169 F CFP 169 F CFP +11,52%
+38
+40 Abonnement à des produits offrant des alertes sur la situation du compte par SMS (par message)
+Var avril 25-avril 26 41 avril 2014 avril 2018 avril 2020 avril 2022 avril 2025** avril 2026** Écart Hexagone 2026
+NS 42 Nouvelle-Calédonie NS NS NS NS NS NS NS
+NS 43 Polynésie française NS NS NS NS NS NS NS
+NS 44 Wallis-et-Futuna NS NS NS NS NS NS NS
+NS 45 COM NS NS NS NS NS NS NS
++0,00% 46 Hexagone 48 F CFP 55 F CFP 30 F CFP 33 F CFP 33 F CFP 33 F CFP SO
+NS 48 DCOM zone euro (XFP) NS 37 F CFP 37 F CFP 42 F CFP NS NS NS
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+24 
+51 Fourniture d'une carte de débit (carte de paiement internationale à débit différé)
+Var avril 25-avril 26 52 avril 2014 avril 2018 avril 2020 avril 2022 avril 2025** avril 2026** Écart Hexagone 2026
++1,68% 53 Nouvelle-Calédonie 4 813 F CFP 4 748 F CFP 4 756 F CFP 4 820 F CFP 5 174 F CFP 5 261 F CFP -0,99%
++2,31% 54 Polynésie française 5 727 F CFP 5 713 F CFP 5 657 F CFP 5 575 F CFP 5 361 F CFP 5 485 F CFP +3,23%
++0,00% 55 Wallis-et-Futuna 5 500 F CFP 5 500 F CFP 5 000 F CFP 5 000 F CFP 5 000 F CFP 5 000 F CFP -5,91%
++1,71% 56 COM 5 269 F CFP 5 199 F CFP 5 166 F CFP 5 183 F CFP 5 265 F CFP 5 355 F CFP +0,77%
++1,57% 57 Hexagone 5 350 F CFP 5 245 F CFP 5 021 F CFP 4 983 F CFP 5 232 F CFP 5 314 F CFP SO
++2,72% 59 DCOM zone euro (XFP) 5 243 F CFP 5 277 F CFP 5 277 F CFP 5 267 F CFP 5 519 F CFP 5 669 F CFP +6,69%
+62
+63 calcul 534 F CFP 490 F CFP 359 F CFP 254 F CFP 50 F CFP -56 F CFP
+64 calcul 534 F CFP -31 F CFP -58 F CFP -1 F CFP 27 F CFP 89 F CFP
+65 Fourniture d'une carte de débit (carte de paiement internationale à débit immédiat)
+Var avril 25-avril 26 66 avril 2014 avril 2018 avril 2020 avril 2022 avril 2025** avril 2026** Écart Hexagone 2026
++5,07% 67 Nouvelle-Calédonie 4 305 F CFP 4 303 F CFP 4 321 F CFP 4 485 F CFP 5 010 F CFP 5 264 F CFP -1,12%
++2,41% 68 Polynésie française 5 166 F CFP 5 172 F CFP 5 382 F CFP 5 403 F CFP 5 425 F CFP 5 556 F CFP +4,37%
++0,00% 69 Wallis-et-Futuna 5 000 F CFP 5 000 F CFP 4 953 F CFP 4 953 F CFP 4 953 F CFP 4 953 F CFP -6,96%
++3,74% 70 COM 4 735 F CFP 4 709 F CFP 4 807 F CFP 4 929 F CFP 5 216 F CFP 5 411 F CFP +1,65%
++1,59% 71 Hexagone 4 585 F CFP 4 988 F CFP 4 910 F CFP 4 984 F CFP 5 240 F CFP 5 323 F CFP SO
++2,92% 73 DCOM zone euro (XFP) 4 482 F CFP 4 882 F CFP 5 001 F CFP 5 197 F CFP 5 508 F CFP 5 669 F CFP +6,50%
+76 calcul 59 F CFP 16                     171                        195                        
+77
+78 Fourniture d'une carte de débit (carte de paiement à autorisation systématique)
+Var avril 25-avril 26 79 avril 2014 avril 2018 avril 2020 avril 2022 avril 2025** avril 2026** Écart Hexagone 2026
+-6,91% 80 Nouvelle-Calédonie 4 466 F CFP 3 598 F CFP 3 592 F CFP 3 627 F CFP 3 837 F CFP 3 572 F CFP +3,15%
++0,91% 81 Polynésie française 4 365 F CFP 3 474 F CFP 3 199 F CFP 3 280 F CFP 3 864 F CFP 3 899 F CFP +12,59%
+-1,10% 82 Wallis-et-Futuna 4 200 F CFP 3 665 F CFP 3 458 F CFP 3 458 F CFP 3 458 F CFP 3 420 F CFP -1,24%
+-2,83% 83 COM 4 418 F CFP 3 542 F CFP 3 413 F CFP 3 459 F CFP 3 847 F CFP 3 738 F CFP +7,94%
++1,54% 84 Hexagone 3 562 F CFP 3 779 F CFP 3 657 F CFP 3 638 F CFP 3 411 F CFP 3 463 F CFP SO
+-0,08% 86 DCOM zone euro (XFP) 3 557 F CFP 3 813 F CFP 3 811 F CFP 4 047 F CFP 4 313 F CFP 4 309 F CFP +24,43%
+89 -115 F CFP 0,3%
+90 Retrait dans un DAB d'un autre établissement dans le territoire avec une carte de paiement internationale (au 1er retrait payant)
+Var avril 25-avril 26 91 avril 2014 avril 2018 avril 2020 avril 2022 avril 2025** avril 2026** Écart Hexagone 2026
++3,23% 92 Nouvelle-Calédonie 74 F CFP 71 F CFP 68 F CFP 79 F CFP 93 F CFP 96 F CFP -20,35%
++0,00% 93 Polynésie française 66 F CFP 89 F CFP 117 F CFP 88 F CFP 119 F CFP 119 F CFP -1,27%
+gratuit 94 Wallis-et-Futuna 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP gratuit
++1,90% 95 COM 69 F CFP 79 F CFP 90 F CFP 82 F CFP 105 F CFP 107 F CFP -11,22%
++1,00% 96 Hexagone 107 F CFP 110 F CFP 110 F CFP 110 F CFP 119 F CFP 121 F CFP SO
++0,99% 98 DCOM zone euro (XFP) 12 F CFP 101 F CFP 112 F CFP 113 F CFP 121 F CFP 122 F CFP +0,99%
+##
+## Virement occasionnel externe dans le territoire en agence (par virement et au 1er virement)
+Var avril 25-avril 26 ## avril 2014 avril 2018 avril 2020 avril 2022 avril 2025** avril 2026** Écart Hexagone 2026
++1,45% ## Nouvelle-Calédonie 387 F CFP 387 F CFP 384 F CFP 408 F CFP 413 F CFP 419 F CFP -33,75%
++0,00% ## Polynésie française 261 F CFP 422 F CFP 431 F CFP 432 F CFP 432 F CFP 432 F CFP -31,70%
++0,00% ## Wallis-et-Futuna 440 F CFP 440 F CFP 436 F CFP 453 F CFP 436 F CFP 436 F CFP -31,06%
++0,95% ## COM 326 F CFP 404 F CFP 406 F CFP 420 F CFP 422 F CFP 426 F CFP -32,64%
++5,37% ## Hexagone 428 F CFP 459 F CFP 493 F CFP 543 F CFP 600 F CFP 632 F CFP SO
++5,69% ## DCOM zone euro (XFP) 418 F CFP 428 F CFP 444 F CFP 479 F CFP 545 F CFP 576 F CFP -8,87%
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+25 
+ 
+## Virement occasionnel externe dans le territoire par Internet (par virement et au 1er virement)
+Var avril 25-avril 26 ## avril 2014 avril 2018 avril 2020 avril 2022 avril 2025** avril 2026** Écart Hexagone 2026
+gratuit ## Nouvelle-Calédonie 40 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP gratuit
+gratuit ## Polynésie française 22 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP gratuit
+gratuit ## Wallis-et-Futuna 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP gratuit
+gratuit ## COM 31 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP gratuit
+gratuit ## Hexagone 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP SO
+gratuit ## DCOM zone euro (XFP) 1 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP gratuit
+##
+## Prélèvement (frais de mise en place d'un mandat de prélèvement)
+Var avril 25-avril 26 ## avril 2014 avril 2018 avril 2020 avril 2022 avril 2025** avril 2026** Écart Hexagone 2026
+-62,37% ## Nouvelle-Calédonie 1 166 F CFP 714 F CFP 271 F CFP 287 F CFP 287 F CFP 108 F CFP +596,18%
+gratuit ## Polynésie française 2 343 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP gratuit
+gratuit ## Wallis-et-Futuna 1 600 F CFP 1 200 F CFP 429 F CFP 429 F CFP 429 F CFP 0 F CFP gratuit
+-64,38% ## COM 1 748 F CFP 390 F CFP 150 F CFP 151 F CFP 146 F CFP 52 F CFP +235,20%
+-7,14% ## Hexagone 242 F CFP 25 F CFP 15 F CFP 15 F CFP 17 F CFP 16 F CFP SO
+gratuit ## DCOM zone euro (XFP) 95 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP gratuit
+##
+## Prélèvement (frais par paiement d'un prélèvement)
+Var avril 25-avril 26 ## avril 2014 avril 2018 avril 2020 avril 2022 avril 2025** avril 2026** Écart Hexagone 2026
+gratuit ## Nouvelle-Calédonie 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP gratuit
+gratuit ## Polynésie française 53 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP gratuit
+gratuit ## Wallis-et-Futuna 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP gratuit
+gratuit ## COM 23 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP gratuit
+gratuit ## Hexagone 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP SO
+gratuit ## DCOM zone euro (XFP) 2 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP 0 F CFP gratuit
+##
+## Commission d'intervention (par opération)
+Var avril 25-avril 26 ## avril 2014 avril 2018 avril 2020 avril 2022 avril 2025** avril 2026** Écart Hexagone 2026
++0,00% ## Nouvelle-Calédonie 1 607 F CFP 1 050 F CFP 1 050 F CFP 1 050 F CFP 998 F CFP 998 F CFP +29,66%
++0,10% ## Polynésie française 1 497 F CFP 1 000 F CFP 1 000 F CFP 1 000 F CFP 974 F CFP 975 F CFP +26,67%
++0,00% ## Wallis-et-Futuna 1 300 F CFP 1 000 F CFP 991 F CFP 991 F CFP 900 F CFP 900 F CFP +16,93%
++0,00% ## COM 1 556 F CFP 1 027 F CFP 1 027 F CFP 1 026 F CFP 985 F CFP 985 F CFP +27,97%
++0,00% ## Hexagone 933 F CFP 920 F CFP 896 F CFP 861 F CFP 770 F CFP 770 F CFP SO
++0,00% ## DCOM zone euro (XFP) 881 F CFP 897 F CFP 897 F CFP 906 F CFP 954 F CFP 955 F CFP +24,03%
+##
+## Cotisation à une offre d'assurance perte ou vol des moyens de paiement
+Var avril 25-avril 26 ## avril 2014 avril 2018 avril 2020 avril 2022 avril 2025** avril 2026** Écart Hexagone 2026
++9,58% ## Nouvelle-Calédonie 2 869 F CFP 2 831 F CFP 2 834 F CFP 2 837 F CFP 2 911 F CFP 3 190 F CFP +4,38%
++0,00% ## Polynésie française 2 949 F CFP 3 025 F CFP 3 026 F CFP 3 077 F CFP 2 940 F CFP 2 940 F CFP -3,80%
++0,00% ## Wallis-et-Futuna 2 924 F CFP 2 566 F CFP 2 566 F CFP 2 566 F CFP 3 156 F CFP 3 156 F CFP +3,27%
++4,58% ## COM 2 909 F CFP 2 918 F CFP 2 919 F CFP 2 950 F CFP 2 928 F CFP 3 062 F CFP +0,19%
++0,04% ## Hexagone 2 935 F CFP 2 956 F CFP 2 884 F CFP 3 125 F CFP 3 055 F CFP 3 056 F CFP SO
++1,72% ## DCOM zone euro (XFP) 2 846 F CFP 2 926 F CFP 2 921 F CFP 2 931 F CFP 3 254 F CFP 3 310 F CFP +8,32%
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+26 
+Annexe 4 : Niveaux des tarifs bancaires « hors extrait standard » (avril 2014 à avril 2026) et 
+évolutions annuelles (2026)7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+* Les montants intègrent d'éventuelles commissions d'intervention. 
+  Baisse ou gratuité du service  
+  Hausse du tarif (y compris tarif gratuit devenu payant)   
+  Stabilité du tarif  
+ 
+7 Le décret n°  2010-505 du 17 mai 2010 rend applicables, en Nouvelle -Calédonie, en Polynésie française et dans les îles de Wallis -et-Futuna, les dispositions du décret n°  2009-934 du 29 juillet 
+2009 relatif à la fourniture de services de paiement et à la cr éation des établissements de paiement. Les frais bancaires perçus par le tiré à l ’occasion du rejet d ’un chèque ne peuvent excéder un 
+montant de 30 euros (3 580 F CFP) pour les chèques d ’un montant inférieur ou égal à 50  euros (5 967 F CFP) et un montant de 50  euros (5 967 F CFP) pour les chèques d ’un montant supérieur à 
+50 euros. 
+Frais de rejet de chèque < 5967 F CFP (le tarif maximum imposé par la loi est de 3 580 F CFP)*
+Var avril 25-avril 26 aaaatitre avril 2014 avril 2018 avril 2022 avril 2025 avril 2026
++0,03% Nouvelle-Calédonie 3 577 F CFP 3 577 F CFP 3 627 F CFP 3 572 F CFP 3 573 F CFP
++0,00% Polynésie française 3 563 F CFP 3 578 F CFP 3 578 F CFP 3 579 F CFP 3 579 F CFP
++0,00% Wallis-et-Futuna 3 580 F CFP 3 579 F CFP 2 588 F CFP 3 300 F CFP 3 300 F CFP
++0,00% COM 3 570 F CFP 3 577 F CFP 3 594 F CFP 3 573 F CFP 3 573 F CFP
++0,00% DCOM zone € 28,04 € 28,07 € 29,32 € 29,29 € 29,29 €
++0,00% DCOM zone euro (XFP) 3 346 F CFP 3 350 F CFP 3 499 F CFP 3 495 F CFP 3 495 F CFP
+écart COM-DCOM (XPF) 224 F CFP 227 F CFP 95 F CFP 78 F CFP 78 F CFP
+Frais de rejet de chèque > 5967 F CFP (le tarif maximum imposé par la loi est de 5 967 F CFP)*
+Var avril 25-avril 26 avril 2014 avril 2018 avril 2022 avril 2025 avril 2026
++0,14% Nouvelle-Calédonie 5 822 F CFP 5 774 F CFP 5 838 F CFP 5 820 F CFP 5 828 F CFP
++0,00% Polynésie française 5 471 F CFP 5 964 F CFP 5 964 F CFP 5 963 F CFP 5 963 F CFP
++0,00% Wallis-et-Futuna 5 967 F CFP 5 967 F CFP 4 976 F CFP 5 499 F CFP 5 499 F CFP
+-0,08% COM 5 651 F CFP 5 863 F CFP 5 891 F CFP 5 888 F CFP 5 883 F CFP
++0,00% DCOM zone € 46,62 € 46,18 € 47,44 € 47,31 € 47,30 €
+-0,04% DCOM zone euro (XFP) 5 563 F CFP 5 511 F CFP 5 661 F CFP 5 646 F CFP 5 644 F CFP
+écart COM-DCOM (XPF) 88 F CFP 352 F CFP 230 F CFP 243 F CFP 238 F CFP
+Frais de rejet de prélèvement (le tarif maximum imposé par la loi est de 2 387 F CFP)*
+Var avril 25-avril 26 avril 2014 avril 2018 avril 2022 avril 2025 avril 2026
++0,71% Nouvelle-Calédonie 2 115 F CFP 2 025 F CFP 2 194 F CFP 2 115 F CFP 2 130 F CFP
++6,85% Polynésie française 2 210 F CFP 2 386 F CFP 2 219 F CFP 2 233 F CFP 2 386 F CFP
++0,00% Wallis-et-Futuna 2 272 F CFP 2 272 F CFP 2 251 F CFP 2 199 F CFP 2 199 F CFP
++4,05% COM 2 163 F CFP 2 193 F CFP 2 206 F CFP 2 174 F CFP 2 262 F CFP
++0,05% DCOM zone € 17,25 € 17,94 € 19,99 € 19,99 € 20,00 €
++0,03% DCOM zone euro (XFP) 2 058 F CFP 2 141 F CFP 2 385 F CFP 2 386 F CFP 2 387 F CFP
+écart COM-DCOM (XPF) 105 F CFP 52 F CFP -179 F CFP -212 F CFP -125 F CFP
+* Les montants intègrent d'éventuelles commissions d'intervention.
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+27 
+Annexe 5 : Accord de concertation signé en Nouvelle-Calédonie le 
+17 décembre 2024 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+28 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+29 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+30 
+ 
+ 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+31 
+ 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+32 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+33 
+Annexe 6 : Accord de concertation signé en Polynésie française le 13 
+février 2026 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+34 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+35 
+ 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+36 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+37 
+ 
+ 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+38 
+ 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+39 
+ 
+  
+OBSERVATOIRE DES TARIFS BANCAIRES IEOM 
+ 
+40 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Directeur de la publication et responsable de la rédaction : Alexandre GAUTIER 
+Rédaction : Gérard EDMOND 
+Éditeur : IEOM — 115, rue Réaumur — 75002 PARIS 
+Achevé en juillet 2026 – Dépôt légal : juillet 2026 
+ISSN 2428-5854 (en ligne) 
+IEOM Nouméa
+19, rue de la République
+BP 175898845 Nouméa Cedex
+Nouvelle-Calédonie
+/
+IEOM Papeete
+21 rue du Docteur Cassiau BP 583
+98713 Papeete
+Polynésie française
+/
+IEOM Mata’Utu
+BP G-5
+98600 Uvea Wallis-et-Futuna
+www.ieom.fr

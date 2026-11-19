@@ -1,0 +1,2129 @@
+{
+  "meta": {
+    "title": "Comparateur des banques de Polynésie française",
+    "updated": "2026-11-17",
+    "currency": {
+      "base": "XPF",
+      "eurPer1000Xpf": 8.38
+    },
+    "notes": [
+      "Données publiques uniquement (grilles tarifaires et pages produits), relevées le 17/11/2026.",
+      "« Non publié » = information absente des sources consultées (listées pour chaque case).",
+      "Les exemples de taux anciens sont signalés : ils ne reflètent pas les conditions 2026."
+    ],
+    "otherInstitutions": [
+      {
+        "name": "EGPF Polynésie (NiuPay)",
+        "type": "établissement de paiement",
+        "note": "suivi par l’Observatoire IEOM, non intégré (pas de crédit ni d’épargne)."
+      },
+      {
+        "name": "OFINA, BPCE Lease Tahiti, Sogelease BDP",
+        "type": "sociétés de financement",
+        "note": "crédit à la consommation / location ; pas de compte courant, non intégrées."
+      },
+      {
+        "name": "CASDEN Banque Populaire",
+        "type": "banque non installée",
+        "note": "représentée par la BDP et la Socredo (fonctionnaires)."
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "immo",
+      "label": "Crédit immobilier"
+    },
+    {
+      "id": "compte",
+      "label": "Comptes & cartes"
+    },
+    {
+      "id": "epargne",
+      "label": "Épargne"
+    },
+    {
+      "id": "conso",
+      "label": "Crédit conso / auto"
+    }
+  ],
+  "fields": [
+    {
+      "category": "immo",
+      "id": "immo_taux",
+      "label": "Taux indicatif publié",
+      "unit": "%",
+      "better": "lower"
+    },
+    {
+      "category": "immo",
+      "id": "immo_duree_max",
+      "label": "Durée maximale",
+      "unit": "mois",
+      "better": "higher"
+    },
+    {
+      "category": "immo",
+      "id": "immo_quotite",
+      "label": "Financement maximal",
+      "unit": "%",
+      "better": "higher"
+    },
+    {
+      "category": "immo",
+      "id": "immo_frais_dossier",
+      "label": "Frais de dossier",
+      "unit": "XPF",
+      "better": "lower"
+    },
+    {
+      "category": "immo",
+      "id": "immo_assurance",
+      "label": "Assurance emprunteur",
+      "unit": "%",
+      "better": "lower"
+    },
+    {
+      "category": "immo",
+      "id": "immo_garanties",
+      "label": "Garanties",
+      "unit": null,
+      "better": null
+    },
+    {
+      "category": "immo",
+      "id": "immo_relais",
+      "label": "Prêt relais",
+      "unit": null,
+      "better": null
+    },
+    {
+      "category": "immo",
+      "id": "immo_primo",
+      "label": "Offre primo-accédant",
+      "unit": null,
+      "better": null
+    },
+    {
+      "category": "immo",
+      "id": "immo_ptz",
+      "label": "PTZ Pays",
+      "unit": "XPF",
+      "better": "higher"
+    },
+    {
+      "category": "immo",
+      "id": "immo_aim",
+      "label": "AIM (aide du Pays)",
+      "unit": "XPF",
+      "better": "higher"
+    },
+    {
+      "category": "immo",
+      "id": "immo_ira",
+      "label": "Remboursement anticipé",
+      "unit": null,
+      "better": null
+    },
+    {
+      "category": "immo",
+      "id": "immo_avenant",
+      "label": "Frais d’avenant / modification",
+      "unit": "XPF",
+      "better": "lower"
+    },
+    {
+      "category": "compte",
+      "id": "cpt_tenue",
+      "label": "Tenue de compte",
+      "unit": "XPF/mois",
+      "better": "lower"
+    },
+    {
+      "category": "compte",
+      "id": "cpt_en_ligne",
+      "label": "Banque en ligne (accès complet)",
+      "unit": "XPF/mois",
+      "better": "lower"
+    },
+    {
+      "category": "compte",
+      "id": "carte_classic",
+      "label": "Carte Visa Classic",
+      "unit": "XPF/an",
+      "better": "lower"
+    },
+    {
+      "category": "compte",
+      "id": "carte_premium",
+      "label": "Carte haut de gamme",
+      "unit": "XPF/an",
+      "better": "lower"
+    },
+    {
+      "category": "compte",
+      "id": "cpt_retrait_autre",
+      "label": "Retrait DAB autre banque (PF)",
+      "unit": "XPF",
+      "better": "lower"
+    },
+    {
+      "category": "compte",
+      "id": "vir_local",
+      "label": "Virement local (agence)",
+      "unit": "XPF",
+      "better": "lower"
+    },
+    {
+      "category": "compte",
+      "id": "vir_sepa",
+      "label": "Virement SEPA vers la France",
+      "unit": "XPF",
+      "better": "lower"
+    },
+    {
+      "category": "compte",
+      "id": "vir_international",
+      "label": "Virement international (SWIFT)",
+      "unit": "XPF",
+      "better": "lower"
+    },
+    {
+      "category": "compte",
+      "id": "cpt_commission_intervention",
+      "label": "Commission d’intervention",
+      "unit": "XPF",
+      "better": "lower"
+    },
+    {
+      "category": "compte",
+      "id": "cpt_rejet_cheque",
+      "label": "Rejet de chèque (> 5 967 XPF)",
+      "unit": "XPF",
+      "better": "lower"
+    },
+    {
+      "category": "compte",
+      "id": "cpt_rejet_prelevement",
+      "label": "Rejet de prélèvement",
+      "unit": "XPF",
+      "better": "lower"
+    },
+    {
+      "category": "compte",
+      "id": "cpt_decouvert",
+      "label": "Découvert",
+      "unit": "%",
+      "better": "lower"
+    },
+    {
+      "category": "compte",
+      "id": "cpt_package",
+      "label": "Offre groupée (package)",
+      "unit": "XPF/mois",
+      "better": "lower"
+    },
+    {
+      "category": "epargne",
+      "id": "ep_livret",
+      "label": "Livret d’épargne",
+      "unit": "%",
+      "better": "higher"
+    },
+    {
+      "category": "epargne",
+      "id": "ep_jeune",
+      "label": "Épargne jeune",
+      "unit": "%",
+      "better": "higher"
+    },
+    {
+      "category": "epargne",
+      "id": "ep_terme",
+      "label": "Compte à terme",
+      "unit": "%",
+      "better": "higher"
+    },
+    {
+      "category": "epargne",
+      "id": "ep_autres",
+      "label": "Épargne logement / autres",
+      "unit": "%",
+      "better": "higher"
+    },
+    {
+      "category": "conso",
+      "id": "conso_taux",
+      "label": "Prêt personnel : taux indicatif",
+      "unit": "%",
+      "better": "lower"
+    },
+    {
+      "category": "conso",
+      "id": "conso_auto",
+      "label": "Prêt auto",
+      "unit": "%",
+      "better": "lower"
+    },
+    {
+      "category": "conso",
+      "id": "conso_frais_dossier",
+      "label": "Frais de dossier",
+      "unit": "XPF",
+      "better": "lower"
+    },
+    {
+      "category": "conso",
+      "id": "conso_ira",
+      "label": "Remboursement anticipé",
+      "unit": null,
+      "better": null
+    }
+  ],
+  "sources": {
+    "socredo_tarifs_2026": {
+      "title": "Conditions tarifaires particuliers",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/uploads/documents/cards/newsoctarifflyerpart-2-69af82d8e9eb2318335733.pdf",
+      "documentDate": "2026-05-01",
+      "dateLabel": "applicables au 1er mai 2026",
+      "accessed": "2026-11-17",
+      "short": "Grille tarifaire",
+      "snapshot": "data/sources/socredo_tarifs_2026.txt"
+    },
+    "socredo_pret_habitat": {
+      "title": "Prêt Habitat",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/produit/pret-habitat",
+      "documentDate": null,
+      "dateLabel": "page non datée ; exemple de taux en vigueur au 20/06/2019",
+      "accessed": "2026-11-17",
+      "short": "Prêt Habitat",
+      "snapshot": "data/sources/socredo_pret_habitat.txt"
+    },
+    "socredo_pret_relais": {
+      "title": "Prêt Relais",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/produit/pret-relais",
+      "documentDate": null,
+      "dateLabel": "page non datée ; exemple de taux en vigueur au 20/06/2019",
+      "accessed": "2026-11-17",
+      "short": "Prêt Relais",
+      "snapshot": "data/sources/socredo_pret_relais.txt"
+    },
+    "socredo_primo": {
+      "title": "Offre Habitat Primo Accédant",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/credit-habitat/offre-habitat-primo-accedant",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "Offre primo",
+      "snapshot": "data/sources/socredo_primo.txt"
+    },
+    "socredo_aim": {
+      "title": "Aide à l'investissement des ménages",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/produit/aide-a-l-investissement-des-menages",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "Page AIM",
+      "snapshot": "data/sources/socredo_aim.txt"
+    },
+    "socredo_assurance_emprunteur": {
+      "title": "Assurance Emprunteur",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/produit/assurance-emprunteur",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "Assurance emprunteur",
+      "snapshot": "data/sources/socredo_assurance_emprunteur.txt"
+    },
+    "socredo_pret_perso": {
+      "title": "Prêt personnel",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/produit/pret-personnel",
+      "documentDate": null,
+      "dateLabel": "page non datée ; exemple de taux en vigueur au 24/04/2019",
+      "accessed": "2026-11-17",
+      "short": "Prêt personnel",
+      "snapshot": "data/sources/socredo_pret_perso.txt"
+    },
+    "socredo_pret_auto": {
+      "title": "Prêt auto",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/produit/pret-auto",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "Prêt auto",
+      "snapshot": "data/sources/socredo_pret_auto.txt"
+    },
+    "socredo_csl": {
+      "title": "Compte sur livret",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/produit/compte-sur-livret",
+      "documentDate": "2023-03-01",
+      "dateLabel": "taux au 1er mars 2023",
+      "accessed": "2026-11-17",
+      "short": "Compte sur livret",
+      "snapshot": "data/sources/socredo_csl.txt"
+    },
+    "socredo_pel": {
+      "title": "Plan Épargne Logement",
+      "publisher": "Banque SOCREDO",
+      "url": "https://www.socredo.pf/particuliers/produit/plan-epargne-logement",
+      "documentDate": "2025-01-01",
+      "dateLabel": "taux au 1er janvier 2025",
+      "accessed": "2026-11-17",
+      "short": "PEL",
+      "snapshot": "data/sources/socredo_pel.txt"
+    },
+    "bt_tarifs_2026_v06": {
+      "title": "Tarifs & conditions en vigueur – Particuliers 2026",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/sites/default/files/2026-06/2026-particuliers.pdf",
+      "documentDate": "2026-01-01",
+      "dateLabel": "applicables au 1er janvier 2026 (version mise en ligne en juin 2026)",
+      "accessed": "2026-11-17",
+      "short": "Grille tarifaire",
+      "snapshot": "data/sources/bt_tarifs_2026_v06.txt"
+    },
+    "bt_tarifs_2027": {
+      "title": "Tarifs & conditions – Particuliers 2027",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/sites/default/files/2026-10/2027-particuliers%20v2.pdf",
+      "documentDate": "2027-01-01",
+      "dateLabel": "grille 2027 publiée en octobre 2026",
+      "accessed": "2026-11-17",
+      "short": "Grille 2027",
+      "snapshot": "data/sources/bt_tarifs_2027.txt"
+    },
+    "bt_ptz": {
+      "title": "Prêt à Taux Zéro (PTZ)",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/particuliers/pret-taux-zero-ptz",
+      "documentDate": null,
+      "dateLabel": "page non datée (dispositif jusqu’au 31/12/2029)",
+      "accessed": "2026-11-17",
+      "short": "Page PTZ",
+      "snapshot": "data/sources/bt_ptz.txt"
+    },
+    "bt_ptz_plafonds": {
+      "title": "PTZ – plafonds indicatifs de revenus",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/sites/default/files/2025-11/Le%20Pr%C3%AAt%20%C3%A0%20Taux%20Z%C3%A9ro%20-%20plafonds%20indicatifs%20en%20annexe%20sur%20site%20internet%20BT_25.11.25.pdf",
+      "documentDate": "2025-10-22",
+      "dateLabel": "plafonds au 22 octobre 2025",
+      "accessed": "2026-11-17",
+      "short": "Plafonds PTZ",
+      "snapshot": "data/sources/bt_ptz_plafonds.txt"
+    },
+    "bt_pret_immo": {
+      "title": "Prêt immobilier à échéances fixes",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/pret-immobilier-echeances-fixes",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "Prêt immobilier",
+      "snapshot": "data/sources/bt_pret_immo.txt"
+    },
+    "bt_assurance_emprunteur": {
+      "title": "L’assurance des emprunteurs (crédit immobilier)",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/particuliers/lassurance-des-emprunteurs-en-couverture-dun-credit-immobilier",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "Assurance emprunteur",
+      "snapshot": "data/sources/bt_assurance_emprunteur.txt"
+    },
+    "bt_conso": {
+      "title": "Crédit à la consommation",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/credit-conso",
+      "documentDate": "2025-11-17",
+      "dateLabel": "conditions de taux au 17/11/2025 (exemple non lisible en texte)",
+      "accessed": "2026-11-17",
+      "short": "Crédit conso",
+      "snapshot": "data/sources/bt_conso.txt"
+    },
+    "bt_csl": {
+      "title": "Le Compte sur Livret",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/le-compte-sur-livret-csl",
+      "documentDate": "2023-01-01",
+      "dateLabel": "taux en vigueur depuis le 01/01/2023",
+      "accessed": "2026-11-17",
+      "short": "Compte sur livret",
+      "snapshot": "data/sources/bt_csl.txt"
+    },
+    "bt_livret_plus": {
+      "title": "Le Livret Plus",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/le-livret-plus",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "Livret Plus",
+      "snapshot": "data/sources/bt_livret_plus.txt"
+    },
+    "bt_epargne_logement": {
+      "title": "Le Compte Épargne Logement",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/particuliers/le-compte-epargne-logement-cel",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "CEL",
+      "snapshot": "data/sources/bt_epargne_logement.txt"
+    },
+    "bt_epargne": {
+      "title": "Épargnez !",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/epargnez",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "Épargne",
+      "snapshot": "data/sources/bt_epargne.txt"
+    },
+    "bt_jeunes": {
+      "title": "La banque des jeunes",
+      "publisher": "Banque de Tahiti",
+      "url": "https://www.banque-tahiti.pf/fr/particuliers/la-banque-des-jeunes",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "Offre jeunes",
+      "snapshot": "data/sources/bt_jeunes.txt"
+    },
+    "bdp_tarifs_2026": {
+      "title": "Conditions tarifaires particuliers",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/particuliers/nos-tarifs/Conditions_tarifaires_particuliers_applicables_au_1er%20juin%202026.pdf",
+      "documentDate": "2026-06-01",
+      "dateLabel": "applicables au 1er juin 2026",
+      "accessed": "2026-11-17",
+      "short": "Grille tarifaire",
+      "snapshot": "data/sources/bdp_tarifs_2026.txt"
+    },
+    "bdp_pret_immo": {
+      "title": "Le prêt immobilier",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/particuliers/financer-vos-projets/les-prets-immobiliers-1/",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "Prêt immobilier",
+      "snapshot": "data/sources/bdp_pret_immo.txt"
+    },
+    "bdp_aim": {
+      "title": "Aide à l'Investissement des Ménages",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/particuliers/financer-vos-projets/aim/",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "Page AIM",
+      "snapshot": "data/sources/bdp_aim.txt"
+    },
+    "bdp_credit_conso": {
+      "title": "Le Crédit Conso",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/particuliers/financer-vos-projets/le-credit-conso/",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "Crédit conso",
+      "snapshot": "data/sources/bdp_credit_conso.txt"
+    },
+    "bdp_credit_compact": {
+      "title": "Le Crédit Rachat (offre expirée)",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/particuliers/financer-vos-projets/le-credit-compact/",
+      "documentDate": null,
+      "dateLabel": "offre marquée « expiré »",
+      "accessed": "2026-11-17",
+      "short": "Crédit Rachat",
+      "snapshot": "data/sources/bdp_credit_compact.txt"
+    },
+    "bdp_csl": {
+      "title": "Le compte sur livret",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/particuliers/epargner-et-valoriser-votre-capital/disponibilite/le-compte-sur-livret/",
+      "documentDate": "2024-01-15",
+      "dateLabel": "taux depuis le 15 janvier 2024",
+      "accessed": "2026-11-17",
+      "short": "Compte sur livret",
+      "snapshot": "data/sources/bdp_csl.txt"
+    },
+    "bdp_cel": {
+      "title": "Le compte épargne logement",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/particuliers/epargner-et-valoriser-votre-capital/disponibilite/le-compte-epargne-logement/",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "CEL",
+      "snapshot": "data/sources/bdp_cel.txt"
+    },
+    "bdp_pret_epargne_logement": {
+      "title": "Le prêt épargne logement",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/particuliers/financer-vos-projets/le-pret-epargne-logement/",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "Prêt épargne logement",
+      "snapshot": "data/sources/bdp_pret_epargne_logement.txt"
+    },
+    "bdp_pack_iaora": {
+      "title": "Pack IA ORA",
+      "publisher": "Banque de Polynésie",
+      "url": "https://www.sg-bdp.pf/particuliers/offres-groupees-de-service/pack-ia-ora/presentation/",
+      "documentDate": null,
+      "dateLabel": "page non datée",
+      "accessed": "2026-11-17",
+      "short": "Pack IA ORA",
+      "snapshot": "data/sources/bdp_pack_iaora.txt"
+    },
+    "marara_tarifs_2026": {
+      "title": "Conditions tarifaires particuliers et professionnels",
+      "publisher": "MARARA Paiement (groupe OPT)",
+      "url": "https://www.mararapaiement.pf/wp-content/uploads/2026/02/DOC_MP_04022026_Conditions_tarifaires_Marara_2026-web.pdf",
+      "documentDate": "2026-03-01",
+      "dateLabel": "tarifs TTC en vigueur au 1er mars 2026",
+      "accessed": "2026-11-17",
+      "short": "Grille tarifaire",
+      "snapshot": "data/sources/marara_tarifs_2026.txt"
+    },
+    "ieom_observatoire_tarifs_avril_2026": {
+      "title": "Observatoire des tarifs bancaires dans les COM du Pacifique – avril 2026",
+      "publisher": "IEOM",
+      "url": "https://www.ieom.fr/IMG/pdf/tarifs_bancaires_dans_les_com_du_pacifique_avril_2026_vf.pdf",
+      "documentDate": "2026-04-01",
+      "dateLabel": "tarifs au 1er avril 2026 (publié juillet 2026)",
+      "accessed": "2026-11-17",
+      "short": "IEOM observatoire",
+      "snapshot": "data/sources/ieom_observatoire_tarifs_avril_2026.txt"
+    },
+    "ieom_observatoire_rapport_2025_2026": {
+      "title": "Observatoire des tarifs bancaires dans les COM – rapport annuel 2025-2026",
+      "publisher": "IEOM",
+      "url": "https://www.ieom.fr/IMG/pdf/ra_ieom_observatoire_tarifs_bancaires_2025-2026.pdf",
+      "documentDate": "2026",
+      "dateLabel": "rapport annuel 2025-2026",
+      "accessed": "2026-11-17",
+      "short": "IEOM rapport 2025-26",
+      "snapshot": "data/sources/ieom_observatoire_rapport_2025_2026.txt"
+    },
+    "ieom_taux_particuliers_t2_2026": {
+      "title": "Taux des crédits aux particuliers – Polynésie française, 2e trimestre 2026",
+      "publisher": "IEOM",
+      "url": "https://www.ieom.fr/IMG/pdf/cf_taux_des_credits_aux_particuliers_t2_2026.pdf",
+      "documentDate": "2026-09",
+      "dateLabel": "T2 2026, publié en septembre 2026",
+      "accessed": "2026-11-17",
+      "short": "IEOM T2 2026",
+      "snapshot": "data/sources/ieom_taux_particuliers_t2_2026.txt"
+    },
+    "bdf_usure_2026q4": {
+      "title": "Taux d'usure – 2026-Q4",
+      "publisher": "Banque de France",
+      "url": "https://www.banque-france.fr/fr/statistiques/taux-et-cours/taux-dusure-2026-q4",
+      "documentDate": "2026-10-01",
+      "dateLabel": "applicables au 1er octobre 2026",
+      "accessed": "2026-11-17",
+      "short": "Banque de France",
+      "snapshot": "data/sources/bdf_usure_2026q4.txt"
+    },
+    "ieom_usure_applicabilite": {
+      "title": "Rapport annuel 2022 PF – Les taux d’usure (p. 157)",
+      "publisher": "IEOM",
+      "url": "https://www.ieom.fr/IMG/rapport_annuel_ieom_polynesie_francaise_2022/files/basic-html/page163.html",
+      "documentDate": "2023",
+      "dateLabel": "rapport annuel 2022",
+      "accessed": "2026-11-17",
+      "short": "IEOM usure",
+      "snapshot": "data/sources/ieom_usure_applicabilite.txt"
+    },
+    "dhv_aim": {
+      "title": "L’aide à l’investissement des ménages – Construction/Acquisition",
+      "publisher": "Délégation à l’Habitat et à la Ville (DHV)",
+      "url": "https://www.service-public.pf/dhv/guides-des-aides-au-logement/menages/les-aides-de-la-dhv-accession/laide-a-linvestissement-des-menages-construction-acquisition/",
+      "documentDate": "2026-07-03",
+      "dateLabel": "page mise à jour le 03/07/2026",
+      "accessed": "2026-11-17",
+      "short": "DHV – AIM",
+      "snapshot": "data/sources/dhv_aim.txt"
+    },
+    "dgae_guide_credits_2025-12": {
+      "title": "Guide relatif au crédit à la consommation et au crédit immobilier",
+      "publisher": "DGAE Polynésie française",
+      "url": "https://www.service-public.pf/dgae/wp-content/uploads/sites/44/2026/02/Guide-Credits-financiers.pdf",
+      "documentDate": "2025-12",
+      "dateLabel": "décembre 2025",
+      "accessed": "2026-11-17",
+      "short": "Guide DGAE",
+      "snapshot": "data/sources/dgae_guide_credits_2025-12.txt"
+    },
+    "sz_frais": {
+      "title": "Outil frais de mutation (Polynésie française)",
+      "publisher": "Sarah Zimbris (courtière)",
+      "url": "https://sarahzimbris.com/outil-frais-mutation",
+      "documentDate": null,
+      "dateLabel": "à jour des réformes 2025 (selon l’auteur)",
+      "accessed": "2026-11-17",
+      "short": "S. Zimbris",
+      "snapshot": "data/sources/sz_frais.txt"
+    },
+    "kp_frais_notaire": {
+      "title": "Focus sur les frais de notaire en Polynésie française",
+      "publisher": "KP Finance",
+      "url": "https://www.kp-finance.com/focus-sur-les-frais-de-notaire-en-polynesie-francaise-a5085/",
+      "documentDate": null,
+      "dateLabel": "article non daté (cite la LP 2024-34)",
+      "accessed": "2026-11-17",
+      "short": "KP Finance",
+      "snapshot": "data/sources/kp_frais_notaire.txt"
+    },
+    "notaires_arrete_1376": {
+      "title": "Arrêté n° 1376 CM du 3 octobre 2000 – tarif des notaires",
+      "publisher": "Chambre des notaires de PF",
+      "url": "https://www.notaires.pf/media/tarif_1376_3_oct_2000_avec_tableaux.pdf",
+      "documentDate": "2000-10-03",
+      "dateLabel": "modifié par l’arrêté n° 700 CM du 26/08/2005 (scan non exploitable)",
+      "accessed": "2026-11-17",
+      "short": "Arrêté 1376 CM",
+      "snapshot": "data/sources/notaires_arrete_1376.txt"
+    }
+  },
+  "banks": [
+    {
+      "id": "socredo",
+      "name": "Banque SOCREDO",
+      "short": "Socredo",
+      "group": "Société d’économie mixte (Pays, AFD…)",
+      "website": "https://www.socredo.pf",
+      "color": "#c8102e",
+      "description": "Banque locale à capitaux majoritairement publics, plus grand réseau de distributeurs de PF (75 DAB selon sa grille).",
+      "fields": {
+        "immo_taux": {
+          "status": "found",
+          "value": "2,70 % nominal fixe (TAEG 2,7906 %) — exemple 25 MF sur 25 ans",
+          "source": "socredo_pret_habitat",
+          "quote": "Taux nominal fixe : 2,70%* de l’an",
+          "num": 2.7,
+          "note": "Exemple présenté « à titre indicatif, en vigueur au 20/06/2019 » : non représentatif des taux 2026.",
+          "stale": true
+        },
+        "immo_duree_max": {
+          "status": "found",
+          "value": "25 ans (300 mois)",
+          "source": "socredo_pret_habitat",
+          "quote": "sur une durée maximum de 25 ans",
+          "num": 300
+        },
+        "immo_quotite": {
+          "status": "not_published",
+          "checked": [
+            "socredo_pret_habitat",
+            "socredo_tarifs_2026"
+          ]
+        },
+        "immo_frais_dossier": {
+          "status": "found",
+          "value": "1 % du montant (mise en place, min. 10 310 XPF)",
+          "source": "socredo_tarifs_2026",
+          "quote": "Crédit : mise en place (en pourcentage du montant) 1% • Minimum 10 310",
+          "num": 10310,
+          "note": "La grille liste aussi des « frais d’étude » de 1 % (min. 20 500) et un poste « Crédit logement (frais de dossier) 21 120 » : l’articulation n’est pas précisée.",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Frais d’étude : 1 % (min. 20 500 XPF)",
+              "source": "socredo_tarifs_2026",
+              "quote": "Frais d’étude (en pourcentage du montant) - Prêt / découvert autorisé/ Dailly/ autres 1% • Minimum 20 500"
+            },
+            {
+              "status": "found",
+              "value": "Crédit logement (frais de dossier) : 21 120 XPF",
+              "source": "socredo_tarifs_2026",
+              "quote": "Crédit logement (Frais de dossier) 21 120"
+            }
+          ]
+        },
+        "immo_assurance": {
+          "status": "found",
+          "value": "Contrat groupe MANINA Cardif (nous consulter) ; exemple 0,38 %/an",
+          "source": "socredo_pret_habitat",
+          "quote": "Assurance emprunteur facultative (décès invalidité) : 8 075 FCFP/mois (0,38%)",
+          "num": 0.38,
+          "note": "Taux tiré de l’exemple de 2019. Formules décès-invalidité ou + incapacité, 100 % du capital.",
+          "stale": true,
+          "extra": [
+            {
+              "status": "found",
+              "value": "MANINA Cardif garantie emprunteur : nous consulter",
+              "source": "socredo_tarifs_2026",
+              "quote": "MANINA Cardif garantie emprunteur Nous consulter"
+            },
+            {
+              "status": "found",
+              "value": "Formule décès-invalidité : 100 % du capital couvert",
+              "source": "socredo_assurance_emprunteur",
+              "quote": "100% du capital couvert"
+            }
+          ]
+        },
+        "immo_garanties": {
+          "status": "not_published",
+          "checked": [
+            "socredo_pret_habitat",
+            "socredo_tarifs_2026"
+          ],
+          "note": "Type de garantie (hypothèque / caution) non détaillé publiquement."
+        },
+        "immo_relais": {
+          "status": "found",
+          "value": "Oui : ~70 % du prix estimé, sur 2 ans",
+          "source": "socredo_pret_relais",
+          "quote": "70% du prix estimé peuvent être accordés en moyenne",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Exemple 2019 : 0,85 % nominal, TAEG 2,7133 %",
+              "source": "socredo_pret_relais",
+              "quote": "Taux nominal fixe : 0,85 %* de l’an"
+            }
+          ]
+        },
+        "immo_primo": {
+          "status": "found",
+          "value": "Offre Habitat Primo Accédant : prêt à taux préférentiel (≤ 50 MF, ≤ 25 ans, frais de dossier réduits) + part à taux zéro (≤ 12 MF) + AIM (≤ 4 MF)",
+          "source": "socredo_primo",
+          "quote": "Une part du prêt immobilier est à taux préférentiel (montant empruntable : 50 millions de Fcfp maximum sur une durée de 25 ans maximum) + frais de dossier réduits"
+        },
+        "immo_ptz": {
+          "status": "found",
+          "value": "Oui (part à taux zéro jusqu’à 12 MF dans l’offre primo)",
+          "source": "socredo_primo",
+          "quote": "Une autre part du prêt immobilier est à taux zéro (jusqu'au 12 millions de Fcfp maximum)",
+          "num": 12000000
+        },
+        "immo_aim": {
+          "status": "found",
+          "value": "Oui, dossier monté par la banque (jusqu’à 4 MF)",
+          "source": "socredo_aim",
+          "quote": "Jusqu'à 4 millions de Fcfp d'aide.",
+          "num": 4000000
+        },
+        "immo_ira": {
+          "status": "found",
+          "value": "1 semestre d’intérêts, plafonné à 3 % du capital restant dû",
+          "source": "socredo_tarifs_2026",
+          "quote": "indemnité égale à un semestre d’intérêts calculée sur le capital remboursé par anticipation au taux du prêt, sans pouvoir dépasser 3% du capital restant dû"
+        },
+        "immo_avenant": {
+          "status": "found",
+          "value": "Modification (report, durée…) 12 600 XPF ; renégociation 1 % du CRD (min. 100 000)",
+          "source": "socredo_tarifs_2026",
+          "quote": "Modification (report d’échéance, durée, autres) 12 600",
+          "num": 12600
+        },
+        "cpt_tenue": {
+          "status": "found",
+          "value": "383 XPF/mois (4 596 XPF/an)",
+          "source": "socredo_tarifs_2026",
+          "quote": "Tenue de compte à vue (forfait mensuel) 383",
+          "num": 383
+        },
+        "cpt_en_ligne": {
+          "status": "found",
+          "value": "Accès Light gratuit (consultation + 3 virements locaux/mois) ; Espace Client complet 3 550 XPF/an",
+          "source": "socredo_tarifs_2026",
+          "quote": "Accès Espace Client WEBSOC - Particuliers 3550",
+          "num": 296,
+          "note": "Valeur de tri : 3 550 XPF/an ÷ 12 ≈ 296 XPF/mois (accès complet).",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Accès Light gratuit",
+              "source": "socredo_tarifs_2026",
+              "quote": "Accès Light - Particuliers : Gratuit"
+            }
+          ]
+        },
+        "carte_classic": {
+          "status": "found",
+          "value": "Visa Classic 5 666 XPF/an (débit immédiat) ; 5 373 (différé)",
+          "source": "socredo_tarifs_2026",
+          "quote": "Carte Visa Classic (Immédiat) 5 666",
+          "num": 5666
+        },
+        "carte_premium": {
+          "status": "found",
+          "value": "Visa Premier 21 700 XPF/an",
+          "source": "socredo_tarifs_2026",
+          "quote": "Carte Visa Premier (Immédiat) 21 700",
+          "num": 21700
+        },
+        "cpt_retrait_autre": {
+          "status": "found",
+          "value": "120 XPF/retrait",
+          "source": "socredo_tarifs_2026",
+          "quote": "en XPF sur automate autre banque locale (par opération) 120",
+          "num": 120
+        },
+        "vir_local": {
+          "status": "found",
+          "value": "Agence 431 XPF ; internet compris dans l’abonnement",
+          "source": "socredo_tarifs_2026",
+          "quote": "Local : En faveur d’un compte dans une autre banque 431",
+          "num": 431
+        },
+        "vir_sepa": {
+          "status": "found",
+          "value": "Internet : 0,25 % (min. 1 560, max. 14 430) + 510 XPF ; agence : + 2 450 XPF",
+          "source": "socredo_tarifs_2026",
+          "quote": "SEPA COM Pacifique : commission de transfert 0,25% • Minimum 1 560 • Maximum 14 430 SEPA COM Pacifique : frais de transfert 510",
+          "num": 2070,
+          "note": "Valeur de tri : coût minimum d’un virement en ligne (1 560 + 510)."
+        },
+        "vir_international": {
+          "status": "found",
+          "value": "0,25 % (min. 1 580, max. 14 600) + 2 775 XPF + frais du correspondant",
+          "source": "socredo_tarifs_2026",
+          "quote": "Commission de transfert 0,25% • Minimum 1 580 • Maximum 14 600 Frais de transfert 2 775",
+          "num": 4355,
+          "note": "Valeur de tri : minimum 1 580 + 2 775."
+        },
+        "cpt_commission_intervention": {
+          "status": "found",
+          "value": "1 000 XPF/opération, plafond 10 000 XPF/mois",
+          "source": "socredo_tarifs_2026",
+          "quote": "momentanée (par opération) 1 000 Plafond mensuel 10 000",
+          "num": 1000
+        },
+        "cpt_rejet_cheque": {
+          "status": "found",
+          "value": "3 580 XPF (≤ 5 967) ; 5 960 XPF (> 5 967)",
+          "source": "socredo_tarifs_2026",
+          "quote": "Chèque d’un montant supérieur à 5.967 XPF (forfait par chèque) 5 960",
+          "num": 5960
+        },
+        "cpt_rejet_prelevement": {
+          "status": "found",
+          "value": "Jusqu’à 2 387 XPF",
+          "source": "socredo_tarifs_2026",
+          "quote": "Rejet pour provision insuffisante, d’un virement dans la limite",
+          "num": 2387
+        },
+        "cpt_decouvert": {
+          "status": "found",
+          "value": "Taux non chiffré (« dans la limite du taux d’usure ») ; commission 0,16 % du plus fort découvert ; mise en place 1 % (min. 6 150)",
+          "source": "socredo_tarifs_2026",
+          "quote": "Taux : 0,16 % sur le montant du plus fort découvert du mois en valeur"
+        },
+        "cpt_package": {
+          "status": "found",
+          "value": "HIVA PLUS : 900 XPF/mois (carte Socredo Classic) à 2 300 XPF/mois (Visa Premier)",
+          "source": "socredo_tarifs_2026",
+          "quote": "HIVA PLUS Essentiel (avec la carte SOCREDO Classic) 900",
+          "num": 900
+        },
+        "ep_livret": {
+          "status": "found",
+          "value": "Compte sur livret : 0,15 %/an",
+          "source": "socredo_csl",
+          "quote": "le taux de rémunération du CSL sera de 0,15% l’an",
+          "num": 0.15
+        },
+        "ep_jeune": {
+          "status": "not_published",
+          "checked": [
+            "socredo_csl",
+            "socredo_tarifs_2026"
+          ],
+          "note": "Livret Z mentionné dans la grille (dépôt min. 10 000 XPF), taux non publié."
+        },
+        "ep_terme": {
+          "status": "found",
+          "value": "Compte à terme : dépôt min. 500 000 XPF ; taux non publié",
+          "source": "socredo_tarifs_2026",
+          "quote": "En XPF : Dépôt minimum 500.000 XPF Gratuit"
+        },
+        "ep_autres": {
+          "status": "found",
+          "value": "PEL : 1,75 % (ouverture depuis le 1er janvier 2025) ; assurance-vie Hotu Épargne",
+          "source": "socredo_pel",
+          "quote": "Le taux de rémunération du PEL fixé à l’ouverture est de 1,75 % depuis le 1er janvier 2025",
+          "num": 1.75
+        },
+        "conso_taux": {
+          "status": "found",
+          "value": "4,50 % nominal (TAEG 5,6249 %) — exemple 1 MF sur 24 mois",
+          "source": "socredo_pret_perso",
+          "quote": "Taux nominal fixe : 4,50%* de l’an",
+          "num": 4.5,
+          "note": "Exemple « en vigueur au 24/04/2019 ». Jusqu’à 15 MF sur 7 ans.",
+          "stale": true
+        },
+        "conso_auto": {
+          "status": "not_published",
+          "checked": [
+            "socredo_pret_auto"
+          ],
+          "note": "Taux non publié ; durée 12–60 mois (84 mois pour un véhicule neuf > 4 MF)."
+        },
+        "conso_frais_dossier": {
+          "status": "found",
+          "value": "1 % (mise en place, min. 10 310 XPF)",
+          "source": "socredo_tarifs_2026",
+          "quote": "Crédit : mise en place (en pourcentage du montant) 1% • Minimum 10 310",
+          "num": 10310,
+          "note": "La grille liste aussi des frais d’étude de 1 % (min. 20 500)."
+        },
+        "conso_ira": {
+          "status": "found",
+          "value": "1 % (> 1 an restant) ou 0,50 % (≤ 1 an), si remboursement > 1 193 317 XPF sur 12 mois",
+          "source": "socredo_tarifs_2026",
+          "quote": "lorsque le montant du remboursement anticipé est supérieur à 1.193.317 XPF"
+        }
+      }
+    },
+    {
+      "id": "bt",
+      "name": "Banque de Tahiti",
+      "short": "B. de Tahiti",
+      "group": "Groupe BPCE (Caisse d’Épargne Île-de-France)",
+      "website": "https://www.banque-tahiti.pf",
+      "color": "#0a5c8a",
+      "description": "Filiale du groupe BPCE ; grille 2027 déjà publiée (applicable au 1er janvier 2027).",
+      "descriptionSource": {
+        "source": "bt_tarifs_2027",
+        "quote": "Tenue de compte (par trimestre) 951Soit 3 804 F CFP / an"
+      },
+      "fields": {
+        "immo_taux": {
+          "status": "not_published",
+          "checked": [
+            "bt_pret_immo",
+            "bt_tarifs_2026_v06"
+          ],
+          "note": "Aucun taux ni exemple chiffré publié pour le prêt immobilier classique."
+        },
+        "immo_duree_max": {
+          "status": "not_published",
+          "checked": [
+            "bt_pret_immo",
+            "bt_tarifs_2026_v06"
+          ],
+          "note": "Seule la durée du PTZ est publiée (25 ans, 27 ans en VEFA)."
+        },
+        "immo_quotite": {
+          "status": "not_published",
+          "checked": [
+            "bt_pret_immo",
+            "bt_tarifs_2026_v06"
+          ]
+        },
+        "immo_frais_dossier": {
+          "status": "found",
+          "value": "1 % du capital (min. 17 878 XPF)",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "CRÉDITS IMMOBILIERS Frais de dossier 1% du capital emprunté Minimum de facturation 17 878",
+          "num": 17878
+        },
+        "immo_assurance": {
+          "status": "found",
+          "value": "Délégation libre (avant offre, avant signature ou à tout moment pour les prêts signés depuis le 01/06/2022) ; taux non publié",
+          "source": "bt_assurance_emprunteur",
+          "quote": "Vous avez la liberté de choisir l'assureur de votre choix"
+        },
+        "immo_garanties": {
+          "status": "found",
+          "value": "Hypothèque (mainlevée partielle 21 802 XPF) ; enregistrement des actes de garantie 2 538 XPF/acte",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Commission de main levée partielle d'hypothèque 21 802",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Frais d’enregistrement des actes de garanties : 2 538",
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Frais d’enregistrement des contrats et actes de garanties (par acte enregistré) 2 538"
+            }
+          ]
+        },
+        "immo_relais": {
+          "status": "not_published",
+          "checked": [
+            "bt_pret_immo",
+            "bt_tarifs_2026_v06"
+          ]
+        },
+        "immo_primo": {
+          "status": "found",
+          "value": "Via le PTZ Pays, cumulable avec l’AIM",
+          "source": "bt_ptz",
+          "quote": "Il aide les primo-accédants à devenir propriétaires."
+        },
+        "immo_ptz": {
+          "status": "found",
+          "value": "Oui : jusqu’à 12 MF à 0 %, 25 ans (27 en VEFA), différé 2 ans, jusqu’au 31/12/2029",
+          "source": "bt_ptz",
+          "quote": "Jusqu’à 12 000 000 F CFP à taux zéro",
+          "num": 12000000
+        },
+        "immo_aim": {
+          "status": "found",
+          "value": "Oui (cumulable avec le PTZ)",
+          "source": "bt_ptz",
+          "quote": "Dispositif cumulable avec l’AIM (Aide à l’investissement des ménages)."
+        },
+        "immo_ira": {
+          "status": "not_published",
+          "checked": [
+            "bt_tarifs_2026_v06"
+          ],
+          "note": "La grille renvoie à la convention de crédit."
+        },
+        "immo_avenant": {
+          "status": "found",
+          "value": "Modification 15 077 XPF ; renégociation 1 % du CRD (min. 100 000)",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Frais de modification (hors renégociation de taux pour crédits immobiliers) 15 077",
+          "num": 15077
+        },
+        "cpt_tenue": {
+          "status": "found",
+          "value": "951 XPF/trimestre (3 804 XPF/an)",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Tenue de compte (par trimestre) 951Soit 3 804 F CFP / an",
+          "num": 317,
+          "note": "Valeur de tri : 3 804 ÷ 12 = 317 XPF/mois."
+        },
+        "cpt_en_ligne": {
+          "status": "found",
+          "value": "Tiare Net 1 et 1+ gratuits ; Tiare Net 2 (virements hors PF, international) 360 XPF/mois",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Tiare Net 2 (par mois) 360Soit 4 320 F CFP / an",
+          "num": 360,
+          "extra": [
+            {
+              "status": "found",
+              "value": "Tiare Net 1+ gratuit",
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Tiare Net 1+ (par mois) GRATUIT"
+            }
+          ]
+        },
+        "carte_classic": {
+          "status": "found",
+          "value": "Visa Classic 5 813 XPF/an (débit immédiat) ; 5 446 (différé)",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Cotisation carte (à débit immédiat) - Cotisation annuelle 5 813",
+          "num": 5813
+        },
+        "carte_premium": {
+          "status": "found",
+          "value": "Visa Premier 22 557 XPF/an ; Visa Infinite 55 843 XPF/an",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Cotisation carte (à débit immédiat) - Cotisation annuelle 22 557",
+          "num": 22557
+        },
+        "cpt_retrait_autre": {
+          "status": "found",
+          "value": "121 XPF/retrait",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "distributeur d'une banque confrère en Polynésie Française) 121",
+          "num": 121
+        },
+        "vir_local": {
+          "status": "found",
+          "value": "Agence 431 XPF ; Tiare Net gratuit",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "place en F CFP (ordre initié en agence) - par opération 431 F CFP",
+          "num": 431
+        },
+        "vir_sepa": {
+          "status": "found",
+          "value": "Tiare Net : gratuit ; agence : 0,265 % (min. 1 927, max. 18 730) + 3 844 XPF",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Émission de tout virement SEPA occasionnel (par Internet Tiare Net) GRATUIT",
+          "num": 0,
+          "note": "Nécessite l’abonnement Tiare Net 2 (360 XPF/mois) pour les virements hors PF."
+        },
+        "vir_international": {
+          "status": "found",
+          "value": "0,265 % (min. 1 942, max. 18 875) + SWIFT 3 679 XPF",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "devises hors zone SEPA (virement occasionnel ou permanent) 0,265% Minimum de facturation 1 942 Maximum de facturation 18 875",
+          "num": 5621,
+          "note": "Valeur de tri : minimum 1 942 + 3 679.",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Frais SWIFT : 3 679",
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Frais de « SWIFT « toutes destinations 3 679"
+            }
+          ]
+        },
+        "cpt_commission_intervention": {
+          "status": "found",
+          "value": "955 XPF/opération, plafond 9 547 XPF/mois",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "955 F CFP par opération 9 547 F CFP maximum",
+          "num": 955
+        },
+        "cpt_rejet_cheque": {
+          "status": "found",
+          "value": "3 575 XPF (≤ 5 967) ; 5 965 XPF (> 5 967)",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Chèque supérieur à 5 967 F CFP (par opération) 5 965 F CFP",
+          "num": 5965
+        },
+        "cpt_rejet_prelevement": {
+          "status": "found",
+          "value": "2 386 XPF (montant de l’opération si ≤ 2 386)",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "l’opération est > à 2 386 F CFP (par opération) 2 386 F CFP",
+          "num": 2386
+        },
+        "cpt_decouvert": {
+          "status": "found",
+          "value": "Non autorisé : TBBT + 12,90 % + 2 798 XPF/mois ; autorisé : frais de dossier 8 292 XPF/an (taux non chiffré)",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "Taux Nominal = TBBT + 12,90%",
+          "note": "TBBT = taux de base Banque de Tahiti, valeur non publiée dans la grille."
+        },
+        "cpt_package": {
+          "status": "found",
+          "value": "Offre Taure’a Horizon : 650 XPF/mois (Visa Classic, Tiare Net 2, livret, assurance moyens de paiement)",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "OFFRE TAURE’A HORIZON L ’ offre groupée comprend : Ouverture, frais de tenue et clôture du compte 650 / mois",
+          "num": 650,
+          "note": "Classée dans la rubrique « offres jeunes » de la grille ; conditions d’âge non précisées."
+        },
+        "ep_livret": {
+          "status": "found",
+          "value": "Compte sur livret 0,20 % ; Livret Plus 0,30 %",
+          "source": "bt_csl",
+          "quote": "taux net fixe garanti de 0,20 %",
+          "num": 0.3,
+          "note": "Valeur de tri : meilleur taux publié (Livret Plus). La grille prévoit des frais de tenue de compte sur livret de 1 992 XPF/trimestre (cas d’application non précisé).",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Livret Plus : 0,30 %",
+              "source": "bt_livret_plus",
+              "quote": "rémunérée à hauteur de 0.30 %"
+            },
+            {
+              "status": "found",
+              "value": "Frais de tenue de compte sur livret : 1 992 XPF/trimestre",
+              "source": "bt_tarifs_2026_v06",
+              "quote": "Frais de tenue de compte sur livret (par trimestre) 1 992"
+            }
+          ]
+        },
+        "ep_jeune": {
+          "status": "not_published",
+          "checked": [
+            "bt_jeunes",
+            "bt_tarifs_2026_v06"
+          ],
+          "note": "Livret Taure’a inclus dans l’offre jeune, taux non publié."
+        },
+        "ep_terme": {
+          "status": "found",
+          "value": "Compte à terme à taux fixe (ouverture gratuite) ; taux non publié",
+          "source": "bt_epargne",
+          "quote": "Compte à Terme à taux fixe"
+        },
+        "ep_autres": {
+          "status": "found",
+          "value": "CEL : 1,25 % ; prêt épargne logement à 3,5 % hors assurance (2 à 15 ans)",
+          "source": "bt_epargne_logement",
+          "quote": "taux de rémunération annuel garanti de 1,25 %",
+          "num": 1.25,
+          "extra": [
+            {
+              "status": "found",
+              "value": "Prêt CEL : 3,5 % hors assurance",
+              "source": "bt_epargne_logement",
+              "quote": "accédez à un prêt à taux préférentiel de 3,5 % (hors assurance)"
+            }
+          ]
+        },
+        "conso_taux": {
+          "status": "not_published",
+          "checked": [
+            "bt_conso",
+            "bt_tarifs_2026_v06"
+          ],
+          "note": "La page mentionne des « conditions de taux en vigueur au 17/11/2025 » sans exemple chiffré lisible."
+        },
+        "conso_auto": {
+          "status": "not_published",
+          "checked": [
+            "bt_conso"
+          ]
+        },
+        "conso_frais_dossier": {
+          "status": "found",
+          "value": "1 % du capital (min. 17 878 XPF)",
+          "source": "bt_tarifs_2026_v06",
+          "quote": "CRÉDITS A LA CONSOMMATION OU PRETS PERSONNELS Frais de dossier 1% du capital emprunté Minimum de facturation 17 878",
+          "num": 17878
+        },
+        "conso_ira": {
+          "status": "not_published",
+          "checked": [
+            "bt_tarifs_2026_v06"
+          ],
+          "note": "La grille renvoie à la convention de crédit."
+        }
+      }
+    },
+    {
+      "id": "bdp",
+      "name": "Banque de Polynésie",
+      "short": "B. de Polynésie",
+      "group": "Groupe Société Générale",
+      "website": "https://www.sg-bdp.pf",
+      "color": "#1d1d1b",
+      "description": "Filiale du groupe Société Générale ; distribue aussi CREDICOM (crédit) et les avantages CASDEN.",
+      "fields": {
+        "immo_taux": {
+          "status": "not_published",
+          "checked": [
+            "bdp_pret_immo",
+            "bdp_tarifs_2026"
+          ],
+          "note": "« Taux fixe », sans valeur publiée."
+        },
+        "immo_duree_max": {
+          "status": "found",
+          "value": "300 mois (25 ans)",
+          "source": "bdp_pret_immo",
+          "quote": "jusqu'à 300 mois",
+          "num": 300
+        },
+        "immo_quotite": {
+          "status": "found",
+          "value": "Jusqu’à 100 % de l’opération (hors frais de notaire)",
+          "source": "bdp_pret_immo",
+          "quote": "jusqu'à 100 % du montant de votre opération (hors frais de notaire)",
+          "num": 100
+        },
+        "immo_frais_dossier": {
+          "status": "found",
+          "value": "0,75 % du capital (min. 51 300 XPF)",
+          "source": "bdp_tarifs_2026",
+          "quote": "Frais de dossier 0.75% du capital emprunté Minimum 51 300",
+          "num": 51300
+        },
+        "immo_assurance": {
+          "status": "found",
+          "value": "Assurance D.I.I.T exigée ; avenant de changement d’assurance gratuit ; taux non publié",
+          "source": "bdp_tarifs_2026",
+          "quote": "pour un changement d'assurance décès et invalidité GRATUIT"
+        },
+        "immo_garanties": {
+          "status": "found",
+          "value": "Hypothèque de 1er rang ou caution Crédit Logement (en partie restituable, sans frais de mainlevée)",
+          "source": "bdp_pret_immo",
+          "quote": "Hypothèque de 1er rang sur le bien financé Caution Crédit Logement"
+        },
+        "immo_relais": {
+          "status": "not_published",
+          "checked": [
+            "bdp_pret_immo",
+            "bdp_tarifs_2026"
+          ]
+        },
+        "immo_primo": {
+          "status": "not_published",
+          "checked": [
+            "bdp_pret_immo",
+            "bdp_aim"
+          ]
+        },
+        "immo_ptz": {
+          "status": "not_published",
+          "checked": [
+            "bdp_pret_immo",
+            "bdp_aim",
+            "bdp_tarifs_2026"
+          ],
+          "note": "PTZ Pays non mentionné sur les pages consultées."
+        },
+        "immo_aim": {
+          "status": "found",
+          "value": "Oui : jusqu’à 4 000 000 XPF (construction/acquisition), dossier transmis par la banque",
+          "source": "bdp_aim",
+          "quote": "Elle peut atteindre jusqu’à 4 000 000 XPF",
+          "num": 4000000
+        },
+        "immo_ira": {
+          "status": "not_published",
+          "checked": [
+            "bdp_tarifs_2026"
+          ],
+          "note": "La grille renvoie à la convention de crédit."
+        },
+        "immo_avenant": {
+          "status": "found",
+          "value": "Avenant de modification 51 250 XPF ; changement de compte/date 18 000 ; renégociation 1 % (min. 102 515)",
+          "source": "bdp_tarifs_2026",
+          "quote": "Avenant de modification 51 250",
+          "num": 51250
+        },
+        "cpt_tenue": {
+          "status": "found",
+          "value": "956 XPF/trimestre (3 824 XPF/an)",
+          "source": "bdp_tarifs_2026",
+          "quote": "Tenue de compte 956 par trimestre",
+          "num": 319,
+          "note": "Valeur de tri : 3 824 ÷ 12 ≈ 319 XPF/mois."
+        },
+        "cpt_en_ligne": {
+          "status": "found",
+          "value": "Offre Primo gratuite (consultation + 3 virements locaux/mois) ; Offre Classique 350 XPF/mois",
+          "source": "bdp_tarifs_2026",
+          "quote": "Offre Classique (hors coût du fournisseur d’accès à Internet) 350 par mois",
+          "num": 350
+        },
+        "carte_classic": {
+          "status": "found",
+          "value": "Visa Classique 5 735 XPF/an (immédiat ou différé)",
+          "source": "bdp_tarifs_2026",
+          "quote": "Carte de paiement internationale à débit immédiat (Carte VISA Classique) 5 735 par an",
+          "num": 5735
+        },
+        "carte_premium": {
+          "status": "found",
+          "value": "Visa Premier 20 300 XPF/an",
+          "source": "bdp_tarifs_2026",
+          "quote": "Carte de paiement internationale à débit immédiat 20 300 par an",
+          "num": 20300
+        },
+        "cpt_retrait_autre": {
+          "status": "found",
+          "value": "122 XPF/retrait",
+          "source": "bdp_tarifs_2026",
+          "quote": "autre établissement en Polynésie française 122 par opération",
+          "num": 122
+        },
+        "vir_local": {
+          "status": "found",
+          "value": "Agence 436 XPF ; Polyweb/Polyapp gratuit",
+          "source": "bdp_tarifs_2026",
+          "quote": "En agence 436 par opération",
+          "num": 436
+        },
+        "vir_sepa": {
+          "status": "found",
+          "value": "En ligne : 127 XPF ; agence : 0,25 % (min. 1 805, max. 17 690)",
+          "source": "bdp_tarifs_2026",
+          "quote": "A destination d'un compte en métropole ou dans les Outre-Mer 127 par virement",
+          "num": 127
+        },
+        "vir_international": {
+          "status": "found",
+          "value": "SWIFT : 0,25 % (min. 1 850, max. 15 845) + 2 810 XPF",
+          "source": "bdp_tarifs_2026",
+          "quote": "Commission de transfert 0,25% Minimum 1 850 Maximum 15 845 + frais SWIFT 2 810",
+          "num": 4660,
+          "note": "Valeur de tri : minimum 1 850 + 2 810."
+        },
+        "cpt_commission_intervention": {
+          "status": "found",
+          "value": "955 XPF/opération, plafond 9 547 XPF/mois",
+          "source": "bdp_tarifs_2026",
+          "quote": "Commissions d’intervention 955 par opération Maximum par mois 9 547",
+          "num": 955
+        },
+        "cpt_rejet_cheque": {
+          "status": "found",
+          "value": "3 580 XPF (≤ 5 967) ; 5 967 XPF (> 5 967)",
+          "source": "bdp_tarifs_2026",
+          "quote": "D'un montant > 5 967 F CFP (tout frais confondus) 5 967 par chèque",
+          "num": 5967
+        },
+        "cpt_rejet_prelevement": {
+          "status": "found",
+          "value": "Montant du rejet, max. 2 385 XPF",
+          "source": "bdp_tarifs_2026",
+          "quote": "Maximum 2 385 par prélèvement",
+          "num": 2385
+        },
+        "cpt_decouvert": {
+          "status": "found",
+          "value": "Intérêts débiteurs 8,815 % (libellé « par trimestre ») ; minimum d’agios 2 560 XPF/trimestre ; autorisation 8 000 XPF/an",
+          "source": "bdp_tarifs_2026",
+          "quote": "Intérêts débiteurs (agios) 8,815% par trimestre",
+          "num": 8.815,
+          "note": "La grille indique « 8,815 % par trimestre », probablement un taux annuel perçu trimestriellement : à confirmer auprès de la banque."
+        },
+        "cpt_package": {
+          "status": "found",
+          "value": "Pack IA ORA : 1 335 XPF/mois (carte HOA) à 2 715 XPF/mois (Visa Premier)",
+          "source": "bdp_tarifs_2026",
+          "quote": "Carte HOA Privative 1 335 F TTC",
+          "num": 1335,
+          "note": "La page produit affiche encore « à partir de 1 305 XPF par mois » ; la grille du 1er juin 2026 fait foi.",
+          "extra": [
+            {
+              "status": "found",
+              "value": "Page produit : à partir de 1 305 XPF/mois",
+              "source": "bdp_pack_iaora",
+              "quote": "bénéficiez d'une offre complète à partir de 1 305 XPF par mois"
+            }
+          ]
+        },
+        "ep_livret": {
+          "status": "found",
+          "value": "Compte sur livret : 0,20 % (dépôt min. 1 193 XPF)",
+          "source": "bdp_csl",
+          "quote": "0,20% depuis le 15 janvier 2024",
+          "num": 0.2
+        },
+        "ep_jeune": {
+          "status": "not_published",
+          "checked": [
+            "bdp_csl",
+            "bdp_tarifs_2026"
+          ],
+          "note": "Pack Fetia (16–24 ans) avec compte sur livret, taux spécifique non publié."
+        },
+        "ep_terme": {
+          "status": "found",
+          "value": "Compte à terme (durée min. 1 mois) ; taux : nous consulter",
+          "source": "bdp_tarifs_2026",
+          "quote": "La durée minimale pour un compte à terme est d'un mois minimum"
+        },
+        "ep_autres": {
+          "status": "found",
+          "value": "PEL/CEL à taux réglementés (non chiffrés) ; prêt PEL ≤ 10 978 520 XPF, prêt CEL ≤ 2 744 630 XPF",
+          "source": "bdp_pret_epargne_logement",
+          "quote": "jusqu'à 10 978 520 F CFP",
+          "extra": [
+            {
+              "status": "found",
+              "value": "CEL : dépôts jusqu’à 1 825 776 XPF, taux conventionné",
+              "source": "bdp_cel",
+              "quote": "Montant maximal des dépôts 1 825 776 F CFP"
+            }
+          ]
+        },
+        "conso_taux": {
+          "status": "not_published",
+          "checked": [
+            "bdp_credit_conso",
+            "bdp_credit_compact",
+            "bdp_tarifs_2026"
+          ],
+          "note": "« Taux fixe » sans valeur ; seul exemple chiffré (Crédit Rachat 6,95 %) marqué « expiré »."
+        },
+        "conso_auto": {
+          "status": "not_published",
+          "checked": [
+            "bdp_credit_conso"
+          ],
+          "note": "Crédit conso 12 à 84 mois, nantissement du véhicule ; taux non publié."
+        },
+        "conso_frais_dossier": {
+          "status": "found",
+          "value": "1 % du capital (min. 18 000 XPF)",
+          "source": "bdp_tarifs_2026",
+          "quote": "Frais de dossier 1% du capital emprunté Minimum 18 000",
+          "num": 18000
+        },
+        "conso_ira": {
+          "status": "not_published",
+          "checked": [
+            "bdp_tarifs_2026"
+          ],
+          "note": "La grille renvoie à la convention de crédit."
+        }
+      }
+    },
+    {
+      "id": "marara",
+      "name": "MARARA Paiement (OPT)",
+      "short": "Marara/OPT",
+      "group": "Groupe OPT – établissement de paiement",
+      "website": "https://www.mararapaiement.pf",
+      "color": "#d6337c",
+      "description": "Reprend les services financiers (ex-CCP) de l’OPT depuis août 2022 ; compte de paiement, pas de crédit.",
+      "descriptionSource": {
+        "source": "ieom_observatoire_rapport_2025_2026",
+        "quote": "L’établissement de paiement MARARA Paiement a repris les activités bancaires de l’OPT PF depuis le 1er août 2022"
+      },
+      "fields": {
+        "immo_taux": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "immo_duree_max": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "immo_quotite": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "immo_frais_dossier": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "immo_assurance": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "immo_garanties": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "immo_relais": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "immo_primo": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "immo_ptz": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "immo_aim": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "immo_ira": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "immo_avenant": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "conso_taux": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "conso_auto": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "conso_frais_dossier": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "conso_ira": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : aucune offre de crédit dans sa grille tarifaire."
+        },
+        "cpt_tenue": {
+          "status": "found",
+          "value": "310 XPF/mois (3 720 XPF/an)",
+          "source": "marara_tarifs_2026",
+          "quote": "Frais de tenue de compte (par mois) soit 3 720 XPF par an 310",
+          "num": 310
+        },
+        "cpt_en_ligne": {
+          "status": "found",
+          "value": "MARARA Web, ALLO MP et SMS MP gratuits",
+          "source": "marara_tarifs_2026",
+          "quote": "Abonnement à des services de banque à distance (Internet, téléphone fixe, SMS, etc.) - (Hors coût de votre opérateur) Gratuit",
+          "num": 0
+        },
+        "carte_classic": {
+          "status": "found",
+          "value": "Visa Classic 5 000 XPF/an (autorisation systématique) ; carte locale Fenua 220 XPF/mois",
+          "source": "marara_tarifs_2026",
+          "quote": "Carte VISA Classic - Fourniture d’une carte de débit (carte de paiement à autorisation systématique) 5 000",
+          "num": 5000,
+          "note": "Carte à autorisation systématique (solde vérifié à chaque opération)."
+        },
+        "carte_premium": {
+          "status": "found",
+          "value": "Visa Premier 16 000 XPF/an",
+          "source": "marara_tarifs_2026",
+          "quote": "Carte VISA PREMIER - Fourniture d’une carte de débit (carte de paiement internationale 16 000",
+          "num": 16000
+        },
+        "cpt_retrait_autre": {
+          "status": "found",
+          "value": "118 XPF/retrait",
+          "source": "marara_tarifs_2026",
+          "quote": "Retrait d’espèces en XPF sur un DAB d’une banque confrère en Polynésie française 118",
+          "num": 118
+        },
+        "vir_local": {
+          "status": "found",
+          "value": "Guichet 431 XPF ; internet gratuit",
+          "source": "marara_tarifs_2026",
+          "quote": "compte dans une autre banque, au guichet 431",
+          "num": 431
+        },
+        "vir_sepa": {
+          "status": "found",
+          "value": "Internet : gratuit ; agence : 0,25 % (min. 1 500, max. 11 500)",
+          "source": "marara_tarifs_2026",
+          "quote": "Virement SEPA occasionnel par Internet : Commission de transfert Gratuit",
+          "num": 0
+        },
+        "vir_international": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Grille limitée aux virements locaux et SEPA (pas de SWIFT hors SEPA)."
+        },
+        "cpt_commission_intervention": {
+          "status": "found",
+          "value": "955 XPF/opération, plafond 10 000 XPF/mois",
+          "source": "marara_tarifs_2026",
+          "quote": "fonctionnement du compte nécessitant un traitement 955 particulier (par opération) (Plafonnée à 10 000 XPF par mois)",
+          "num": 955
+        },
+        "cpt_rejet_cheque": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026",
+            "ieom_observatoire_tarifs_avril_2026"
+          ],
+          "note": "Sans objet : un établissement de paiement ne délivre pas de chéquier (IEOM, observatoire avril 2026)."
+        },
+        "cpt_rejet_prelevement": {
+          "status": "found",
+          "value": "Montant de l’opération, max. 2 387 XPF",
+          "source": "marara_tarifs_2026",
+          "quote": "Frais de rejet pour défaut de provision - Maximum 2 387",
+          "num": 2387
+        },
+        "cpt_decouvert": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Établissement de paiement : pas d’autorisation de découvert dans la grille."
+        },
+        "cpt_package": {
+          "status": "found",
+          "value": "Pack MARARA : 650 XPF/mois (compte, carte Fenua, FenuaPay, assurance, services à distance)",
+          "source": "marara_tarifs_2026",
+          "quote": "Pack MARARA (par mois) 650",
+          "num": 650
+        },
+        "ep_livret": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ],
+          "note": "Pas de livret dans la grille."
+        },
+        "ep_jeune": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ]
+        },
+        "ep_terme": {
+          "status": "not_published",
+          "checked": [
+            "marara_tarifs_2026"
+          ]
+        },
+        "ep_autres": {
+          "status": "found",
+          "value": "Assurance-vie : nous consulter",
+          "source": "marara_tarifs_2026",
+          "quote": "Assurance-vie Nous consulter"
+        }
+      }
+    }
+  ],
+  "market": {
+    "ieom_habitat": {
+      "label": "Taux moyen des crédits à l’habitat (PF, T2 2026)",
+      "status": "found",
+      "value": "2,85 %",
+      "source": "ieom_taux_particuliers_t2_2026",
+      "quote": "Habitat 3,45 3,22 3,01 2,90 2,86 2,85",
+      "num": 2.85,
+      "note": "Taux effectif au sens étroit (hors frais et assurance), moyenne pondérée des crédits nouveaux."
+    },
+    "ieom_conso": {
+      "label": "Taux moyen des prêts personnels (PF, T2 2026)",
+      "status": "found",
+      "value": "7,14 %",
+      "source": "ieom_taux_particuliers_t2_2026",
+      "quote": "atteindre 7,14 %",
+      "num": 7.14
+    },
+    "ieom_decouvert": {
+      "label": "Taux moyen des découverts (PF, T2 2026)",
+      "status": "found",
+      "value": "11,52 %",
+      "source": "ieom_taux_particuliers_t2_2026",
+      "quote": "le taux moyen des découverts, 11,52 %",
+      "num": 11.52
+    },
+    "usure_habitat": {
+      "label": "Taux d’usure – prêt immobilier taux fixe ≥ 20 ans (T4 2026)",
+      "status": "found",
+      "value": "5,40 %",
+      "source": "bdf_usure_2026q4",
+      "quote": "Prêts à taux fixe d'une durée de 20 ans et plus 4,05 5,40",
+      "num": 5.4,
+      "note": "Le TAEG (assurance comprise) ne peut dépasser ce seuil. Règles de l’usure applicables en PF depuis juillet 2017.",
+      "extra": [
+        {
+          "status": "found",
+          "value": "Applicable en Polynésie française",
+          "source": "ieom_usure_applicabilite",
+          "quote": "Les articles précités sont applicables en Nouvelle-Calédonie, en Polynésie française et à Wallis et Futuna depuis juillet 2017."
+        }
+      ]
+    },
+    "usure_relais": {
+      "label": "Taux d’usure – prêts relais (T4 2026)",
+      "status": "found",
+      "value": "6,49 %",
+      "source": "bdf_usure_2026q4",
+      "quote": "Prêts relais 4,87 6,49",
+      "num": 6.49
+    },
+    "usure_conso": {
+      "label": "Taux d’usure – crédit conso > 6 000 € (≈ 716 000 XPF) (T4 2026)",
+      "status": "found",
+      "value": "8,56 %",
+      "source": "bdf_usure_2026q4",
+      "quote": "Prêts d'un montant supérieur à 6 000 euros 6,42 8,56",
+      "num": 8.56
+    },
+    "ptz_pays": {
+      "label": "PTZ Pays (LP n° 2025-29)",
+      "status": "found",
+      "value": "Jusqu’à 12 MF à 0 %, ≤ 25 ans (27 en VEFA), différé 2 ans ; prêt classique au moins égal ; primo-accédant, 5 ans de résidence ; jusqu’au 31/12/2029",
+      "source": "bt_ptz",
+      "quote": "Jusqu’à 12 000 000 F CFP à taux zéro (si le financement est inférieur à 24 000 000 F CFP, le montant du PTZ est au moins égal au montant du prêt bancaire)",
+      "num": 12000000
+    },
+    "ptz_plafonds": {
+      "label": "PTZ – plafonds de revenus mensuels bruts (22/10/2025)",
+      "status": "found",
+      "value": "Personne seule 386 194 ; couple 507 420 ; +1 pers. 594 011 ; +2 pers. 680 602 ; +3 pers. 767 192 ; +4 pers. 853 783 XPF bruts/mois",
+      "source": "bt_ptz_plafonds",
+      "quote": "Personne seule 386 194 2.23",
+      "num": 386194
+    },
+    "aim": {
+      "label": "AIM construction / acquisition",
+      "status": "found",
+      "value": "20 000 à 40 000 XPF/m² selon revenus (2 à 4 SMIG) et foyer, limitée aux 100 premiers m² ; primo-accédant, prêt bancaire obligatoire",
+      "source": "dhv_aim",
+      "quote": "L’AIM Construction-Acquisition est limitée aux cent premiers mètres carrés de la surface éligible",
+      "extra": [
+        {
+          "status": "found",
+          "value": "Soit jusqu’à 4 MF",
+          "source": "socredo_aim",
+          "quote": "Jusqu'à 4 millions de Fcfp d'aide."
+        }
+      ]
+    },
+    "notaire_droits": {
+      "label": "Droits d’enregistrement (mutation)",
+      "status": "found",
+      "value": "Ancien : 7 % ; primo-accédant : 1 % jusqu’à 40 MF (bâti) / 25 MF (terrain) par acquéreur, 7 % au-delà ; neuf (permis ≥ 2025) : TVA 9 % incluse dans le prix, pas de droits",
+      "source": "sz_frais",
+      "quote": "Tout bien immobilier ancien (ou neuf non résidentiel) est soumis à un droit d'enregistrement unique de 7 % sur le prix",
+      "num": 7,
+      "extra": [
+        {
+          "status": "found",
+          "value": "Primo : 1 % jusqu’au plafond",
+          "source": "sz_frais",
+          "quote": "Un primo-accédant bénéficie d'un droit réduit à 1 % jusqu'à un plafond individuel, au-delà duquel le taux repasse à 7 %."
+        },
+        {
+          "status": "found",
+          "value": "Plafond bâti 40 MF",
+          "source": "sz_frais",
+          "quote": "Terrain bâti / lot de copropriété / lot copro acquis en VEFA 40 MF CFP (vs 25 MF avant) 7 %"
+        },
+        {
+          "status": "found",
+          "value": "Taux unique 7 % (LP 2024-34)",
+          "source": "kp_frais_notaire",
+          "quote": "La loi du pays n° 2024-34 du 10 décembre 2024 a instauré un taux unique de 7 % pour les mutations immobilières relevant du droit commun"
+        }
+      ]
+    },
+    "notaire_publicite": {
+      "label": "Taxe de publicité immobilière",
+      "status": "found",
+      "value": "0,10 % (min. 1 500 XPF)",
+      "source": "kp_frais_notaire",
+      "quote": "celle-ci est de 0,10 % , avec un minimum de 1 500 F CFP par acte",
+      "num": 0.1
+    },
+    "notaire_emoluments": {
+      "label": "Émoluments de vente du notaire (barème S1)",
+      "status": "found",
+      "value": "5 % jusqu’à 1 MF ; 3 % de 1 à 2 MF ; 1,6 % de 2 à 10 MF ; 1,4 % de 10 à 20 MF ; 1,3 % de 20 à 50 MF ; 1,1 % au-delà",
+      "source": "notaires_arrete_1376",
+      "quote": "de 0 à 1.000.000 de 1.000.001 à 2.000.000 de 2.000.001 à 10,000.000 de 10.000.001 à 20.000.000 de 20.000.001 à 50.000.000 au-dessus de 50.000.000",
+      "note": "Taux 5 / 3 / 1,6 / 1,4 / 1,3 / 1,1 % de la série S1 (arrêté 1376 CM). L’exemple KP Finance (28 MF → 452 000 XPF HT) confirme ce barème en 2026.",
+      "extra": [
+        {
+          "status": "found",
+          "value": "Taux de la série S1",
+          "source": "notaires_arrete_1376",
+          "quote": "5,00 % 3,00 % 1,60 % 1,40 % 1,30 % 1,10 %"
+        },
+        {
+          "status": "found",
+          "value": "Exemple 28 MF → 452 000 XPF",
+          "source": "kp_frais_notaire",
+          "quote": "50 000 F sur le premier million, 30 000 F sur le deuxième, 128 000 F sur les 8 millions suivants, 140 000 F sur les 10 millions suivants et 104 000 F sur les 8 millions restants"
+        }
+      ]
+    },
+    "notaire_pret": {
+      "label": "Émoluments de l’acte de prêt",
+      "status": "found",
+      "value": "2/3 du barème de vente, +25 % en cas d’hypothèque",
+      "source": "sz_frais",
+      "quote": "Le barème du prêt vaut les deux tiers de celui de la vente. Si hypothèque : +25 % sur les émoluments de prêt."
+    },
+    "notaire_tva": {
+      "label": "TVA sur les émoluments",
+      "status": "found",
+      "value": "13 %",
+      "source": "sz_frais",
+      "quote": "TVA 13 % sur l'ensemble des émoluments.",
+      "num": 13
+    },
+    "notaire_formalites": {
+      "label": "Émoluments de formalités",
+      "status": "found",
+      "value": "80 775 XPF avec prêt ; 70 125 XPF sans",
+      "source": "sz_frais",
+      "quote": "Formalités : 80 775 avec prêt, 70 125 sans.",
+      "num": 80775
+    },
+    "notaire_debours": {
+      "label": "Débours",
+      "status": "found",
+      "value": "États hypothécaires 3 000 + cadastre 750 + annexes 50 000 XPF (+ salaire du conservateur, non chiffré)",
+      "source": "sz_frais",
+      "quote": "États hypothécaires (3 000), cadastre (750), annexes (50 000)",
+      "num": 53750
+    },
+    "notaire_neuf_total": {
+      "label": "Frais d’acquisition dans le neuf (permis ≥ 2025)",
+      "status": "found",
+      "value": "≈ 3 % du prix (TVA 9 % déjà incluse dans le prix)",
+      "source": "sz_frais",
+      "quote": "soit autour de 3 % du prix",
+      "num": 3
+    },
+    "lp2025_21_ira": {
+      "label": "Remboursement anticipé (LP n° 2025-21, guide DGAE)",
+      "status": "found",
+      "value": "Possible à tout moment ; remboursements partiels < 10 % du prêt pouvant être refusés ; indemnité plafonnée selon un barème fixé par arrêté",
+      "source": "dgae_guide_credits_2025-12",
+      "quote": "Le montant de cette indemnité est plafonné selon un barème.",
+      "note": "Le guide ne chiffre pas le barème. Les grilles Socredo citent : 1 semestre d’intérêts ≤ 3 % du CRD (immo) ; 1 % / 0,5 % (conso)."
+    },
+    "endettement_35": {
+      "label": "Taux d’endettement maximal 35 %",
+      "status": "not_published",
+      "checked": [
+        "ieom_taux_particuliers_t2_2026",
+        "dgae_guide_credits_2025-12"
+      ],
+      "note": "Aucune source publique polynésienne ne fixe ce plafond (norme HCSF hexagonale). Utilisé ici comme hypothèse modifiable."
+    }
+  },
+  "simulator": {
+    "defaults": {
+      "revenu": 300000,
+      "charges": 0,
+      "endettement": 35,
+      "dureeAns": 25,
+      "taux": 3.0,
+      "assurance": 0.38,
+      "apport": 0,
+      "typeBien": "ancien",
+      "acquereurs": 1,
+      "garantie": "hypotheque",
+      "fraisDossierPct": 1.0,
+      "fraisDossierMin": 17878,
+      "ptz": false
+    },
+    "params": {
+      "droitsAncien": {
+        "value": 0.07,
+        "ref": "notaire_droits"
+      },
+      "droitsPrimo": {
+        "value": 0.01,
+        "ref": "notaire_droits"
+      },
+      "plafondPrimoBati": {
+        "value": 40000000,
+        "ref": "notaire_droits"
+      },
+      "publicite": {
+        "value": 0.001,
+        "min": 1500,
+        "ref": "notaire_publicite"
+      },
+      "baremeS1": {
+        "tranches": [
+          [
+            1000000,
+            0.05
+          ],
+          [
+            2000000,
+            0.03
+          ],
+          [
+            10000000,
+            0.016
+          ],
+          [
+            20000000,
+            0.014
+          ],
+          [
+            50000000,
+            0.013
+          ],
+          [
+            null,
+            0.011
+          ]
+        ],
+        "ref": "notaire_emoluments"
+      },
+      "pretRatio": {
+        "value": 0.6666667,
+        "hypothequeMajoration": 0.25,
+        "ref": "notaire_pret"
+      },
+      "tva": {
+        "value": 0.13,
+        "ref": "notaire_tva"
+      },
+      "formalites": {
+        "avecPret": 80775,
+        "sansPret": 70125,
+        "ref": "notaire_formalites"
+      },
+      "debours": {
+        "value": 53750,
+        "ref": "notaire_debours"
+      },
+      "ptzMax": {
+        "value": 12000000,
+        "ref": "ptz_pays"
+      },
+      "xpfToEur": {
+        "value": 0.00838,
+        "label": "1 000 XPF = 8,38 €"
+      }
+    },
+    "bankDossierPresets": [
+      {
+        "bank": "socredo",
+        "pct": 1.0,
+        "min": 10310,
+        "ref": [
+          "socredo",
+          "immo_frais_dossier"
+        ]
+      },
+      {
+        "bank": "bt",
+        "pct": 1.0,
+        "min": 17878,
+        "ref": [
+          "bt",
+          "immo_frais_dossier"
+        ]
+      },
+      {
+        "bank": "bdp",
+        "pct": 0.75,
+        "min": 51300,
+        "ref": [
+          "bdp",
+          "immo_frais_dossier"
+        ]
+      }
+    ]
+  }
+}

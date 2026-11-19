@@ -1,0 +1,1503 @@
+ 
+ 
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+1 
+ 
+ 
+  
+L’IEOM établit l’Observatoire public des tarifs bancaires dans les COM du Pacifique en avril et en octobre de chaque 
+année, conformément à l’article L. 721 -23 du Code monétaire et financier. La collecte et le traitement des données 
+couvrent les neuf établi ssements bancaires et deux établissements de paiement installés dans les trois géographies 
+à partir des documents publics de tarification. Le suivi porte sur les tarifs des services les plus couramment utilisés 
+par la clientèle (dit « extrait standard ») et trois tarifs réglementés. Les tarifs présentés sont ceux en vigueur au 1 er avril 
+2026 . 
+Afin de permettre la comparaison des tarifs des COM du Pacifique avec ceux de l’Hexagone, ce rapport reprend 
+également les dernières données publiées par le Comité consultatif du secteur financier (CCSF), qui correspondent 
+aux tarifs en vigueur dès avril 2026 , selon la même méthodologie que celle appliquée par l’IEOM. L’échantillon du 
+CCSF porte sur la moyenne des tarifs de 102 établissements hexagonaux représentant 99  % des parts de marché des 
+comptes de particuliers.  
+Conformément aux dispositions des articles L753 -4 et L752 -4 du Code monétaire et financier, deux accords de 
+modération des tarifs bancaires sont en vigueur dans les COM  : l’ accord pour la période 2025 -2027 en  
+Nouvelle -Calédonie  (voir pages 7 à 12) et le nouvel accord triennal en Polynésie française  couvrant la période 
+2026 -2028 (pages 13 à 17). En Polynésie française l’accord est suivi par tous, à l’ except ion  d’un tarif par un 
+établissement . En Nouvelle -Calédonie, l’accord est suivi par tous les établissements.  
+ 
+Par rapport à octobre  2025, les tarifs bancaires dans les COM du Pacifique  évoluent globalement de manière  
+modérée, dans le contexte des accords de modération sur les tarifs bancaires signés en Nouvelle -Calédonie 
+et en Polynésie française.  
+Sur les 14 services de l’extrait standard, 5 enregistrent une hausse tarifaire  en 2026 . Cependant, ces hausses sont 
+globalement contenues (3 tarifs sont en hausse de moins de 30  F CFP) et moins marquées que dans les DCOM de la 
+zone euro. La convergence des tarifs bancaires enregistrés dans les COM du Pacifique avec ceux de l’Hexagone  se 
+confirme , en lien avec la réduction des écarts sur plusieurs tarifs, notamment les frais de tenue de compte, 
+l’abonnement à des services de banque à distance, la fourniture d'une carte de paiement à autorisation systématique  
+et les frais de mise en place d'un mandat de prélèvement.  
+Après être restés stables entre avril et octobre 2025, l es frais de tenue de compte affichent une hausse modérée dans 
+les COM (+0,7  %), nettement inférieure à celle de l’Hexagone (+ 3,7 %).  
+En avril 2026, 3 services bancaires deviennent, ou demeurent gratuits. L e suivi des accords de modération des tarifs  
+bancaires  a conduit l’ensemble des établissements  de Nouvelle -Calédonie , de Polynésie française  et de Wallis -et-
+Futuna  à propose r gratuitement un abonnement à des services de banque à distance .  
+S’agissant des frais de mise en place d’un mandat de prélèvement,  tous les établissements locaux , à l’exception d’un 
+établissement en Nouvelle -Calédonie, proposent désormais ce service gratuitement . 
+Enfin, la progression des frais liés aux cartes de paiement à débit différé et à débit immédiat est également contenue 
+(respectivement +90  F CFP et +195  F CFP), tandis que les frais liés à la carte à autorisation systématique connaissent 
+un repli notable ( -109 F CFP).  
+RAPPORT SEMESTRIEL  : AVRIL 2026  
+OBSERVATOIRE DES TARIFS BANCAIRES  
+POUR LES PARTICULIERS  
+DANS LES COLLECTIVIT ÉS DU PACIFIQUE  
+Juillet  2026 
+ 
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+2 
+ 
+Synthèse 
+Tarification moyenne des services bancaires dans les COM du Pacifique 
+au 1er avril  2026 
+ Nouvelle -
+Calédonie  
+Polynésie 
+française  
+Wallis -et-
+Futuna  COM  Hexagone (1)  
+TARIFS DE L ’EXTRAIT STANDARD  (en F  CFP)  
+Tenue de compte (par an)  2 073  4 143 6 300  3 165 2 672* 
+Abonnement à des services de banque à distance 
+(Internet, téléphone fixe, etc.) (par mois)  0 0 0 0 3 
+Abonnement à des produits offrant des alertes sur la 
+situation du compte par SMS (par mois)  SO 443 SO NS 152 
+Abonnement à des produits offrant des alertes sur la 
+situation du compte par SMS (par message)  SO SO SO NS 33 
+Fourniture d ’une carte de débit (carte de paiement 
+internationale à débit différé)  5 261  5 485 5 000  5 355 5 314 
+Fourniture d ’une carte de débit (carte de paiement 
+internationale à débit immédiat)  5 264  5 556 4 953  5 411 5 323 
+Fourniture d ’une carte de débit (carte de paiement à 
+autorisation systématique)  3 572  3 899 3 420  3 738 3 463 
+Retrait en euro dans un DAB d ’un autre établissement de 
+la zone euro avec une carte de paiement internationale 
+(au 1 er retrait payant)  96 119 0 107 121 
+Virement SEPA occasionnel externe dans le territoire en 
+agence (par virement et au 1 er virement)  419  432 436  426 632 
+Virement SEPA occasionnel externe dans le territoire par 
+Internet (par virement et au 1 er virement)  0 0 0 0 0 
+Prélèvement (frais de mise en place d ’un mandat de 
+prélèvement)  108  0 0 52 16 
+Prélèvement (frais par paiement d ’un prélèvement)  0 0 0 0 0 
+Commission d ’intervention (par opération)  998  975 900  985 770 
+Cotisation à une offre d ’assurance perte ou vol des 
+moyens de paiement  3 190  2 940 3 156  3 062 3 056 
+TARIFS RÉGLEMENTÉS  (en F  CFP)  
+Frais de rejet de chèque < 5  967 F CFP (le tarif maximum 
+imposé par la loi est de 3  580 F CFP)  ** 3 573  3 579 3 300  3 573 
+Frais de rejet de chèque > 5  967 F CFP (le tarif maximum 
+imposé par la loi est de 5  967 F CFP)  ** 5 828  5 963 5 499  5 883 
+Frais de rejet de prélèvement (le tarif maximum imposé 
+par la loi est de 2  387 F CFP)  ** 2 130  2 386 2 199 2 262 
+(1) Tarifs en vigueur au 1er avril 202 6 
+SO : sans objet (service non proposé)     NS : non significatif  (nombre d’observations insuffisant)   
+* Le montant de 2 672  F CFP  est celui de la moyenne hexagon ale des frais de tenue de comptes actifs y compris cas de gratuité.  
+** Les montants intègrent d'éventuelles commissions d'intervention  
+ 
+ 
+Méthodologie  : la collecte des tarifs est effectuée par la société Sémaphore Conseil. Sauf mention contraire, les tarifs sont 
+relevés toutes taxes comprises (TTC). Les tarifs présentés sont des moyennes pondérées par géographie calculées par l’IEOM. 
+Le tarif de chaque ét ablissement est pondéré par le nombre de comptes ordinaires de particuliers détenus par l’établissement 
+au 31 décembre 202 5. La moyenne COM tient compte du poids de chaque géographie (nombre total de comptes ordinaires de 
+particuliers). Le tarif hexagonal est collecté en date du 5 avril de l’année  ; il est publié une seule fois par an, en juin  de la même 
+année par le Comité Consultatif du secteur financier (CCSF). Les établissements bancaires interrogés dans cet Observatoire 
+sont réputés « installés » quand ils exercent une activité dans le territoire via un guichet domiciliataire d’opération en registré 
+auprès de la Banque de France dans la géographie concernée.  
+ 
+Nota bene  : La structure des places bancaires, avec le poids parfois important de certains établissements, explique les écarts 
+sensibles entre les géographies. L’Observatoire ne retient que les valeurs unitaires de services et ne présente pas les forfaits 
+aux définitions multiples et propres à chaque établissement de crédit. Une évolution de tarif moyen peut n’être due qu’à 
+l’évolution du nombre de comptes des établissements (mis à jour lors des Observatoires d’avril).  
+ 
+ 
+  
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+3 
+ 
+Nouvelle-Calédonie  
+Tarification des services bancaires au 1 er avril  2026 
+ 
+ OPT NC  BNC  BCI  BNPPNC  SGCB  Nouvelle -Calédonie  Hexagone (1)  
+TARIFS DE L ’EXTRAIT STANDARD  (en F  CFP)  
+Tenue de compte (par an)  3 204 3 252 0 3 852  3 516 2 073 2 672* 
+Abonnement à des services de banque à distance 
+(Internet, téléphone fixe, etc.) (par mois)  0 0 0 0 0 0 3 
+Abonnement à des produits offrant des alertes sur la 
+situation du compte par SMS (par mois)  SO SO 176 0 SO SO 152 
+Abonnement à des produits offrant des alertes sur la 
+situation du compte par SMS (par message)  SO SO SO SO SO SO 33 
+Fourniture d ’une carte de débit (carte de paiement 
+internationale à débit différé)  SO 5 373 5 194 5 300  5 293 5 261 5 314 
+Fourniture d ’une carte de débit (carte de paiement 
+internationale à débit immédiat)  5 088 5 373 5 194 5 250  5 515 5 264 5 323 
+Fourniture d ’une carte de débit (carte de paiement à 
+autorisation systématique)  3 504 3 422 3 627 3 625  3 627 3 572 3 463 
+Retrait en euro dans un DAB d ’un autre établissement de 
+la zone euro avec une carte de paiement internationale 
+(au 1 er retrait payant)  0 142 126 72 106 96 121 
+Virement SEPA occasionnel externe dans le territoire en 
+agence (par virement et au 1 er virement)  318 500 424 462  424 419 632 
+Virement SEPA occasionnel externe dans le territoire par 
+Internet (par virement et au 1 er virement)  0 0 0 0 0 0 0 
+Prélèvement (frais de mise en place d ’un mandat de 
+prélèvement)  0 0 276 0 0 108 16 
+Prélèvement (frais par paiement d ’un prélèvement)  0 0 0 0 0 0 0 
+Commission d ’intervention (par opération)  1 011 954 1 011 954  1 012 998 770 
+Cotisation à une offre d ’assurance perte ou vol des 
+moyens de paiement  SO 2 826 3 480 3 156  2 887 3 190 3 056 
+TARIFS RÉGLEMENTÉS  (en F  CFP)  
+Frais de rejet de chèque < 5  967  F CFP (le tarif maximum 
+imposé par la loi est de 3  580  F CFP)  **  3 580 3 578 3 580 3 497  3 580 3 573 
+Frais de rejet de chèque > 5  967  F CFP (le tarif maximum 
+imposé par la loi est de 5  967  F CFP)  **  5 300 5 963 5 967 5 829  5 967 5 828 
+Frais de rejet de prélèvement (le tarif maximum imposé 
+par la loi est de 2  387  F CFP)  ** 1 060 2 385 2 387 2 331  2 386 2 130 
+(1) Tarifs en vigueur au 1er avril 202 6  
+SO : sans objet (service non proposé)  NS : non significatif (nombre d’observations insuffisant)  
+* Le montant de 2 672  F CFP est celui de la moyenne hexagonale des frais de tenue de comptes actifs y compris cas de gratuité.  
+** Les montants intègrent d'éventuelles commissions d'intervention.
+4 2…
+2 073
+644
+0
+4 620
+5 2614 905
+5 264
+3 901 3 572
+385
+419
+1 192
+108
+1 321
+998
+2 734
+3 190
+0
+500
+1 000
+1 500
+2 000
+2 500
+3 000
+3 500
+4 000
+4 500
+5 000
+5 500
+6 000
+avril 2009
+oct. 2009
+avril 2010
+oct. 2010
+avril 2011
+oct. 2011
+avril 2012
+oct. 2012
+avril 2013
+oct. 2013
+avril 2014
+oct. 2014
+avril 2015
+oct. 2015
+avril 2016
+oct. 2016
+avril 2017
+oct. 2017
+avril 2018
+oct. 2018
+avril 2019
+oct. 2019
+avril 2020
+oct 2020
+avril 2021
+oct 2021
+avril 2022
+oct 2022
+avril 2023
+oct 2023
+avril 2024
+oct 2024
+avril 2025
+Oct 2025
+avril 2026
+Tenue de compte (par an)
+Abonnement à des services de banque à distance (Internet, téléphone fixe, sms, etc.) (par mois)
+Fourniture d'une carte de débit (carte de paiement internationale à débit différé)
+Fourniture d'une carte de débit (carte de paiement internationale à débit immédiat)
+Fourniture d'une carte de débit (carte de paiement à autorisation systématique)
+Virement occasionnel externe dans le territoire en agence (par virement et au 1er virement)
+Prélèvement (frais de mise en place d'un mandat de prélèvement)
+Commission d'intervention (par opération)
+Cotisation à une offre d'assurance perte ou vol des moyens de paiement
+Évolution des tarifs moyens pondérés de l'extrait standard 
+entre avril 2009 et avril 2026 en Nouvelle-Calédonie(en F CFP)
+Sources : Sémaphore Conseil ; IEOM
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+4 
+ 
+Polynésie française  
+Tarification des services bancaires au 1 er avril 2026  
+ 
+En F CFP  BDP  BDT  SOCREDO  MARARA Paiement ( 2) EGPF Polynésie (2)  Polynésie française  Hexagone  (1)  
+TARIFS DE L ’EXTRAIT STANDARD  (en F  CFP)  
+Tenue de compte (par an)  3 824 3 804 4 596 3 720 4 560 4 143  2 672*  
+Abonnement à des services de banque à distance 
+(Internet, téléphone fixe, etc.) (par mois)  0 0 0 0 0 0 3 
+Abonnement à des produits offrant des alertes sur la 
+situation du compte par SMS (par mois)  1782  SO 0 0 SO 443  152 
+Abonnement à des produits offrant des alertes sur la 
+situation du compte par SMS (par message)  SO SO 100 SO SO NS 33 
+Fourniture d ’une carte de débit (carte de paiement 
+internationale à débit différé)  5 735 5 446 5 373 SO SO 5 485  5 314  
+Fourniture d ’une carte de débit (carte de paiement 
+internationale à débit immédiat)  5 735 5 813 5 666 5 000 SO 5 556  5 323 
+Fourniture d ’une carte de débit (carte de paiement à 
+autorisation systématique)  4 862 3 604 3 786 2 640 5 960 3 899  3 463 
+Retrait en euro dans un DAB d ’un autre établissement de 
+la zone euro avec une carte de paiement internationale 
+(au 1 er retrait payant)  122 121 120 118 110 119 121 
+Virement SEPA occasionnel externe dans le territoire en 
+agence (par virement et au 1 er virement)  436 431 431 431  SO 432  632 
+Virement SEPA occasionnel externe dans le territoire par 
+Internet (par virement et au 1 er virement)  0 0 0 0 0 0 0 
+Prélèvement (frais de mise en place d ’un mandat de 
+prélèvement)  0 0 0 0 SO 0 16 
+Prélèvement (frais par paiement d ’un prélèvement)  0 0 0 0 SO 0 0 
+Commission d ’intervention (par opération)  955 955 1 000 955  1 000 975  770 
+Cotisation à une offre d ’assurance perte ou vol des 
+moyens de paiement  3 590 2 700 2 900 2 592 SO 2 940  3 056 
+TARIFS RÉGLEMENTÉS  (en F  CFP)  
+Frais de rejet de chèque < 5  967  F CFP (le tarif maximum 
+imposé par la loi est de 3  580  F CFP)  ** 3 580 3 575 3 580 SO SO 3 579  
+Frais de rejet de chèque > 5  967  F CFP (le tarif maximum 
+imposé par la loi est de 5  967  F CFP)  ** 5 967 5 965 5 960 SO SO 5 963  
+Frais de rejet de prélèvement (le tarif maximum imposé 
+par la loi est de 2  387  F CFP)  ** 2 385 2 386 2 387 2 387 SO 2 386  
+(1) Tarifs en vigueur au 1 er avril 2026   
+(2) Marara Paiement et EGPF Polynésie, en tant qu’établissements de paiement, ne peuvent fournir certains services dont les chèques.  
+SO : sans objet (service non proposé)                          NS : non significatif (nombre d’observations insuffisant)  
+* Le montant de 2  672  F CFP est celui de la moyenne hexagonale des frais de tenue de comptes actifs y compris cas de gratuité.  
+** Les montants intègrent d'éventuelles commissions d'intervention  
+  
+4 167 4 143
+311
+0
+5 413
+5 485
+4 574
+5 556
+3 663
+3 899
+235 
+432
+2 104
+1 283
+975
+2 565 2 940
+0
+500
+1 000
+1 500
+2 000
+2 500
+3 000
+3 500
+4 000
+4 500
+5 000
+5 500
+6 000
+avril 2009
+oct. 2009
+avril 2010
+oct. 2010
+avril 2011
+oct. 2011
+avril 2012
+oct. 2012
+avril 2013
+oct. 2013
+avril 2014
+oct. 2014
+avril 2015
+oct. 2015
+avril 2016
+oct. 2016
+avril 2017
+oct. 2017
+avril 2018
+oct. 2018
+avril 2019
+oct. 2019
+avril 2020
+oct 2020
+avril 2021
+oct 2021
+avril 2022
+oct 2022
+avril 2023
+oct 2023
+avril 2024
+oct 2024
+avril 2025
+Oct 2025
+avril 2026
+Tenue de compte (par an)
+Abonnement à des services de banque à distance (Internet, téléphone fixe, sms, etc.) (par mois)
+Fourniture d'une carte de débit (carte de paiement internationale à débit différé)
+Fourniture d'une carte de débit (carte de paiement internationale à débit immédiat)
+Fourniture d'une carte de débit (carte de paiement à autorisation systématique)
+Virement occasionnel externe dans le territoire en agence (par virement et au 1er virement)
+Prélèvement (frais de mise en place d'un mandat de prélèvement)
+Commission d'intervention (par opération)
+Cotisation à une offre d'assurance perte ou vol des moyens de paiement
+Évolution des tarifs moyens pondérés de l'extrait standard 
+entre avril 2009 et avril 2026 en Polynésie française
+(en F CFP)
+Sources : Sémaphore Conseil ; IEOM
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+5 
+ 
+Wallis-et-Futuna 
+Tarification des services bancaires au 1er avril 2026  
+ BWF  Wallis -et-Futuna  Hexagone (1)  
+TARIFS DE L ’EXTRAIT STANDARD  (en F  CFP)  
+Tenue de compte (par an)  6 300 6 300 2 672*  
+Abonnement à des services de banque à distance 
+(Internet, téléphone fixe, etc.) (par mois)  
+0 0 3 
+Abonnement à des produits offrant des alertes sur la 
+situation du compte par SMS (par mois)  
+SO SO 152  
+Abonnement à des produits offrant des alertes sur la 
+situation du compte par SMS (par message)  
+SO SO 33 
+Fourniture d ’une carte de débit (carte de paiement 
+internationale à débit différé)  
+5 000 5 000 5 314  
+Fourniture d ’une carte de débit (carte de paiement 
+internationale à débit immédiat)  
+4 953 4 953 5 323  
+Fourniture d ’une carte de débit (carte de paiement à 
+autorisation systématique)  
+3 420 3 420 3 463  
+Retrait en euro dans un DAB d ’un autre établissement de 
+la zone euro avec une carte de paiement internationale 
+(au 1 er retrait payant)  
+0 0 
+121  
+Virement SEPA occasionnel externe dans le territoire en 
+agence (par virement et au 1 er virement)  436 436 632  
+Virement SEPA occasionnel externe dans le territoire par 
+Internet (par virement et au 1 er virement)  0 0 0 
+Prélèvement (frais de mise en place d ’un mandat de 
+prélèvement)  
+0 0 16 
+Prélèvement (frais par paiement d ’un prélèvement)  0 0 0 
+Commission d ’intervention (par opération)  900 900 770  
+Cotisation à une offre d ’assurance perte ou vol des 
+moyens de paiement  
+3 156 3 156 3 056  
+TARIFS RÉGLEMENTÉS  (en F  CFP)  
+Frais de rejet de chèque < 5  967  F CFP (le tarif maximum 
+imposé par la loi est de 3  580  F CFP)  ** 
+3 300 3 300 
+Frais de rejet de chèque > 5  967  F CFP (le tarif maximum 
+imposé par la loi est de 5  967  F CFP)  ** 
+5 499 5 499 
+Frais de rejet de prélèvement (le tarif maximum imposé 
+par la loi est de 2  387  F CFP)  ** 
+2 199 2 199 
+(1) Tarifs en vigueur au 1er avril 2026   
+SO : sans objet (service non proposé)  NS : non significatif  (nombre d’observations insuffisant)  
+* Le montant de 2 672  F CFP est celui de la moyenne hexagonale des frais de tenue de comptes actifs y compris cas de gratuité.  
+** Les montants intègrent d'éventuelles commissions d'intervention  
+ 
+7 000
+6 300
+5 500
+5 000
+5 000 4 953
+4 200
+3 420
+440 436
+1 600
+0
+1 000 900
+2 924 3 156
+0
+500
+1 000
+1 500
+2 000
+2 500
+3 000
+3 500
+4 000
+4 500
+5 000
+5 500
+6 000
+6 500
+7 000
+7 500
+avril 2009
+oct. 2009
+avril 2010
+oct. 2010
+avril 2011
+oct. 2011
+avril 2012
+oct. 2012
+avril 2013
+oct. 2013
+avril 2014
+oct. 2014
+avril 2015
+oct. 2015
+avril 2016
+oct. 2016
+avril 2017
+oct. 2017
+avril 2018
+oct. 2018
+avril 2019
+oct. 2019
+avril 2020
+oct 2020
+avril 2021
+oct 2021
+avril 2022
+oct 2022
+avril 2023
+oct 2023
+avril 2024
+oct 2024
+avril 2025
+Oct 2025
+avril 2026
+Tenue de compte (par an)
+Abonnement à des services de banque à distance (Internet, téléphone fixe, sms, etc.) (par mois)
+Fourniture d'une carte de débit (carte de paiement internationale à débit différé)
+Fourniture d'une carte de débit (carte de paiement internationale à débit immédiat)
+Fourniture d'une carte de débit (carte de paiement à autorisation systématique)
+Virement occasionnel externe dans le territoire en agence (par virement et au 1er virement)
+Prélèvement (frais de mise en place d'un mandat de prélèvement)
+Commission d'intervention (par opération)
+Cotisation à une offre d'assurance perte ou vol des moyens de paiement
+Évolution des tarifs moyens pondérés de l'extrait standard 
+entre avril 2009 et octobre 2025 à Wallis-et-Futuna
+(en F CFP)
+Sources : Sémaphore Conseil ; IEOM
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+6 
+ 
+ 
+Suivi des accords signés  
+ 
+  
+ 
+1 Créés par l’ordonnance n°  2022 -230 du 15 février 2022 relative aux titres III et VIII de la partie législative du livre VII du Code monétaire et financier.  
+PRÉAMBULE  
+Au vu des écarts de tarification des services bancaires entre l’Hexagone et les collectivités d’outre -mer, la loi du 20 
+novembre 2012 relative à la régulation économique outre -mer a défini une liste de services bancaires susceptibles 
+d’être encadrés par ar rêté du haut -commissaire selon des modalités et un calendrier annuel fixés par le Code 
+monétaire et financier.  
+La mise en œuvre de la loi a démarré par une phase de concertation afin d’éviter le recours à une fixation 
+administrative des tarifs bancaires. Cette phase de concertation, débutée en juin 2013 en Nouvelle -Calédonie, a 
+permis de déboucher sur un accord de modération des tarifs bancaires  : la signature de ce premier accord est 
+intervenue en décembre 2013. En Polynésie française, la phase de concertation a commencé en août 2013, mais a 
+été suspendue à la suite de  l’adoption de la loi du 15 novembre 2013 (voir ci -après) pour reprendre au printemps  2014.  
+Ainsi, les articles L.  752-4 et L.  753-4 du CMF 1 prévoient  notamment que les négociations visant à obtenir un accord 
+de modération sur les tarifs bancaires se tiennent, sur convocation du haut -commissaire et en présence de l’IEOM, 
+entre le 1 er juin et le 31 juillet et que l’accord soit rendu public au plus tard le 1 er septembre de chaque année et 
+applicable au 1 er janvier de l’année suivante. Il est également précisé qu’en l’absence d’accord au 1 er septembre, le 
+haut -commissaire fixe par arrêté, le prix global maximal de la liste des services bancaires mentionnés à l ’article   
+L. 752-3 du Code monétaire et financier après avis de l’IEOM.  
+Par ailleurs, dans le cadre de la loi bancaire de juillet 2013, le Gouvernement avait remis au Parlement un rapport sur 
+les tarifs bancaires outre -mer. Le rapport «  Constans  », publié en juillet 2014, dressait un état des lieux, dans 
+l’Hexagone et en Outre -mer, des tarifs correspondant aux services bancaires les plus utilisés, et présentait un certain 
+nombre de propositions visant à la convergence des tarifs outre -mer avec  l’Hexagone. Consécutivement à cette 
+publication, le CCSF a adopté le 30  septembre 2014 un «  avis sur un dispositif visant à favoriser une convergence 
+des tarifs bancaires outre -mer avec les tarifs métropolitains  ». Cet avis reprend à son compte les observations du 
+rapport Constans  : concernant les COM  du Pacifique , il notait que «  les tarifs moyens [étaient] très supérieurs à ceux 
+de la Métropole  » et posait un objectif de convergence des tarifs bancaires, afin de «  faire en sorte qu’en trois ans, 
+les écarts moyens de tarifs entre chaque COM et la France  entière soient réduits d’au moins 50  % ». 
+À la suite de  cet avis, des accords -cadres triennaux ont été signés le 8 décembre 2014 en Polynésie française et le 
+15 décembre 2014 en Nouvelle -Calédonie. Dans cette logique, la loi de programmation n°2017 -256 du 28 février 2017 
+relative à l’égalité réelle outre -mer et portant d’autres dispositions en matière sociale et économique, dite Loi Égalité 
+réelle, avait prévu pou r la Nouvelle -Calédonie (article  68) le rapprochement progressivement les prix des services 
+bancaires mentionnés à l’article L.  752-3 de ceux constatés dans l’Hexagone par l’Observatoire des tarifs bancaires 
+et publiés par le CCSF et ce, dans un délai maximum de trois ans. À la même échéance, pour les services bancaires 
+de base mentionnés à l’article L.  312-1, les établissements de crédit ne peuvent plus appliquer des tarifs supérieurs 
+à ceux pratiqués dans l’Hexagone par les établissements ou les caisses régionales du groupe auquel ils appartiennent. 
+Dans le but d’effectuer un bilan des évolutions tarifaires ayant eu lieu dans les  DCOM sur la période  2014 -2018 et de 
+proposer de nouvelles orientations pour les années à venir, le ministre de l’Économie et des Finances et la ministre 
+des Outre -mer ont confié à la présidente du CCSF, Corinne Dromer, le soin d’élaborer un nouveau rappor t. Ce rapport, 
+publié en février 2019, fait ressortir notamment que «  s’agissant des territoires du Pacifique, la convergence en cours 
+doit être poursuivie et peut être réalisée, notamment sur les services en ligne  ». 
+L’accord de modération des tarifs bancaires a été signé le 17 décembre 2024 en Nouvelle -Calédonie . Cet accord 
+triennal prend effet du 1 er janvier 2025 au 31 décembre 2027. En Polynésie française , un nouvel accord a été  signé 
+le 13 février 2026  avec entrée  en vigueur à la date de la signature  pour une période de trois ans également.  
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+7 
+ 
+Nouvelle-Calédonie  
+ 
+SUIVI DE L’ACCORD DU 17 DÉCEMBRE 2024  
+ 
+L’accord triennal, en vigueur actuellement, a été signé le 17 décembre 2024 en Nouvelle -Calédonie. Il couvre les 
+années 2025 à 2027 et comporte les engagements tarifaires suivants  :  
+■ Concernant les tarifs locaux hors taxe de l'article L752 -3 du CMF qui figurent à l'extrait standard et dont le niveau 
+est inférieur à la moyenne de l’Hexagone d’après le dernier rapport de l’Observatoire des tarifs bancaires publié par 
+le CCSF  : si la moy enne locale d’un tarif hors taxes devient supérieure à celle de l’Hexagone, les établissements 
+bancaires et l’OPT -NC s’engagent à réduire leur tarif individuel du niveau de l’écart, pour que la moyenne locale soit 
+au plus égale à la moyenne publiée par le CCSF.  
+■ Concernant les tarifs locaux hors taxes de l'article L752 -3 du CMF qui figurent à l'extrait standard et dont le niveau 
+est supérieur à la moyenne de l’Hexagone d’après le dernier rapport de l’Observatoire des tarifs bancaires publié par 
+le CCSF  : 
+- La gratuité de la « mise en œuvre d’un mandat de prélèvement »  au plus tard le 31 décembre 2025.  
+- La gratuité de l’abonnement internet permettant la consultation des comptes, la commande de chéquier et de 
+RIB/IBAN, l’émission de virements de compte à compte en faveur des comptes du titulaire dans l’établissement et des 
+virements à partir du compte du  titulaire vers d’autres comptes bancaires en Nouvelle -Calédonie (voir point suivant 
+de l’accord).  
+■ La gratuité des services  suivants  : ouverture et clôture de compte ; un changement d'adresse par an ; délivrance à 
+la demande de relevés d'identité bancaire ; domiciliation de virements bancaires ; envoi mensuel d'un relevé des 
+opérations effectuées sur le compte ; encaissement de chèques et de virements bancaires libellés en francs CFP ; 
+retraits et dépôts d'espèces au guichet de l'organisme teneur de compte ; paiement par prélèvement ou par titre 
+interbancaire de paiement en faveur de bénéficiaires locaux ; consultation à distance, par in ternet ou téléphone, du 
+solde du compte ; retraits d’espèces, par carte, dans un distributeur automatique appartenant au réseau de la banque 
+où le client a domicilié ses comptes ; la révocation d’un ordre de virement permanent vers un autre compte bancaire  
+en Nouvelle -Calédonie et la modification de son montant ; moyens de programmation à distance de virements 
+occasionnels ou permanents vers d’autres comptes bancaires en Nouvelle -Calédonie.  
+■ Le maintien du niveau hors taxes des prestations suivantes  : frais d’opposition sur chèque ; deux formules de 
+chèques de banque par mois ou moyens de paiement équivalents offrant les mêmes services ; mise en place d’un 
+ordre de virement permanent vers un autre compte bancaire en Nouvelle -Calédonie ; frais pour sai sie-arrêt, pour 
+saisie -administrative à tiers détenteur et pour opposition administrative.  
+■ La garantie pour le client d’un moyen d’accès gratuit aux espèces dans l’agence teneur du compte.  
+Cet accord comporte aussi la promotion des mesures destinées à la clientèle dite « fragile » mais seul le plafonnement 
+de l’offre spécifique est étudié dans cet observatoire.  
+La mise en œuvre des accords précédents a permis une convergence des tarifs bancaires pratiqués en  
+Nouvelle -Calédonie vers ceux de l’Hexagone. Les nouvelles mesures devraient permettre de conserver cette 
+convergence de tarifs, tel que défini par la loi Égalité réelle.  
+ 
+***  
+ 
+Au 1 er avril 2026, les 5 établissements calédoniens respectent l’ensemble des engagements pris.  
+ 
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+8 
+ 
+  
+en F CFP
+Moyenne 
+hexagonale 
+(avril 2025) 
+Moyenne NC 
+pondérée (HT) BCI (HT)
+Moyenne 
+hexagonale 
+(avril 2026) 
+Moyenne NC 
+pondérée (HT) BCI (HT) Commentaire
+Tenue de compte (par an) 2 599 1 989 0 2 672 1 955 0 ok
+Fourniture d'une carte de débit (carte de paiement à autorisation systématique) 3 422 3 619 3 550 3 463 3 370 3 422 ok
+Retrait dans un DAB d'un autre établissement dans le territoire avec une carte de paiement internationale ( au 1er retrait payant) 120 88 115 121 91 119 ok
+Prélèvement (frais par paiement d'un prélèvement) 0 0 0 0 0 0 ok
+Abonnement à des services de banque à distance (Internet, téléphone fixe, sms, etc.) (par mois) 3 13 0 3 0 0 ok
+Prélèvement (frais de mise en place d'un mandat de prélèvement) 17 271 260 16 0 0 ok
+Frais d'opposition sur chèque
+Deux formules de chèques de banque par mois ou moyens de paiement équivalents offrant les mêmes services
+La mise en place d'un ordre de virement permanent vers un autre compte bancaire en Nouvelle-Calédonie *
+Frais pour saisie-arrêt, pour saisie-administrative à tiers détenteur et pour opposition administrative
+ le retrait d’argent reste gratuit au distributeur automatique (DAB) de la banque
+retrait gratuit au guichet de leur agence (service de caisse)
+carte à retrait unique dans leur agence, délivrée gratuitement
+carte de retrait à autorisation systématique ou équivalente utilisable au moins dans leur agence, délivrée gratuitement
+tarif de l'offre spécifique à la clientèle fragile
+* Le tarif pris en compte pour avril 2026 corerspond à celui de BCInet Plus
+octobre 2025 avril 2026
+BCI
+0 ok
+2026
+BCI    avril 2026 commentaire   avril 2026
+Maintien de la gratuité de 2025 à 2028
+BCI octobre 2025
+2025
+Ouverture et clôture de compte 0
+0 ok
+0 ok
+Un changement d'adresse par an
+Délivrance à la demande de relevés d'identité bancaires
+0
+0
+0 ok
+0 ok
+Domiciliation de virements bancaires
+Envoi mensuel d'un relevé des opérations effectuées sur le compte
+0
+0
+Encaissement de chèques et de virements bancaires libellés en francs CFP
+Retrait et dépôts d'espèces au guichet de l'organisme teneur de compte
+Retrait d'espèces, par carte, dans un distributeur automatique appartenant au réseau de la banque où le client a domicilié ses comptes
+Paiement par prélèvement ou par titre interbancaire de paiement en faveur de bénéficiaires locaux
+0
+0
+2 135 ok
+0 ok
+ok
+0 ok
+0 ok
+17 500 ok
+Retrait d'espèces au guichet de l'agence teneur de compte : gratuit pour tous
+386
+17 500
+120 (HT) ok
+Maximum à 120 C FCP / par mois  (TTC) avant le 31 décembre 2027
+nd ok
+0 (retrait BCI) ok
+nd
+0 (retrait BCI)
+120
+-  Les personnes ne disposant pas, ou ne souhaitant pas disposer, de moyens de paiement, carte bancaire ou chéquiers, trouveront toujours dans leur agence de domiciliation un moyen de retirer gratuitement des 
+espèces. Le choix du moyen est laissé à la discrétion de la banque en fonction de son organisation et de son offre, par exemple :
+0 (compte à vue sans moyen 
+de paiement) ok
+- Pour les personnes disposant d'une carte bancaire ou d'une carte de paiement à autorisation systématique
+0
+0 (compte à vue sans moyen 
+de paiement)
+0 ok
+Ceux dont le niveau était inférieur à la moyenne Hexagonale* publiée dans le rapport OTB du CCSF en 2024 : Leur moyenne pondérée COM doit rester inférieure à celle hexagonale publiée dans le dernier rapport OTB connu 
+du CCSF (donc la moyenne CCSF sera révisée tous les ans)
+* : Pour rappel il n'y a pas de taxe sur les services bancaires hexagonaux, la moyenne hexagonale est donc hors taxe. D'autre part, la moyenne hexagonale est publiée une seule fois par an. L'engagement indique qu'il faudra mettre à jour tous les 
+ans avec la dernière moyenne hexagonale publiée. Comme la moyenne hexagonale est pondérée la moyenne calédonienne est aussi pondérée.
+Tarifs locaux Hors taxe de l'article L752-3 du CMF, présents aussi dans l'extrait standard
+Ceux dont le niveau était supérieur à la moyenne Hexagonale* publiée dans le rapport OTB du CCSF en 2024 doivent être gratuits au plus tard au 31 décembre 2025
+Maintien du niveau hors taxes des tarifs de 2025 à 2028
+0 ok
+0 ok
+0 ok
+0
+0 ok
+0 ok
+La révocation d'un ordre de virement permanent vers un autre compte bancaire en Nouvelle-Calédonie et la modification de son montant
+Consultation à distance, par Internet ou téléphone, du solde du compte
+Des moyens de programmation à distance de virements occasionnels ou permanents vers d'autres comptes bancaires en Nouvelle-Calédonie
+2 135
+0
+0
+0
+0
+0
+0
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+9 
+ 
+ 
+en F CFP
+Moyenne 
+hexagonale 
+(avril 2025) 
+Moyenne NC 
+pondérée (HT) BNC (HT)
+Moyenne 
+hexagonale 
+(avril 2026) 
+Moyenne NC 
+pondérée (HT) BNC (HT) Commentaire
+Tenue de compte (par an) 2 599 1 989 3 015 2 672 1 955 3 068 ok
+Fourniture d'une carte de débit (carte de paiement à autorisation systématique) 3 422 3 619 3 669 3 463 3 370 3 228 ok
+Retrait dans un DAB d'un autre établissement dans le territoire avec une carte de paiement internationale ( au 1er retrait payant) 120 88 134 121 91 134 ok
+Prélèvement (frais par paiement d'un prélèvement) 0 0 0 0 0 0 ok
+Abonnement à des services de banque à distance (Internet, téléphone fixe, sms, etc.) (par mois) 3 13 0 3 0 0 ok
+Prélèvement (frais de mise en place d'un mandat de prélèvement) 17 271 368 16 0 0 ok
+Ouverture et clôture de compte
+Un changement d'adresse par an
+Délivrance à la demande de relevés d'identité bancaires
+Domiciliation de virements bancaires
+Envoi mensuel d'un relevé des opérations effectuées sur le compte
+Encaissement de chèques et de virements bancaires libellés en francs CFP
+Retrait et dépôts d'espèces au guichet de l'organisme teneur de compte
+Paiement par prélèvement ou par titre interbancaire de paiement en faveur de bénéficiaires locaux
+Consultation à distance, par Internet ou téléphone, du solde du compte
+Frais d'opposition sur chèque
+Deux formules de chèques de banque par mois ou moyens de paiement équivalents offrant les mêmes services
+La mise en place d'un ordre de virement permanent vers un autre compte bancaire en Nouvelle-Calédonie 
+Frais pour saisie-arrêt, pour saisie-administrative à tiers détenteur et pour opposition administrative
+ le retrait d’argent reste gratuit au distributeur automatique (DAB) de la banque
+retrait gratuit au guichet de leur agence (service de caisse)
+carte à retrait unique dans leur agence, délivrée gratuitement (carte tempo)
+carte de retrait à autorisation systématique ou équivalente utilisable au moins dans leur agence, délivrée gratuitement
+BNC    avril 2026 commentaire   avril 2026
+BNC
+octobre 2025 avril 2026
+Tarifs locaux Hors taxe de l'article L752-3 du CMF, présents aussi dans l'extrait standard
+Ceux dont le niveau était inférieur à la moyenne Hexagonale* publiée dans le rapport OTB du CCSF en 2024 : Leur moyenne pondérée COM doit rester inférieure à celle hexagonale publiée dans le dernier rapport OTB connu 
+du CCSF (donc la moyenne CCSF sera révisée tous les ans)
+Ceux dont le niveau était supérieur à la moyenne Hexagonale* publiée dans le rapport OTB du CCSF en 2024 doivent être gratuits au plus tard au 31 décembre 2025
+* : Pour rappel il n'y a pas de taxe sur les services bancaires hexagonaux, la moyenne hexagonale est donc hors taxe. D'autre part, la moyenne hexagonale est publiée une seule fois par an. L'engagement indique qu'il faudra mettre à jour tous les 
+ans avec la dernière moyenne hexagonale publiée. Comme la moyenne hexagonale est pondérée la moyenne calédonienne est aussi pondérée.
+20262025
+BNC octobre 2025
+Maintien de la gratuité de 2025 à 2028
+0 ok
+0 ok
+0
+0
+0 ok
+0 ok
+0
+0
+Retrait d'espèces, par carte, dans un distributeur automatique appartenant au réseau de la banque où le client a domicilié ses comptes
+0 ok
+0 ok
+0
+0
+0 ok
+0 ok
+0
+0
+Des moyens de programmation à distance de virements occasionnels ou permanents vers d'autres comptes bancaires en Nouvelle-Calédonie
+0 ok
+0 ok
+0
+0La révocation d'un ordre de virement permanent vers un autre compte bancaire en Nouvelle-Calédonie et la modification de son montant
+0 ok
+0 ok
+0
+0
+Maintien du niveau hors taxes des tarifs de 2025 à 2028
+2 431 ok
+0 ok
+2 431
+0
+- Pour les personnes disposant d'une carte bancaire ou d'une carte de paiement à autorisation systématique
+0 ok
+0
+18 858
+0
+0 ok
+18 858 ok
+Retrait d'espèces au guichet de l'agence teneur de compte : gratuit pour tous
+0 ok
+1 217 ok
+-  Les personnes ne disposant pas, ou ne souhaitant pas disposer, de moyens de paiement, carte bancaire ou chéquiers, trouveront toujours dans leur agence de domiciliation un moyen de retirer gratuitement des 
+espèces. Le choix du moyen est laissé à la discrétion de la banque en fonction de son organisation et de son offre, par exemple :
+0
+nd
+0
+120tarif de l'offre spécifique à la clientèle fragile
+3 618 ok
+Maximum à 120 C FCP / par mois  (TTC) avant le 31 décembre 2027
+120 ok
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+10 
+ 
+ 
+  
+en F CFP
+Moyenne 
+hexagonale 
+(avril 2025) 
+Moyenne NC 
+pondérée (HT) BNPPNC (HT)
+Moyenne 
+hexagonale 
+(avril 2026) 
+Moyenne NC 
+pondérée (HT) BNPPNC (HT) Commentaire
+Tenue de compte (par an) 2 599 1 989 3 636 2 672 1 955 3 634 ok
+Fourniture d'une carte de débit (carte de paiement à autorisation systématique) 3 422 3 619 3 458 3 463 3 370 3 420 ok
+Retrait dans un DAB d'un autre établissement dans le territoire avec une carte de paiement internationale ( au 1er retrait payant) 120 88 68 121 91 68 ok
+Prélèvement (frais par paiement d'un prélèvement) 0 0 0 0 0 0 ok
+Abonnement à des services de banque à distance (Internet, téléphone fixe, sms, etc.) (par mois) 3 13 0 3 0 0 ok
+Prélèvement (frais de mise en place d'un mandat de prélèvement) 17 271 429 16 0 0 ok
+Ouverture et clôture de compte
+Un changement d'adresse par an
+Délivrance à la demande de relevés d'identité bancaires
+Domiciliation de virements bancaires
+Envoi mensuel d'un relevé des opérations effectuées sur le compte
+Encaissement de chèques et de virements bancaires libellés en francs CFP
+Consultation à distance, par Internet ou téléphone, du solde du compte
+Frais d'opposition sur chèque
+Deux formules de chèques de banque par mois ou moyens de paiement équivalents offrant les mêmes services
+La mise en place d'un ordre de virement permanent vers un autre compte bancaire en Nouvelle-Calédonie
+Frais pour saisie-arrêt, pour saisie-administrative à tiers détenteur et pour opposition administrative
+ le retrait d’argent reste gratuit au distributeur automatique (DAB) de la banque
+retrait gratuit au guichet de leur agence (service de caisse)
+carte à retrait unique dans leur agence, délivrée gratuitement
+carte de retrait à autorisation systématique ou équivalente utilisable au moins dans leur agence, délivrée gratuitement
+tarif de l'offre spécifique à la clientèle fragile
+BNPPNC    avril 2026 commentaire   avril 2026
+BNPPNC
+octobre 2025 avril 2026
+Tarifs locaux Hors taxe de l'article L752-3 du CMF, présents aussi dans l'extrait standard
+Ceux dont le niveau était inférieur à la moyenne Hexagonale* publiée dans le rapport OTB du CCSF en 2024 : Leur moyenne pondérée COM doit rester inférieure à celle hexagonale publiée dans le dernier rapport OTB connu 
+du CCSF (donc la moyenne CCSF sera révisée tous les ans)
+Ceux dont le niveau était supérieur à la moyenne Hexagonale* publiée dans le rapport OTB du CCSF en 2024 doivent être gratuits au plus tard au 31 décembre 2025
+* : Pour rappel il n'y a pas de taxe sur les services bancaires hexagonaux, la moyenne hexagonale est donc hors taxe. D'autre part, la moyenne hexagonale est publiée une seule fois par an. L'engagement indique qu'il faudra mettre à jour tous les 
+ans avec la dernière moyenne hexagonale publiée. Comme la moyenne hexagonale est pondérée la moyenne calédonienne est aussi pondérée.
+20262025
+BNPPNC octobre 2025
+Maintien de la gratuité de 2025 à 2028
+0 ok
+0 ok
+0
+0
+0 ok
+0 ok
+0
+0
+Retrait et dépôts d'espèces au guichet de l'organisme teneur de compte
+Retrait d'espèces, par carte, dans un distributeur automatique appartenant au réseau de la banque où le client a domicilié ses comptes
+0 ok
+0 ok
+0
+0
+0 ok
+0 ok
+0
+0
+Des moyens de programmation à distance de virements occasionnels ou permanents vers d'autres comptes bancaires en Nouvelle-Calédonie
+0 ok
+0 ok
+0
+0
+Paiement par prélèvement ou par titre interbancaire de paiement en faveur de bénéficiaires locaux
+La révocation d'un ordre de virement permanent vers un autre compte bancaire en Nouvelle-Calédonie et la modification de son montant
+0 ok
+0 ok
+0
+0
+Maintien du niveau hors taxes des tarifs de 2025 à 2028
+1 155 ok
+0 ok
+1 155
+0
+-  Les personnes ne disposant pas, ou ne souhaitant pas disposer, de moyens de paiement, carte bancaire ou chéquiers, trouveront toujours dans leur agence de domiciliation un moyen de retirer gratuitement des 
+espèces. Le choix du moyen est laissé à la discrétion de la banque en fonction de son organisation et de son offre, par exemple :
+0 ok
+11 193 ok
+Retrait d'espèces au guichet de l'agence teneur de compte : gratuit pour tous
+- Pour les personnes disposant d'une carte bancaire ou d'une carte de paiement à autorisation systématique
+0 ok
+350
+11 193
+0
+0 ok
+0 ok
+0
+0 (carte one shot)
+0 ok
+Maximum à 120 C FCP / par mois  (TTC) avant le 31 décembre 2027
+0 ok
+0
+0
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+11 
+ 
+ 
+  
+en F CFP
+Moyenne 
+hexagonale 
+(avril 2025) 
+Moyenne NC 
+pondérée (HT) SGCB (HT)
+Moyenne 
+hexagonale 
+(avril 2026) 
+Moyenne NC 
+pondérée (HT) SGCB (HT) Commentaire
+Tenue de compte (par an) 2 599 1 989 3 317 2 672 1 955 3 317 ok
+Fourniture d'une carte de débit (carte de paiement à autorisation systématique) 3 422 3 619 4 130 3 463 3 370 3 422 ok
+Retrait dans un DAB d'un autre établissement dans le territoire avec une carte de paiement internationale ( au 1er retrait payant) 120 88 100 121 91 100 ok
+Prélèvement (frais par paiement d'un prélèvement) 0 0 0 0 0 0 ok
+Abonnement à des services de banque à distance (Internet, téléphone fixe, sms, etc.) (par mois) 3 13 71 3 0 0 ok
+Prélèvement (frais de mise en place d'un mandat de prélèvement) 17 271 435 16 0 0 ok
+Ouverture et clôture de compte
+Un changement d'adresse par an
+Délivrance à la demande de relevés d'identité bancaires
+Domiciliation de virements bancaires
+Envoi mensuel d'un relevé des opérations effectuées sur le compte
+Encaissement de chèques et de virements bancaires libellés en francs CFP
+Retrait et dépôts d'espèces au guichet de l'organisme teneur de compte
+Paiement par prélèvement ou par titre interbancaire de paiement en faveur de bénéficiaires locaux
+Consultation à distance, par Internet ou téléphone, du solde du compte
+Frais d'opposition sur chèque
+Deux formules de chèques de banque par mois ou moyens de paiement équivalents offrant les mêmes services
+La mise en place d'un ordre de virement permanent vers un autre compte bancaire en Nouvelle-Calédonie 
+Frais pour saisie-arrêt, pour saisie-administrative à tiers détenteur et pour opposition administrative
+ le retrait d’argent reste gratuit au distributeur automatique (DAB) de la banque
+retrait gratuit au guichet de leur agence (service de caisse)
+carte à retrait unique dans leur agence, délivrée gratuitement
+carte de retrait à autorisation systématique ou équivalente utilisable au moins dans leur agence, délivrée gratuitement
+SGCB    avril 2026 commentaire   avril 2026
+SGCB
+octobre 2025 avril 2026
+Tarifs locaux Hors taxe de l'article L752-3 du CMF, présents aussi dans l'extrait standard
+Ceux dont le niveau était inférieur à la moyenne Hexagonale* publiée dans le rapport OTB du CCSF en 2024 : Leur moyenne pondérée COM doit rester inférieure à celle hexagonale publiée dans le dernier rapport OTB connu 
+du CCSF (donc la moyenne CCSF sera révisée tous les ans)
+Ceux dont le niveau était supérieur à la moyenne Hexagonale* publiée dans le rapport OTB du CCSF en 2024 doivent être gratuits au plus tard au 31 décembre 2025
+* : Pour rappel il n'y a pas de taxe sur les services bancaires hexagonaux, la moyenne hexagonale est donc hors taxe. D'autre part, la moyenne hexagonale est publiée une seule fois par an. L'engagement indique qu'il faudra mettre à jour tous les 
+ans avec la dernière moyenne hexagonale publiée. Comme la moyenne hexagonale est pondérée la moyenne calédonienne est aussi pondérée.
+20262025
+SGCB octobre 2025
+Maintien de la gratuité de 2025 à 2028
+0 ok
+0 ok
+0
+0
+0 ok
+0 ok
+0
+0
+0 ok
+0 ok
+0
+0
+0 ok
+0 okRetrait d'espèces, par carte, dans un distributeur automatique appartenant au réseau de la banque où le client a domicilié ses comptes
+0
+0
+0 ok
+0 okLa révocation d'un ordre de virement permanent vers un autre compte bancaire en Nouvelle-Calédonie et la modification de son montant
+0
+0
+0 ok
+0 okDes moyens de programmation à distance de virements occasionnels ou permanents vers d'autres comptes bancaires en Nouvelle-Calédonie
+0
+0
+Maintien du niveau hors taxes des tarifs de 2025 à 2028
+2 550 ok
+0 ok
+2 550
+0
+-  Les personnes ne disposant pas, ou ne souhaitant pas disposer, de moyens de paiement, carte bancaire ou chéquiers, trouveront toujours dans leur agence de domiciliation un moyen de retirer gratuitement des 
+espèces. Le choix du moyen est laissé à la discrétion de la banque en fonction de son organisation et de son offre, par exemple :
+0 ok
+5 308 ok
+Retrait d'espèces au guichet de l'agence teneur de compte : gratuit pour tous
+- Pour les personnes disposant d'une carte bancaire ou d'une carte de paiement à autorisation systématique
+0 ok
+5 308
+0
+0
+0 ok
+nd ok
+0
+nd
+0 ok
+Maximum à 120 C FCP / par mois  (TTC) avant le 31 décembre 2027
+120 ok
+0
+tarif de l'offre spécifique à la clientèle fragile 120
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+12 
+ 
+  
+ 
+ 
+ 
+  
+en F CFP
+Moyenne 
+hexagonale 
+(avril 2025) 
+Moyenne NC 
+pondérée (HT) OPT-NC (HT)
+Moyenne 
+hexagonale 
+(avril 2026) 
+Moyenne NC 
+pondérée (HT) OPT-NC (HT) Commentaire
+Tenue de compte (par an) 2 599 1 989 3 023 2 672 1 955 3 023 ok
+Fourniture d'une carte de débit (carte de paiement à autorisation systématique) 3 422 3 619 3 306 3 463 3 370 3 306 ok
+Retrait dans un DAB d'un autre établissement dans le territoire avec une carte de paiement internationale ( au 1er retrait payant) 120 88 0 121 91 0 ok
+Prélèvement (frais par paiement d'un prélèvement) 0 0 0 0 0 0 ok
+Abonnement à des services de banque à distance (Internet, téléphone fixe, sms, etc.) (par mois) 3 13 0 3 0 0 ok
+Prélèvement (frais de mise en place d'un mandat de prélèvement) 17 271 0 16 0 0 ok
+Ouverture et clôture de compte
+Un changement d'adresse par an
+Délivrance à la demande de relevés d'identité bancaires
+Domiciliation de virements bancaires
+Envoi mensuel d'un relevé des opérations effectuées sur le compte
+Encaissement de chèques et de virements bancaires libellés en francs CFP
+Consultation à distance, par Internet ou téléphone, du solde du compte (CCP.NC Start)
+Frais d'opposition sur chèque
+Deux formules de chèques de banque par mois ou moyens de paiement équivalents offrant les mêmes services
+La mise en place d'un ordre de virement permanent vers un autre compte bancaire en Nouvelle-Calédonie 
+Frais pour saisie-arrêt, pour saisie-administrative à tiers détenteur et pour opposition administrative
+ le retrait d’argent reste gratuit au distributeur automatique (DAB) de la banque
+retrait gratuit au guichet de leur agence (service de caisse)
+carte à retrait unique dans leur agence, délivrée gratuitement
+carte de retrait à autorisation systématique ou équivalente utilisable au moins dans leur agence, délivrée gratuitement
+OPT-NC    avril 2026 commentaire   avril 2026
+OPT-NC
+octobre 2025 avril 2026
+Tarifs locaux Hors taxe de l'article L752-3 du CMF, présents aussi dans l'extrait standard
+Ceux dont le niveau était inférieur à la moyenne Hexagonale* publiée dans le rapport OTB du CCSF en 2024 : Leur moyenne pondérée COM doit rester inférieure à celle hexagonale publiée dans le dernier rapport OTB connu 
+du CCSF (donc la moyenne CCSF sera révisée tous les ans)
+Ceux dont le niveau était supérieur à la moyenne Hexagonale* publiée dans le rapport OTB du CCSF en 2024 doivent être gratuits au plus tard au 31 décembre 2025
+* : Pour rappel il n'y a pas de taxe sur les services bancaires hexagonaux, la moyenne hexagonale est donc hors taxe. D'autre part, la moyenne hexagonale est publiée une seule fois par an. L'engagement indique qu'il faudra mettre à jour tous les 
+ans avec la dernière moyenne hexagonale publiée. Comme la moyenne hexagonale est pondérée la moyenne calédonienne est aussi pondérée.
+20262025
+OPT-NC octobre 2025
+Maintien de la gratuité de 2025 à 2028
+0 ok
+0 ok
+0
+0
+0 ok
+0 ok
+0
+0
+Retrait et dépôts d'espèces au guichet de l'organisme teneur de compte
+Retrait d'espèces, par carte, dans un distributeur automatique appartenant au réseau de la banque où le client a domicilié ses comptes
+0 ok
+0 ok
+0
+0
+0 ok
+0 ok
+0
+0
+Des moyens de programmation à distance de virements occasionnels ou permanents vers d'autres comptes bancaires en Nouvelle-Calédonie
+0 ok
+0 ok
+0
+0
+Paiement par prélèvement ou par titre interbancaire de paiement en faveur de bénéficiaires locaux
+La révocation d'un ordre de virement permanent vers un autre compte bancaire en Nouvelle-Calédonie et la modification de son montant
+0 ok
+0 ok
+0
+0
+Maintien du niveau hors taxes des tarifs de 2025 à 2028
+2 000 ok
+0 ok
+2 000
+0
+-  Les personnes ne disposant pas, ou ne souhaitant pas disposer, de moyens de paiement, carte bancaire ou chéquiers, trouveront toujours dans leur agence de domiciliation un moyen de retirer gratuitement des 
+espèces. Le choix du moyen est laissé à la discrétion de la banque en fonction de son organisation et de son offre, par exemple :
+1 000 ok
+11 000 ok
+Retrait d'espèces au guichet de l'agence teneur de compte : gratuit pour tous
+- Pour les personnes disposant d'une carte bancaire ou d'une carte de paiement à autorisation systématique
+0 ok
+1 000
+11 000
+0
+0 ok
+nd ok
+0
+nd
+500 Sans prise en compte de la cotisation annuelle carte CORAIL+
+Maximum à 120 C FCP / par mois  (TTC) avant le 31 décembre 2027
+358 ok
+500
+tarif de l'offre spécifique à la clientèle fragile 538
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+13 
+ 
+Polynésie française  
+SUIVI DE L’ACCORD DU 13 FÉVRIER  2026  
+ 
+Un cinquième accord triennal a été signé le 13 février 2026 en Polynésie française, afin de poursuivre la modération 
+tarifaire ainsi que la convergence vers les tarifs hexagonaux. Cet accord, entré en vigueur à sa date de signature 
+arrive à échéance le 31 décembre 2028.  : 
+ 
+Ce nouvel accord élargit le suivi des tarifs de l’Observatoire, en plus du traditionnel extrait standard, au périmètre 
+légal prévu par l’article L.753 -3 du code monétaire et financier applicable en Polynésie française (Article 1 de l’accord).  
+Voici les extraits de l’accord  qui sont suivis dans cette publication  :  
+ 
+■ « Article 2 Mesures de modération tarifaire  : 
+2.1 Gratuité de l’abonnement permettant la gestion des comptes Internet  
+À compter de l’entrée en vigueur de l’accord,13 février 2026, les établissements signataires s’engagent à proposer 
+gratuitement à la clientèle de particuliers l’abonnement permettant la gestion des comptes sur Internet. (…)  
+2.2 Gel global des tarifs  
+Les établissements signataires s’engagent à maintenir un gel intégral, sur l’ensemble de la période 2026 -2028, des 
+tarifs relevant de l’extrait standard FBF et du périmètre légal prévu à l’article L.753 -3 du code monétaire et financier, 
+tels qu’en vigueur au 112 octobre 2025. (…)  
+2.3 Engagements propres aux établissements de paiement  
+Les établissements de paiement signataires, Marara Paiement et EGPF (NiuPay) s’engagent, pour la durée du présent 
+accord, à une modération tarifaire renforcée sur les services relevant de leur périmètre d’activité et figurant dans 
+l’extrait standard des ta rifs, tels qu’en vigueur au 1er octobre 2025.  
+À ce titre, ils s’engagent à exclure toute augmentation générale ou automatique de ces tarifs sur la période 2026 -
+2028.  
+Toute révision tarifaire ciblée, rendue nécessaire par des éléments objectifs tels que l’évolution des obligations 
+réglementaires, prudentielles, technologiques ou opérationnelles, fera l’objet d’une information préalable de l’Institut 
+d’émission d’outre -mer (IEOM), dans un souci de transparence et de dialogue au sein de la place.  
+ 
+■ Article 3 Inclusion bancaire et prévention de la fragilité financière  : 
+Les établissements de crédit s’engagent à maintenir l’offre spécifique destinée à la clientèle fragile financièrement au 
+tarif de 120 F CFP. (…)  » 
+ 
+***  
+ 
+Au 1 er avril 2026, la BDP, la SOCREDO, Marara paiement et EGPF respectent l’accord de modération des tarifs 
+bancaires signé localement.  
+Seule la BDT ne suit pas l’accord pour le gel du tarif de  « mise en place d’un ordre de virement permanent vers un 
+autre compte bancaire en Polynésie française  » l’opération lorsqu’elle est réalisée en agence  est passé de 3  103 à 
+3 150 F CFP entre octobre 2025 et avril 2026.  
+L’augmentation de 11  % (+500 F CFP) sur la fourniture d’une carte de crédit à débit immédiat effectuée par Marara 
+Paiement, (soumis à 2 ,3) a fait l’objet d’une information préalable auprès de l’IEOM avec les éléments objectifs 
+suivants  : « MARARA Paiement (…) augmente[r] son tarif ci -dessous de 4  500 XPF à 5  000 XPF en raison de la sortie 
+de sa nouvelle gamme prévue pour juillet. Cette gamme répond à des obligations de mise en conformité de notre 
+établissement auprès de VISA puisque, jusqu’à présent, les cartes commercialisées sont sous l’égide «  OPT ». Ces 
+travaux ont été menés sur 2 ans et ont amenés une hausse des coûts que la société souhaite répercuter en partie sur 
+la tarification.  » De ce fait, cette augmentation ne contrevient pas à l’accord tarifaire en cours.  
+ 
+ 
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+14 
+ 
+Les établissements de crédit  
+ 
+  
+ 
+en F CFP, TTC
+oct. 2025 avril 2026 commentaire avril 2026
+100 Gratuit Respect de l'accord
+oct. 2025
+Période de référence pour le 
+gel des frais
+avril 2026 commentaire avril 2026
+3 804 3 804 Respect de l'accord
+Dont ouverture et clôture de compte Gratuit Gratuit Respect de l'accord
+Dont l'envoi mensuel d'un relevé des opérations effectuées sur le compte. Gratuit Gratuit Respect de l'accord
+Non proposé Non proposé Respect de l'accord
+Non proposé Non proposé Respect de l'accord
+5 446 5 446 Respect de l'accord
+5 813 5 813 Respect de l'accord
+3 604 3 604 Respect de l'accord
+121 121 Respect de l'accord
+431 431 Respect de l'accord
+Gratuit Gratuit Respect de l'accord
+Gratuit Gratuit Respect de l'accord
+Gratuit Gratuit Respect de l'accord
+955 955 Respect de l'accord
+2 700 2 700 Respect de l'accord
+N/A N/A _
+Gratuit Gratuit Respect de l'accord
+N/A N/A _
+Gratuit Gratuit Respect de l'accord
+Gratuit Gratuit Respect de l'accord
+N/A N/A _
+ - Gratuit via Tiare Net
+- 3 103 en agence
+ - Gratuit via Tiare Net
+- 3 150 en agence
+Non respect de l'accord pour les 
+frais de mise en place en agence
+2 958 2 958 Respect de l'accord
+Retrait dans un DAB d'un autre établissement dans le territoire avec une carte de paiement internationale ( au 1er retrait payant)
+BDT
+2.1 Gratuité du tarif dès avril 2026
+Abonnement permettant la gestion des comptes sur Internet (par mois)
+Cet abonnement comprend:
+- Consultation des comptes du titulaire
+- Commande de chéquiers et de RIB
+- Virements compte à compte illimités en faveur des comptes du titulaire dans l'établissement
+- Virements gratuits (limités à 3 par mois, exclusivement en F CFP)
+ 2.2 Gel intégral, sur la période 2026-2028, des tarifs relevant de l'extrait standard et du périmètre légal prévu à l'article L.753-3 du code monétaire et financier, 
+tels qu'en vigueur au 1er octobre 2025
+Extrait standard des tarifs (EST)
+Tenue de compte (par an)
+Abonnement à des produits offrant des alertes sur la situation du compte par SMS (par mois)
+Abonnement à des produits offrant des alertes sur la situation du compte par SMS (par message)
+Fourniture d'une carte de débit (carte de paiement internationale à débit différé)
+Fourniture d'une carte de débit (carte de paiement internationale à débit immédiat)
+Fourniture d'une carte de débit (carte de paiement à autorisation systématique)
+La domiciliation de virements bancaires
+Virement SEPA occasionnel externe dans le territoire en agence (par virement et au 1er virement)
+Virement SEPA occasionnel externe dans le territoire par Internet (par virement et au 1er virement)
+Prélèvement (frais de mise en place d'un mandat de prélèvement)
+Prélèvement (frais par paiement d'un prélèvement)
+Commission d'intervention (par opération)
+Cotisation à une offre d'assurance perte ou vol des moyens de paiement
+Périmètre de l'article L753-3
+Un changement d'adresse par an
+La délivrance à la demande de rélevés d'identité bancaire
+L'encaissement à titre gratuit de chèques et de virements bancaires
+Les dépôts et les retraits à titre gratuit d'espèces au guichet de l'organisme teneur de compte
+Deux formules de chèques de banque par mois ou moyens de paiement équivalent offrant les mêmes services
+Les frais d'opposition sur chèque
+La mise en place d'un ordre de virement permanent vers un autre compte bancaire en Polynésie française; 
+la révocation de cet ordre et la modification de son montant étant gratuites
+Les frais pour saisie-arrêt
+15 715 15 715 Respect de l'accordLes frais pour saisies administrative à tiers détenteur
+Les frais pour opposition administrative
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+15 
+ 
+ 
+ 
+en F CFP, TTC
+oct. 2025 avril 2026 commentaire avril 2026
+98 Gratuit Respect de l'accord
+oct. 2025
+Période de référence pour le 
+gel des frais
+avril 2026 commentaire avril 2026
+3 824 3 824 Respect de l'accord
+Dont ouverture et clôture de compte Gratuit Gratuit Respect de l'accord
+Dont l'envoi mensuel d'un relevé des opérations effectuées sur le compte. Gratuit Gratuit Respect de l'accord
+1 782 1 782 Respect de l'accord
+Non proposé Non proposé Respect de l'accord
+5 735 5 735 Respect de l'accord
+5 735 5 735 Respect de l'accord
+4 862 4 862 Respect de l'accord
+122 122 Respect de l'accord
+436 436 Respect de l'accord
+Gratuit Gratuit Respect de l'accord
+Gratuit Gratuit Respect de l'accord
+Gratuit Gratuit Respect de l'accord
+955 955 Respect de l'accord
+3 590 3 590 Respect de l'accord
+N/A N/A _
+Gratuit Gratuit Respect de l'accord
+N/A N/A _
+Gratuit Gratuit Respect de l'accord
+Gratuit Gratuit Respect de l'accord
+N/A N/A _
+ - 2 665 par dossier et par an par 
+Polyw eb
+ - 2 745 par dossier et par an en 
+agence
+ - 2 665 par dossier et par an par 
+Polyw eb
+ - 2 745 par dossier et par an en 
+agence
+Respect de l'accord
+3 420 3 420 Respect de l'accord
+Retrait dans un DAB d'un autre établissement dans le territoire avec une carte de paiement internationale ( au 1er retrait payant)
+BDP
+2.1 Gratuité du tarif dès avril 2026
+Abonnement permettant la gestion des comptes sur Internet (par mois)
+Cet abonnement comprend:
+- Consultation des comptes du titulaire
+- Commande de chéquiers et de RIB
+- Virements compte à compte illimités en faveur des comptes du titulaire dans l'établissement
+- Virements gratuits (limités à 3 par mois, exclusivement en F CFP)
+ 2.2 Gel intégral, sur la période 2026-2028, des tarifs relevant de l'extrait standard et du périmètre légal prévu à l'article L.753-3 du code monétaire et financier, 
+tels qu'en vigueur au 1er octobre 2025
+Extrait standard des tarifs (EST)
+Tenue de compte (par an)
+Abonnement à des produits offrant des alertes sur la situation du compte par SMS (par mois)
+Abonnement à des produits offrant des alertes sur la situation du compte par SMS (par message)
+Fourniture d'une carte de débit (carte de paiement internationale à débit différé)
+Fourniture d'une carte de débit (carte de paiement internationale à débit immédiat)
+Fourniture d'une carte de débit (carte de paiement à autorisation systématique)
+La domiciliation de virements bancaires
+Virement SEPA occasionnel externe dans le territoire en agence (par virement et au 1er virement)
+Virement SEPA occasionnel externe dans le territoire par Internet (par virement et au 1er virement)
+Prélèvement (frais de mise en place d'un mandat de prélèvement)
+Prélèvement (frais par paiement d'un prélèvement)
+Commission d'intervention (par opération)
+Cotisation à une offre d'assurance perte ou vol des moyens de paiement
+Périmètre de l'article L753-3
+Un changement d'adresse par an
+La délivrance à la demande de rélevés d'identité bancaire
+L'encaissement à titre gratuit de chèques et de virements bancaires
+Les dépôts et les retraits à titre gratuit d'espèces au guichet de l'organisme teneur de compte
+Deux formules de chèques de banque par mois ou moyens de paiement équivalent offrant les mêmes services
+Les frais d'opposition sur chèque
+La mise en place d'un ordre de virement permanent vers un autre compte bancaire en Polynésie française; 
+la révocation de cet ordre et la modification de son montant étant gratuites
+Les frais pour saisie-arrêt
+14 860 14 860 Respect de l'accordLes frais pour saisies administrative à tiers détenteur
+Les frais pour opposition administrative
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+16 
+ 
+ 
+ 
+  
+en F CFP, TTC
+oct. 2025 avril 2026 commentaire avril 2026
+100 Gratuit Respect de l'accord
+oct. 2025
+Période de référence pour le 
+gel des frais
+avril 2026 commentaire avril 2026
+4 596 4 596 Respect de l'accord
+Dont ouverture et clôture de compte Gratuit Gratuit Respect de l'accord
+Dont l'envoi mensuel d'un relevé des opérations effectuées sur le compte. Gratuit Gratuit Respect de l'accord
+Gratuit Gratuit Respect de l'accord
+100 100 Respect de l'accord
+5 373 5 373 Respect de l'accord
+5 666 5 666 Respect de l'accord
+3 786 3 786 Respect de l'accord
+120 120 Respect de l'accord
+431 431 Respect de l'accord
+Gratuit Gratuit Respect de l'accord
+Gratuit Gratuit Respect de l'accord
+Gratuit Gratuit Respect de l'accord
+1 000 1 000 Respect de l'accord
+2 900 2 900 Respect de l'accord
+N/A N/A _
+0 0 Respect de l'accord
+N/A N/A _
+0 0 Respect de l'accord
+ 650 FCFP par retrait en agence
+Gratuit
+puis 650 F CFP à partir du 3e 
+retrait dans le même mois en 
+agence
+Respect de l'accord
+N/A N/A _
+2 970 en agence 2 970 en agence Respect de l'accord
+1 324 1 324 Respect de l'accord
+Abonnement à des produits offrant des alertes sur la situation du compte par SMS (par mois)
+Tenue de compte (par an)
+SOCREDO
+2.1 Gratuité du tarif dès avril 2026
+Abonnement permettant la gestion des comptes sur Internet (par mois)
+Cet abonnement comprend:
+- Consultation des comptes du titulaire
+- Commande de chéquiers et de RIB
+- Virements compte à compte illimités en faveur des comptes du titulaire dans l'établissement
+- Virements gratuits (limités à 3 par mois, exclusivement en F CFP)
+ 2.2 Gel intégral, sur la période 2026-2028, des tarifs relevant de l'extrait standard et du périmètre légal prévu à l'article L.753-3 du code monétaire et financier, 
+tels qu'en vigueur au 1er octobre 2025
+Extrait standard des tarifs (EST)
+Périmètre de l'article L753-3
+Abonnement à des produits offrant des alertes sur la situation du compte par SMS (par message)
+Fourniture d'une carte de débit (carte de paiement internationale à débit différé)
+Fourniture d'une carte de débit (carte de paiement internationale à débit immédiat)
+Fourniture d'une carte de débit (carte de paiement à autorisation systématique)
+Retrait dans un DAB d'un autre établissement dans le territoire avec une carte de paiement internationale ( au 1er retrait payant)
+Virement SEPA occasionnel externe dans le territoire en agence (par virement et au 1er virement)
+Virement SEPA occasionnel externe dans le territoire par Internet (par virement et au 1er virement)
+Prélèvement (frais de mise en place d'un mandat de prélèvement)
+Prélèvement (frais par paiement d'un prélèvement)
+Commission d'intervention (par opération)
+Cotisation à une offre d'assurance perte ou vol des moyens de paiement
+Un changement d'adresse par an
+La délivrance à la demande de rélevés d'identité bancaire
+La domiciliation de virements bancaires
+L'encaissement à titre gratuit de chèques et de virements bancaires
+Les dépôts et les retraits à titre gratuit d'espèces au guichet de l'organisme teneur de compte
+Deux formules de chèques de banque par mois ou moyens de paiement équivalent offrant les mêmes services
+Les frais d'opposition sur chèque
+La mise en place d'un ordre de virement permanent vers un autre compte bancaire en Polynésie française; 
+la révocation de cet ordre et la modification de son montant étant gratuites
+Les frais pour saisie-arrêt
+15 000 15 000 Respect de l'accordLes frais pour saisies administrative à tiers détenteur
+Les frais pour opposition administrative
+ 
+RAPPORT SEMESTRIEL  : Avril 2026  I Jui llet  2026     
+Observatoire des tarifs bancaires dans les C ollectivités du Pacifique  
+17 
+ 
+Les établissements de paiement  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+en F CFP, TTC
+oct. 2025 avril 2026
+Abonnement permettant la gestion des comptes sur Internet (par mois)
+Cet abonnement comprend:
+- Consultation des comptes du titulaire
+- Commande de chéquiers et de RIB
+- Virements compte à compte illimités en faveur des comptes du titulaire dans l'établissement
+- Virements gratuits (limités à 3 par mois, exclusivement en F CFP)
+0 0
+oct. 2025 avril 2026 Variations commentaire avril 2026
+Tenue de compte (par an) 3 720 3 720 0% Respect de l'accord
+Abonnement à des produits offrant des alertes sur la situation du compte par SMS (par mois) 0 0 _ _
+Abonnement à des produits offrant des alertes sur la situation du compte par SMS (par message) Non proposé Non proposé _ _
+Fourniture d'une carte de débit (carte de paiement internationale à débit différé) 4 950 Non proposé _ _
+Fourniture d'une carte de débit (carte de paiement internationale à débit immédiat) * 4 500 5 000 11%
+Carte visa classique - Accord 
+respecté car hausse temporaire et 
+justifiée
+Fourniture d'une carte de débit (carte de paiement à autorisation systématique) 2 640 2 640 0% Respect de l'accord
+Retrait dans un DAB d'un autre établissement dans le territoire avec une carte de paiement internationale ( au 1er retrait payant) 118 118 0% Respect de l'accord
+Virement SEPA occasionnel externe dans le territoire en agence (par virement et au 1er virement) 431 431 0% Respect de l'accord
+Virement SEPA occasionnel externe dans le territoire par Internet (par virement et au 1er virement) 0 0 _ _
+Prélèvement (frais de mise en place d'un mandat de prélèvement) 0 0 _ _
+Prélèvement (frais par paiement d'un prélèvement) 0 0 _ _
+Commission d'intervention (par opération) 955 955 0% Respect de l'accord
+Cotisation à une offre d'assurance perte ou vol des moyens de paiement 2 592 2 592 0% Respect de l'accord
+2.3 Modération tarifaire renforcée sur les tarifs de l'Extrait standard
+MARARA
+Respect de l'accord
+commentaire avril 2026
+2.1 Gratuité du tarif dès avril 2026
+en F CFP, TTC
+oct. 2025 avril 2026
+Abonnement permettant la gestion des comptes sur Internet (par mois)
+Cet abonnement comprend:
+- Consultation des comptes du titulaire
+- Commande de chéquiers et de RIB
+- Virements compte à compte illimités en faveur des comptes du titulaire dans l'établissement
+- Virements gratuits (limités à 3 par mois, exclusivement en F CFP)
+0 0
+oct. 2025 avril 2026 Variations commentaire avril 2026
+Tenue de compte (par an) 4 560 4 560 0% Respect de l'accord
+Abonnement à des produits offrant des alertes sur la situation du compte par SMS (par mois) 0 0 _ Respect de l'accord
+Abonnement à des produits offrant des alertes sur la situation du compte par SMS (par message) Non proposé Non proposé _ _
+Fourniture d'une carte de débit (carte de paiement internationale à débit différé) Non proposé Non proposé _ _
+Fourniture d'une carte de débit (carte de paiement internationale à débit immédiat) Non proposé Non proposé _ _
+Fourniture d'une carte de débit (carte de paiement à autorisation systématique) 5 960 5 960 0% Respect de l'accord
+Retrait dans un DAB d'un autre établissement dans le territoire avec une carte de paiement internationale ( au 1er retrait payant) 110 110 0% Respect de l'accord
+Virement SEPA occasionnel externe dans le territoire en agence (par virement et au 1er virement) Non proposé Non proposé _ _
+Virement SEPA occasionnel externe dans le territoire par Internet (par virement et au 1er virement) 0 0 _ Respect de l'accord
+Prélèvement (frais de mise en place d'un mandat de prélèvement) Non proposé Non proposé _ _
+Prélèvement (frais par paiement d'un prélèvement) Non proposé Non proposé _ _
+Commission d'intervention (par opération) 1 000 1 000 0% Respect de l'accord
+Cotisation à une offre d'assurance perte ou vol des moyens de paiement Non proposé Non proposé _ _
+2.3 Modération tarifaire renforcée sur les tarifs de l'Extrait standard
+EGPF (NiuPay)
+commentaire avril 2026
+Respect de l'accord
+2.1 Gratuité du tarif dès avril 2026
+Toutes les publications de l’IEOM  sont accessibles et téléchargeables gratuitement sur le s site s www.ieom.fr   
+Directeur de la publication  : Alexandre GAUTIER  ■ Responsable de la rédaction  : Marie AOURIRI  
+Rédaction  : Gérard  EDMOND  ■ Éditeur  : IEOM  

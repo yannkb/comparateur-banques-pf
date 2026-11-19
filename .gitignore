@@ -1,0 +1,7 @@
+node_modules/
+dist/
+session.log
+.DS_Store
+.vercel
+BRIEF.md
+screenshots/

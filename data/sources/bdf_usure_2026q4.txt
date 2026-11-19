@@ -1,0 +1,554 @@
+Taux d'usure - 2026-Q4 | Banque de France
+ Aller au contenu principal
+ Banque de France - Menu Principal
+ Fermer le menu
+ Ensemble dialoguons
+ G7 Évian 2026
+ La Banque de France
+ Retour
+La Banque de France
+Découvrir la rubrique
+ Une institution indépendante et de confiance
+ Un rôle et des missions d’utilité publique
+ Une stratégie pour l'avenir
+ Une banque centrale engagée
+ Retour
+Une banque centrale engagée
+ Responsabilité sociale et environnementale
+ Climat, nature et finance durable
+ Investissement responsable
+ Une banque centrale innovante
+ Retour
+Une banque centrale innovante
+ L'innovation à la Banque de France
+ La blockchain à la Banque de France
+ G7 Quantum Technologies Working Group
+ Le Lab
+ Une gouvernance forte et transparente
+ Retour
+Une gouvernance forte et transparente
+ Gouvernance et comités consultatifs
+ Écosystème mondial
+ Écosystème européen
+ Les implantations à l’étranger
+ Partenariats Afrique-France
+ Un engagement fort pour l'éducation économique
+ Retour
+Un engagement fort pour l'éducation économique
+Découvrir la rubrique
+ ABC de l'économie
+ ABC de l'économie
+ Fiches pédagogiques
+ Conférences pédagogiques
+ Concours en économie
+ La Banque de France en régions
+ Retour
+La Banque de France en régions
+Découvrir la rubrique
+ Auvergne-Rhône-Alpes
+ Bourgogne-Franche-Comté
+ Bretagne
+ Centre-Val de Loire
+ Corse
+ Grand Est
+ Hauts-de-France
+ Île-de-France
+ Normandie
+ Nouvelle-Aquitaine
+ Occitanie
+ Pays de la Loire
+ Provence-Alpes-Côte d'Azur
+ La direction des Achats
+ Retour
+La direction des Achats
+Découvrir la rubrique
+ La direction des Achats, qui sommes nous ?
+ Politique générale des Achats
+ Notre engagement pour des achats responsables et durables
+ Vous voulez devenir fournisseur
+ Vous êtes fournisseur
+ Une institution ancrée dans l'histoire
+ Retour
+Une institution ancrée dans l'histoire
+ L'histoire de la Banque de France
+ Entrouvrez les portes
+ Les collections
+ À votre service
+ Retour
+À votre service
+Découvrir la rubrique
+ Particuliers
+ Retour
+Particuliers
+Découvrir la rubrique
+ La Banque de France vous aide
+ Faire face à des difficultés financières ou à des dettes
+ Mieux comprendre les fichiers d’incidents bancaires
+ Mieux connaître les moyens de paiement
+ Faire valoir votre droit au compte bancaire
+ Agir face à l'usurpation d'identité
+ Fraude aux moyens de paiement
+ Arnaques au crédit ou à l’épargne et vol de données
+ Connaître les pratiques bancaires et d’assurance
+ Violences économiques intrafamiliales
+ Comprendre l'économie
+ Accès à vos outils 
+ Dossier de surendettement
+ Plan de surendettement en cours
+ Annuaire des acteurs du microcrédit
+ Fichier central des chèques (FCC)
+ Fichier national des chèques irréguliers (FNCI)
+ Fichier des incidents de remboursement des crédits (FICP)
+ Le FNC-RF
+ Droit au compte bancaire
+ Info Banque-Assurance
+ Intervenants sociaux
+ Retour
+Intervenants sociaux
+Découvrir la rubrique
+ La Banque de France vous aide
+ Découvrir l'inclusion financière
+ Comprendre la procédure de surendettement
+ Connaître les autres dispositifs d'inclusion financière
+ Comprendre le microcrédit
+ Violences économiques intrafamiliales
+ S’inscrire aux sessions d’information et sensibilisation
+ Accès à vos outils
+ Procédure de surendettement
+ Annuaire des acteurs du microcrédit
+ Droit au compte
+ Cellule alerte inclusion
+ Correspondants inclusion financière et membres des CDIF
+ Entreprises
+ Retour
+Entreprises
+Découvrir la rubrique
+ La Banque de France vous aide
+ Pour vous les entreprises : ODACC, un outil face aux risques climatiques
+ Comprendre la cotation et l'indicateur dirigeant
+ Rehaussement du seuil de cotation
+ Les correspondants TPE-PME
+ Les Correspondants start-up
+ Indicateur climat
+ Saisir la médiation du crédit
+ La « boîte à outils » du dirigeant
+ L’Observatoire du financement des entreprises
+ Mieux appréhender la finance d’entreprise
+ Connaître la situation économique de votre secteur ou région
+ Accès à vos outils
+ Espace personnel dirigeant
+ Diagnostic financier (DiagFi BDF)
+ Interdit bancaire et droit au compte professionnel
+ Médiation du crédit
+ La « boîte à outils » du dirigeant
+ Analyse économique locale (Acsel)
+ Espace déclarants
+ ODACC
+ Banques centrales et institutions publiques
+ Retour
+Banques centrales et institutions publiques
+Découvrir la rubrique
+ La Banque de France vous aide
+ Concevoir et fabriquer du papier fiduciaire et des billets
+ Découvrir l'Institut bancaire et financier international
+ Connaître l’offre de compte espèces et moyens de paiement
+ Connaître l’offre internationale d’investissement
+ Accès à vos outils
+ Aspects pratiques sur les formations de l'IBFI
+ Compte espèces et moyens de paiement
+ Espace déclarants
+ Banques, assurances et prestataires fiduciaires
+ Retour
+Banques, assurances et prestataires fiduciaires
+Découvrir la rubrique
+ La Banque de France vous aide
+ Faciliter la gestion des espèces
+ Comprendre vos droits et obligations
+ Accès à vos outils
+ Fichiers d’incidents bancaires (FCC-FICP-FNCI)
+ Fichier bancaire des entreprises (FIBEN)
+ Fichier des implantations bancaires (FIB)
+ Référentiel des identifiants créanciers SEPA (ICS)
+ Espace déclarants
+ Portail Interop
+ Cessions immobilières
+ Infrastructures de marché
+ Retour
+Infrastructures de marché
+Découvrir la rubrique
+ Actualités
+ Documentation / releases
+ PONTES
+ Releases T2/T2S/TIPS
+ T2-BF
+ Info-SERI
+ Participation à T2-BF
+ Groupes de travail
+ Statistiques
+ Campagne d’auto-certification T2
+ Campagne d’auto-attestation NSP (SWIFT / NEXI)
+ Saisies de justice
+ Opérations de numéraire
+ Target services
+ Documentation générale
+ Formations participants
+ Spécifications et connectivité
+ Foire aux Questions T2S
+ Gestion des référentiels
+ Ouverture d’un compte
+ Clôture de Compte
+ Gestion des comptes et modifications courantes
+ Incidents de production
+ Gestion de crise : généralités
+ Panne participant : secours aux établissements
+ Panne participant : rapport d’incident participant
+ Panne T2 : module de contingence
+ Panne T2 : dédommagement
+ Tests opérationnels
+ Tests : calendrier
+ Tests : ouverture/modification de comptes
+ Tests : secours aux établissements
+ Tests : site de secours (participants critiques)
+ Stratégie monétaire
+ Retour
+Stratégie monétaire
+Découvrir la rubrique
+ 3 minutes pour comprendre la stratégie monétaire
+ Mandat de stratégie monétaire
+ Cadre opérationnel
+ Retour
+Cadre opérationnel
+ Programmes d'achats d'actifs
+ Opérations d'open market
+ Réserves obligatoires et facilités permanentes
+ Garanties
+ Collatéral de politique monétaire
+ Eurosystem Collateral Management System (ECMS)
+ Continuité d'activité et textes réglementaires
+ Diagnostics
+ Marchés
+ Retour
+Marchés
+ Réserves de change
+ Titres de créances négociables
+ L’Union pour l’épargne et l’investissement
+ L’intermédiation financière non-bancaire
+ Euro Secured Note Issuer (ESNI)
+ Gestion de l'or
+ Moyens de paiement
+ Retour
+Moyens de paiement
+ La Politique nationale de gestion des espèces
+ La surveillance des moyens de paiement scripturaux
+ Mandat
+ Cadre institutionnel
+ Le Comité national des moyens de paiement (CNMP)
+ Présentation du CNMP
+ La stratégie nationale des moyens de paiement
+ Les paiements en questions
+ L'Observatoire de la sécurité des moyens de paiement (OSMP)
+ Présentation de l'OSMP
+ Les activités de l'OSMP
+ L'euro numérique
+ Stabilité financière
+ Retour
+Stabilité financière
+Découvrir la rubrique
+ 3 minutes pour comprendre la stabilité financière
+ Mandat de stabilité financière
+ Retour
+Mandat de stabilité financière
+ Analyser les vulnérabilités et favoriser la résilience
+ Surveiller les institutions financières
+ Surveiller les infrastructures et systèmes de paiement
+ Accompagner la transformation numérique du secteur financier
+ Enjeux
+ MNBC interbancaire
+ Cadre institutionnel
+ Retour
+Cadre institutionnel
+ Politique macroprudentielle
+ Politique microprudentielle
+ Systèmes de paiement et infrastructures de marché
+ Systèmes opérés par la Banque de France
+ Activités
+ Publications et recherche
+ Retour
+Publications et recherche
+Découvrir la rubrique
+ Toutes les publications
+ Nos principales publications
+ Retour
+Nos principales publications
+ Rapports annuels
+ Bulletin de la Banque de France
+ Bulletin de la BCE
+ Observatoires
+ Projections macroéconomiques
+ Enquête mensuelle de conjoncture
+ Rapport sur la stabilité financière
+ Registre officiel
+ Recherche économique
+ Retour
+Recherche économique
+Découvrir la rubrique
+ Publications de recherche
+ Économistes et chercheurs
+ Conférences et séminaires
+ Programme de chercheurs invités
+ Prix et bourses
+ Partenariats
+ Documents de travail
+ Bulletins de la Banque de France
+ Publications antérieures à 2021
+ Bloc-notes Éco
+ Statistiques
+ Retour
+Statistiques
+Découvrir la rubrique
+ À quoi servent les statistiques ?
+ Toutes les publications statistiques
+ Thèmes statistiques et séries Webstat associées
+ Retour
+Thèmes statistiques et séries Webstat associées
+Découvrir la rubrique
+ Balance des paiements
+ Climat
+ Titres de créances négociables
+ Entreprises
+ Conjoncture économique
+ Crédit et titres de dette
+ Épargne
+ Inclusion financière
+ Inflation
+ Activité bancaire internationale
+ Monnaie
+ Comptes nationaux financiers
+ Taux et cours
+ Calendrier des publications statistiques
+ Stat Info
+ Accès au portail Webstat
+ Accès aux données granulaires
+ Espace déclarants
+ Retour
+Espace déclarants
+Découvrir la rubrique
+ Portail OneGate
+ Collecte annuelle statistique PEA (DGT-PEA)
+ Nomenclatures et listes diverses
+ Les méthodologies
+ Actualités et événements
+ Retour
+Actualités et événements
+Découvrir la rubrique
+ Actualités
+ Communiqués de presse
+ Événements
+ Espace presse
+ Les podcasts de la Banque de France
+ Retour
+Les podcasts de la Banque de France
+Découvrir la rubrique
+ L’Éco en court
+ Dialogue &co
+ On parle cash
+ Vrai ou faux : vos questions sur l'économie
+ La parole à
+ Concours et prix de la Banque de France
+ Nous rejoindre
+ Retour
+Nous rejoindre
+Découvrir la rubrique
+ Rejoignez la Banque de France
+ Comités consultatifs
+ Retour
+Comités consultatifs
+ CCSF
+ Retour
+CCSF
+Découvrir la rubrique
+ Actualités et publications
+ Communiqués de presse
+ Publications du CCSF
+ Connaitre le CCSF
+ Rôle et missions du CCSF
+ Gouvernance du CCSF
+ Avant le CCSF
+ Médiation de la consommation : le rôle du CCSF
+ Glossaire du CCSF
+ CCLRF
+ Retour
+CCLRF
+Découvrir la rubrique
+ Connaitre le CCLRF
+ Missions du CCLRF
+ Composition du CCLRF
+ Ordres du jour
+ Réglementation
+ Publications du CCLRF
+ Avis du CCLRF
+ Rapports annuels du CCLRF
+ Langage : FR
+ fr
+ en
+ region
+ Menu
+ Nous contacter
+ Nous trouver
+ Langage : FR
+ EN
+ Rechercher
+ Accueil
+ Taux d'usure - 2026-Q4
+ Accueil
+ Publications et statistiques
+ Statistiques
+ Taux d'usure - 2026-Q4
+ Taux d'usure - 2026-Q4
+Mise en ligne le 28 Septembre 2026
+ Les dernières parutions
+ Taux d'usure - 2026-Q3
+ Taux d'usure - 2026-Q2
+ Taux d'usure - 2026-Q1
+ Toutes les parutions
+Le taux d'usure correspond au taux d'intérêt maximum légal que les établissements de crédit sont autorisés à pratiquer lorsqu'ils accordent un prêt. Le taux d'usure vise à protéger les emprunteurs. La Banque de France est en charge du calcul trimestriel du taux d'usure dont les modalités de calcul sont définies dans les différents textes juridiques de la législation française (accès aux textes).
+Information sur la modification des catégories d'usure pour les personnes morales n'ayant pas d'activité industrielle, commerciale, artisanale, agricole ou professionnelle non commerciale conformément à l'arrêté du 29 juin 2022 du ministre de l'économie, des finances et de la souveraineté industrielle et numérique entré en vigueur le 30 juin 2022. 
+Arrêté du 29 juin 2022 portant modification de l'arrêté du 24 août 2006 fixant les catégories de prêts servant de base à l'application de l'article L. 314-6 du code de la consommation et de l'article L. 313-5-1 du code monétaire et financier, relatifs à l'usure - Légifrance (legifrance.gouv.fr)
+La catégorie des « prêts à taux fixe d'une durée initiale supérieure à 2 ans » a été scindée en trois selon la durée du prêt : 
+« Prêts à taux fixe d'une durée comprise entre 2 ans et moins de 10 ans » 
+« Prêts à taux fixe d'une durée comprise entre 10 ans et moins de 20 ans »
+« Prêts à taux fixe d'une durée de 20 ans et plus »
+L'arrêté supprime la catégorie des « prêts consentis en vue d'achats ou de ventes à tempérament ». Les opérations se rapportant à ce type de prêt doivent être réparties entre les autres catégories en fonction de leur durée et du type de taux.
+En conséquence, le taux moyen et le taux d'usure pour l'ancienne catégorie des « prêts à taux fixe d'une durée initiale supérieure à 2 ans » ne sont plus calculés ; les séries correspondantes ne seront donc plus mises à jour. Pour les trois nouvelles catégories introduites par l'arrêté du 29 juin 2022, les taux moyens pratiqués sont disponibles à partir du 2ème trimestre 2022 et les taux d'usure à partir du 3ème trimestre 2022. 
+Taux d'usure et taux effectifs moyens pratiqués par les établissements de crédit et les sociétés de financement (%)
+Catégorie
+Taux effectif moyen pratiqué au
+3ème trimestre 2026
+Taux d'usure applicable au
+20 novembre 2026 (5)
+CRÉDITS DE TRÉSORERIE
+Crédits de trésorerie aux ménages et prêts pour travaux d'un montant inférieur ou 
+égal à 75 000 euros (1)
+Séries 
+Séries 
+Prêts d'un montant inférieur ou égal à 3 000 euros 
+17,70
+23,60
+Prêts d'un montant supérieur à 3 000 euros et inférieur ou égal à 6 000 euros 
+11,82
+15,76
+Prêts d'un montant supérieur à 6 000 euros 
+6,42
+8,56
+Locations avec Option d'Achat (4)
+8,24
+10,99
+CRÉDITS IMMOBILIERS
+Crédits immobiliers et prêts pour travaux d'un montant supérieur à 75 000 euros (2)
+Séries 
+Séries 
+Prêts à taux fixe d'une durée inférieure à 10 ans
+3,07
+4,09
+Prêts à taux fixe d'une durée comprise entre 10 ans et moins de 20 ans
+3,51
+4,68
+Prêts à taux fixe d'une durée de 20 ans et plus
+4,05
+5,40
+Prêts à taux variable
+4,14
+5,52
+Prêts relais
+4,87
+6,49
+Prêts aux personnes morales n'ayant pas d'activité industrielle, commerciale, artisanale, agricole ou professionnelle non commerciale
+Séries 
+Séries 
+Prêts à taux fixe d'une durée comprise entre 2 ans et moins de 10 ans
+4,47
+5,96
+Prêts à taux fixe d'une durée comprise entre 10 ans et moins de 20 ans
+4,45
+5,93
+Prêts à taux fixe d'une durée de 20 ans et plus
+4,37
+5,83
+Prêts à taux variable d'une durée initiale supérieure à 2 ans (3)
+4,63
+6,17
+Découverts en compte
+14,31
+19,08
+Autres prêts d'une durée initiale inférieure ou égale à 2 ans
+5,09
+6,79
+Prêts aux personnes physiques agissant pour leurs besoins professionnels et aux personnes morales ayant une activité industrielle, commerciale, artisanale, agricole ou professionnelle non commerciale
+Séries 
+Séries 
+Découverts en compte
+14,31
+19,08
+(1) Définition - Crédits de trésorerie : crédits aux ménages n'entrant pas dans le champ d'application du 1° de l'article L. 313-1 du code de la consommation ou ne constituant pas une opération de crédit d'un montant supérieur à 75 000 euros (à compter du 20 novembre 2026 le seuil sera supérieur à 100 000 euros) destinés à financer, pour les immeubles à usage d'habitation ou à usage professionnel et d'habitation, les dépenses relatives à leur réparation, leur amélioration ou leur entretien.
+(2) Définition - Crédit Immobiliers : crédits aux ménages entrant dans le champ d'application du 1° de l'article L. 313-1 du code de la consommation ou d'un montant supérieur à 75 000 euros (à compter du 20 novembre 2026 le seuil sera supérieur à 100 000 euros) destinés à financer, pour les immeubles à usage d'habitation ou à usage professionnel et d'habitation, les dépenses relatives à leur réparation, leur amélioration ou leur entretien.
+(3) Taux moyen pratiqué (TMP) : le taux moyen pratiqué est le taux effectif des prêts aux entreprises d'une durée initiale supérieure à deux ans, à taux variable, d'un montant inférieur ou égal à 152 449 euros. Ce taux est utilisé par la Direction générale des impôts pour le calcul du taux maximum des intérêts déductibles sur les comptes courants associés.
+(4) En vertu de l'ordonnance n° 2025-880 du 3 septembre 2025 (article L. 312-6 du code de la consommation), les Locations avec Option d'Achat sont incluses dans les crédits de trésorerie à compter du 20 novembre 2026.
+(5) Les taux d'usure sont applicables au 1er octobre à l'exception des locations avec option d'achat applicables à compter du 20 novembre 2026.
+Définition du TEG
+En vertu de l'article L. 314-6 du code de la consommation, « constitue un prêt usuraire tout prêt conventionnel consenti à un taux effectif global qui excède, au moment où il est consenti, de plus du tiers, le taux effectif moyen pratiqué au cours du trimestre précédent par les établissements de crédit et les sociétés de financement pour des opérations de même nature comportant des risques analogues ». 
+Pour la détermination du taux effectif global du prêt, « sont ajoutés aux intérêts les frais, les taxes, les commissions ou rémunérations de toute nature, directs ou indirects, supportés par l'emprunteur et connus du prêteur à la date d'émission de l'offre de crédit ou de l'avenant au contrat de crédit, ou dont le montant peut être déterminé à ces mêmes dates, et qui constituent une condition pour obtenir le crédit ou pour l'obtenir aux conditions annoncées » (article L. 314-1 du code de la consommation). 
+Ainsi, l'article R. 314-4 du code de la consommation dispose que « sont compris dans le taux annuel effectif global du prêt, lorsqu'ils sont nécessaires pour obtenir le crédit ou pour l'obtenir aux conditions annoncées, notamment :
+1° Les frais de dossier ;
+2° Les frais payés ou dus à des intermédiaires intervenus de quelque manière que ce soit dans l'octroi du prêt, même si ces frais, commissions ou rémunérations correspondent à des débours réels ;
+3° Les coûts d'assurance et de garanties obligatoires ;
+4° Les frais d'ouverture et de tenue d'un compte donné, d'utilisation d'un moyen de paiement permettant d'effectuer à la fois des opérations et des prélèvements à partir de ce compte ainsi que les autres frais liés aux opérations de paiement ;
+5° Le coût de l'évaluation du bien immobilier, hors frais d'enregistrement liés au transfert de propriété du bien immobilier. » 
+AT Internet - liste domaines
+Banque de France
+Télécharger la version PDF du document
+FR_202610_RESULT_TABLEAU_INTERNET_USURE_20Oct26.pdf
+ FR_202610_RESULT_TABLEAU_INTERNET_USURE_20Oct26.pdf
+ (PDF -
+ 149.66 Ko)
+Mise à jour le 9 Novembre 2026
+Lire également
+ Taux et cours - Taux d'usure 
+Taux d'usure - 2026-Q3
+ 29 Juin 2026 - Trimestriel 
+ Inscrivez-vous à notre lettre d'information et abonnez-vous aux dernières alertes de publication
+ S'inscrire
+ Site navigation
+ Ensemble dialoguons
+ G7 Évian 2026
+ La Banque de France
+ À votre service
+ Stratégie monétaire
+ Stabilité financière
+ Publications et recherche
+ Statistiques
+ Actualités et événements
+ Nous rejoindre
+ Comités consultatifs
+ Footer secondary menu
+ Nous contacter
+ Sourds et malentendants
+ Espace presse
+ La direction des Achats
+ Services Publics +
+ Glossaire
+ FAQs
+ Youtube, Nouvelle fenêtre
+ Linkedin, Nouvelle fenêtre
+ Facebook, Nouvelle fenêtre
+ Twitter, Nouvelle fenêtre
+ Instagram, Nouvelle fenêtre
+©2026 Banque de France
+ Footer legal notice menu
+ Mentions légales
+ Accessibilité partiellement conforme
+ Aide
+ Protection des données
+ Gestion des cookies
+ Plan du site
+Fermer
+ Appuyer sur entrée pour rechercher. Exemple : droit au compte
