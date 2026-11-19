@@ -222,6 +222,53 @@ test('A29 cotisation BT 2027 falsifiée (citation 2027 intacte) et offre groupé
   mustReject(d2);
 });
 
+const sec = (d, id) => d.reperes.sections.find((s) => s.id === id);
+const taux = (d) => sec(d, 'taux').table;
+const habitat = (d) => taux(d).rows.find((r) => r.id === 'pf_habitat').cells;
+
+test('A30 repère officiel falsifié : taux moyen habitat IEOM 2,85 % → 2,50 % (citation intacte)', () => {
+  const d = clone();
+  Object.assign(habitat(d)['2026-T2'], { value: '2,50 %', num: 2.5 });
+  mustReject(d);
+});
+
+test('A31 repère décalé d’un trimestre : la valeur T1 2026 (2,86) présentée comme T2 2026', () => {
+  const d = clone();
+  Object.assign(habitat(d)['2026-T2'], { value: '2,86 %', num: 2.86, pos: 5 });
+  mustReject(d);
+});
+
+test('A32 repère dans une colonne que sa source ne publie pas (T2 2024 cité depuis la note T2 2026)', () => {
+  const d = clone();
+  habitat(d)['2024-T2'] = { ...habitat(d)['2026-T2'], pos: 1, value: '3,45 %', num: 3.45 };
+  mustReject(d);
+});
+
+test('A33 repère inventé : règle LP 2025-21 avec citation absente de l’instantané', () => {
+  const d = clone();
+  const it = sec(d, 'regles').items.find((i) => i.id === 'ira-immo');
+  it.quote = 'ne peut excéder la valeur de deux mois d’intérêt sur le capital remboursé';
+  mustReject(d);
+});
+
+test('A34 engagement de l’accord : tarif IEOM falsifié, ou rubrique reperes vers un catalogue d’une autre rubrique', () => {
+  const d = clone();
+  Object.assign(prod(d, 'eng-bt-carte_di').attrs.tarif, { value: '4 813 XPF/an', num: 4813 });
+  mustReject(d);
+  const d2 = clone();
+  sec(d2, 'engagements').catalog = 'carte';
+  mustReject(d2);
+});
+
+test('A35 question liée vers une question rapide inconnue, alerte flagFalse sur un attribut non booléen', () => {
+  const d = clone();
+  d.catalogs.find((c) => c.id === 'carte').presets.find((p) => p.id === 'visa-moins-chere').related[0].preset = 'inexistante';
+  mustReject(d);
+  const d2 = clone();
+  d2.catalogs.find((c) => c.id === 'carte').attributes.find((a) => a.id === 'cotisation').flagFalse = 'x';
+  mustReject(d2);
+});
+
 test('les données versionnées passent la vérification stricte', () => {
   const p = join(mkdtempSync(join(tmpdir(), 'cbpf-adv-')), 'banks.json');
   writeFileSync(p, JSON.stringify(data));
