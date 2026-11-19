@@ -1,11 +1,13 @@
-import { useEffect, useMemo, useState } from 'react';
-import { data, fieldsOf, fmtDate, fmtNum, fmtMoney, sourceOf, bankById } from './lib/data.js';
-import Simulator from './Simulator.jsx';
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react';
+import { CATALOG_INDEX, data, fieldsOf, fmtDate, fmtNum, fmtMoney, bankById, loadCatalog, loadReperes } from './lib/data.js';
 import { SourceChip, MarketPanel } from './common.jsx';
 import { entryCost } from './lib/cost.js';
-import Finder from './Finder.jsx';
-import Reperes from './Reperes.jsx';
-import { defaultState, paramsToState, rowsOf, stateToParams } from './lib/catalog.js';
+import { defaultState, inputsOf, paramsToState, stateToParams } from './lib/catalog.js';
+
+// Vues chargées à la demande (code-splitting) : simulateur, moteur de catalogues, Repères officiels.
+const Simulator = lazy(() => import('./Simulator.jsx'));
+const Finder = lazy(() => import('./Finder.jsx'));
+const Reperes = lazy(() => import('./Reperes.jsx'));
 
 const TABS = [...data.categories, { id: 'simu', label: 'Simulateur' }];
 // Rubriques « vue » (ex. Repères officiels) : pas de fiches par banque ; leurs catalogues sont intégrés à la vue.
@@ -20,17 +22,27 @@ const MARKET_BY_CAT = {
 const BEST_LABEL = { lower: 'Le plus bas', higher: 'Le plus élevé' };
 
 // Vues « trouver un produit » (catalogues déclarés dans les données), rattachées à une rubrique.
-const CATALOGS = data.catalogs || [];
-const ROWS = Object.fromEntries(CATALOGS.map((c) => [c.id, rowsOf(c, data.products || [], data.banks)]));
 const FIELD_OPTIONS = { bank: data.banks.map((b) => ({ value: b.id, label: b.short })) };
 const VIEW_PARAM = 'vue';
-/** État initial lu dans l'URL (?vue=<catalogue>&filtres…), pour des liens partageables. */
+/** État initial lu dans l'URL (?vue=<catalogue>&filtres…), pour des liens partageables ; les filtres sont lus quand le catalogue est chargé. */
 function initialView() {
   const params = new URLSearchParams(typeof window !== 'undefined' ? window.location.search : '');
-  const c = CATALOGS.find((x) => x.id === params.get(VIEW_PARAM));
-  const states = Object.fromEntries(CATALOGS.map((x) => [x.id, x === c ? paramsToState(x, params, FIELD_OPTIONS) : defaultState(x)]));
-  return { tab: c?.category, sub: c ? { [c.category]: c.id } : {}, states, embedded: !!c && VIEW_TABS.has(c.category) };
+  const c = CATALOG_INDEX.find((x) => x.id === params.get(VIEW_PARAM));
+  return { tab: c?.category, sub: c ? { [c.category]: c.id } : {}, catalog: c?.id, params, embedded: !!c && VIEW_TABS.has(c.category) };
 }
+
+/** Charge une ressource asynchrone (catalogue, repères) et la garde tant que la clé ne change pas. */
+function useLoaded(loader, key) {
+  const [v, setV] = useState(null);
+  useEffect(() => {
+    if (!key) return undefined;
+    let on = true;
+    loader(key).then((x) => on && setV({ key, value: x }));
+    return () => { on = false; };
+  }, [loader, key]);
+  return v && v.key === key ? v.value : null;
+}
+const Loading = () => <p className="loading" role="status">Chargement…</p>;
 
 /** Valeur de classement : coût réel pour le montant saisi (barème publié, moteur commun `cost.js`), sinon `num`. */
 function sortValue(e, field, amount) {
@@ -41,6 +53,7 @@ function sortValue(e, field, amount) {
 /** Montant saisi : partagé par clé (`costFor.key`) entre la comparaison des banques et les catalogues (`inputs[].key`). */
 const amountKey = (f) => f.costFor?.key || f.id;
 const amountOf = (amounts, f) => amounts[amountKey(f)] ?? f.costFor?.default;
+const inputKey = (c, i) => i.key || `${c.id}.${i.id}`;
 
 function Entry({ e, field, cur, amount }) {
   if (!e) return null;
@@ -225,7 +238,8 @@ export default function App() {
   const [init] = useState(initialView);
   const [tab, setTab] = useState(init.tab || 'immo');
   const [sub, setSub] = useState(init.sub);
-  const [finder, setFinder] = useState(init.states);
+  const [finder, setFinder] = useState({});
+  const [pending, setPending] = useState(null);
   const [cur, setCur] = useState('XPF');
   const [only, setOnly] = useState(null);
   const [view, setView] = useState('cards');
@@ -249,18 +263,55 @@ export default function App() {
     return acc;
   }, {});
   const m = data.market;
-  const catalogsHere = CATALOGS.filter((c) => c.category === tab);
-  const activeCatalog = isView ? catalogsHere[0] : catalogsHere.find((c) => c.id === sub[tab]);
+  const catalogsHere = CATALOG_INDEX.filter((c) => c.category === tab);
+  const activeId = isView ? catalogsHere[0]?.id : catalogsHere.find((c) => c.id === sub[tab])?.id;
+  const loaded = useLoaded(loadCatalog, activeId);
+  const reperes = useLoaded(loadReperes, isView ? 'reperes' : null);
+
+  /** État d'un catalogue : saisi, sinon lu dans l'URL d'arrivée, sinon par défaut ; montants partagés par clé. */
+  const stateOf = (c) => {
+    const st = finder[c.id] || (init.catalog === c.id ? paramsToState(c, init.params, FIELD_OPTIONS) : defaultState(c));
+    return { ...st, inputs: Object.fromEntries(inputsOf(c).map((i) => [i.id, amounts[inputKey(c, i)] ?? st.inputs?.[i.id] ?? i.default])) };
+  };
+  const setStateOf = (c) => (st) => {
+    setFinder((f) => ({ ...f, [c.id]: st }));
+    const upd = Object.fromEntries(inputsOf(c).filter((i) => st.inputs?.[i.id] !== undefined).map((i) => [inputKey(c, i), st.inputs[i.id] === '' ? 0 : st.inputs[i.id]]));
+    if (Object.keys(upd).length) setAmounts((a) => ({ ...a, ...upd }));
+  };
+  // Lien entre catalogues (ex. carte incluse dans une offre groupée → fiche de la carte) : ouvre le catalogue cible
+  // filtré sur la banque du produit, puis fait défiler jusqu'à sa fiche.
+  const onOpen = (link) => {
+    const target = CATALOG_INDEX.find((c) => c.id === link.catalog);
+    if (!target) return;
+    setTab(target.category);
+    setSub((s) => ({ ...s, [target.category]: target.id }));
+    setPending(link);
+  };
+  useEffect(() => {
+    if (!pending || !loaded || loaded.catalog.id !== pending.catalog) return;
+    const { catalog, rows } = loaded;
+    const row = rows.find((r) => r.id === pending.row);
+    const f = {};
+    for (const fc of catalog.facets) {
+      if (fc.field === 'bank' && row) f[fc.id] = [row.bank];
+      if (fc.role === 'includeAlt') f[fc.id] = true;
+    }
+    setFinder((s) => ({ ...s, [catalog.id]: { ...defaultState(catalog), f } }));
+    setPending(null);
+    setTimeout(() => document.getElementById(`pcard-${pending.row}`)?.scrollIntoView({ block: 'center' }), 60);
+  }, [pending, loaded]);
 
   // URL partageable : ?vue=<catalogue>&<filtres> tant que la vue « trouver » est affichée.
   useEffect(() => {
-    if (init.tab && !init.embedded) document.querySelector('.finder')?.scrollIntoView({ block: 'start' });
-  }, [init]);
+    if (init.catalog && !init.embedded && loaded?.catalog.id === init.catalog) document.querySelector('.finder')?.scrollIntoView({ block: 'start' });
+  }, [init, loaded]);
   useEffect(() => {
+    if (activeId && !loaded) return; // catalogue en cours de chargement : ne pas toucher à l'URL
     const url = new URL(window.location.href);
-    const next = activeCatalog ? `?${new URLSearchParams([[VIEW_PARAM, activeCatalog.id], ...stateToParams(activeCatalog, finder[activeCatalog.id])])}` : '';
+    const c = loaded?.catalog;
+    const next = c ? `?${new URLSearchParams([[VIEW_PARAM, c.id], ...stateToParams(c, stateOf(c))])}` : '';
     if (url.search !== next) window.history.replaceState(null, '', `${url.pathname}${next}${url.hash}`);
-  }, [activeCatalog, finder]);
+  });
 
   // Onglets au clavier (motif ARIA « tabs ») : flèches gauche/droite, Début/Fin ; activation automatique.
   const onTabKey = (e) => {
@@ -272,6 +323,7 @@ export default function App() {
     setTab(t.id);
     document.getElementById(`tab-${t.id}`)?.focus();
   };
+  const finderFor = (l) => <Finder catalog={l.catalog} rows={l.rows} banks={data.banks} cur={cur} state={stateOf(l.catalog)} onChange={setStateOf(l.catalog)} onOpen={onOpen} />;
 
   return (
     <div className="page">
@@ -327,15 +379,14 @@ export default function App() {
           <section className="offers" aria-label={TABS.find((t) => t.id === tab).label}>
             {catalogsHere.length > 0 && (
               <div className="subviews seg" role="group" aria-label="Affichage de la rubrique">
-                <button type="button" className={!activeCatalog ? 'on' : ''} aria-pressed={!activeCatalog} onClick={() => setSub({ ...sub, [tab]: null })} data-testid="subview-compare">Comparer les banques</button>
+                <button type="button" className={!activeId ? 'on' : ''} aria-pressed={!activeId} onClick={() => setSub({ ...sub, [tab]: null })} data-testid="subview-compare">Comparer les banques</button>
                 {catalogsHere.map((c) => (
-                  <button key={c.id} type="button" className={activeCatalog?.id === c.id ? 'on' : ''} aria-pressed={activeCatalog?.id === c.id} onClick={() => setSub({ ...sub, [tab]: c.id })} data-testid={`subview-${c.id}`}>{c.label}</button>
+                  <button key={c.id} type="button" className={activeId === c.id ? 'on' : ''} aria-pressed={activeId === c.id} onClick={() => setSub({ ...sub, [tab]: c.id })} data-testid={`subview-${c.id}`}>{c.label}</button>
                 ))}
               </div>
             )}
-            {activeCatalog ? (
-              <Finder catalog={activeCatalog} rows={ROWS[activeCatalog.id]} banks={data.banks} cur={cur} state={finder[activeCatalog.id]}
-                onChange={(st) => setFinder({ ...finder, [activeCatalog.id]: st })} />
+            {activeId ? (
+              <Suspense fallback={<Loading />}>{loaded ? finderFor(loaded) : <Loading />}</Suspense>
             ) : (<>
             <div className="controls">
               <div className="chips" role="group" aria-label="Établissement">
@@ -386,12 +437,11 @@ export default function App() {
             <MarketPanel ids={MARKET_BY_CAT[tab]} />
           </section>
         ) : isView ? (
-          <Reperes renderCatalog={(id) => {
-            const c = CATALOGS.find((x) => x.id === id);
-            return <Finder catalog={c} rows={ROWS[c.id]} banks={data.banks} cur={cur} state={finder[c.id]} onChange={(st) => setFinder({ ...finder, [c.id]: st })} />;
-          }} />
+          <Suspense fallback={<Loading />}>
+            {reperes ? <Reperes reperes={reperes} renderCatalog={(id) => (loaded?.catalog.id === id ? finderFor(loaded) : <Loading />)} /> : <Loading />}
+          </Suspense>
         ) : (
-          <Simulator cur={cur} />
+          <Suspense fallback={<Loading />}><Simulator cur={cur} /></Suspense>
         )}
         </div>
 

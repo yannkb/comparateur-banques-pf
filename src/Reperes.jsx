@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { data, fmtDate, sourceOf } from './lib/data.js';
+import { CATALOG_INDEX, data, fmtDate, sourceOf } from './lib/data.js';
 import { SecondaryTag, SourceChip } from './common.jsx';
 
 // Onglet « Repères officiels » : sections déclarées dans data.reperes (tableaux sourcés cellule par cellule,
@@ -98,15 +98,14 @@ function Rules({ s }) {
   );
 }
 
-export default function Reperes({ renderCatalog }) {
-  const r = data.reperes;
+export default function Reperes({ reperes: r, renderCatalog }) {
   return (
     <section className="reperes" aria-labelledby="reperes-titre" data-testid="reperes">
       <h2 id="reperes-titre" className="finder-title">{r.title}</h2>
       <p className="hint rep-lede">{r.intro} Données vérifiées le {fmtDate(data.meta.verified)}.</p>
       <nav className="rep-toc" aria-label="Sommaire des repères">
         {r.sections.map((s) => {
-          const title = s.kind === 'table' ? s.table.title : s.kind === 'rules' ? s.title : data.catalogs.find((c) => c.id === s.catalog)?.label;
+          const title = s.kind === 'table' ? s.table.title : s.kind === 'rules' ? s.title : CATALOG_INDEX.find((c) => c.id === s.catalog)?.label;
           return <a key={s.id} href={`#${s.kind === 'catalog' ? `finder-${s.catalog}-titre` : slug(s.kind === 'table' ? s.table.id : s.id)}`}>{title}</a>;
         })}
       </nav>
