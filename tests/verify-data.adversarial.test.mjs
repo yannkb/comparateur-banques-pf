@@ -92,7 +92,7 @@ test('A11 valeur vide déguisée (une espace)', () => {
 
 test('A12 valeur de tri calculée sans déclaration « derived »', () => {
   const d = clone();
-  delete bank(d, 'bt').fields.cpt_tenue.derived;
+  delete prod(d, 'cpt-bt-compte').attrs.prix.derived; // la cellule cpt_tenue est dérivée de ce produit
   mustReject(d);
 });
 
@@ -134,7 +134,7 @@ test('A18 barème de frais de dossier (tri par coût) falsifié', () => {
 
 test('A19 valeur 2027 falsifiée (citation 2027 intacte)', () => {
   const d = clone();
-  Object.assign(bank(d, 'bt').fields.immo_frais_dossier.changes[0], { num: 1823, value: '1 % (min. 1 823 XPF)' });
+  Object.assign(bank(d, 'bt').shared.frais_immo.changes[0], { num: 1823, value: '1 % (min. 1 823 XPF)' }); // immo_frais_dossier dérive de cet attribut commun
   mustReject(d);
 });
 
@@ -221,7 +221,7 @@ test('A29 cotisation BT 2027 falsifiée (citation 2027 intacte) et offre groupé
   prod(d, 'bt-visa-premier').variants.find((v) => v.id === 'immediat').attrs.cotisation.changes[0].num = 2300;
   mustReject(d);
   const d2 = clone();
-  delete prod(d2, 'socredo-classic').attrs.packages[0].num;
+  delete prod(d2, 'cpt-socredo-hiva').variants[0].attrs.prix.num; // l’offre groupée de la carte renvoie à ce prix
   mustReject(d2);
 });
 
@@ -355,4 +355,41 @@ test('A47 plusieurs réseaux sur un attribut non « multi », ou réseau non jus
   const d2 = clone();
   prod(d2, 'bdp-visa-red').attrs.reseau.code = ['cb', 'visa']; // la citation BDP ne parle pas de CB
   mustReject(d2);
+});
+
+test('A48 palier de taux absent des citations, ou bornes non croissantes', () => {
+  const d = clone();
+  prod(d, 'immo-bt-habitat').attrs.taux.tiers[0].num = 2.9;
+  mustReject(d);
+  const d2 = clone();
+  prod(d2, 'conso-bt-conso').attrs.taux.tiers[1].upToAmount = 300000;
+  mustReject(d2);
+});
+
+test('A49 règle commune inconnue, ou attribut commun contredit par un produit (frais de dossier conso)', () => {
+  const d = clone();
+  d.catalogs.find((x) => x.id === 'credit_conso').rules.push('ira-inventee');
+  const r = run(d);
+  assert.equal(r.status, 1);
+  assert.match(r.stderr, /règle commune inconnue ira-inventee/);
+  const d2 = clone();
+  const own = structuredClone(bank(d2, 'bdp').shared.frais_conso);
+  own.num = 9000; own.override = 'test';
+  prod(d2, 'conso-bdp-eco').attrs.frais_conso = own;
+  const r2 = run(d2);
+  assert.equal(r2.status, 1);
+  assert.match(r2.stderr, /contredit l'attribut commun/);
+});
+
+test('A50 cellule de comparaison (épargne, compte) ressaisie à la main alors que le catalogue la couvre', () => {
+  const d = clone();
+  bank(d, 'bt').fields.cpt_tenue = { status: 'found', value: '951 XPF/trimestre', source: 'bt_tarifs_2026_v06', quote: 'Tenue de compte (par trimestre) 951', num: 317 };
+  const r = run(d);
+  assert.equal(r.status, 1);
+  assert.match(r.stderr, /couvert par un catalogue/);
+  const d2 = clone();
+  bank(d2, 'socredo').fields.ep_livret.num = 0.5;
+  const r2 = run(d2);
+  assert.equal(r2.status, 1);
+  assert.match(r2.stderr, /diverge du catalogue/);
 });

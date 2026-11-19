@@ -1,9 +1,10 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
+import { deriveData } from '../src/lib/derive.js';
 import { annuityFactor, bareme, fraisAcquisition, capacite, sanitize, taeg, seuilUsure, fraisDossier } from '../src/lib/simulator.js';
 
-const data = JSON.parse(readFileSync(new URL('../data/banks.json', import.meta.url)));
+const data = deriveData(JSON.parse(readFileSync(new URL('../data/banks.json', import.meta.url))));
 const P = data.simulator.params;
 const near = (a, b, tol, msg) => assert.ok(Math.abs(a - b) <= tol, `${msg}: ${a} vs ${b}`);
 

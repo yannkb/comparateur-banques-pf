@@ -1,7 +1,7 @@
 // Coûts calculés à partir d'un montant saisi (src/lib/cost.js) et leur usage par le moteur de catalogues.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { entryCost, feeAmount, interestTotal, loanCost, monthlyPayment } from '../src/lib/cost.js';
+import { entryCost, feeAmount, interestTotal, loanCost, monthlyPayment, rateFor } from '../src/lib/cost.js';
 import { costOf, defaultState, paramsToState, presetState, query, rowsOf, sameState, stateToParams } from '../src/lib/catalog.js';
 import { fraisDossier } from '../src/lib/simulator.js';
 
@@ -84,4 +84,37 @@ test('catalogue : montants saisis bornés, dans l’URL, conservés par les ques
   assert.deepEqual(paramsToState(credit, new URLSearchParams('montant=999999999999&duree=abc')).inputs, { montant: 200_000_000, duree: 240 });
   assert.deepEqual(presetState(credit, credit.presets[0], st.inputs).inputs, st.inputs);
   assert.ok(sameState(credit, st, presetState(credit, credit.presets[0])), 'une question rapide reste active quel que soit le montant');
+});
+
+test('rateFor : paliers publiés (montant ou durée), jamais extrapolés ; exemple ancien jamais utilisé', () => {
+  const byMonths = { status: 'found', num: 3.5, tiers: [{ upToMonths: 120, num: 3 }, { upToMonths: 240, num: 3.2 }, { upToMonths: 300, num: 3.5 }] };
+  assert.equal(rateFor(byMonths, 1e6, 120), 3);
+  assert.equal(rateFor(byMonths, 1e6, 121), 3.2);
+  assert.equal(rateFor(byMonths, 1e6, 300), 3.5);
+  assert.equal(rateFor(byMonths, 1e6, 360), null, 'au-delà du dernier palier publié : pas de taux');
+  const byAmount = { status: 'found', num: 7.5, tiers: [{ upToAmount: 358000, num: 22 }, { upToAmount: 716000, num: 14 }, { upToAmount: 30000000, num: 7.5 }] };
+  assert.equal(rateFor(byAmount, 300000, 48), 22);
+  assert.equal(rateFor(byAmount, 716000, 48), 14);
+  assert.equal(rateFor(byAmount, 1e6, 48), 7.5);
+  assert.equal(rateFor(byAmount, 5e7, 48), null);
+  assert.equal(rateFor({ status: 'found', num: 4.5, stale: true }, 1e6, 24), null, 'exemple 2019 : affiché, pas utilisé pour un coût');
+  assert.equal(loanCost({ feeEntry: { status: 'found', num: 0 }, rateEntry: { status: 'found', num: 4.5, stale: true }, amount: 1e6, months: 24 }), null);
+  const c = loanCost({ feeEntry: { status: 'found', fee: { pct: 1, min: 17878 } }, rateEntry: byAmount, amount: 1e6, months: 48 });
+  assert.equal(c.rate, 7.5);
+  assert.ok(Math.abs(c.total - (interestTotal(1e6, 7.5, 48) + 17878)) < 1e-6);
+});
+
+test('crédit conso (données) : coût total au palier BT du montant saisi ; frais sans minimum publié (1 %)', async () => {
+  const { readFileSync } = await import('node:fs');
+  const { dataAt } = await import('../src/lib/effective.js');
+  const data = dataAt(JSON.parse(readFileSync(new URL('../data/banks.json', import.meta.url))), '2026-11-18');
+  const c = data.catalogs.find((x) => x.id === 'credit_conso');
+  const rows = rowsOf(c, data.products, data.banks);
+  const bt = rows.find((r) => r.id === 'conso-bt-conso');
+  assert.equal(costOf(c, bt, false, { montant: 500000, duree: 24 }).loan.rate, 14);
+  assert.equal(costOf(c, bt, false, { montant: 1000000, duree: 24 }).loan.rate, 7.5);
+  const eco = rows.find((r) => r.id === 'conso-socredo-eco');
+  assert.equal(costOf(c, eco, false, { montant: 500000 }).value, 5000, '1 % sans minimum');
+  const perso = rows.find((r) => r.id === 'conso-socredo-perso');
+  assert.equal(costOf(c, perso, false, { montant: 1000000, duree: 24 }).loan, null, 'taux 2019 (stale) : pas de coût total');
 });

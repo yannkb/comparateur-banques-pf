@@ -74,3 +74,24 @@ test('derivationErrors : références invalides et valeurs ressaisies', () => {
   assert.ok(errs.some((e) => /carte_premium.*n'appartient pas à socredo/.test(e)));
   assert.ok(errs.some((e) => /cpt_retrait_autre.*attribut commun inexistant/.test(e)));
 });
+
+test('règles communes : recopiées des Repères officiels dans le catalogue (jamais ressaisies)', () => {
+  const d = deriveData(raw);
+  for (const c of d.catalogs.filter((x) => x.rules)) {
+    assert.equal(c.ruleItems.length, c.rules.length, c.id);
+    for (const r of c.ruleItems) {
+      const src = raw.reperes.sections.filter((s) => s.kind === 'rules').flatMap((s) => s.items).find((x) => x.id === r.id);
+      assert.deepEqual(r, src);
+    }
+  }
+  assert.deepEqual(d.catalogs.find((x) => x.id === 'credit_immo').ruleItems.map((r) => r.id).slice(0, 2), ['ira-immo', 'ira-immo-partiel']);
+});
+
+test('offres groupées des cartes dérivées du catalogue « compte » (prix saisi une seule fois)', () => {
+  const d = deriveData(raw);
+  const card = d.products.find((p) => p.id === 'socredo-visa-classic').attrs.packages[0];
+  const cpt = d.products.find((p) => p.id === 'cpt-socredo-hiva').variants.find((v) => v.id === 'reference').attrs.prix;
+  assert.equal(card.num, cpt.num);
+  assert.equal(card.quote, cpt.quote);
+  assert.equal(card.audience, 'tous');
+});
