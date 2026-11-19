@@ -15,11 +15,18 @@ export function SourceChip({ id, quote, prefix = '' }) {
   );
 }
 
+/** Étiquette « source secondaire » (paramètre non tiré d'un texte officiel). */
+export function SecondaryTag({ detail }) {
+  const text = typeof detail === 'string' ? detail : 'source secondaire, à confirmer par un notaire';
+  const label = /notaire/.test(text) ? 'source secondaire, à confirmer par un notaire' : 'source secondaire';
+  return <span className="tag tag-secondary" title={text} data-testid="tag-secondary">{label}</span>;
+}
+
 export function MarketPanel({ ids, title = 'Repères du marché' }) {
   if (!ids.length) return null;
   return (
     <aside className="market" aria-label={title}>
-      <h3>{title}</h3>
+      <h2 className="market-title">{title}</h2>
       <ul>
         {ids.map((id) => {
           const m = data.market[id];
@@ -27,6 +34,7 @@ export function MarketPanel({ ids, title = 'Repères du marché' }) {
             <li key={id}>
               <span className="m-label">{m.label}</span>
               {m.status === 'found' ? <span className="m-value">{m.value}</span> : <span className="m-value np-label">Non publié</span>}
+              {m.secondary && <SecondaryTag detail={m.secondary} />}
               {m.note && <span className="note">{m.note}</span>}
               <span className="srcs">
                 {m.status === 'found'

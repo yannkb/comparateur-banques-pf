@@ -3,8 +3,9 @@
 Règle d'or : AUCUN chiffre inventé. Toute valeur `found` doit avoir une source
 (id dans `sources`) ET une citation `quote` copiée telle quelle depuis l'instantané
 texte de la source (`data/sources/<sourceId>.txt`). Le script `npm run verify`
-vérifie que la citation (espaces/casse/apostrophes normalisés) figure dans
-l'instantané. Si l'info n'est pas trouvée : `status: "not_published"` + `checked`
+vérifie que la citation (casse/apostrophes normalisées, blancs tolérés) figure dans
+l'instantané sans couper un nombre, que `num` figure dans la citation (ou dans une
+citation `extra`) et que les paramètres du simulateur sont présents dans leur citation. Si l'info n'est pas trouvée : `status: "not_published"` + `checked`
 = liste des sourceIds consultés.
 
 ## Source
@@ -28,11 +29,22 @@ L'instantané = texte brut extrait (pypdf pour les PDF, texte de la page pour le
   "num": 2000,                       // optionnel : nombre pour tri/comparaison (XPF, %, mois) dans l'unité du champ
   "source": "socredo_tarifs_2026",
   "quote": "Frais de tenue de compte ... 2 000", // extrait VERBATIM de l'instantané (20-200 car.)
-  "note": "optionnel : précision, condition, date d'un exemple ancien, etc."
+  "note": "optionnel : précision, condition, date d'un exemple ancien, etc.",
+  "derived": "951 / 3"               // OBLIGATOIRE si `num` est un calcul : opérandes présents dans les
+                                     // citations (sauf diviseurs d'unité 3 et 12), résultat recalculé
 }
 { "status": "not_published", "checked": ["socredo_tarifs_2026"], "note": "absent de la grille" }
 ```
 Un champ peut aussi avoir `"extra": [ {entrée}, ... ]` pour des sous-valeurs sourcées (ex. tarif agence vs en ligne).
+
+Attributs optionnels d'une entrée :
+- `stale: true` : exemple ancien (badge « Exemple ancien »).
+- `indicative: "Paramètres du simulateur BT, non contractuels"` : valeur indicative (badge affiché tel quel).
+- `fee: { "pct": 1, "min": 17878 }` : barème de frais de dossier (pourcentage suivi de « % » et minimum
+  après « minimum » dans la citation). Pour les champs qui ont `costFor` dans `fields`, le classement
+  se fait sur le coût réel `max(pct × montant, min)` pour le montant saisi par le visiteur.
+- `secondary: "…"` (entrées de `market` et paramètres du simulateur) : poste issu d'une source
+  secondaire, affiché « source secondaire, à confirmer par un notaire ».
 
 ## Champs par banque (ids fixes)
 Unités de `num` entre crochets.
@@ -90,3 +102,27 @@ Crédit conso / auto (conso)
   }
 }
 ```
+
+## Paramètres du simulateur (`simulator.params`)
+Chaque paramètre a `ref` (entrée de `market`, statut `found`) et `cite` : l'une des citations
+(`quote` ou `extra[].quote`) de cette entrée. Chaque nombre du paramètre (`value`, `min`…) doit
+figurer dans `cite`. `unit: "%"` signifie que `value` est une fraction (0.07 ↔ « 7 % »).
+Cas particuliers vérifiés à part : `baremeS1` (taux et plafonds dans l'ordre), `pretRatio`
+(« deux tiers » + majoration), `debours` (= `num` de l'entrée), `xpfToEur` (parité citée).
+Les presets de frais de dossier (`bankDossierPresets`) doivent retrouver `pct` et `min` dans la
+citation du champ de banque référencé.
+
+## Valeurs à date d'effet (`changes`)
+Une entrée peut annoncer une nouvelle grille déjà publiée :
+```json
+"immo_frais_dossier": {
+  "status": "found", "value": "1 % (min. 17 878 XPF)", "num": 17878, "source": "bt_tarifs_2026_v06", "quote": "…",
+  "changes": [ { "effective_from": "2027-01-01", "status": "found", "value": "1 % (min. 18 236 XPF)",
+                 "num": 18236, "source": "bt_tarifs_2027", "quote": "…" } ]
+}
+```
+Chaque changement est une entrée complète (vérifiée comme les autres). L'application (`src/lib/effective.js`)
+affiche l'entrée de base jusqu'à la veille de `effective_from` (date locale du visiteur), avec un badge
+« Nouvelle grille au … », puis la valeur du changement à partir de cette date. Les presets de frais de
+dossier du simulateur acceptent aussi `changes: [{ "effective_from", "pct"?, "min"? }]`. Une fois la date
+passée, `npm run verify` le signale pour qu'on consolide le changement dans l'entrée de base.

@@ -1,0 +1,32 @@
+drupalSettings.simulator (page https://www.banque-tahiti.pf/fr/simulateur-credit) :
+{"habitat_10_ans_taux": "3", "habitat_10_ans_minDuration": "12", "habitat_10_ans_maxDuration": "120", "habitat_10_ans_maxAmount": "200000000", "habitat_10_20_ans_taux": "3.2", "habitat_10_20_ans_minDuration": "120", "habitat_10_20_ans_maxDuration": "240", "habitat_10_20_ans_maxAmount": "200000000", "habitat_20_ans_taux": "3.5", "habitat_20_ans_minDuration": "240", "habitat_20_ans_maxDuration": "300", "habitat_20_ans_maxAmount": "200000000", "conso_other1_taux": "22", "conso_other1_minDuration": "12", "conso_other1_maxDuration": "120", "conso_other1_maxAmount": "358000", "conso_other2_taux": "14", "conso_other2_minDuration": "12", "conso_other2_maxDuration": "120", "conso_other2_maxAmount": "716000", "conso_other3_taux": "7.5", "conso_other3_minDuration": "12", "conso_other3_maxDuration": "120", "conso_other3_maxAmount": "30000000", "conso_other3_taux_min": "5.95", "conso_other3_taux_max": "8.30", "conso_other3_taux_default": "8.30", "conso_other3_taux_step": "0.01"}
+
+Libellés (app.bundle.js) : Immobilier/Habitation 10 ans | Immobilier/Habitation 10 à 20 ans | Immobilier/Habitation + de 20 ans | Conso max  | Conso max  | Conso max 
+
+Page /fr/les-differents-credits :
+Accéder à mes comptes
+                        Les différents crédits 
+                  < Retour
+Découvrez nos différents crédits !
+Financez vos projets, nouveau véhicule, achat immobilier…  
+Découvrez les solutions que la Banque de Tahiti vous propose pour vous aider à faire vivre vos envies !
+Crédit à la Consommation 
+Solution personnalisée pour financer vos projets ! 
+Crédit Immobilier
+Vous projetez d'acquérir un terrain, de construire votre maison, acheter un appartement ?
+Crédit Étudiant
+Réussir mes études c'est comme revenir au fenua : c'est vital !
+Simulateurs de crédits
+Vous pouvez estimer votre capacité d'emprunt adapté à votre situation grâce à nos simulateurs de crédits.
+Avec nos simulateurs, vous avez la possibilité de choisir le montant et la durée de l'emprunt. Choisissez bien le crédit souhaité, pour que le taux soit le bon. Vous pourrez alors voir les mensualités et le montant total du prêt. 
+Attention, ces simulations ne sont pas contractuelles. 
+Commencez votre simulation ici !
+La Banque de Tahiti vous accompagne dans vos emprunts
+Découvrez l'assurance des emprunteurs en couverture d'un crédit immobilier, mais aussi l'arrondi RSE pour soutenir les associations du Fenua. 
+Le contrat Assurance Emprunteur
+Protégez votre emprunt en cas d'imprévu. 
+S'assurer et prévoir
+Découvrez toutes nos assurances. 
+L'Arrondi RSE
+Quand j'emprunte, je donne...et la BT aussi ! 
+Contacte ton agence 

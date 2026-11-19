@@ -1,19 +1,28 @@
 import { useMemo, useState } from 'react';
-import { data, fieldsOf, fmtDate, fmtNum, sourceOf, bankById } from './lib/data.js';
+import { data, fieldsOf, fmtDate, fmtNum, fmtMoney, sourceOf, bankById } from './lib/data.js';
 import Simulator from './Simulator.jsx';
 import { SourceChip, MarketPanel } from './common.jsx';
+import { fraisDossier } from './lib/simulator.js';
 
 const TABS = [...data.categories, { id: 'simu', label: 'Simulateur' }];
 const DEFAULT_SORT = { immo: 'immo_frais_dossier', compte: 'cpt_tenue', epargne: 'ep_livret', conso: 'conso_frais_dossier' };
 const MARKET_BY_CAT = {
-  immo: ['ieom_habitat', 'usure_habitat', 'usure_relais', 'ptz_pays', 'ptz_plafonds', 'aim', 'lp2025_21_ira'],
+  immo: ['ieom_habitat', 'usure_habitat_moins_10', 'usure_habitat_10_20', 'usure_habitat', 'usure_relais', 'ptz_pays', 'ptz_plafonds', 'aim', 'lp2025_21_ira'],
   compte: ['ieom_decouvert'],
   epargne: [],
   conso: ['ieom_conso', 'usure_conso', 'lp2025_21_ira'],
 };
 const BEST_LABEL = { lower: 'Le plus bas', higher: 'Le plus élevé' };
 
-function Entry({ e, field, cur }) {
+/** Valeur de classement : coût réel pour le montant saisi (frais de dossier), sinon `num`. */
+function sortValue(e, field, amount) {
+  if (e?.status !== 'found') return null;
+  if (field.costFor && e.fee) return fraisDossier(amount, e.fee.pct, e.fee.min);
+  return typeof e.num === 'number' ? e.num : null;
+}
+const amountOf = (amounts, f) => amounts[f.id] ?? f.costFor?.default;
+
+function Entry({ e, field, cur, amount }) {
   if (!e) return null;
   if (e.status === 'not_published') {
     return (
@@ -32,7 +41,16 @@ function Entry({ e, field, cur }) {
     <div className={`entry${e.stale ? ' stale' : ''}`}>
       <p className="value">{e.value}</p>
       {showConv && <p className="conv">≈ {n}</p>}
+      {field.costFor && e.fee && amount > 0 && <p className="conv" data-testid="fee-cost">Pour {fmtMoney(amount, cur)} empruntés : {fmtMoney(fraisDossier(amount, e.fee.pct, e.fee.min), cur)}</p>}
       {e.stale && <span className="tag tag-stale">Exemple ancien</span>}
+      {e.indicative && <span className="tag tag-indicative" data-testid="tag-indicative">{e.indicative}</span>}
+      {e.next && (
+        <div className="next" data-testid="next-badge">
+          <span className="tag tag-soon">Nouvelle grille au {fmtDate(e.next.effective_from)}</span>
+          <p className="next-value">{e.next.value}</p>
+          <SourceChip id={e.next.source} quote={e.next.quote} />
+        </div>
+      )}
       {e.note && <p className="note">{e.note}</p>}
       <p className="srcs">
         <SourceChip id={e.source} quote={e.quote} />
@@ -42,21 +60,18 @@ function Entry({ e, field, cur }) {
   );
 }
 
-function bestBank(banks, field) {
+function bestBank(banks, field, amount) {
   if (!field?.better) return null;
-  const vals = banks.map((b) => [b.id, b.fields[field.id]]).filter(([, e]) => e?.status === 'found' && typeof e.num === 'number');
+  const vals = banks.map((b) => [b.id, sortValue(b.fields[field.id], field, amount)]).filter(([, v]) => v !== null);
   if (vals.length < 2) return null;
-  const sorted = [...vals].sort((a, b) => (field.better === 'lower' ? a[1].num - b[1].num : b[1].num - a[1].num));
-  if (sorted[0][1].num === sorted[1][1].num) return null;
+  const sorted = [...vals].sort((a, b) => (field.better === 'lower' ? a[1] - b[1] : b[1] - a[1]));
+  if (sorted[0][1] === sorted[1][1]) return null;
   return sorted[0][0];
 }
 
-function sortBanks(banks, field) {
+function sortBanks(banks, field, amount) {
   if (!field) return banks;
-  const key = (b) => {
-    const e = b.fields[field.id];
-    return e?.status === 'found' && typeof e.num === 'number' ? e.num : null;
-  };
+  const key = (b) => sortValue(b.fields[field.id], field, amount);
   return [...banks].sort((a, b) => {
     const ka = key(a), kb = key(b);
     if (ka === null && kb === null) return 0;
@@ -66,7 +81,7 @@ function sortBanks(banks, field) {
   });
 }
 
-function Cards({ banks, fields, sortField, hideNP, cur, best }) {
+function Cards({ banks, fields, sortField, hideNP, cur, best, amounts }) {
   return (
     <div className="grid">
       {banks.map((b, idx) => {
@@ -98,9 +113,12 @@ function Cards({ banks, fields, sortField, hideNP, cur, best }) {
             {sortField && (
               <div className="headline">
                 <span className="headline-label">{sortField.label}</span>
-                <span className={`headline-value${head?.status !== 'found' ? ' muted' : ''}`}>
-                  {head?.status === 'found' ? (fmtNum(head.num, sortField.unit, cur) ?? head.value) : 'Non publié'}
+                <span className={`headline-value${head?.status !== 'found' ? ' muted' : ''}`} data-testid="headline">
+                  {head?.status !== 'found' ? 'Non publié'
+                    : sortField.costFor && head.fee ? fmtMoney(sortValue(head, sortField, amountOf(amounts, sortField)), cur)
+                      : (fmtNum(head.num, sortField.unit, cur) ?? head.value)}
                 </span>
+                {sortField.costFor && head?.fee && <small className="headline-sub">pour {fmtMoney(amountOf(amounts, sortField), cur)} empruntés</small>}
               </div>
             )}
             <p className="coverage"><b>{found}</b>/{fields.length} rubriques documentées</p>
@@ -108,7 +126,7 @@ function Cards({ banks, fields, sortField, hideNP, cur, best }) {
               {rows.map((f) => (
                 <div key={f.id} className="row">
                   <dt>{f.label}</dt>
-                  <dd><Entry e={b.fields[f.id]} field={f} cur={cur} /></dd>
+                  <dd><Entry e={b.fields[f.id]} field={f} cur={cur} amount={amountOf(amounts, f)} /></dd>
                 </div>
               ))}
             </dl>
@@ -119,7 +137,7 @@ function Cards({ banks, fields, sortField, hideNP, cur, best }) {
   );
 }
 
-function Table({ banks, fields, hideNP, cur }) {
+function Table({ banks, fields, hideNP, cur, amounts }) {
   const visible = fields.filter((f) => !(hideNP && banks.every((b) => b.fields[f.id]?.status === 'not_published')));
   return (
     <div className="table-wrap" role="region" aria-label="Tableau comparatif" tabIndex={0}>
@@ -132,14 +150,14 @@ function Table({ banks, fields, hideNP, cur }) {
         </thead>
         <tbody>
           {visible.map((f) => {
-            const best = bestBank(banks, f);
+            const best = bestBank(banks, f, amountOf(amounts, f));
             return (
               <tr key={f.id}>
                 <th scope="row">{f.label}{f.unit && <small>{f.unit}</small>}</th>
                 {banks.map((b) => (
                   <td key={b.id} className={best === b.id ? 'is-best' : ''}>
                     {best === b.id && <span className="tag tag-best">{BEST_LABEL[f.better]}</span>}
-                    <Entry e={b.fields[f.id]} field={f} cur={cur} />
+                    <Entry e={b.fields[f.id]} field={f} cur={cur} amount={amountOf(amounts, f)} />
                   </td>
                 ))}
               </tr>
@@ -163,7 +181,7 @@ function Sources() {
   }, []);
   return (
     <section className="sources" id="sources" aria-labelledby="sources-titre">
-      <h2 id="sources-titre">Sources <span>{Object.keys(data.sources).length} documents, consultés le {fmtDate(data.meta.updated)}</span></h2>
+      <h2 id="sources-titre">Sources <span>{Object.keys(data.sources).length} documents, dernière vérification le {fmtDate(data.meta.verified)}</span></h2>
       <div className="src-groups">
         {groups.map(([pub, list]) => (
           <div key={pub} className="src-group">
@@ -190,26 +208,40 @@ export default function App() {
   const [view, setView] = useState('cards');
   const [sortBy, setSortBy] = useState(DEFAULT_SORT);
   const [hideNP, setHideNP] = useState(false);
+  const [amounts, setAmounts] = useState({});
 
   const isData = tab !== 'simu';
   const fields = isData ? fieldsOf(tab) : [];
-  const sortable = fields.filter((f) => f.better && data.banks.some((b) => typeof b.fields[f.id]?.num === 'number'));
+  const sortable = fields.filter((f) => f.better && data.banks.some((b) => typeof b.fields[f.id]?.num === 'number' || b.fields[f.id]?.fee));
   const sortField = sortable.find((f) => f.id === sortBy[tab]) || sortable[0];
+  const amount = sortField ? amountOf(amounts, sortField) : undefined;
   const banks = useMemo(() => {
     const list = data.banks.filter((b) => !only || b.id === only);
-    return sortBanks(list, sortField);
-  }, [only, sortField]);
-  const best = bestBank(banks, sortField);
+    return sortBanks(list, sortField, amount);
+  }, [only, sortField, amount]);
+  const best = bestBank(banks, sortField, amount);
   const counts = banks.reduce((acc, b) => {
     fields.forEach((f) => { acc[b.fields[f.id]?.status] = (acc[b.fields[f.id]?.status] || 0) + 1; });
     return acc;
   }, {});
   const m = data.market;
 
+  // Onglets au clavier (motif ARIA « tabs ») : flèches gauche/droite, Début/Fin ; activation automatique.
+  const onTabKey = (e) => {
+    const i = TABS.findIndex((t) => t.id === tab);
+    const next = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: TABS.length - 1 }[e.key];
+    if (next === undefined) return;
+    e.preventDefault();
+    const t = TABS[(next + TABS.length) % TABS.length];
+    setTab(t.id);
+    document.getElementById(`tab-${t.id}`)?.focus();
+  };
+
   return (
     <div className="page">
+      <header className="masthead">
       <div className="topbar">
-        <p>Édition du <time dateTime={data.meta.updated}>{fmtDate(data.meta.updated)}</time> · données publiques, chaque chiffre sourcé</p>
+        <p>Édition du <time dateTime={data.meta.updated}>{fmtDate(data.meta.updated)}</time> · dernière vérification des sources : <time dateTime={data.meta.verified}>{fmtDate(data.meta.verified)}</time> · chaque chiffre sourcé</p>
         <div className="cur" role="group" aria-label="Devise">
           {['XPF', 'EUR'].map((c) => (
             <button key={c} className={cur === c ? 'on' : ''} aria-pressed={cur === c} onClick={() => setCur(c)} data-testid={`cur-${c}`}>
@@ -220,14 +252,14 @@ export default function App() {
         </div>
       </div>
 
-      <header className="hero">
+      <div className="hero">
         <div className="hero-text">
           <p className="kicker">Socredo · Banque de Tahiti · Banque de Polynésie · Marara (OPT)</p>
           <h1>
             <span className="h1-main">Comparez</span>
             <span className="h1-sub">les banques du Fenua</span>
           </h1>
-          <p className="lede">Crédit immobilier, frais de compte, épargne et crédit à la consommation en Polynésie française : les grilles tarifaires 2026 mises côte à côte, avec leur source. Ce qui n’est pas publié est marqué comme tel.</p>
+          <p className="lede">Crédit immobilier, frais de compte, épargne et crédit à la consommation en Polynésie française : les grilles tarifaires en vigueur mises côte à côte, avec leur source. Ce qui n’est pas publié est marqué comme tel.</p>
         </div>
         <div className="ledger" aria-label="Repères IEOM et Banque de France">
           {[['ieom_habitat', 'Crédit habitat'], ['ieom_conso', 'Prêt personnel'], ['usure_habitat', 'Usure immo ≥ 20 ans']].map(([id, lbl], i) => (
@@ -238,18 +270,23 @@ export default function App() {
             </div>
           ))}
         </div>
-      </header>
+      </div>
       <Tapa />
+      </header>
 
-      <nav className="tabs" role="tablist" aria-label="Rubriques">
-        {TABS.map((t) => (
-          <button key={t.id} role="tab" aria-selected={tab === t.id} className={tab === t.id ? 'tab active' : 'tab'} onClick={() => setTab(t.id)} data-testid={`tab-${t.id}`}>
-            {t.label}
-          </button>
-        ))}
+      <nav className="tabs" aria-label="Rubriques">
+        <div className="tablist" role="tablist" aria-label="Rubriques" onKeyDown={onTabKey}>
+          {TABS.map((t) => (
+            <button key={t.id} id={`tab-${t.id}`} role="tab" type="button" aria-selected={tab === t.id} aria-controls={`panel-${t.id}`} tabIndex={tab === t.id ? 0 : -1}
+              className={tab === t.id ? 'tab active' : 'tab'} onClick={() => setTab(t.id)} data-testid={`tab-${t.id}`}>
+              {t.label}
+            </button>
+          ))}
+        </div>
       </nav>
 
       <main>
+        <div role="tabpanel" id={`panel-${tab}`} aria-labelledby={`tab-${tab}`} data-testid="tabpanel">
         {isData ? (
           <section className="offers" aria-label={TABS.find((t) => t.id === tab).label}>
             <div className="controls">
@@ -270,6 +307,14 @@ export default function App() {
                     </select>
                   </label>
                 )}
+                {sortField?.costFor && (
+                  <label className="sort amount">
+                    <span>{sortField.costFor.label}</span>
+                    <input type="number" min={0} step={sortField.costFor.step} value={amounts[sortField.id] ?? sortField.costFor.default} data-testid="cost-amount"
+                      onChange={(e) => setAmounts({ ...amounts, [sortField.id]: e.target.value === '' ? 0 : Math.max(0, Number(e.target.value) || 0) })} />
+                    <span>XPF</span>
+                  </label>
+                )}
                 <div className="seg" role="group" aria-label="Affichage">
                   <button className={view === 'cards' ? 'on' : ''} aria-pressed={view === 'cards'} onClick={() => setView('cards')} data-testid="view-cards">Fiches</button>
                   <button className={view === 'table' ? 'on' : ''} aria-pressed={view === 'table'} onClick={() => setView('table')} data-testid="view-table">Tableau</button>
@@ -286,13 +331,15 @@ export default function App() {
               {cur === 'EUR' && ' · montants des grilles en XPF, conversion indicative en €'}
             </p>
             {view === 'cards'
-              ? <Cards banks={banks} fields={fields} sortField={sortField} hideNP={hideNP} cur={cur} best={best} />
-              : <Table banks={banks} fields={fields} hideNP={hideNP} cur={cur} />}
+              ? <Cards banks={banks} fields={fields} sortField={sortField} hideNP={hideNP} cur={cur} best={best} amounts={amounts} />
+              : <Table banks={banks} fields={fields} hideNP={hideNP} cur={cur} amounts={amounts} />}
+            {sortField?.costFor && <p className="hint" data-testid="cost-hint">Classement par frais de dossier : coût réel pour le montant saisi, soit max(% × montant, minimum) selon chaque grille ; une banque au minimum bas n’est pas forcément la moins chère pour un gros prêt.</p>}
             <MarketPanel ids={MARKET_BY_CAT[tab]} />
           </section>
         ) : (
           <Simulator cur={cur} />
         )}
+        </div>
 
         <section className="method" aria-labelledby="method-titre">
           <h2 id="method-titre">Méthode & limites</h2>
@@ -309,7 +356,7 @@ export default function App() {
 
       <footer className="foot">
         <Tapa />
-        <p>Dernière mise à jour des données : <b>{fmtDate(data.meta.updated)}</b>. Outil indépendant et indicatif, sans lien avec les établissements cités. Un crédit vous engage et doit être remboursé.</p>
+        <p>Édition du <b>{fmtDate(data.meta.updated)}</b> · dernière vérification des sources : <b>{fmtDate(data.meta.verified)}</b>. Outil indépendant et indicatif, sans lien avec les établissements cités. Un crédit vous engage et doit être remboursé.</p>
       </footer>
     </div>
   );

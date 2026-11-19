@@ -1,15 +1,16 @@
 /* ───────────── Registre du Fenua ─────────────
    Papier chaud, encre lagon, rouge ura (plume sacrée), motifs tapa.
-   Gloock (titres) · Schibsted Grotesk (texte) · IBM Plex Mono (chiffres). */
+   Gloock (titres) · Schibsted Grotesk (texte) · IBM Plex Mono (chiffres), polices auto-hébergées (src/fonts.js).
+   Contrastes ≥ 4,5:1 (WCAG AA) pour tout texte sur papier, carte et blanc. */
 :root {
   --paper: #f3ede1;
   --paper-2: #ebe3d3;
   --card: #fbf8f2;
   --ink: #102b2c;
   --ink-2: #3b5455;
-  --muted: #7d8b87;
+  --muted: #55625e;
   --rule: #d8cfbd;
-  --ura: #d9472b;
+  --ura: #b8361d;
   --ura-soft: #f6d9cf;
   --lagoon: #1c6b66;
   --lagoon-soft: #d5e8e2;
@@ -91,6 +92,7 @@ h1 { margin: 0; font-family: var(--display); font-weight: 400; line-height: .92;
   box-shadow: 0 0 0 100vmax var(--paper); clip-path: inset(0 -100vmax); border-bottom: 1px solid var(--rule);
 }
 .tabs::-webkit-scrollbar { display: none; }
+.tablist { display: flex; gap: 4px; }
 .tab {
   flex: none; border: 0; background: none; cursor: pointer; padding: 9px 14px; border-radius: 999px;
   font-weight: 600; color: var(--ink-2); transition: background .2s, color .2s;
@@ -196,13 +198,14 @@ table.cmp { border-collapse: separate; border-spacing: 0; width: 100%; min-width
 
 /* Repères marché */
 .market { margin-top: 22px; padding: 18px; border-radius: var(--r); background: var(--ink); color: var(--paper); }
-.market h3 { margin: 0 0 6px; font: 400 24px var(--display); }
+.market .market-title { margin: 0 0 6px; font: 400 24px var(--display); }
 .market ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0 28px; }
 .market li { padding: 12px 0; border-top: 1px solid rgba(243, 237, 225, .15); display: grid; gap: 3px; }
 .m-label { font: 500 11px var(--mono); text-transform: uppercase; letter-spacing: .05em; color: #a9c4bf; }
 .m-value { font-weight: 500; }
 .market .note { color: #c9d6d3; }
 .market .src { background: transparent; border-color: rgba(243, 237, 225, .25); color: #e8e1d3; }
+.market .src-date { color: #f2a48f; }
 .market .np-label { color: #a9c4bf; }
 
 /* Simulateur */
@@ -226,7 +229,7 @@ legend { font: 600 11.5px var(--mono); text-transform: uppercase; letter-spacing
 .field { display: grid; gap: 5px; }
 .field-label { font-weight: 600; font-size: 13.5px; }
 .field-input { display: flex; align-items: center; border: 1px solid var(--rule); border-radius: 10px; background: #fff; overflow: hidden; }
-.field-input:focus-within { border-color: var(--ink); box-shadow: 0 0 0 3px rgba(16, 43, 44, .08); }
+.field-input:focus-within { border-color: var(--ink); outline: 2px solid var(--ura); outline-offset: 2px; }
 .field-input input { flex: 1; min-width: 0; border: 0; padding: 10px 12px; font: 500 16px var(--mono); background: transparent; outline: none; }
 .suffix { padding: 0 12px; font: 500 12px var(--mono); color: var(--muted); }
 .hint { font-size: 12.5px; color: var(--ink-2); margin: 0; line-height: 1.4; }
@@ -237,6 +240,7 @@ legend { font: 600 11.5px var(--mono); text-transform: uppercase; letter-spacing
 .radio small { grid-column: 2; color: var(--muted); font: 400 11.5px var(--mono); }
 .radio.on { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
 .radio input { accent-color: var(--ura); margin: 0; }
+.radio:focus-within { outline: 2px solid var(--ura); outline-offset: 2px; }
 .two-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 
 .simu-result { background: var(--card); border: 1px solid var(--rule); border-radius: var(--r); box-shadow: var(--shadow); padding: 18px; align-self: start; }
@@ -262,6 +266,21 @@ table.frais { width: 100%; border-collapse: collapse; margin-top: 14px; font-siz
 .frais td.ref { text-align: right; }
 .frais tr.total th, .frais tr.total td { border-top: 2px solid var(--ink); font-weight: 700; }
 .simu-result > .hint { margin-top: 10px; }
+
+/* Validation, avertissements, sources secondaires, coût réel */
+.field.has-error .field-input { border-color: #a32a14; }
+.field-error { font-size: 12.5px; font-weight: 600; color: #8e2a17; line-height: 1.35; }
+.notice { margin: 0; padding: 8px 10px; border-radius: 8px; background: var(--lagoon-soft); color: #134a46; font-size: 12.5px; }
+.tag-secondary { border-radius: 6px; background: #f3e6c4; color: #5c430f; margin: 2px 0 0 6px; vertical-align: middle; text-transform: none; letter-spacing: 0; font-weight: 500; }
+.market .tag-secondary { margin: 2px 0; justify-self: start; }
+.headline-sub { font: 400 11.5px var(--mono); color: var(--ink-2); }
+.sort.amount input { width: 9.5em; border: 1px solid var(--rule); border-radius: 10px; padding: 6px 8px; font: 500 13px var(--mono); background: var(--card); }
+.offers > .hint { margin-top: 10px; }
+.next { margin-top: 8px; padding: 8px 10px; border-radius: 8px; border: 1px dashed #8a6a1f; background: #fbf3df; }
+.next-value { margin: 4px 0 0; font-size: 13px; color: var(--ink); }
+.tag-soon { background: #5c430f; color: #fff; }
+.tag-indicative { background: #e4ecea; color: #134a46; margin-top: 6px; text-transform: none; letter-spacing: 0; }
+.hint .tag-soon { margin-right: 4px; }
 
 /* Méthode & sources */
 .method, .sources { margin-top: 44px; }

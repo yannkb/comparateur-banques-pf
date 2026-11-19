@@ -5,14 +5,14 @@ AUX PARTICULIERS
 CONDITIONS
 TARIFAIRES
 2
-EXTRAIT STANDARD DES TARIFS  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .3
-OUVERTURE, FONCTIONNEMENT ET SUIVI DE VOTRE COMPTE   . . . . . . . . .4
+EXTRAIT STANDARD DES TARIFS  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+OUVERTURE, FONCTIONNEMENT ET SUIVI DE VOTRE COMPTE  . . . . . . . . . 4
  - OUVERTURE, TRANSFORMATION, CLÔTURE 4
  - RELEVÉS DE COMPTE 4
  - TENUE DE COMPTE 4
  - SERVICES EN AGENCE 4
-BANQUE À DISTANCE  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .5
-MOYENS ET OPÉRATIONS DE PAIEMENT  . . . . . . . . . . . . . . . . . . . . . . . . . .6 - 9
+BANQUE À DISTANCE  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
+MOYENS ET OPÉRATIONS DE PAIEMENT  . . . . . . . . . . . . . . . . . . . . . . . . . . 6 - 9
  - CARTE BANCAIRE 6
  - COTISATION ANNUELLE PAR CARTE  6
  - PACKAGES CARTES BANCAIRES INTERNATIONALES 6
@@ -22,15 +22,15 @@ MOYENS ET OPÉRATIONS DE PAIEMENT  . . . . . . . . . . . . . . . . . . . . . . .
  - VIREMENT PERMANENT 8
  - PRÉLÈVEMENT AUTOMATIQUE 8
  - CHÈQUE / CHÉQUIER 8
-OFFRES GROUPÉES DE SERVICES  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .9
+OFFRES GROUPÉES DE SERVICES  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
  - COMPTE URU MARŪ 9 
 - OFFRE HIVA JEUNE 9 
 - OFFRE HIVA PLUS 9
-IRRÉGULARITÉS ET INCIDENTS   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .10
+IRRÉGULARITÉS ET INCIDENTS   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
  - COMMISSION D’INTERVENTION 10
  - OPÉRATIONS PARTICULIÈRES 10
  - INCIDENTS DE PAIEMENT 10 
-DÉCOUVERTS ET CRÉDITS  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .11 - 13
+DÉCOUVERTS ET CRÉDITS  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 - 13
  - DÉCOUVERTS : INTÉRÊTS DÉBITEURS ET COMMISSIONS  
 (perçus mensuellement)  11
  - AUTORISATION DE DÉCOUVERT 11 
@@ -39,21 +39,21 @@ DÉCOUVERTS ET CRÉDITS  . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 - MODIFICATION D’UN PRÊT OU ENGAGEMENT 12
  - FRAIS DE RELANCE POUR RECOUVREMENT D’UN ENGAGEMENT  13 
   (crédit, découvert, autres) 
-ÉPARGNE   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .13
+ÉPARGNE  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
  - COMPTE SUR LIVRET (CSL) 13
  - LIVRET Z 13
  - PLAN EPARGNE LOGEMENT ET COMPTE EPARGNE LOGEMENT 13
  - OUVERTURE D’UN COMPTE À TERME 13
  - HOTU EPARGNE : ASSURANCE-VIE 13
-ASSURANCES ET PRÉVOYANCE  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .13
- - ASSURANCE DE LA PERSONNE (COTISATION ANNUELLE)  . . . . . . . . . . . . . . . . . . . . . . . . . . . .13
+ASSURANCES ET PRÉVOYANCE  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+ - ASSURANCE DE LA PERSONNE (COTISATION ANNUELLE)  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
  - ASSURANCE DES BIENS (COTISATION ANNUELLE) 14
-DATES DE VALEUR  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .14
+DATES DE VALEUR  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
  - DEVISES DE L’EEE 14
  - DEVISES HORS EEE 14
  - VALEUR APPLIQUÉE AU CHÈQUE 14
  - VALEUR DU COMPTE SUR LIVRET 14
-RÉSOUDRE UN LITIGE  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .14
+RÉSOUDRE UN LITIGE  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
 NOS CONSEILS .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 16
  - VOS RETRAITS PAR CARTE 
  - GAGNEZ DU TEMPS POUR VOS OPÉRATIONS
@@ -177,8 +177,8 @@ Ces frais bancaires ne seront prélevés qu’après un délai minimum
 de 14 jours à compter de la date d’arrêté du relevé de compte. 
  
 TENUE DE COMPTE 
-Tenue de compte à vue (forfait mensuel) 383 
-Tenue de compte CSL (forfait annuel) :
+T enue de compte à vue (forfait mensuel) 383 
+T enue de compte CSL (forfait annuel) :
 - si compte Livret Z Gratuit
 - si CSL rattaché à un compte à vue Gratuit
 - si CSL orphelin (non rattaché à un compte à vue) 5 000
@@ -244,7 +244,22 @@ Envoi de document
 Par courrier postal en Polynésie française 1 150
 Par courrier postal hors Polynésie françaisevoyage « Vente » 1 500
 Par courrier électronique 690
-Succession : Frais de traitement 10 300
+Succession : 
+Cas de gratuité                                                                                                                                      Gratuit
+(conformément à l’art. L.312-1-4-1 du Code monétaire et financier)                                              
+Lorsque les avoirs du défunt sont  inférieurs à 711 814 F CFP 
+            au moment du décès
+        .   Lorsque le titulaire est mineur à la date du décès,
+       .    Succession sans complexité manifeste
+CCPT07 Frais de traitement*                                                                                                          1% 
+        .   Maximum                                                                                                                            102 267  
+(conformément à l’art. L.312-1-4-2 du Code monétaire et financier, 
+révisable annuellement)                                                                                                                       
+ *Les frais bancaires sur succession sont calculés sur la base du 
+montant total des avoirs détenus par le défunt au jour du décès. 
+Sont considérés comme des avoirs détenus : le solde de ses comptes 
+individuels, sa quote-part sur les comptes collectifs, 
+ainsi que la valorisation de ses produits d’épargne à cette même date.
 BANQUE À DISTANCE  
 Abonnement à des services de banque à distance (Internet,  
 téléphone fixe, SMS, etc.) - hors coût de communication ou coût  
@@ -256,6 +271,7 @@ Accès Free (consultation uniquement) Gratuit
 Accès Light - Particuliers : Gratuit
 - la consultation des comptes du titulaire,
 - la commande de chéquier et de RIB,
+6
 - des virements compte à compte illimités en faveur des 
 comptes du titulaire,
 - 3 virements locaux (en F CFP) par mois à partir du compte 
@@ -271,7 +287,6 @@ téléphone : ALLOSOC 24h/24 et 7j/7 au 44 25 65 Gratuit
 du compte par SMS : SOCMs  Gratuit
 Commission par message reçu :
 - Du 1er au 5ème message 100
-6
 - Du 6ème au 20ème message  70
 - Du 21ème message et au-delà 50
 Plafond mensuel  3 000
@@ -319,11 +334,12 @@ en XPF sur automate autre banque locale (par opération) 120
 en XPF au guichet : Cash Advance 1 000
 en devise sur automate SOCREDO (par opération) 616
 en devise sur automate autre banque locale (par opération) 730
-En Polynésie française, avec carte bancaire étrangère/VISA ONLY
+En Polynésie française, avec carte bancaire étrangère/VISA ONL Y
 en XPF sur automate SOCREDO 200 F + 3% 
 Hors de Polynésie française, avec carte SOCREDO
 en XPF ou EURO (commission par opération) 1,50 euro
 en devise (hors EURO) (commission par opération) 1,50 euro + 2,50%
+7
 Hors de Polynésie française, avec CBI
 en XPF ou EURO Gratuit 
 en devise (hors EURO), (commission par opération) 1,50 euro + 2,50% 
@@ -338,7 +354,6 @@ dossier par tranche de 100 000 F :
 - pour un achat de 200 001 XPF à 100 000 XPF  1 500 
 - pour un achat de 300 001 XPF à 400 000 XPF  2 000 
 - pour un achat de 400 001 XPF à 500 000 XPF 2 500
-7
 Opérations diverses 
 Frais de gardiennage par carte (au-delà de 4 mois) 2 890 
 Frais de réinitiatilisation carte suite 3 codes faux
@@ -399,6 +414,7 @@ Cours : devise de l’EEE ou hors EEE (1) Cours transfert
  « Vente »
 Valeur : devise de l’EEE (1) (en jour ouvrable)  J
 Valeur : devise hors EEE (1) (en jour ouvrable)  J-1
+8
 Commission de transfert 0,25%
 • Minimum 1 580
 • Maximum  14 600
@@ -413,7 +429,6 @@ En faveur d’un compte SOCREDO libellé en XPF 850
 Valeur (en jour ouvrable) J+3
 En faveur d’un compte SOCREDO en devise  850
 Valeur (en jour ouvrable) J+1
-8
 En faveur d’un compte dans une autre banque
 en XPF (commission de transfert)  0,25%
 • Minimum 2 500
@@ -469,6 +484,7 @@ Frais de destruction par chéquier (post gardiennage) 3 500
 Rejet de chèque irrégulier (hors défaut de provision),  
 par chèque, à la charge du tireur 3 400 
 Emission d’un chèque de banque
+9
 Emission en XPF  2 300
 Emission en EURO 
 Commission par chèque 0,25%
@@ -484,7 +500,6 @@ Sur place Gratuit
 Remise de chèques erronée 420
 Hors place
 Commission d’encaissement SAUF C.C.P., Trésor, C.D.C. 0,25%
-9
 • Minimum 2 000
 • Maximum 16 500
 Frais de port Frais réels
@@ -516,15 +531,17 @@ Frais d’ouverture de dossier  3 500
 Commission forfaitaire 3 500
 Frais réclamés par le correspondant Frais réels
 OFFRES GROUPÉES DE SERVICES 
-COMPTE URU MARŪ : Un compte limité pour une meilleure                                             5 400
+COMPTE URU MARŪ  : Un compte limité pour une meilleure                                             5 400
 maîtrise de votre budget  (cotisation annuelle)
- 
 Le compte URU MARŪ comprend : un compte à vue GRATUIT 
 (aucun frais de tenue de compte), une carte bancaire, un abonnement 
 WEBSOC URU MARŪ (accès Espace Client en ligne + Application 
 mobile) et un abonnement ALLOSOC.
 Nous consulter pour plus d’informations 
-OFFRE HIVA JEUNE Nous consulter 
+COMPTE URU JEUNES : le compte parfait pour les jeunes  389
+de 18 à 25 ans (cotisation mensuelle)
+L’offre URU JEUNES comprend : un compte à vue, une carte bancaire et 
+un abonnement WEBSOC (accès Client en ligne + Application mobile)
 OFFRE HIVA PLUS : L’essentiel de votre banque à partir de 
 900 XPF/mois (cotisation mensuelle)  
 L’offre HIVA PLUS comprend : un compte à vue, une carte 
@@ -534,28 +551,8 @@ WEBSOC (accès Espace Client en ligne + Application mobile)
 HIVA PLUS Essentiel (avec la carte SOCREDO Classic) 900
 HIVA PLUS Privilège (avec la carte SOCREDO Gold)  1 800 
 HIVA PLUS Référence (avec la carte VISA Classic) 1 100
-HIVA PLUS Premium (avec la carte VISA Premier) 2 300 
-Offre spécifique aux personnes en situation de fragilité 
-financière
-Il est prévu une offre spécifique pour les Particuliers en situation 
-de fragilité financière, telle que définie par la loi, avec une gamme 
-de produits et services bancaires de base à un tarif forfaitaire 
-de 360 XPF par mois. 
-Offre solidarité
-La SOCREDO va plus loin que la règlementation et propose l’Offre 
-SOLIDARITÉ. Toute personne bénéficiant du Régime de Solidarité 
-Territoriale est éligible à cette offre.
-Elle a pour objectif de permettre aux clients les plus démunis de 
-bénéficier gratuitement d’un ensemble de prestations bancaires 
-de base, constitué de :
-- un compte à vue,
-- une carte privative (retraits et paiements limités au 
-disponible du compte),
-- des virements permanents (pour le loyer par exemple),
-- des prélèvements (pour les charges du ménage telles 
-que le règlement des factures EDT, OPT…),
+HIVA PLUS Premium (avec la carte VISA Premier) 2 300
 10
-- des chèques de banque. 2 100
 Offre Clientèle Fragile (forfait mensuel) - Clientèle de Particuliers 120
 Cette offre contient :
 1) La tenue, la fermeture et, le cas échéant, l’ouverture du compte 
@@ -573,7 +570,26 @@ compte du titulaire au sein du même établissement ;
 8) la fourniture de relevés d’identité bancaires ;
 9) le plafonnement spécifique des commissions d’intervention 
 (cf. tarif commission intervention) ;
-10) un changement d’adresse une fois par an.
+10) un changement d’adresse une fois par an. 
+Offre spécifique aux personnes en situation de fragilité 
+financière
+Il est prévu une offre spécifique pour les Particuliers en situation 
+de fragilité financière, telle que définie par la loi, avec une gamme 
+de produits et services bancaires de base à un tarif forfaitaire. 
+Offre solidarité
+La SOCREDO va plus loin que la règlementation et propose l’Offre 
+SOLIDARITÉ. Toute personne bénéficiant du Régime de Solidarité 
+Territoriale est éligible à cette offre.
+Elle a pour objectif de permettre aux clients les plus démunis de 
+bénéficier gratuitement d’un ensemble de prestations bancaires 
+de base, constitué de :
+- un compte à vue,
+- une carte privative (retraits et paiements limités au 
+disponible du compte),
+- des virements permanents (pour le loyer par exemple),
+- des prélèvements (pour les charges du ménage telles 
+que le règlement des factures EDT, OPT…),
+- des chèques de banque. 2 100
 Le droit au compte
 Toute personne physique ou morale qui s’est vu refuser l’ouverture 
 d’un compte, et qui ne dispose d’aucun autre compte de dépôt, 
@@ -605,6 +621,7 @@ d’opération sur Internet et le retrait d’espèces ;
 moyens de paiement équivalents offrant les mêmes
 services ;
 - la réalisation des opérations de caisse.
+11
 IRRÉGULARITÉS ET INCIDENTS 
 COMMISSION D’INTERVENTION
 Les commissions d’intervention sont plafonnées 
@@ -620,7 +637,6 @@ Frais de retour courrier pour adresse invalide 2 020
 Saisie sur compte (Avis à Tiers Détenteurs / Saisie Arrêt /
 Opposition administrative du Trésor) 15 000
 INCIDENTS DE PAIEMENT 
-11
 Les frais bancaires pour incidents de paiement liés à un défaut ou 
 une insuffisance de provision sont plafonnés par la réglementation. 
 Rejet de chèque pour défaut ou insuffisance de provision
@@ -668,6 +684,7 @@ de provision ;
 DÉCOUVERTS ET CRÉDITS 
 DÉCOUVERTS : INTÉRÊTS DÉBITEURS ET COMMISSIONS 
 (perçus mensuellement)  
+12
 • Intérêts débiteurs
 pour un découvert autorisé
 Les intérêts sont perçus dès le 1er franc dans la limite du 
@@ -687,9 +704,7 @@ pour un découvert non autorisé
 Montant forfaitaire 2 625
 La commission est perçue s’il y a perception d’intérêts débiteurs
 dans la limite du taux d’usure.
-AUTORISATION DE DÉCOUVERT 
-12
- 
+AUTORISATION DE DÉCOUVERT  
 Mise en place d’une autorisation de découvert (renouvelable ou  
 non renouvelable) en pourcentage du montant 1%
 • Minimum  6 150
@@ -739,6 +754,7 @@ de rapatriement) 6 060
 Frais de dénonciation d’un plafond d’autorisation  Gratuit
 Prêt soldé : Frais de ré-expédition des pièces d’un dossier (par prêt) 4 275
 Crédit logement (Frais de dossier) 21 120
+13
 MODIFICATION D’UN PRÊT OU ENGAGEMENT 
 Avenant (commission par dossier)
 Changement de compte ou date de prélèvement 12 600
@@ -760,7 +776,6 @@ montant du remboursement anticipé est supérieur à 1.193.317 XPF
 contrat de crédit est supérieur à un an, l’indemnité calculée sur 
 le montant en capital réglé par anticipation, est de : 1%
 - Le délai entre le remboursement anticipé et la date de fin du 
-13
 contrat de crédit est inférieur ou égal à un an, l’indemnité 
 calculée sur le montant en capital réglé par anticipation, est de : 0,50%
 Crédits immobiliers
@@ -811,6 +826,7 @@ PLAN EPARGNE LOGEMENT ET COMPTE EPARGNE LOGEMENT
 Gestion du compte Gratuit
 Transfert vers un autre établissement bancaire
 • Transfert vers une autre banque (forfait par plan et par compte) 19 500
+14
 •  Frais de virement selon la destination (se référer à « Virements 
 ponctuels »)
 OUVERTURE D’UN COMPTE À TERME  
@@ -825,7 +841,6 @@ MANINA Accident de la vie : Garantie des Accidents de la Vie
 (Cotisation selon la couverture et le nombre d’assurés) :
 - Formule individuelle (tx invalidité 29% ou 6%) 12 000 ou 16 000
 - Formule famille (tx invalidité 29% ou 6%) 23 000 ou 30 000
-14
 MANINA Prévoyance : Assurance en cas de décès accidentel 
 (cotisation selon le capital assuré) de 1000 à 40 000
 MANINA Scolaire :
@@ -875,6 +890,7 @@ Valeur lendemain ouvré du jour de traitement de l’opération
 Remise de chèques sur place J+1
 Valeur veille ouvrée du jour de traitement de l’opération
 Chèque SOCREDO émis J-1
+15
 VALEUR DU COMPTE SUR LIVRET 
 Les versements réalisés sur votre compte produisent des intérêts 
 à partir du 1er jour de la quinzaine suivant le dépôt.
@@ -883,16 +899,15 @@ valeur fin de la quinzaine précédente.
 RÉSOUDRE UN LITIGE  
 Service de médiation bancaire
 La SOCREDO a mis en place le service de médiation bancaire. 
-Ce service consiste en la désignation d’un médiateur externe 
-à la Banque, dont le rôle est de trouver une solution amiable 
-aux éventuels litiges pouvant exister entre les banques et leurs 
-clients particuliers. A cet effet, la SOCREDO a désigné en qualité 
-de médiateur le «médiateur de la Fédération Bancaire Française». 
+Ce service consiste en la désignation d’un médiateur externe à 
+la Banque, dont le rôle est de trouver une solution amiable aux 
+éventuels litiges pouvant exister entre les banques et leurs clients 
+particuliers. A cet effet, la SOCREDO a désigné en qualité de 
+médiateur le «médiateur de la Fédération Bancaire Française». 
 En cas de difficultés concernant le fonctionnement de votre  
 compte à vue ou les services mis à votre disposition :
 1) Vous devrez dans un premier temps, contacter votre conseiller.  
 Celui-ci mettra en oeuvre tous les moyens nécessaires pour 
-15
 résoudre votre problème.
 2) Si vous êtes en désaccord avec la solution proposée par votre 
 conseiller de clientèle ou, si celui-ci tarde à vous répondre, vous 
@@ -994,7 +1009,7 @@ NOTES
 ................................................................................................................................................. 
 ................................................................................................................................................. 
  
-Banque SOCREDO, S.A.E.M. au capital de 22 milliards de F.CFP 
+Banque SOCREDO, S.A.E.M. au capital de 22 milliards de F .CFP 
 RCS TPI 59 1 B Papeete - N° TAHITI : 075390
 Siège social : 115 rue Dumont d’Urville 
 BP130 - 98713 - Papeete - TAHITI - Polynésie française

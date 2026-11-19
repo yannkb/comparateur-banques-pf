@@ -5,3 +5,4 @@ session.log
 .vercel
 BRIEF.md
 screenshots/
+__pycache__/
