@@ -3,6 +3,8 @@
 // peut déclarer `from: [{ row: "<produit>[/<variante>]", attr: "<attribut>", label? } | { shared: "<attribut>", label? }]` :
 // l'entrée affichée (valeur, nombre, source, citation, barème, changements à date d'effet) est recopiée depuis le catalogue.
 // La première référence donne la valeur principale ; les suivantes deviennent des sous-valeurs sourcées (`extra`).
+// Un catalogue peut aussi citer des règles communes à toutes les banques (`rules: [id]`, ex. barème légal d'indemnité de
+// remboursement anticipé) : elles sont recopiées depuis les Repères officiels (`ruleItems`), jamais ressaisies.
 
 const isFound = (e) => e?.status === 'found';
 const PRESENTATION = new Set(['from', 'note', 'fromCatalog']);
@@ -62,7 +64,8 @@ const needsDerive = (c) => c && Array.isArray(c.from) && !c.fromCatalog;
 export function deriveData(data) {
   const bankNeeds = data.banks.some((b) => Object.values(b.fields || {}).some(needsDerive));
   const prodNeeds = (data.products || []).some((p) => [p.attrs, ...(p.variants || []).map((v) => v.attrs)].some((a) => Object.values(a || {}).some((x) => Array.isArray(x) && x.some(needsDerive))));
-  if (!bankNeeds && !prodNeeds) return data;
+  const ruleNeeds = (data.catalogs || []).some((c) => Array.isArray(c.rules) && !c.ruleItems);
+  if (!bankNeeds && !prodNeeds && !ruleNeeds) return data;
   const banks = data.banks.map((b) => ({
     ...b,
     fields: Object.fromEntries(Object.entries(b.fields || {}).map(([k, c]) => [k, needsDerive(c) ? deriveCell(data, b.id, c) || c : c])),
@@ -73,7 +76,14 @@ export function deriveData(data) {
   const products = (data.products || []).map((p) => ({
     ...p, attrs: listItems(p.bank, p.attrs), ...(p.variants ? { variants: p.variants.map((v) => ({ ...v, attrs: listItems(p.bank, v.attrs) })) } : {}),
   }));
-  return { ...data, banks, products };
+  const catalogs = data.catalogs && data.catalogs.map((c) => (Array.isArray(c.rules) && !c.ruleItems ? { ...c, ruleItems: c.rules.map((id) => ruleById(data, id)).filter(Boolean) } : c));
+  return { ...data, banks, products, ...(catalogs ? { catalogs } : {}) };
+}
+
+/** Règle commune (ex. barème d'indemnité de remboursement anticipé) déclarée une fois dans les Repères officiels. */
+export function ruleById(data, id) {
+  for (const s of data.reperes?.sections || []) if (s.kind === 'rules') { const r = s.items.find((x) => x.id === id); if (r) return r; }
+  return null;
 }
 
 /**

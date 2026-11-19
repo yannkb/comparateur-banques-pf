@@ -354,6 +354,16 @@ export default function Finder({ catalog, rows, banks, cur, state, onChange, onO
               ))}
             </ul>
           )}
+          {catalog.ruleItems?.length > 0 && (
+            <section className="finder-rules" aria-labelledby={`regles-${catalog.id}`} data-testid="finder-rules">
+              <h3 id={`regles-${catalog.id}`}>Règles communes à toutes les banques</h3>
+              <ul>
+                {catalog.ruleItems.map((r) => (
+                  <li key={r.id} data-testid={`rule-${r.id}`}><b>{r.label}</b> : {r.value} <SourceChip id={r.source} quote={r.quote} /></li>
+                ))}
+              </ul>
+            </section>
+          )}
           {catalog.notes?.length > 0 && <ul className="finder-notes">{catalog.notes.map((n) => <li key={n}>{n}</li>)}</ul>}
         </div>
       </div>

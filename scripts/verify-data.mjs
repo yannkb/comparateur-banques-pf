@@ -76,6 +76,7 @@ function evalDerived(expr, quotes) {
 function feeIn({ pct, min }, quote) {
   const q = norm(quote ?? '');
   const pctOk = forms(pct).some((f) => new RegExp(`(^|[^0-9.,])${f.replace(/[.]/g, '\\.')} ?%`).test(q));
+  if (min === undefined) return pctOk; // barème sans minimum publié (ex. « 1 % du montant emprunté »)
   const m = /minimum[^0-9]*([0-9][0-9 .]*[0-9]|[0-9])/.exec(q);
   return pctOk && !!m && Number(m[1].replace(/[ .]/g, '')) === min;
 }
@@ -135,8 +136,18 @@ function checkEntry(e, where) {
       else if (n[e.pos - 1] === undefined || Math.abs(n[e.pos - 1] - e.num) > 1e-9) errors.push(`${where}: num ${e.num} n'est pas le nombre n° ${e.pos} de la citation (${n.join(' | ')})`);
     }
     if (e.fee !== undefined) { // barème de frais (pct, min) utilisé pour classer par coût réel
-      const ok = e.fee && Number.isFinite(e.fee.pct) && Number.isFinite(e.fee.min) && feeIn(e.fee, e.quote);
+      const ok = e.fee && Number.isFinite(e.fee.pct) && (e.fee.min === undefined || Number.isFinite(e.fee.min)) && feeIn(e.fee, e.quote);
       if (!ok) errors.push(`${where}: fee ${JSON.stringify(e.fee)} absent de la citation`);
+    }
+    if (e.tiers !== undefined) { // taux par paliers (montant ou durée) : chaque taux et chaque borne figurent dans les citations, bornes croissantes
+      const quotes = [e.quote, ...(e.extra || []).map((x) => x.quote)].join(' | ');
+      if (!Array.isArray(e.tiers) || !e.tiers.length) errors.push(`${where}: tiers vide`);
+      else e.tiers.forEach((t, i) => {
+        const bound = t.upToAmount ?? t.upToMonths, prev = i ? e.tiers[i - 1].upToAmount ?? e.tiers[i - 1].upToMonths : -Infinity;
+        if (typeof t.num !== 'number' || !numIn(t.num, quotes)) errors.push(`${where}.tiers[${i}]: taux ${t.num} absent des citations`);
+        if (bound !== undefined && !numIn(bound, quotes)) errors.push(`${where}.tiers[${i}]: borne ${bound} absente des citations`);
+        if (bound !== undefined && !(bound > prev)) errors.push(`${where}.tiers[${i}]: bornes non croissantes`);
+      });
     }
     (e.extra || []).forEach((x, i) => checkEntry(x, `${where}.extra[${i}]`));
   } else if (e.status !== 'not_published') return errors.push(`${where}: statut invalide « ${e.status} »`);
@@ -304,6 +315,7 @@ for (const c of catalogs) {
     }
     for (const r of p.related || []) if (!(c.presets || []).some((x) => x.id === r.preset && x !== p)) errors.push(`${pw}: question liée inconnue ${r.preset}`);
   }
+  for (const id of c.rules || []) if (!(data.reperes?.sections || []).some((s) => s.kind === 'rules' && s.items.some((x) => x.id === id))) errors.push(`${w}: règle commune inconnue ${id} (à déclarer dans les Repères officiels)`);
   if (c.compare && !(c.compare.attrs?.length === 2 && c.compare.attrs.every((x) => isA(x, 'number')))) errors.push(`${w}: compare doit citer deux attributs numériques`);
   for (const a of c.attributes || []) if (a.flagFalse !== undefined && (a.type !== 'bool' || !String(a.flagFalse).trim())) errors.push(`${w}.${a.id}: flagFalse réservé aux attributs booléens`);
 }
@@ -323,7 +335,7 @@ function checkAttr(a, e, where) {
   for (const [v, w] of [[e, where], ...(e?.changes || []).map((c, i) => [c, `${where}.changes[${i}]`])]) {
     if (v?.status === 'not_published') { if (v.code !== undefined || v.num !== undefined || v.value !== undefined) errors.push(`${w}: « non publié » portant une valeur`); continue; }
     if (v?.status !== 'found') continue;
-    if (a.type === 'number' && typeof v.num !== 'number') errors.push(`${w}: num manquant (attribut numérique)`);
+    if (a.type === 'number' && typeof v.num !== 'number' && !v.fee) errors.push(`${w}: num (ou barème fee) manquant (attribut numérique)`);
     if (a.type === 'enum') {
       if (Array.isArray(v.code) && (!a.multi || !v.code.length || new Set(v.code).size !== v.code.length)) errors.push(`${w}: plusieurs codes réservés aux attributs « multi » (sans doublon)`);
       for (const code of Array.isArray(v.code) ? v.code : [v.code]) {

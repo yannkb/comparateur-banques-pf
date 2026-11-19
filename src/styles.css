@@ -425,6 +425,10 @@ table.frais { width: 100%; border-collapse: collapse; margin-top: 14px; font-siz
 .unknown-title { font: 400 22px/1.2 var(--display); margin: 26px 0 4px; }
 .finder-notes { margin: 18px 0 0; padding-left: 18px; color: var(--ink-2); font-size: 13px; max-width: 85ch; }
 .finder-notes li { margin: 4px 0; }
+.finder-rules { margin: 22px 0 0; padding: 14px 16px; border: 1px solid var(--line); border-left: 3px solid var(--ink-2); border-radius: 10px; max-width: 85ch; }
+.finder-rules h3 { margin: 0 0 8px; font-size: 15px; }
+.finder-rules ul { margin: 0; padding-left: 18px; font-size: 14px; }
+.finder-rules li { margin: 6px 0; overflow-wrap: anywhere; }
 
 /* Question liée (ex. « … utilisable à l'étranger ») */
 .related { margin: -4px 0 14px; padding: 8px 12px; border-radius: 10px; border: 1px dashed var(--lagoon); background: var(--lagoon-soft); font-size: 13.5px; }

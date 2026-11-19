@@ -43,8 +43,23 @@ export function entryCost(e, amount) {
  * `null` si le taux n'est pas publié (on ne devine jamais un taux).
  */
 export function loanCost({ feeEntry, rateEntry, amount, months }) {
-  if (!isFound(rateEntry) || typeof rateEntry.num !== 'number' || !(months > 0)) return null;
+  const rate = rateFor(rateEntry, amount, months);
+  if (rate === null || !(months > 0)) return null;
   const fee = entryCost(feeEntry, amount);
-  const interest = interestTotal(amount, rateEntry.num, months);
-  return { interest, fee, total: interest + (fee || 0) };
+  const interest = interestTotal(amount, rate, months);
+  return { interest, fee, rate, total: interest + (fee || 0) };
+}
+
+/**
+ * Taux publié applicable : `num`, ou palier de `tiers: [{ upToAmount? | upToMonths?, num }]` (premier palier dont la borne
+ * couvre le montant ou la durée). Hors de tous les paliers publiés → null (jamais extrapolé). Un exemple ancien
+ * (`stale: true`, ex. taux 2019) n'est jamais utilisé pour calculer un coût.
+ */
+export function rateFor(e, amount, months) {
+  if (!isFound(e) || e.stale) return null; // exemple ancien (`stale`) : affiché, jamais utilisé pour un coût
+  if (Array.isArray(e.tiers) && e.tiers.length) {
+    const t = e.tiers.find((x) => (x.upToAmount === undefined || amount <= x.upToAmount) && (x.upToMonths === undefined || months <= x.upToMonths));
+    return t && typeof t.num === 'number' ? t.num : null;
+  }
+  return typeof e.num === 'number' ? e.num : null;
 }

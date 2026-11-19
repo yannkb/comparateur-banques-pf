@@ -164,9 +164,19 @@ export function sortItems(catalog, items, sort, labels = {}) {
   return [...items].sort(cmp);
 }
 
-/** Identifiants des lignes « meilleures » parmi les correspondances (coût autonome minimal par défaut). */
+/**
+ * Identifiants des lignes « meilleures » parmi les correspondances : coût autonome minimal par défaut, ou valeur extrême
+ * d'un attribut (`best.by: { attr, dir }`, ex. meilleur taux d'épargne publié).
+ */
 export function bestIds(catalog, matches) {
   if (!catalog.best) return [];
+  if (catalog.best.by) {
+    const k = catalog.best.by;
+    const vals = matches.map((m) => [m, keyOf(catalog, m, k, {})]).filter(([, v]) => typeof v === 'number');
+    if (!vals.length) return [];
+    const ext = (k.dir === 'desc' ? Math.max : Math.min)(...vals.map(([, v]) => v));
+    return vals.filter(([, v]) => v === ext).map(([m]) => m.row.id);
+  }
   const pool = matches.filter((m) => m.cost.value !== null && (catalog.best.basis !== 'standalone' || m.cost.kind === 'standalone'));
   if (!pool.length) return [];
   const min = Math.min(...pool.map((m) => m.cost.value));
