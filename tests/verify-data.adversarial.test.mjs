@@ -132,6 +132,27 @@ test('A18 barème de frais de dossier (tri par coût) falsifié', () => {
   mustReject(d);
 });
 
+test('A19 valeur 2027 falsifiée (citation 2027 intacte)', () => {
+  const d = clone();
+  Object.assign(bank(d, 'bt').fields.immo_frais_dossier.changes[0], { num: 1823, value: '1 % (min. 1 823 XPF)' });
+  mustReject(d);
+});
+
+test('A20 preset BT 2027 falsifié / date d’effet invalide', () => {
+  const d = clone();
+  d.simulator.bankDossierPresets.find((p) => p.bank === 'bt').changes[0].min = 1;
+  mustReject(d);
+  const d2 = clone();
+  bank(d2, 'bt').fields.carte_premium.changes[0].effective_from = '1er janvier';
+  mustReject(d2);
+});
+
+test('A21 grille datée après la date d’effet annoncée', () => {
+  const d = clone();
+  bank(d, 'bt').fields.carte_premium.changes[0].effective_from = '2026-12-01';
+  mustReject(d);
+});
+
 test('les données versionnées passent la vérification stricte', () => {
   const p = join(mkdtempSync(join(tmpdir(), 'cbpf-adv-')), 'banks.json');
   writeFileSync(p, JSON.stringify(data));

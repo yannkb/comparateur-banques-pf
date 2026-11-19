@@ -102,3 +102,18 @@ Cas particuliers vérifiés à part : `baremeS1` (taux et plafonds dans l'ordre)
 (« deux tiers » + majoration), `debours` (= `num` de l'entrée), `xpfToEur` (parité citée).
 Les presets de frais de dossier (`bankDossierPresets`) doivent retrouver `pct` et `min` dans la
 citation du champ de banque référencé.
+
+## Valeurs à date d'effet (`changes`)
+Une entrée peut annoncer une nouvelle grille déjà publiée :
+```json
+"immo_frais_dossier": {
+  "status": "found", "value": "1 % (min. 17 878 XPF)", "num": 17878, "source": "bt_tarifs_2026_v06", "quote": "…",
+  "changes": [ { "effective_from": "2027-01-01", "status": "found", "value": "1 % (min. 18 236 XPF)",
+                 "num": 18236, "source": "bt_tarifs_2027", "quote": "…" } ]
+}
+```
+Chaque changement est une entrée complète (vérifiée comme les autres). L'application (`src/lib/effective.js`)
+affiche l'entrée de base jusqu'à la veille de `effective_from` (date locale du visiteur), avec un badge
+« Nouvelle grille au … », puis la valeur du changement à partir de cette date. Les presets de frais de
+dossier du simulateur acceptent aussi `changes: [{ "effective_from", "pct"?, "min"? }]`. Une fois la date
+passée, `npm run verify` le signale pour qu'on consolide le changement dans l'entrée de base.

@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { capacite, sanitize, seuilUsure, BOUNDS } from './lib/simulator.js';
-import { data, P, fmtMoney, fmtPct, fmtXpf, fmtEur, EUR, bankById } from './lib/data.js';
+import { data, P, fmtMoney, fmtPct, fmtXpf, fmtEur, fmtDate, EUR, bankById } from './lib/data.js';
 import { SourceChip, MarketPanel, SecondaryTag } from './common.jsx';
 
 const D = data.simulator.defaults;
@@ -46,7 +46,7 @@ function Money({ xpf, cur, big }) {
 }
 
 export default function Simulator({ cur }) {
-  const [v, setV] = useState({ ...D, preset: 'bt' });
+  const [v, setV] = useState({ ...D, preset: D.preset || 'bt' });
   const [notice, setNotice] = useState(null);
   const set = (k) => (x) => setV((s) => ({ ...s, [k]: x }));
   const both = (x) => `${fmtXpf(x)} ≈ ${fmtEur(x * EUR)}`;
@@ -160,6 +160,7 @@ export default function Simulator({ cur }) {
                 <option value="custom">Saisie libre</option>
               </select>
             </label>
+            {preset?.next && <p className="hint" data-testid="preset-next"><span className="tag tag-soon">Nouvelle grille au {fmtDate(preset.next.effective_from)}</span> {bankById[preset.bank].short} : {nf(preset.next.pct)} % (min. {fmtXpf(preset.next.min)}).</p>}
             {v.preset === 'socredo' && <p className="hint">La grille Socredo liste aussi « Crédit logement (frais de dossier) 21 120 XPF » et des frais d’étude de 1 % (min. 20 500) sans préciser comment ils se combinent : non inclus.</p>}
             {v.preset === 'custom' && (
               <div className="two-cols">

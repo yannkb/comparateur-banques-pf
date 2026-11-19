@@ -62,6 +62,14 @@ function evalDerived(expr, quotes) {
   return { value: acc };
 }
 
+// Barème « x % … minimum y » : le pourcentage doit être suivi de « % » et le minimum suivre le mot « minimum ».
+function feeIn({ pct, min }, quote) {
+  const q = norm(quote ?? '');
+  const pctOk = forms(pct).some((f) => new RegExp(`(^|[^0-9.,])${f.replace(/[.]/g, '\\.')} ?%`).test(q));
+  const m = /minimum[^0-9]*([0-9][0-9 .]*[0-9]|[0-9])/.exec(q);
+  return pctOk && !!m && Number(m[1].replace(/[ .]/g, '')) === min;
+}
+
 function snapshot(id) {
   if (!cache.has(id)) {
     const src = data.sources[id];
@@ -69,6 +77,22 @@ function snapshot(id) {
     cache.set(id, p && p.startsWith(srcDir) && existsSync(p) ? index(norm(readFileSync(p, 'utf8'))) : null);
   }
   return cache.get(id);
+}
+
+// Valeurs à date d'effet : `changes: [{ effective_from: 'AAAA-MM-JJ', ...entrée complète }]`.
+// Chaque changement est vérifié comme une entrée ; sa source ne peut pas être postérieure à sa date d'effet.
+function checkChanges(e, where) {
+  if (e.changes === undefined) return;
+  if (!Array.isArray(e.changes) || !e.changes.length) return errors.push(`${where}: changes vide ou invalide`);
+  e.changes.forEach((c, i) => {
+    const w = `${where}.changes[${i}]`;
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(c?.effective_from || '')) return errors.push(`${w}: effective_from invalide`);
+    if (c.changes) return errors.push(`${w}: changements imbriqués interdits`);
+    checkEntry(c, w);
+    const doc = data.sources[c.source]?.documentDate;
+    if (doc && doc > c.effective_from) errors.push(`${w}: source ${c.source} datée du ${doc}, après la date d'effet ${c.effective_from}`);
+    if (c.effective_from <= today) infos.push(`${w}: en vigueur depuis le ${c.effective_from} (à consolider dans l'entrée de base)`);
+  });
 }
 
 function checkEntry(e, where) {
@@ -96,11 +120,14 @@ function checkEntry(e, where) {
       }
     }
     if (e.fee !== undefined) { // barème de frais (pct, min) utilisé pour classer par coût réel
-      const ok = e.fee && Number.isFinite(e.fee.pct) && Number.isFinite(e.fee.min) && numIn(e.fee.pct, e.quote) && numIn(e.fee.min, e.quote);
+      const ok = e.fee && Number.isFinite(e.fee.pct) && Number.isFinite(e.fee.min) && feeIn(e.fee, e.quote);
       if (!ok) errors.push(`${where}: fee ${JSON.stringify(e.fee)} absent de la citation`);
     }
     (e.extra || []).forEach((x, i) => checkEntry(x, `${where}.extra[${i}]`));
-  } else if (e.status === 'not_published') {
+  } else if (e.status !== 'not_published') return errors.push(`${where}: statut invalide « ${e.status} »`);
+  checkChanges(e, where);
+  if (e.status === 'found') return;
+  if (e.status === 'not_published') {
     if (!Array.isArray(e.checked) || !e.checked.length) return errors.push(`${where}: « non publié » sans source consultée`);
     for (const c of e.checked) { if (!data.sources[c]) errors.push(`${where}: source consultée inconnue « ${c} »`); else used.add(c); }
   } else errors.push(`${where}: statut invalide « ${e.status} »`);
@@ -171,11 +198,20 @@ for (const [k, p] of Object.entries(data.simulator.params)) {
   if (p.min !== undefined) nums.push(p.min);
   for (const v of nums) if (!numIn(v, p.cite)) errors.push(`${where}: valeur ${v} absente de la citation « ${p.cite.slice(0, 60)}… »`);
 }
+const entryOn = (e, iso) => [...(e?.changes || [])].filter((c) => c.effective_from <= iso).sort((a, b) => a.effective_from.localeCompare(b.effective_from)).at(-1) || e;
 for (const p of data.simulator.bankDossierPresets) {
-  const e = data.banks.find((b) => b.id === p.ref[0])?.fields[p.ref[1]];
+  const e = data.banks.find((b) => b.id === p.ref?.[0])?.fields[p.ref?.[1]];
   if (!e || e.status !== 'found') { errors.push(`preset ${p.bank}: référence non sourcée`); continue; }
-  if (!numIn(p.pct, e.quote) || !numIn(p.min, e.quote)) errors.push(`preset ${p.bank}: ${p.pct} % / min ${p.min} absents de la citation`);
+  const variants = [[p, e], ...(p.changes || []).map((c) => [{ ...p, ...c }, entryOn(e, c.effective_from)])];
+  for (const [v, ent] of variants) {
+    const at = v.effective_from ? ` au ${v.effective_from}` : '';
+    if (v.effective_from && !/^\d{4}-\d{2}-\d{2}$/.test(v.effective_from)) errors.push(`preset ${p.bank}: effective_from invalide`);
+    if (!feeIn(v, ent.quote)) errors.push(`preset ${p.bank}${at}: ${v.pct} % / min ${v.min} absents de la citation`);
+  }
 }
+const D = data.simulator.defaults;
+const dp = data.simulator.bankDossierPresets.find((p) => p.bank === D.preset);
+if (!dp || D.fraisDossierPct !== dp.pct || D.fraisDossierMin !== dp.min) errors.push(`simulator.defaults: frais de dossier ≠ preset « ${D.preset} »`);
 
 for (const f of readdirSync(join(root, 'data/sources'))) {
   const id = f.replace(/\.txt$/, '');

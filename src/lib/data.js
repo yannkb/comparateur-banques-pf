@@ -1,6 +1,9 @@
-import data from '../../data/banks.json';
+import raw from '../../data/banks.json';
+import { dataAt, todayIso } from './effective.js';
 
-export { data };
+/** Date du visiteur : les valeurs à date d'effet (grille BT 2027…) basculent automatiquement. */
+export const TODAY = todayIso();
+export const data = dataAt(raw, TODAY);
 export const P = data.simulator.params;
 export const EUR = P.xpfToEur.value;
 

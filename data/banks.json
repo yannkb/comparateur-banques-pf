@@ -1123,7 +1123,22 @@
           "fee": {
             "pct": 1,
             "min": 17878
-          }
+          },
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "1 % du capital (min. 18 236 XPF)",
+              "quote": "CRÉDITS IMMOBILIERS Frais de dossier 1% du capital emprunté Minimum de facturation 18 236",
+              "num": 18236,
+              "fee": {
+                "pct": 1,
+                "min": 18236
+              },
+              "source": "bt_tarifs_2027",
+              "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
+            }
+          ]
         },
         "immo_assurance": {
           "status": "found",
@@ -1142,6 +1157,24 @@
               "value": "Frais d’enregistrement des actes de garanties : 2 538",
               "source": "bt_tarifs_2026_v06",
               "quote": "Frais d’enregistrement des contrats et actes de garanties (par acte enregistré) 2 538"
+            }
+          ],
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "Hypothèque (mainlevée partielle 22 238 XPF) ; enregistrement des actes de garantie 2 589 XPF/acte",
+              "quote": "Commission de main levée partielle d'hypothèque 22 238",
+              "extra": [
+                {
+                  "status": "found",
+                  "value": "Frais d’enregistrement des actes de garanties : 2 589",
+                  "source": "bt_tarifs_2027",
+                  "quote": "Frais d’enregistrement des contrats et actes de garanties (par acte enregistré) 2 589"
+                }
+              ],
+              "source": "bt_tarifs_2027",
+              "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
             }
           ]
         },
@@ -1183,7 +1216,26 @@
           "value": "Modification 15 077 XPF ; renégociation 1 % du CRD (min. 100 000)",
           "source": "bt_tarifs_2026_v06",
           "quote": "Frais de modification (hors renégociation de taux pour crédits immobiliers) 15 077",
-          "num": 15077
+          "num": 15077,
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "Modification 25 000 XPF ; modulation 12 600 XPF ; renégociation 1 % du CRD (min. 100 000)",
+              "quote": "Frais de modification (hors renégociation de taux pour crédits immobiliers) 25 000",
+              "num": 25000,
+              "extra": [
+                {
+                  "status": "found",
+                  "value": "Frais de modulation : 12 600",
+                  "source": "bt_tarifs_2027",
+                  "quote": "Frais de modulation 12 600"
+                }
+              ],
+              "source": "bt_tarifs_2027",
+              "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
+            }
+          ]
         },
         "cpt_tenue": {
           "status": "found",
@@ -1221,7 +1273,26 @@
           "value": "Visa Premier 22 557 XPF/an ; Visa Infinite 55 843 XPF/an",
           "source": "bt_tarifs_2026_v06",
           "quote": "Cotisation carte (à débit immédiat) - Cotisation annuelle 22 557",
-          "num": 22557
+          "num": 22557,
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "Visa Premier 23 008 XPF/an ; Visa Infinite 56 960 XPF/an",
+              "quote": "Cotisation carte (à débit immédiat) - Cotisation annuelle 23 008",
+              "num": 23008,
+              "extra": [
+                {
+                  "status": "found",
+                  "value": "Visa Infinite : 56 960",
+                  "source": "bt_tarifs_2027",
+                  "quote": "CARTE VISA INFINITE Cotisation carte (à débit différé) - Cotisation annuelle 56 960"
+                }
+              ],
+              "source": "bt_tarifs_2027",
+              "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
+            }
+          ]
         },
         "cpt_retrait_autre": {
           "status": "found",
@@ -1243,7 +1314,26 @@
           "source": "bt_tarifs_2026_v06",
           "quote": "Émission de tout virement SEPA occasionnel (par Internet Tiare Net) GRATUIT",
           "num": 0,
-          "note": "Nécessite l’abonnement Tiare Net 2 (360 XPF/mois) pour les virements hors PF."
+          "note": "Nécessite l’abonnement Tiare Net 2 (360 XPF/mois) pour les virements hors PF.",
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "Tiare Net : gratuit ; agence : 0,265 % (min. 1 927, max. 18 730) + 3 921 XPF",
+              "quote": "Émission de tout virement SEPA occasionnel (par Internet Tiare Net) GRATUIT",
+              "num": 0,
+              "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027. Nécessite l’abonnement Tiare Net 2 (360 XPF/mois) pour les virements hors PF.",
+              "extra": [
+                {
+                  "status": "found",
+                  "value": "Frais de télétransmission (agence) : 3 921",
+                  "source": "bt_tarifs_2027",
+                  "quote": "Frais de télétransmission 3 921"
+                }
+              ],
+              "source": "bt_tarifs_2027"
+            }
+          ]
         },
         "vir_international": {
           "status": "found",
@@ -1260,7 +1350,27 @@
               "quote": "Frais de « SWIFT « toutes destinations 3 679"
             }
           ],
-          "derived": "min. 1 942 + 3 679"
+          "derived": "min. 1 942 + 3 679",
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "0,265 % (min. 1 981, max. 19 253) + SWIFT 3 753 XPF",
+              "quote": "devises hors zone SEPA (virement occasionnel ou permanent) 0,265% Minimum de facturation 1 981 Maximum de facturation 19 253",
+              "num": 5734,
+              "derived": "min. 1 981 + 3 753",
+              "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027. Valeur de tri : minimum 1 981 + 3 753.",
+              "extra": [
+                {
+                  "status": "found",
+                  "value": "Frais SWIFT : 3 753",
+                  "source": "bt_tarifs_2027",
+                  "quote": "Frais de « SWIFT « toutes destinations 3 753"
+                }
+              ],
+              "source": "bt_tarifs_2027"
+            }
+          ]
         },
         "cpt_commission_intervention": {
           "status": "found",
@@ -1274,21 +1384,61 @@
           "value": "3 575 XPF (≤ 5 967) ; 5 965 XPF (> 5 967)",
           "source": "bt_tarifs_2026_v06",
           "quote": "Chèque supérieur à 5 967 F CFP (par opération) 5 965 F CFP",
-          "num": 5965
+          "num": 5965,
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "2 625 XPF (≤ 5 967) ; 5 012 XPF (> 5 967)",
+              "quote": "Chèque supérieur à 5 967 F CFP (par opération) 5 012",
+              "num": 5012,
+              "source": "bt_tarifs_2027",
+              "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
+            }
+          ]
         },
         "cpt_rejet_prelevement": {
           "status": "found",
           "value": "2 386 XPF (montant de l’opération si ≤ 2 386)",
           "source": "bt_tarifs_2026_v06",
           "quote": "l’opération est > à 2 386 F CFP (par opération) 2 386 F CFP",
-          "num": 2386
+          "num": 2386,
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "Gratuit ≤ 1 499 ; 545 (1 500–1 999) ; 1 045 (2 000–2 385) ; 1 431 XPF (≥ 2 386)",
+              "quote": "l’opération est ≥ à 2386 F CFP(*) - Mandat SEPA ou COPS 1 431 F CFP",
+              "num": 1431,
+              "source": "bt_tarifs_2027",
+              "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
+            }
+          ]
         },
         "cpt_decouvert": {
           "status": "found",
           "value": "Non autorisé : TBBT + 12,90 % + 2 798 XPF/mois ; autorisé : frais de dossier 8 292 XPF/an (taux non chiffré)",
           "source": "bt_tarifs_2026_v06",
           "quote": "Taux Nominal = TBBT + 12,90%",
-          "note": "TBBT = taux de base Banque de Tahiti, valeur non publiée dans la grille."
+          "note": "TBBT = taux de base Banque de Tahiti, valeur non publiée dans la grille.",
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "Non autorisé : TBBT + 12,90 % + 2 854 XPF/mois ; autorisé : frais de dossier 8 458 XPF/an (taux non chiffré)",
+              "quote": "Taux Nominal = TBBT + 12,90%",
+              "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027. TBBT = taux de base Banque de Tahiti, valeur non publiée dans la grille.",
+              "extra": [
+                {
+                  "status": "found",
+                  "value": "Découvert autorisé : 8 458 XPF/an",
+                  "source": "bt_tarifs_2027",
+                  "quote": "Découvert autorisé (frais de dossier par an) 8 458"
+                }
+              ],
+              "source": "bt_tarifs_2027"
+            }
+          ]
         },
         "cpt_package": {
           "status": "found",
@@ -1317,6 +1467,31 @@
               "value": "Frais de tenue de compte sur livret : 1 992 XPF/trimestre",
               "source": "bt_tarifs_2026_v06",
               "quote": "Frais de tenue de compte sur livret (par trimestre) 1 992"
+            }
+          ],
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "Compte sur livret 0,20 % ; Livret Plus 0,30 %",
+              "source": "bt_csl",
+              "quote": "taux net fixe garanti de 0,20 %",
+              "num": 0.3,
+              "note": "Valeur de tri : meilleur taux publié (Livret Plus). Grille 2027 (au 1er janvier 2027) : frais de tenue de compte sur livret de 2 032 XPF/trimestre (cas d’application non précisé).",
+              "extra": [
+                {
+                  "status": "found",
+                  "value": "Livret Plus : 0,30 %",
+                  "source": "bt_livret_plus",
+                  "quote": "rémunérée à hauteur de 0.30 %"
+                },
+                {
+                  "status": "found",
+                  "value": "Frais de tenue de compte sur livret : 2 032 XPF/trimestre",
+                  "source": "bt_tarifs_2027",
+                  "quote": "Frais de tenue de compte sur livret (par trimestre) 2 032"
+                }
+              ]
             }
           ]
         },
@@ -1372,7 +1547,22 @@
           "fee": {
             "pct": 1,
             "min": 17878
-          }
+          },
+          "changes": [
+            {
+              "effective_from": "2027-01-01",
+              "status": "found",
+              "value": "1 % du capital (min. 18 236 XPF)",
+              "quote": "CRÉDITS A LA CONSOMMATION OU PRETS PERSONNELS Frais de dossier 1% du capital emprunté Minimum de facturation 18 236",
+              "num": 18236,
+              "fee": {
+                "pct": 1,
+                "min": 18236
+              },
+              "source": "bt_tarifs_2027",
+              "note": "Grille 2027 de la Banque de Tahiti, applicable au 1er janvier 2027."
+            }
+          ]
         },
         "conso_ira": {
           "status": "not_published",
@@ -2222,7 +2412,8 @@
       "garantie": "hypotheque",
       "fraisDossierPct": 1.0,
       "fraisDossierMin": 17878,
-      "ptz": false
+      "ptz": false,
+      "preset": "bt"
     },
     "params": {
       "droitsAncien": {
@@ -2336,6 +2527,12 @@
         "ref": [
           "bt",
           "immo_frais_dossier"
+        ],
+        "changes": [
+          {
+            "effective_from": "2027-01-01",
+            "min": 18236
+          }
         ]
       },
       {

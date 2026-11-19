@@ -43,6 +43,13 @@ function Entry({ e, field, cur, amount }) {
       {showConv && <p className="conv">≈ {n}</p>}
       {field.costFor && e.fee && amount > 0 && <p className="conv" data-testid="fee-cost">Pour {fmtMoney(amount, cur)} empruntés : {fmtMoney(fraisDossier(amount, e.fee.pct, e.fee.min), cur)}</p>}
       {e.stale && <span className="tag tag-stale">Exemple ancien</span>}
+      {e.next && (
+        <div className="next" data-testid="next-badge">
+          <span className="tag tag-soon">Nouvelle grille au {fmtDate(e.next.effective_from)}</span>
+          <p className="next-value">{e.next.value}</p>
+          <SourceChip id={e.next.source} quote={e.next.quote} />
+        </div>
+      )}
       {e.note && <p className="note">{e.note}</p>}
       <p className="srcs">
         <SourceChip id={e.source} quote={e.quote} />
@@ -239,7 +246,7 @@ export default function App() {
             <span className="h1-main">Comparez</span>
             <span className="h1-sub">les banques du Fenua</span>
           </h1>
-          <p className="lede">Crédit immobilier, frais de compte, épargne et crédit à la consommation en Polynésie française : les grilles tarifaires 2026 mises côte à côte, avec leur source. Ce qui n’est pas publié est marqué comme tel.</p>
+          <p className="lede">Crédit immobilier, frais de compte, épargne et crédit à la consommation en Polynésie française : les grilles tarifaires en vigueur mises côte à côte, avec leur source. Ce qui n’est pas publié est marqué comme tel.</p>
         </div>
         <div className="ledger" aria-label="Repères IEOM et Banque de France">
           {[['ieom_habitat', 'Crédit habitat'], ['ieom_conso', 'Prêt personnel'], ['usure_habitat', 'Usure immo ≥ 20 ans']].map(([id, lbl], i) => (
