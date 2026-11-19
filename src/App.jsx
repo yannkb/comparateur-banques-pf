@@ -43,6 +43,7 @@ function Entry({ e, field, cur, amount }) {
       {showConv && <p className="conv">≈ {n}</p>}
       {field.costFor && e.fee && amount > 0 && <p className="conv" data-testid="fee-cost">Pour {fmtMoney(amount, cur)} empruntés : {fmtMoney(fraisDossier(amount, e.fee.pct, e.fee.min), cur)}</p>}
       {e.stale && <span className="tag tag-stale">Exemple ancien</span>}
+      {e.indicative && <span className="tag tag-indicative" data-testid="tag-indicative">{e.indicative}</span>}
       {e.next && (
         <div className="next" data-testid="next-badge">
           <span className="tag tag-soon">Nouvelle grille au {fmtDate(e.next.effective_from)}</span>
@@ -180,7 +181,7 @@ function Sources() {
   }, []);
   return (
     <section className="sources" id="sources" aria-labelledby="sources-titre">
-      <h2 id="sources-titre">Sources <span>{Object.keys(data.sources).length} documents, consultés le {fmtDate(data.meta.updated)}</span></h2>
+      <h2 id="sources-titre">Sources <span>{Object.keys(data.sources).length} documents, dernière vérification le {fmtDate(data.meta.verified)}</span></h2>
       <div className="src-groups">
         {groups.map(([pub, list]) => (
           <div key={pub} className="src-group">
@@ -228,7 +229,7 @@ export default function App() {
   return (
     <div className="page">
       <div className="topbar">
-        <p>Édition du <time dateTime={data.meta.updated}>{fmtDate(data.meta.updated)}</time> · données publiques, chaque chiffre sourcé</p>
+        <p>Édition du <time dateTime={data.meta.updated}>{fmtDate(data.meta.updated)}</time> · dernière vérification des sources : <time dateTime={data.meta.verified}>{fmtDate(data.meta.verified)}</time> · chaque chiffre sourcé</p>
         <div className="cur" role="group" aria-label="Devise">
           {['XPF', 'EUR'].map((c) => (
             <button key={c} className={cur === c ? 'on' : ''} aria-pressed={cur === c} onClick={() => setCur(c)} data-testid={`cur-${c}`}>
@@ -337,7 +338,7 @@ export default function App() {
 
       <footer className="foot">
         <Tapa />
-        <p>Dernière mise à jour des données : <b>{fmtDate(data.meta.updated)}</b>. Outil indépendant et indicatif, sans lien avec les établissements cités. Un crédit vous engage et doit être remboursé.</p>
+        <p>Édition du <b>{fmtDate(data.meta.updated)}</b> · dernière vérification des sources : <b>{fmtDate(data.meta.verified)}</b>. Outil indépendant et indicatif, sans lien avec les établissements cités. Un crédit vous engage et doit être remboursé.</p>
       </footer>
     </div>
   );

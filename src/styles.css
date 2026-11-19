@@ -275,6 +275,7 @@ table.frais { width: 100%; border-collapse: collapse; margin-top: 14px; font-siz
 .next { margin-top: 8px; padding: 8px 10px; border-radius: 8px; border: 1px dashed #8a6a1f; background: #fbf3df; }
 .next-value { margin: 4px 0 0; font-size: 13px; color: var(--ink); }
 .tag-soon { background: #5c430f; color: #fff; }
+.tag-indicative { background: #e4ecea; color: #134a46; margin-top: 6px; text-transform: none; letter-spacing: 0; }
 .hint .tag-soon { margin-right: 4px; }
 
 /* Méthode & sources */
